@@ -2,14 +2,14 @@
 
     <description>GEOQuery wrapper</description>
 
+    <requirements>
+        <requirement type="package" version="0.1.0">r-smagexp</requirement>
+    </requirements>
+
     <stdio>
         <exit_code range="1:" />
         <regex match="Warning" source="both" level="warning"/>
     </stdio>
-
-    <requirements>
-        <requirement type="package" version="0.1.0">r-smagexp</requirement>
-    </requirements>
 
     <command>
         <![CDATA[ 

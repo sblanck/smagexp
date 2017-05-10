@@ -1,44 +1,54 @@
-library(metaMA)
-library(affy)
-library(annaffy)
-library(VennDiagram)
-library(GEOquery)
+#!/usr/bin/env Rscript
+# setup R error handling to go to stderr
+options( show.error.messages=F, error = function () { cat( geterrmessage(), file=stderr() ); q( "no", 1, F ) } )
 
-cargs<-commandArgs()
-cargs<-cargs[(which(cargs=="--args")+1):length(cargs)]
+# we need that to not crash galaxy with an UTF8 error on German LC settings.
+loc <- Sys.setlocale("LC_MESSAGES", "en_US.UTF-8")
 
-nbargs=length(cargs)
+library("optparse")
+
+##### Read options
+option_list=list(
+		make_option("--input",type="character",default="NULL",help="list of rdata objects containing eset objects"),
+		make_option("--htmloutput",type="character",default=NULL,help="Output html report"),
+		make_option("--htmloutputpath",type="character",default="NULL",help="Path of output html report"),
+		make_option("--htmltemplate",type="character",default=NULL,help="html template)")
+);
+
+opt_parser = OptionParser(option_list=option_list);
+opt = parse_args(opt_parser);
+
+if(is.null(opt$input)){
+	print_help(opt_parser)
+	stop("input required.", call.=FALSE)
+}
+
+#loading libraries
+
+suppressPackageStartupMessages(require(metaMA))
+suppressPackageStartupMessages(require(affy))
+suppressPackageStartupMessages(require(annaffy))
+suppressPackageStartupMessages(require(VennDiagram))
+suppressPackageStartupMessages(require(GEOquery))
+
+listInput <- trimws( unlist( strsplit(trimws(opt$input), ",") ) )
+
 rdataList=list()
 condition1List=list()
 condition2List=list()
-
-for (i in 1:(nbargs-5))
+for (input in listInput)
 {
-	Rdata=cargs[[i]]	
-	#condition1=cargs[[i+1]]
-	#condition2=cargs[[i+2]]
-	load(Rdata)
+	load(input)
 	
 	rdataList=c(rdataList,(eset))
-	#condition1List=c(condition1List,condition1)
-	#condition2List=c(condition2List,condition2)
 	condition1List=c(condition1List,saveConditions[1])
 	condition2List=c(condition2List,saveConditions[2])
 	
 }
 
-#tables<-cargs[[1]]
-#tech<-cargs[[2]]
-result.html<-cargs[[nbargs-4]]
-result.path<-cargs[[nbargs-3]]
-#result.venn<-cargs[[nbargs-3]]
-result.template<-cargs[[nbargs-2]]
-
-#sink("/dev/null")
-#dir.create(temp.files.path,recursive=TRUE)
-#file.conn=file(diag.html,open="w")
-
-#writeLines(c("<html><body bgcolor='lightgray'>"),file.conn)
+result.html<-htmloutput
+result.path<-htmloutputpath
+result.template<-htmltemplate
 
 showVenn<-function(res,file)
 {
@@ -50,7 +60,6 @@ showVenn<-function(res,file)
 	grid.draw(venn.plot)
 	dev.off()
 }
-
 
 library("org.Hs.eg.db")
 x <- org.Hs.egUNIGENE
@@ -105,8 +114,6 @@ normalization<-function(data){
 		return (ex)
 	}
 }
-
-
 
 
 filterCondition<-function(gset,condition1, condition2){

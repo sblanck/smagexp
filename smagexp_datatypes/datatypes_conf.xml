@@ -5,12 +5,8 @@
     </datatype_files>
     <registration>
         <!--SMAT extensions-->    
-	
-	<datatype extension="cond" type="galaxy.datatypes.data:Text" subclass="True" display_in_upload="true"/>	
-	<datatype extension="rdata" type="galaxy.datatypes.binary:Binary" subclass="True" display_in_upload="true" description="Stored data from an R session"/>        
-    <datatype extension="cel" type="galaxy.datatypes.datatypes_smagexp:Cel" mimetype="application/octet-stream" display_in_upload="true" />
-    
-	</registration>
-  
-    
+        <datatype extension="cond" type="galaxy.datatypes.data:Text" subclass="True" display_in_upload="true"/>	
+        <datatype extension="rdata" type="galaxy.datatypes.binary:Binary" subclass="True" display_in_upload="true" description="Stored data from an R session"/>        
+        <datatype extension="cel" type="galaxy.datatypes.datatypes_smagexp:Cel" mimetype="application/octet-stream" display_in_upload="true" />
+</registration>
 </datatypes>
