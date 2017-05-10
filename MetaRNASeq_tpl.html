@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>DataTables example - Ajax sourced data</title>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.1.0/css/buttons.dataTables.min.css">
+	
+    <!--link rel="stylesheet" type="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="https://cdn.datatables.net/1.10.11/css/dataTables.bootstrap.min.css"-->
+	
+	<style type="text/css" class="init">
+
+td.details-control {
+    background: url('../../../static/images/fugue/toggle-expand.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('../../../static/images/fugue/toggle.png') no-repeat center center;
+}
+
+	.dataTable th,.dataTable td {
+	
+	text-overflow: ellipsis;
+	max-width: 200px;
+	min-width: 40px;
+    	-o-text-overflow: ellipsis;  
+    	-ms-text-overflow: ellipsis;  
+    	-moz-text-overflow: ellipsis;
+	width: 100px;
+	white-space:nowrap; 
+	overflow: hidden;
+	
+	
+	padding: 10px;
+
+}
+
+
+	</style>
+		
+	<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-1.12.0.min.js">
+	</script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js">
+	</script>
+	<!--script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.11/js/dataTables.bootstrap.min.js">
+	</script-->
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.1.0/js/dataTables.buttons.min.js">
+	</script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.1.0/js/buttons.flash.min.js">
+	</script>
+	<script type="text/javascript" language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js">
+	</script>
+	<script type="text/javascript" language="javascript" src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js">
+	</script>
+	<script type="text/javascript" language="javascript" src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/vfs_fonts.js">
+	</script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.1.0/js/buttons.html5.min.js">
+	</script>
+	<script type="text/javascript" class="init">
+
+var dataSet=###DATAJSON###;
+var fishsummarySet=###FISHSUMMARYJSON###;
+var invsummarySet=###INVSUMMARYJSON###;
+
+$(document).ready(function() {
+    var table = $('#example').DataTable( {
+	"scrollX": true,
+	data: dataSet,
+        "columns": [
+            {title : "ID" },
+            {title : "Fishercomb" },
+            {title : "Invnormcomb" },
+            {title : "Sign" },
+	   ],
+        "order": [[0, 'asc']],
+	dom: 'Bfrtlip',
+	buttons: [
+            'copy', 'csv', 'excel'
+        ]
+	
+    } );
+   
+} );
+
+
+
+$(document).ready(function() {
+    $('#fishsummary').DataTable( {
+     "columnDefs": [
+    { className: "dt-center", targets: '_all' }],
+        "paging":   false,
+        "ordering": false,
+        "info":     false,
+        "searching": false,
+        data: fishsummarySet,
+        "columns": [
+            {title : "DE" },
+            {title : "IDD" },
+            {title : "Loss" },
+            {title : "IDR" },
+	    {title : "IRR" }
+	    
+
+        ]
+           	
+    } );
+} );
+
+$(document).ready(function() {
+    $('#invsummary').DataTable( {
+        "columnDefs": [
+    { className: "dt-center", targets: '_all' }
+  ],
+        "paging":   false,
+        "ordering": false,
+        "info":     false,
+        "searching": false,
+        data: invsummarySet,
+        "columns": [
+            {title : "DE" },
+            {title : "IDD" },
+            {title : "Loss" },
+            {title : "IDR" },
+	    {title : "IRR" }
+	    
+
+        ]
+           	
+    } );
+} );
+
+
+
+	</script>
+</head>
+
+<body>
+
+<table><tr><td>
+<h2>Venn diagram</h2>
+<img src='###VENN###'  height="400" width="400"><br/>
+</td><td>
+
+</td></tr></table>
+
+<h2>Fisher combination summary</h2>
+<table id="fishsummary" class="compact stripe row-border" cellspacing="0" width="100%">  </table>
+</br>
+
+<h2>Invnorm combination summary</h2>
+<table id="invsummary" class="compact stripe row-border" cellspacing="0" width="100%">  </table>
+</br>
+DE : Number of differentially expressed genes </br>
+IDD (Integration  Driven  discoveries) : number of genes that are declared DE in the meta-analysis that were not identifed in any of the individual studies alone</br>
+Loss : Number of genes that are identified DE in individual studies but not in meta-analysis </br>
+IDR (Integration-driven Discovery Rate) : corresponding proportions of IDD </br>
+IRR (Integration-driven Revision) : corresponding proportions of Loss</br>
+<!--h2>Details</h2-->
+
+
+
+<!--table id="example" class="compact stripe row-border" cellspacing="0" width="100%">
+</table-->
+</body>
+</html>

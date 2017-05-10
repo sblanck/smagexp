@@ -1,0 +1,85 @@
+<tool id="LimmaAnalyse" name="Limma analysis" version="0.3.0">
+
+    <description>Perform gene expression analysis thanks to limma</description>
+
+    <requirements>
+        <requirement type="package" version="0.1.0">r-smagexp</requirement>
+    </requirements>
+
+    <stdio>
+        <exit_code range="1:" />
+        <regex match="Warning" source="both" level="warning"/>
+    </stdio>
+
+    <command>
+        <![CDATA[ 
+        Rscript
+        ${__tool_directory__}/Analyse.R
+            --rdatainput ${rdataset}
+            --conditions ${conditions}
+            --selectcondition1 "${selectCondition1}"
+            --selectcondition2 "${selectCondition2}"
+            --nbresult ${nbresult}
+            --rdataoutput ${result_export_eset}
+            --htmloutput $result_html 
+            --htmloutputpath $result_html.files_path
+            --tabularoutput $result_tabular
+            --htmltemplate ${__tool_directory__}/Analyse_tpl.html
+        ]]>
+    </command>
+
+    <inputs>
+        <param name="rdataset" type="data" format="rdata" label="RData" help="RData to be used"/>
+        <param name="conditions" type="data" format="cond" label="Conditions" help="conditions associated with the rData file"/>
+        <param name="selectCondition1" type="select" label="condition 1">
+            <options from_dataset="conditions">
+                <column name="name" index="1"/>
+                <column name="value" index="1"/>
+                <filter type="unique_value" column="1"/>
+            </options>
+        </param>
+        <param name="selectCondition2" type="select" label="condition 2">
+            <options from_dataset="conditions">
+                <column name="name" index="1"/>
+                <column name="value" index="1"/>
+                <filter type="unique_value" column="1"/>
+            </options>
+        </param>	
+        <param name="nbresult" type="integer" value="1000" min="1" label="number of top genes" help="Number of genes to be displayed in result datatable"/>
+    </inputs>
+
+    <outputs>
+        <data format="html" name="result_html" label="Results of analysis of ${rdataset.name}"/>
+        <data format="rdata" name="result_export_eset" label="Export of expression set of ${rdataset.name}"/>
+        <data format="tabular" name="result_tabular" label="Text Results of analysis of ${rdataset.name}"/>
+    </outputs>
+
+    <help>
+<![CDATA[ 
+**What it does**
+		
+The Limma analysis tool performs single analysis either of data previously retrieved from GEO database or normalized affymetrix .CEL files data. 
+Given a .cond file, it runs a standard limma differential expression analysis. 
+
+**Example** of .cond file      	
+
+The .cond file should look like this 
+::
+
+
+ GSM80460	series of 16 tumors	GSM80460 OSCE-2T SERIES OF 16 TUMORS
+ GSM80461	series of 16 tumors	GSM80461 OSCE-4T Series of 16 Tumors
+ GSM80462	series of 16 tumors	GSM80462 OSCE-6T Series of 16 Tumors
+ GSM80476	series of 4 normals	GSM80476 OSCE-2N Series of 4 Normals
+ GSM80477	series of 4 normals	GSM80477 OSCE-9N Series of 4 Normals
+	
+		
+**Results**
+		
+- Boxplots, p-value histograms and a volcano plot 
+- Table summarizing the differentially expressed genes and their annotations. This table is sortable and requestable.
+- Rdata object to perform further meta-analysis. 
+]]>
+    </help>
+
+</tool>

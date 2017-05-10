@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Limma analysis results</title>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.1.0/css/buttons.dataTables.min.css">
+	<style type="text/css" class="init">
+
+td.details-control {
+    background: url('../../../static/images/fugue/toggle-expand.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('../../../static/images/fugue/toggle.png') no-repeat center center;
+}
+
+	.dataTable th,.dataTable td {
+	
+	text-overflow: ellipsis;
+	max-width: 200px;
+	min-width: 40px;
+    	-o-text-overflow: ellipsis;  
+    	-ms-text-overflow: ellipsis;  
+    	-moz-text-overflow: ellipsis;
+	width: 100px;
+	white-space:nowrap; 
+	overflow: hidden;
+	
+	
+	padding: 10px;
+
+}
+	.details th,.details td {
+	
+	max-width: 1500px;
+	min-width: 1000px;
+	padding: 10px;
+
+}
+
+
+	</style>
+	<style>
+	
+
+	</style>
+	
+	<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-1.11.3.min.js">
+	</script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js">
+	</script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.1.0/js/dataTables.buttons.min.js">
+	</script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.1.0/js/buttons.flash.min.js">
+	</script>
+	<script type="text/javascript" language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js">
+	</script>
+	<script type="text/javascript" language="javascript" src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js">
+	</script>
+	<script type="text/javascript" language="javascript" src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/vfs_fonts.js">
+	</script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.1.0/js/buttons.html5.min.js">
+	</script>
+	<script type="text/javascript" class="init">
+
+	
+
+function format ( d ) {
+    // `d` is the original data object for the row
+    var test=d[11].split("///");
+    var strLength=test.length;
+    var result="";
+    for (var i=0;i<strLength;i++) {
+    	result=result+'<a href="http://amigo.geneontology.org/amigo/term/'+test[i]+'">'+test[i]+'</a>'+',&nbsp';
+    }
+    return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'+
+        '<tr>'+
+            '<td>Gene Symbol:</td>'+
+            '<td style="width:100%;overflow: hidden;white-space: normal;">'+'<a href="http://www.ncbi.nlm.nih.gov/gene/'+d[9]+'">'+d[7]+'</a>'+'</td>'+
+            '</tr>'+
+        '<tr>'+
+            '<td>Gene Title:</td>'+
+            '<td style="width:100%;overflow: hidden;white-space: normal;">'+d[8]+'</td>'+
+        '</tr>'+
+        '<tr>'+
+            '<td>GO Function ID:</td>'+
+            '<td style="width:100%;overflow: hidden;white-space: normal;">'+result+'</td>'+
+        '</tr>'+
+    '</table>';
+}
+
+var dataSet=###DATAJSON###;
+
+$(document).ready(function() {
+    var table = $('#example').DataTable( {
+	"scrollX": true,
+	data: dataSet,
+        "columns": [
+            {
+                "className":      'details-control',
+                "orderable":      false,
+                "data":           null,
+                "defaultContent": ''
+            },
+            {title : "ID" },
+            {title : "adj_P_Val" },
+            {title : "P_Value" },
+            {title : "t" },
+	    {title : "B" },
+	    {title : "logFC" },
+	    {title : "Gene_symbol"},
+        {title : "Gene_title"},
+        {title : "Gene_ID"},
+	    {title : "Chromosome_annotation"},
+	    {title : "GO_Function_ID"}
+
+        ],
+        "order": [[2, 'asc']],
+	dom: 'Bfrtlip',
+	buttons: [
+            'copy', 'csv', 'excel'
+        ]
+	
+    } );
+     
+    // Add event listener for opening and closing details
+    $('#example tbody').on('click', 'td.details-control', function () {
+        var tr = $(this).closest('tr');
+        var row = table.row( tr );
+ 
+        if ( row.child.isShown() ) {
+            // This row is already open - close it
+            row.child.hide();
+            tr.removeClass('shown');
+        }
+        else {
+            // Open this row
+            row.child( format(row.data()) ).show();
+            tr.addClass('shown');
+        }
+    } );
+} );
+
+
+
+	</script>
+</head>
+<h2>Boxplots</h2>
+<img src='###BOXPLOT###'><br/>
+</td><td>
+<body>
+<h2>P-value histogram and Volcano plot</h2>
+<img src='###HIST###'><br/>
+</td><td>
+<body>
+<table id="example" class="compact stripe row-border" cellspacing="0" width="100%">
+    
+    </table>
+</body>
+</html>

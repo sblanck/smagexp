@@ -1,0 +1,54 @@
+<tool id="metaMA" name="Microarray data meta-analysis" version="0.1.0">
+	
+	<description>Perform meta-analysis thanks to metaMA.</description>
+
+    <stdio>
+        <exit_code range="1:" />
+        <regex match="Warning" source="both" level="warning"/>
+    </stdio>
+	
+	<requirements>
+	  <!--container type="docker">sblanck/smat</container-->
+	  <requirement type="package" version="0.1.0">r-smagexp</requirement>
+	</requirements>
+	<command>
+		<![CDATA[ 
+		Rscript 
+		${__tool_directory__}/MetaMA.R
+		--input $input
+       	--htmloutput $result_html 
+		--htmloutputpath $result_html.extra_files_path
+		--htmltemplate ${__tool_directory__}/MetaMa_tpl.html
+		]]>
+	</command>
+	
+	<inputs>
+		<param format="rdata" name="input" multiple="true" type="data" optional="false" label="rdata files" help="rdata files containing the results of the analysis to be used in the meta-analysis"/>
+	</inputs>
+		
+	<outputs>
+		<data format="html" name="result_html" label="Meta-analysis results"/>
+	</outputs>
+
+	<help>
+<![CDATA[ 
+**What it does**
+		
+Given several Rdata object this tool run a meta-analysis using the metaMA R package.
+		
+**Results**
+		
+- Venn Diagram summarizing the results of the meta-analysis
+- A list of indicators to evaluate the quality of the performance of the meta-analysis
+		
+	- DE : Number of differentially expressed genes 
+	- IDD (Integration Driven discoveries) : number of genes that are declared differentially expressed in the meta-analysis that were not identified in any of the single studies alone
+	- Loss : Number of genes that are identified differentially expressed in single studies but not in meta-analysis 
+	- DR (Integration-driven Discovery Rate) : corresponding proportion of IDD
+	- IRR (Integration-driven Revision) : corresponding proportion of Loss
+		
+- Fully sortable and requestable table, with gene annotations and hypertext links to NCBI gene database.
+]]>
+	</help>
+
+</tool>

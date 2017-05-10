@@ -1,0 +1,61 @@
+<tool id="QCnormalization" name="QCnormalization" version="0.1.0">
+
+    <description>Quality control and normalization of affymetrix expression data</description>
+
+    <stdio>
+        <exit_code range="1:" />
+        <regex match="Warning" source="both" level="warning"/>
+    </stdio>
+
+    <requirements>
+        <requirement type="package" version="0.1.0">r-smagexp</requirement>
+    </requirements>
+
+    <command>
+        <![CDATA[
+        Rscript 
+        ${__tool_directory__}/AffyQCnormalization.R
+            --input "#for $input in $inputs# $input;$input.name, #end for#"
+            --normalization ${normalization}
+            --rdataoutput $result_export_eset
+            --htmloutput $result_html
+            --htmloutputpath $result_html.files_path
+            --htmltemplate ${__tool_directory__}/AffyQCnormalization_tpl.html
+        ]]>
+     </command>
+
+    <inputs>
+        <param name="inputs" type="data" format="cel" multiple="true" label=".CEL files" help=".CEL files to be used"/>
+        <param name="normalization" type="select" label="Preprocessing/normalization">
+            <option value="rma">rma (backgroung correction + quantile normalization + log2)</option>
+            <option value="quantile">quantile normalization + log2</option>
+            <option value="background">background correction + log2</option>
+            <option value="log2">log2 only</option>
+        </param>
+    </inputs>
+
+    <outputs>
+        <data format="rdata" name="result_export_eset" label="export normalized expressionSet"/>		
+        <data format="html" name="result_html" label="QC result"/>
+    </outputs>
+
+    <help>
+<![CDATA[
+		**What it does** 
+		    	
+The QCnormalization tool offers to ensure the quality of the data and to normalize them. Several normalization methods are available :
+
+* rma normalization 
+* quantile normalization + log2
+* background correction + log2
+* log2 only
+
+**Results**
+
+- Several quality figures : microarray images, boxplots and MA plots
+- Rdata object containing the normalized data for further analysis
+  		
+]]>
+    </help>
+
+</tool>

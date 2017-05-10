@@ -1,0 +1,70 @@
+<tool id="GEOQuery" name="GEOQuery" version="0.1.0">
+
+    <description>GEOQuery wrapper</description>
+
+    <stdio>
+        <exit_code range="1:" />
+        <regex match="Warning" source="both" level="warning"/>
+    </stdio>
+
+    <requirements>
+        <requirement type="package" version="0.1.0">r-smagexp</requirement>
+    </requirements>
+
+    <command>
+        <![CDATA[ 
+        Rscript --vanilla
+        ${__tool_directory__}/GEOQuery.R 
+            --id ${GEOQueryID} 
+            --transformation ${transformation}
+            --data ${GEOQueryData} 
+            --rdata ${GEOQueryRData} 
+            --conditions ${conditions}
+        ]]>
+    </command>
+
+    <inputs>
+        <param name="GEOQueryID" type="text" size="12" optional="false" label="GEOQuery ID" help="">
+            <validator type="empty_field"/>
+        </param>
+        <param name="transformation" type="select" label="log2 transformation">
+            <option value="auto">auto</option>
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+        </param>
+    </inputs>
+
+    <outputs>
+        <data format="tabular" name="GEOQueryData" label="GEOQuery Data of ${GEOQueryID}"/>
+        <data format="cond" name="conditions" label="conditions of ${GEOQueryID}"/>
+        <data format="rdata" name="GEOQueryRData" label="GEOQuery RData of ${GEOQueryID}"/>
+	</outputs>
+    <help>
+<![CDATA[ 
+**What it does**     	
+
+This tool fetches microarray data directly from GEO database, based on the GEOQuery R package. Given a GSE accession ID, it returns an Rdata object containing the data and a text file (.cond file) summarizing the conditions of the experiment. 
+The .cond file is a text file containing one line per sample in the experiment. Each line is made of 3 columns:
+
+	- Sample ID 
+	- Condition of the biological sample
+	- Description of the biological sample
+
+**Example** of .cond file      	
+::
+
+ GSM80460	series of 16 tumors	GSM80460 OSCE-2T SERIES OF 16 TUMORS
+ GSM80461	series of 16 tumors	GSM80461 OSCE-4T Series of 16 Tumors
+ GSM80462	series of 16 tumors	GSM80462 OSCE-6T Series of 16 Tumors
+ GSM80476	series of 4 normals	GSM80476 OSCE-2N Series of 4 Normals
+ GSM80477	series of 4 normals	GSM80477 OSCE-9N Series of 4 Normals
+    
+**Results**
+	
+- Rdata object containing data for further analysis
+- Condition (.cond) file summarizing conditions of the experiment
+- Tabular (.txt) file containing expression data for each sample
+]]> 		
+    </help>
+
+</tool>

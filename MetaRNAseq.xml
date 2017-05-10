@@ -1,0 +1,39 @@
+<tool id="metarnaseq" name="RNA-seq data meta-analysis">
+	<description>perform meta-analysis thanks to metaRNAseq</description>
+	<requirements>
+	  <requirement type="package" version="0.1.0">r-smagexp</requirement>
+	</requirements>	
+
+		<requirements>
+	  <container type="docker">sblanck/smat</container>
+	  <requirement type="package" version="0.1.0">r-smagexp</requirement>
+	</requirements>
+	<command interpreter="python">
+		<![CDATA[ 	
+		stderr_wrapper.py Rscript 
+		${__tool_directory__}/MetaRNASeq.R 
+		#for $currentInput in $inputList
+        	"${currentInput}"
+			"${currentInput.name}"	
+		 #end for	
+			$top_table 
+			$diagnostic_html 
+			"$diagnostic_html.files_path"
+		${__tool_directory__}/MetaRNASeq_tpl.html
+	]]>	
+	</command>
+
+	<inputs>
+		<param format="tabular" name="inputList" multiple="true" type="data" optional="false" label="Counts file" help="Must have the same number of row in each study. The experimental conditions must be specified in the header of each file"/>
+	</inputs>
+
+	<outputs>
+		<data format="tabular" name="top_table" label="Summary of meta-analysis and single studie analysis from ${tool.name} on ${on_string}"/>
+		<data format="html" name="diagnostic_html" label="Charts for ${tool.name} on ${on_string}"/>
+	</outputs>
+
+	<help>
+		
+	</help>
+
+</tool>

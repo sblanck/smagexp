@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>DataTables example - Ajax sourced data</title>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.1.0/css/buttons.dataTables.min.css">
+	
+    <!--link rel="stylesheet" type="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="https://cdn.datatables.net/1.10.11/css/dataTables.bootstrap.min.css"-->
+	
+	<style type="text/css" class="init">
+
+td.details-control {
+    background: url('../../../static/images/fugue/toggle-expand.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('../../../static/images/fugue/toggle.png') no-repeat center center;
+}
+
+	.dataTable th,.dataTable td {
+	
+	text-overflow: ellipsis;
+	max-width: 200px;
+	min-width: 40px;
+    	-o-text-overflow: ellipsis;  
+    	-ms-text-overflow: ellipsis;  
+    	-moz-text-overflow: ellipsis;
+	width: 100px;
+	white-space:nowrap; 
+	overflow: hidden;
+	
+	
+	padding: 10px;
+
+}
+
+
+	</style>
+		
+	<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-1.12.0.min.js">
+	</script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js">
+	</script>
+	<!--script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.11/js/dataTables.bootstrap.min.js">
+	</script-->
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.1.0/js/dataTables.buttons.min.js">
+	</script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.1.0/js/buttons.flash.min.js">
+	</script>
+	<script type="text/javascript" language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js">
+	</script>
+	<script type="text/javascript" language="javascript" src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js">
+	</script>
+	<script type="text/javascript" language="javascript" src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/vfs_fonts.js">
+	</script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.1.0/js/buttons.html5.min.js">
+	</script>
+	<script type="text/javascript" class="init">
+
+	
+
+function format ( d ) {
+    // `d` is the original data object for the row
+    var test=d[6].split("///");
+    var strLength=test.length;
+    var result="";
+    for (var i=0;i<strLength;i++) {
+    	result=result+'<a href="http://amigo.geneontology.org/amigo/term/'+test[i]+'">'+test[i]+'</a>'+',&nbsp';
+    }
+    return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'+
+        '<tr>'+
+            '<td>Gene Symbol:</td>'+
+            '<td style="width:100%;overflow: hidden;white-space: normal;">'+'<a href="http://www.ncbi.nlm.nih.gov/gene/'+d[4]+'">'+d[2]+'</a>'+'</td>'+
+        '</tr>'+
+        '<tr>'+
+            '<td>Gene Title:</td>'+
+            '<td style="width:100%;overflow: hidden;white-space: normal;">'+d[3]+'</td>'+
+        '</tr>'+
+        '<tr>'+
+            '<td>GO Function ID:</td>'+
+            '<td style="width:100%;overflow: hidden;white-space: normal;">'+result+'</td>'+
+        '</tr>'+
+    '</table>';
+}
+
+var dataSet=###DATAJSON###;
+var summarySet=###SUMMARYJSON###;
+
+$(document).ready(function() {
+        var table = $('#example').DataTable( {
+	"scrollX": true,
+	data: dataSet,
+        "columns": [
+            {
+                "className":      'details-control',
+                "orderable":      false,
+                "data":           null,
+                "defaultContent": ''
+            },
+        {title : "ID" },
+        {title : "Gene_symbol"},
+        {title : "Gene_title"},
+        {title : "Gene_ID"},
+	    {title : "Chromosome_annotation"},
+	    {title : "GO_Function_ID"}
+
+        ],
+        
+	dom: 'Bfrtlip',
+	buttons: [
+            'copy', 'csv', 'excel'
+        ]
+	
+    } );
+     
+    // Add event listener for opening and closing details
+    $('#example tbody').on('click', 'td.details-control', function () {
+        var tr = $(this).closest('tr');
+        var row = table.row( tr );
+ 
+        if ( row.child.isShown() ) {
+            // This row is already open - close it
+            row.child.hide();
+            tr.removeClass('shown');
+        }
+        else {
+            // Open this row
+            row.child( format(row.data()) ).show();
+            tr.addClass('shown');
+        }
+    } );
+} );
+
+
+
+$(document).ready(function() {
+    $('#summary').DataTable( {
+         "columnDefs": [
+    { className: "dt-center", targets: '_all' }
+  ],
+        "paging":   false,
+        "ordering": false,
+        "info":     false,
+        "searching": false,
+        data: summarySet,
+        "columns": [
+            {title : "DE" },
+            {title : "IDD" },
+            {title : "Loss" },
+            {title : "IDR" },
+	    {title : "IRR" },
+	    
+
+        ],
+           	
+    } );
+} );
+
+
+
+	</script>
+</head>
+
+<body>
+
+<table><tr><td>
+<h2>Venn diagram</h2>
+<img src='###VENN###'  height="400" width="400"><br/>
+</td><td>
+
+</td></tr></table>
+
+<h2>Summary</h2>
+<table id="summary" class="compact stripe row-border" cellspacing="0" width="100%">  </table>
+</br>
+DE : Number of differentially expressed genes </br>
+IDD (Integration  Driven  discoveries) : number of genes that are declared DE in the meta-analysis that were not identified in any of the individual studies alone</br>
+Loss : Number of genes that are identified DE in individual studies but not in meta-analysis </br>
+IDR (Integration-driven Discovery Rate) : corresponding proportions of IDD </br>
+IRR (Integration-driven Revision) : corresponding proportions of Loss</br>
+<h2>Details</h2>
+<table id="example" class="compact stripe row-border" cellspacing="0" width="100%">
+</table>
+</body>
+</html>
