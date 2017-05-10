@@ -46,9 +46,9 @@ for (input in listInput)
 	
 }
 
-result.html<-htmloutput
-result.path<-htmloutputpath
-result.template<-htmltemplate
+result.html<-opt$htmloutput
+result.path<-opt$htmloutputpath
+result.template<-opt$htmltemplate
 
 showVenn<-function(res,file)
 {
