@@ -1,0 +1,4 @@
+categories: [Transcriptomics]
+description: Datatypes for SMAGEXP tools
+name: smagexp_datatypes
+owner: sblanck
