@@ -8,23 +8,17 @@ MAINTAINER S. BLANCK, samuel.blanck@inria.fr
 
 ENV GALAXY_CONFIG_BRAND="Galaxy SMAGEXP"
 ENV ENABLE_TTS_INSTALL True
-
-
  
+#install R
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
 RUN echo "deb http://cran.rstudio.com/bin/linux/ubuntu trusty/" >> /etc/apt/sources.list
 
-#RUN apt-get -y remove r-base-core
-
 RUN apt-get -y update
-#RUN apt-get -y upgrade
-#RUN export DEBIAN_FRONTEND=noninteractive 
 RUN apt-get -y install r-base r-base-dev 
-
-#RUN apt-get install -y r-base-core libxml2-dev libcurl4-openssl-dev curl
 
 RUN apt-get install -y libxml2-dev libcurl4-openssl-dev curl
 
+#install R packages
 RUN Rscript -e "source('http://bioconductor.org/biocLite.R')" \
 			-e "biocLite('GEOquery')"  \
 			-e "biocLite('limma')" \
@@ -48,33 +42,15 @@ RUN Rscript -e "install.packages('dplyr', repos='http://cran.us.r-project.org')"
 
 RUN Rscript -e "install.packages('optparse', repos='http://cran.us.r-project.org')"
 
-
-#RUN sed -i 's/#conda_ensure_channels = r,bioconda/conda_ensure_channels = sblanck,iuc,bioconda,r,defaults,conda-forge/' /galaxy-central/config/galaxy.ini.sample
-
-#RUN add-tool-shed --url 'http://testtoolshed.g2.bx.psu.edu/' --name 'Test Tool Shed'
-
+#Workaround for ubuntu
 RUN cp /etc/ssl/private/ssl-cert-snakeoil.key /etc/
 RUN chown root:ssl-cert /etc/ssl-cert-snakeoil.key
 RUN sed -i -e "s/\/ssl\/private//g" /etc/postgresql/9.3/main/postgresql.conf
 
+#install smagexp from test toolshed
 ADD tools.yml $GALAXY_ROOT/tools.yaml
 RUN install-tools $GALAXY_ROOT/tools.yaml && \
     /tool_deps/_conda/bin/conda clean --tarballs
-
-#RUN /tool_deps/_conda/bin/conda install anaconda-client
-#RUN /tool_deps/_conda/bin/conda config --add channels r
-#RUN /tool_deps/_conda/bin/conda config --add channels bioconda
-#RUN /tool_deps/_conda/bin/conda config --add channels sblanck
-#RUN /tool_deps/_conda/bin/conda install -c sblanck r-smagexp=0.2.0
-#RUN install-repository "--url http://testtoolshed.g2.bx.psu.edu/ -o sblanck --name smagexp --panel-section-name SMAGEXP"
-
-#RUN sed -i 's/#conda_ensure_channels = r,bioconda/conda_ensure_channels = sblanck,iuc,bioconda,r,defaults,conda-forge/' /galaxy-central/config/galaxy.ini.sample
-#RUN sed -i 's/#conda_auto_install = False/conda_auto_install = True/' /galaxy-central/config/galaxy.ini.sample
-#RUN sed -i 's/#conda_auto_init = False/conda_auto_init = True/' /galaxy-central/config/galaxy.ini.sample
-
-#RUN cp /galaxy-central/config/galaxy.ini.sample /galaxy-central/config/galaxy.ini
-#env PATH /galaxy-central/tool_deps/R/3.1.2/iuc/package_r_3_1_2/41f43a2064ba/bin:$PATH
-#ENV PATH /tool_deps/_conda/bin:$PATH
 
 # Mark folders as imported from the host.
 VOLUME ["/export/", "/data/", "/var/lib/docker"]
