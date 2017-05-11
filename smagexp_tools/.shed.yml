@@ -1,4 +1,5 @@
 categories: [Transcriptomics]
+remote_repository_url: "https://github.com/sblanck/smagexp/tree/master/smagexp_tools"
 description: SMAGEXP (Statistical Meta Analalysis for Gene EXPression) for galaxy
 long_description: 'SMAGEXP (Statistical Meta Analalysis for Gene EXPression) integrates
   metaMA and metaRNAseq packages into Galaxy. We aim to propose a unified way to carry
