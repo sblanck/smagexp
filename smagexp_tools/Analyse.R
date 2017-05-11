@@ -42,7 +42,6 @@ if(is.null(opt$conditions)){
 
 #loading libraries
 suppressPackageStartupMessages(require(GEOquery))
-
 suppressPackageStartupMessages(require(Biobase))
 suppressPackageStartupMessages(require(GEOquery))
 suppressPackageStartupMessages(require(GEOmetadb))
@@ -65,8 +64,6 @@ result.tabular=opt$tabularoutput
 result.template=opt$htmltemplate
 tooldirectory=opt$tooldirectory
 
-#file.copy(targetFile,"./targetFile.txt")
-
 targets <- read.table(targetFile,sep="\t",stringsAsFactors=FALSE)
 
 #condition1_tmp <- strsplit(condition1,",")
@@ -78,40 +75,26 @@ condition2 <-targets[which(targets$V2==condition2Name),1]
 
 conditions=c(condition1,condition2)
 
-#nbresult=1000
 dir.create(result.path, showWarnings = TRUE, recursive = FALSE)
 
 eset=eset[,which(rownames(eset@phenoData@data) %in% conditions)]
 
-rownames(eset@phenoData@data)
-which(rownames(eset@phenoData@data) %in% conditions)
-#condition1Name=make.names(condition1Name)
-#condition2Name=make.names(condition2Name)
-#condition1Name=gsub("_","",condition1Name)
-#condition2Name=gsub("_","",condition2Name)
-#condition1Name
-#condition2Name
-
 eset@phenoData@data$source_name_ch1=""
 eset@phenoData@data$source_name_ch1[which(rownames(eset@phenoData@data) %in% condition1)]=condition1Name
 eset@phenoData@data$source_name_ch1[which(rownames(eset@phenoData@data) %in% condition2)]=condition2Name
-#condition1Name
-#condition2Name
 
 condNames=paste0("G",as.numeric(as.character(pData(eset)["source_name_ch1"][,1])!=condition1Name))
-#condNames=make.names(targets[,2])
-#condNames=gsub("_","",condNames)
+
 f <- as.factor(condNames)
-#eset$description <- factors
+
 design <- model.matrix(~ 0+f)
 
 colnames(design) <- levels(f)
-#colnames(design)
+
 fit <- lmFit(eset, design)
 
-#cont.matrix <- makeContrasts(C1=paste0(condition1Name,"-",condition2Name), levels=design)
 cont.matrix <- makeContrasts(G0-G1, levels=design)
-#cont.matrix
+
 fit2 <- contrasts.fit(fit, cont.matrix)
 fit2 <- eBayes(fit2)
 
@@ -122,7 +105,6 @@ tT <- topTable(fit2, adjust="fdr", sort.by="B", number=nbresult)
 gpl <- annotation(eset)
 if (substr(x = gpl,1,3)!="GPL"){
 	#if the annotation info does not start with "GPL" we retrieve the corresponding GPL annotation
-	print(getwd())
 	mapping=read.csv(paste0(tooldirectory,"/gplToBioc.csv"),stringsAsFactors=FALSE)
 	gpl=mapping[which(mapping$bioc_package==annotation(eset)),]$gpl
 	gpl=gpl[1]
@@ -181,7 +163,6 @@ htmlfile=gsub(x=htmlfile,pattern = "###HIST###",replacement = histopvalue, fixed
 dev.off()
 file.copy(histopvalue,result.path)
 
-#write.table(tolower(c(condition1Name,condition2Name)),quote = FALSE,col.names = FALSE, row.names=FALSE,file=result_export_conditions)
 saveConditions=c(condition1Name,condition2Name)
 save(eset,saveConditions,file=result_export_eset)
 write.table(x=tT[,-1],file=result.tabular,quote=FALSE,row.names=FALSE,col.names=TRUE,sep="\t")

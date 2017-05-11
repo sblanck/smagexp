@@ -6,5 +6,5 @@
     <registration>
         <!--SMAGEXP extensions-->    
         <datatype extension="cond" type="galaxy.datatypes.data:Text" subclass="True" display_in_upload="true"/>	
-</registration>
+     </registration>
 </datatypes>
