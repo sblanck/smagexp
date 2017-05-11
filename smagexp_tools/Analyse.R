@@ -20,7 +20,8 @@ option_list=list(
 		make_option("--htmloutput",type="character",default=NULL,help="Output html report"),
 		make_option("--htmloutputpath",type="character",default="NULL",help="Path of output html report"),
 		make_option("--tabularoutput",type="character",default=NULL,help="Output text file"),
-		make_option("--htmltemplate",type="character",default=NULL,help="html template)")
+		make_option("--htmltemplate",type="character",default=NULL,help="html template)"),
+		make_option("--tooldirectory",type="character",default=NULL,help="tool directory)")
 
 	
 );
@@ -62,6 +63,7 @@ result=opt$htmloutput
 result.path=opt$htmloutputpath
 result.tabular=opt$tabularoutput
 result.template=opt$htmltemplate
+tooldirectory=opt$tooldirectory
 
 #file.copy(targetFile,"./targetFile.txt")
 
@@ -102,18 +104,17 @@ condNames=paste0("G",as.numeric(as.character(pData(eset)["source_name_ch1"][,1])
 f <- as.factor(condNames)
 #eset$description <- factors
 design <- model.matrix(~ 0+f)
-design
 
 colnames(design) <- levels(f)
-colnames(design)
+#colnames(design)
 fit <- lmFit(eset, design)
-fit
+
 #cont.matrix <- makeContrasts(C1=paste0(condition1Name,"-",condition2Name), levels=design)
 cont.matrix <- makeContrasts(G0-G1, levels=design)
-cont.matrix
+#cont.matrix
 fit2 <- contrasts.fit(fit, cont.matrix)
 fit2 <- eBayes(fit2)
-fit2
+
 tT <- topTable(fit2, adjust="fdr", sort.by="B", number=nbresult)
 
 #head(exprs(eset))
@@ -121,7 +122,8 @@ tT <- topTable(fit2, adjust="fdr", sort.by="B", number=nbresult)
 gpl <- annotation(eset)
 if (substr(x = gpl,1,3)!="GPL"){
 	#if the annotation info does not start with "GPL" we retrieve the corresponding GPL annotation
-	mapping=read.csv("gplToBioc.csv",stringsAsFactors=FALSE)
+	print(getwd())
+	mapping=read.csv(paste0(tooldirectory,"/gplToBioc.csv"),stringsAsFactors=FALSE)
 	gpl=mapping[which(mapping$bioc_package==annotation(eset)),]$gpl
 	gpl=gpl[1]
 	

@@ -25,6 +25,7 @@
             --htmloutputpath $result_html.files_path
             --tabularoutput $result_tabular
             --htmltemplate ${__tool_directory__}/Analyse_tpl.html
+            --tooldirectory ${__tool_directory__}
         ]]>
     </command>
 

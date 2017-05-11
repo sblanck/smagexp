@@ -52,6 +52,8 @@ ADD tools.yml $GALAXY_ROOT/tools.yaml
 RUN install-tools $GALAXY_ROOT/tools.yaml && \
     /tool_deps/_conda/bin/conda clean --tarballs
 
+RUN chown galaxy:galaxy /usr/local/lib/R/site-library
+
 # Mark folders as imported from the host.
 VOLUME ["/export/", "/data/", "/var/lib/docker"]
 
