@@ -120,8 +120,8 @@ tT <- topTable(fit2, adjust="fdr", sort.by="B", number=nbresult)
 
 gpl <- annotation(eset)
 if (substr(x = gpl,1,3)!="GPL"){
-	#if the annotation info does not start with "GPL" we retrieve the correspondin GPL annotation
-	mapping=read.csv("/galaxy-tools/transcriptomics/db/gplToBioc.csv",stringsAsFactors=FALSE)
+	#if the annotation info does not start with "GPL" we retrieve the corresponding GPL annotation
+	mapping=read.csv("gplToBioc.csv",stringsAsFactors=FALSE)
 	gpl=mapping[which(mapping$bioc_package==annotation(eset)),]$gpl
 	gpl=gpl[1]
 	
