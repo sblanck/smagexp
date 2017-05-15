@@ -38,7 +38,16 @@
         <data format="tabular" name="GEOQueryData" label="GEOQuery Data of ${GEOQueryID}"/>
         <data format="cond" name="conditions" label="conditions of ${GEOQueryID}"/>
         <data format="rdata" name="GEOQueryRData" label="GEOQuery RData of ${GEOQueryID}"/>
-	</outputs>
+    </outputs>
+
+    <tests>
+        <test>
+            <param name="GEOQueryID" value="GSE3524"/>
+            <param name="transformation" value="auto"/>
+            <output name="conditions" file="conditions.cond" ftype="cond"/>
+        </test>
+    </tests>
+
     <help>
 <![CDATA[ 
 **What it does**     	

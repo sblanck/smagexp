@@ -55,6 +55,17 @@
         <data format="tabular" name="result_tabular" label="Text Results of analysis of ${rdataset.name}"/>
     </outputs>
 
+    <tests>
+        <test>
+            <param name="rdataset" value="GSE3524_data.rdata"/>
+            <param name="conditions" value="conditions.cond"/>
+            <param name="selectCondition1" value="series of 16 tumors"/>
+            <param name="selectCondition2" value="series of 4 normals"/>
+            <param name="nbresult" value="10"/>
+            <output name="result_tabular" file="GSE3524_analysis.tabular" ftype="tabular"/>
+        </test>
+    </tests>
+
     <help>
 <![CDATA[ 
 **What it does**
