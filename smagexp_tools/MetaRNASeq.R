@@ -1,3 +1,49 @@
+#!/usr/bin/env Rscript
+# setup R error handling to go to stderr
+options( show.error.messages=F, error = function () { cat( geterrmessage(), file=stderr() ); q( "no", 1, F ) } )
+
+# we need that to not crash galaxy with an UTF8 error on German LC settings.
+loc <- Sys.setlocale("LC_MESSAGES", "en_US.UTF-8")
+
+library("optparse")
+
+##### Read options
+option_list=list(
+		make_option("--input",type="character",default="NULL",help="list of rdata objects containing eset objects"),
+		make_option("--result",type="character",default=NULL,help="text file containing result of the meta-analysis"),
+		make_option("--htmloutput",type="character",default=NULL,help="Output html report"),
+		make_option("--htmloutputpath",type="character",default="NULL",help="Path of output html report"),
+		make_option("--htmltemplate",type="character",default=NULL,help="html template)")
+);
+
+opt_parser = OptionParser(option_list=option_list);
+opt = parse_args(opt_parser);
+
+if(is.null(opt$input)){
+	print_help(opt_parser)
+	stop("input required.", call.=FALSE)
+}
+
+#loading libraries
+
+suppressPackageStartupMessages(require(metaMA))
+suppressPackageStartupMessages(require(affy))
+suppressPackageStartupMessages(require(annaffy))
+suppressPackageStartupMessages(require(VennDiagram))
+suppressPackageStartupMessages(require(GEOquery))
+
+listInput <- trimws( unlist( strsplit(trimws(opt$input), ",") ) )
+
+listfiles=vector()
+listfilenames=vector()
+
+for (i in 1:length(listInput))
+{
+	inputFileInfo <- unlist( strsplit( listInput[i], ';' ) )
+	listfiles=c(listfiles,inputFileInfo[1])
+	listfilenames=c(listfilenames,inputFileInfo[2])
+}
+
 cargs <- commandArgs()
 cargs <- cargs[(which(cargs == "--args")+1):length(cargs)]
 nbargs=length(cargs)
@@ -8,10 +54,10 @@ for (i in seq(1,nbargs-6,2)) {
 	listfilenames=c(listfilenames,cargs[[i+1]])
 }
 #mod<-cargs[[length(cargs) - 6]]
-outputfile <- cargs[[length(cargs) - 5]]
-result.html = cargs[[length(cargs) - 4]]
-html.files.path=cargs[[length(cargs) - 3]]
-result.template=cargs[[length(cargs) - 2]]
+outputfile <- opt$result
+result.html = opt$htmloutput
+html.files.path=opt$htmloutputpath
+result.template=opt$htmltemplate
 
 alpha=0.05
 

@@ -77,7 +77,7 @@ The .cond file should look like this
 
 				
 **Results**
-	- Bboxplots and MA plots 
+	- Boxplots and MA plots 
 	- Rdata object containing the data for further analysis.
 ]]>
     </help>
