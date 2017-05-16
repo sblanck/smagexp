@@ -1,4 +1,4 @@
-<tool id="LimmaAnalyse" name="Limma analysis" version="0.3.0">
+<tool id="LimmaAnalyse" name="Limma analysis" version="1.0.0">
 
     <description>Perform gene expression analysis thanks to limma</description>
 

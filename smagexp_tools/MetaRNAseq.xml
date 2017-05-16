@@ -1,4 +1,4 @@
-<tool id="metarnaseq" name="RNA-seq data meta-analysis">
+<tool id="metarnaseq" name="RNA-seq data meta-analysis" version="1.0.0">
 
     <description>perform meta-analysis thanks to metaRNAseq</description>
 

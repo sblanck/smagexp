@@ -1,4 +1,4 @@
-<tool id="GEOQuery" name="GEOQuery" version="0.1.0">
+<tool id="GEOQuery" name="GEOQuery" version="1.0.0">
 
     <description>GEOQuery wrapper</description>
 

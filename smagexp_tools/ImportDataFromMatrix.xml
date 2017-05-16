@@ -1,4 +1,4 @@
-<tool id="importMatrixData" name="Import custom data" version="0.1.0">
+<tool id="importMatrixData" name="Import custom data" version="1.0.0">
 
     <description>Quality control and normalization of a custom matrix expression data</description>
 
