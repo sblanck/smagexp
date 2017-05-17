@@ -1,6 +1,6 @@
 <tool id="LimmaAnalyse" name="Limma analysis" version="1.0.0">
 
-    <description>Perform gene expression analysis thanks to limma</description>
+    <description>Performs gene expression analysis thanks to limma</description>
 
     <requirements>
         <requirement type="package" version="0.1.0">r-smagexp</requirement>

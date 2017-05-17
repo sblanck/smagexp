@@ -1,6 +1,6 @@
 <tool id="metarnaseq" name="RNA-seq data meta-analysis" version="1.0.0">
 
-    <description>perform meta-analysis thanks to metaRNAseq</description>
+    <description>Performs meta-analysis thanks to metaRNAseq</description>
 
     <requirements>
         <requirement type="package" version="0.1.0">r-smagexp</requirement>

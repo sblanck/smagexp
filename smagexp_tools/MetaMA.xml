@@ -1,6 +1,6 @@
 <tool id="metaMA" name="Microarray data meta-analysis" version="1.0.0">
 
-    <description>Perform meta-analysis thanks to metaMA.</description>
+    <description>Performs meta-analysis thanks to metaMA.</description>
 
     <requirements>
         <requirement type="package" version="0.1.0">r-smagexp</requirement>
