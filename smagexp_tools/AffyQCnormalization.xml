@@ -3,7 +3,7 @@
     <description>Quality control and normalization of affymetrix expression data</description>
 
     <requirements>
-        <requirement type="package" version="0.1.0">r-smagexp</requirement>
+        <requirement type="package" version="0.2.0">r-smagexp</requirement>
     </requirements>
 
     <stdio>
