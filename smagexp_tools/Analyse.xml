@@ -3,14 +3,14 @@
     <description>Performs gene expression analysis thanks to limma</description>
 
     <requirements>
-        <requirement type="package">bioconductor-biobase</requirement>
-        <requirement type="package">bioconductor-geoquery</requirement>
+        <requirement type="package" version="2.38.0">bioconductor-biobase</requirement>
+        <requirement type="package" version="2.46.3">bioconductor-geoquery</requirement>
         <requirement type="package">bioconductor-geometadb</requirement>
         <requirement type="package">bioconductor-limma</requirement>
-        <requirement type="package">bioconductor-biobase</requirement>
         <requirement type="package">bioconductor-affy</requirement>
         <requirement type="package">r-jsonlite</requirement>
         <requirement type="package">r-dplyr</requirement>
+        <requirement type="package">r-optparse</requirement>
      </requirements>
 
     <stdio>
