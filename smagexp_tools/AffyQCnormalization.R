@@ -34,7 +34,7 @@ suppressPackageStartupMessages(require(GEOmetadb))
 suppressPackageStartupMessages(require(limma))
 suppressPackageStartupMessages(require(jsonlite))
 suppressPackageStartupMessages(require(affy))
-suppressPackageStartupMessages(library(affyPLM))
+suppressPackageStartupMessages(require(affyPLM))
 suppressPackageStartupMessages(require(dplyr))
 
 listInput <- trimws( unlist( strsplit(trimws(opt$input), ",") ) )

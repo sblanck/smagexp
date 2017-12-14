@@ -64,6 +64,25 @@ How to analyse data with SMAGEXP
 
 #### Data from GEO database
 
+SMAGEXP can fetch data directly from [GEO database](https://www.ncbi.nlm.nih.gov/geo/), thanks to the GEOQuery R package. The GEO Series Accession ID of the microarray experiment is needed.
+
+log2 transformation option : Limma expects data values to be in log space. If the values of the experiments are not in log space, SMAGEXP is able to check and to transform them accordingly (option auto).
+The user can also choose to force the transformation (option yes) or to override the auto detect feature (option no)
+
+The outputs are :
+
+* A tabular file containing the values of each probes (lines) for each samples (columns) of the experiment
+* A .rdata file containing a bioconductor eset object. This file is required for further differential analysis
+* A tabular text file (.cond extension) summarizing the conditions of the experiment.
+
+Exemple of a .cond file
+
+ GSM80460	series of 16 tumors	GSM80460 OSCE-2T SERIES OF 16 TUMORS
+ GSM80461	series of 16 tumors	GSM80461 OSCE-4T Series of 16 Tumors
+ GSM80462	series of 16 tumors	GSM80462 OSCE-6T Series of 16 Tumors
+ GSM80476	series of 4 normals	GSM80476 OSCE-2N Series of 4 Normals
+ GSM80477	series of 4 normals	GSM80477 OSCE-9N Series of 4 Normals
+
 #### Data from affymetrix .CEL files
 
 #### Running a meta analysis

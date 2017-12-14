@@ -3,7 +3,13 @@
     <description>Performs meta-analysis thanks to metaMA.</description>
 
     <requirements>
-        <requirement type="package" version="0.2.0">r-smagexp</requirement>
+        <requirement type="package">bioconductor-affy</requirement>
+        <requirement type="package">bioconductor-annaffy</requirement>
+        <requirement type="package">bioconductor-geoquery</requirement>
+        <requirement type="package">bioconductor-org.hs.eg.db</requirement>
+        <requirement type="package">r-venndiagram</requirement>
+        <requirement type="package">r-metama</requirement>
+        <requirement type="package">r-optparse</requirement>
     </requirements>
 
     <stdio>

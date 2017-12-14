@@ -26,7 +26,6 @@ if(is.null(opt$input)){
 
 #loading libraries
 
-suppressPackageStartupMessages(require(metaMA))
 suppressPackageStartupMessages(require(affy))
 suppressPackageStartupMessages(require(annaffy))
 suppressPackageStartupMessages(require(VennDiagram))

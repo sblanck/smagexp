@@ -3,8 +3,16 @@
     <description>Quality control and normalization of affymetrix expression data</description>
 
     <requirements>
-        <requirement type="package" version="0.2.0">r-smagexp</requirement>
-    </requirements>
+        <requirement type="package">bioconductor-biobase</requirement>
+        <requirement type="package">bioconductor-geoquery</requirement>
+        <requirement type="package">bioconductor-geometadb</requirement>
+        <requirement type="package">bioconductor-limma</requirement>
+        <requirement type="package">bioconductor-biobase</requirement>
+        <requirement type="package">bioconductor-affy</requirement>
+        <requirement type="package">bioconductor-affyPLM</requirement>
+        <requirement type="package">r-jsonlite</requirement>
+        <requirement type="package">r-dplyr</requirement>
+     </requirements>
 
     <stdio>
         <exit_code range="1:" />
