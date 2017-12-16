@@ -77,12 +77,12 @@ The outputs are :
 
 Exemple of a .cond file
 
-|--------|-------------------|------------------------------------|
-|GSM80460|series of 16 tumors|GSM80460 OSCE-2T SERIES OF 16 TUMORS|
-|GSM80461|series of 16 tumors|GSM80461 OSCE-4T Series of 16 Tumors|
-|GSM80461|series of 16 tumors|GSM80462 OSCE-6T Series of 16 Tumors|
-|GSM80476|series of 4 normals|GSM80476 OSCE-2N Series of 4 Normals|
-|GSM80477|series of 4 normals|GSM80477 OSCE-9N Series of 4 Normals|
+| -------- | ------------------- | ------------------------------------ |
+| GSM80460 | series of 16 tumors | GSM80460 OSCE-2T SERIES OF 16 TUMORS |
+| GSM80461 | series of 16 tumors | GSM80461 OSCE-4T Series of 16 Tumors |
+| GSM80461 | series of 16 tumors | GSM80462 OSCE-6T Series of 16 Tumors |
+| GSM80476 | series of 4 normals | GSM80476 OSCE-2N Series of 4 Normals |
+| GSM80477 | series of 4 normals | GSM80477 OSCE-9N Series of 4 Normals |
 
 | Les tableaux  | C'est            | Cool  |
 | ------------- |:----------------:| -----:|
