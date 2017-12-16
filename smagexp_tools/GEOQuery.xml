@@ -4,7 +4,7 @@
 
     <requirements>
         <requirement type="package" version="2.42.0">bioconductor-geoquery</requirement>
-        <requirement type="package" version="1.4.4">r-optparse</requirement>
+        <requirement type="package">r-optparse</requirement>
     </requirements>
     <stdio>
         <exit_code range="1:" />

@@ -12,7 +12,8 @@
         <requirement type="package">bioconductor-affyPLM</requirement>
         <requirement type="package">r-jsonlite</requirement>
         <requirement type="package">r-dplyr</requirement>
-     </requirements>
+        <requirement type="package">r-optparse</requirement>
+    </requirements>
 
     <stdio>
         <exit_code range="1:" />
