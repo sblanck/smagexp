@@ -85,12 +85,6 @@ Exemple of a .cond file
 | GSM80476 | series of 4 normals | GSM80476 OSCE-2N Series of 4 Normals |
 | GSM80477 | series of 4 normals | GSM80477 OSCE-9N Series of 4 Normals |
 
-| Les tableaux  | C'est            | Cool  |
-| ------------- |:----------------:| -----:|
-| 3e colonne est| alignée à droite | 1600€ |
-| 2e colonne est| centrée          |   12€ |
-| zebra stripes | are neat         |    1€ |
-
 
 #### Data from affymetrix .CEL files
 
