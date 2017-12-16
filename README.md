@@ -77,6 +77,7 @@ The outputs are :
 
 Exemple of a .cond file
 
+|ID        | Condition           | Description
 | -------- | ------------------- | ------------------------------------ |
 | GSM80460 | series of 16 tumors | GSM80460 OSCE-2T SERIES OF 16 TUMORS |
 | GSM80461 | series of 16 tumors | GSM80461 OSCE-4T Series of 16 Tumors |
