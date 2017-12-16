@@ -9,6 +9,7 @@
         <requirement type="package">bioconductor-limma</requirement>
         <requirement type="package">bioconductor-biobase</requirement>
         <requirement type="package">bioconductor-affy</requirement>
+        <requirement type="package">bioconductor-affyplm</requirement>
         <requirement type="package">r-jsonlite</requirement>
         <requirement type="package">r-dplyr</requirement>
         <requirement type="package">r-optparse</requirement>
