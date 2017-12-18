@@ -9,6 +9,7 @@ How to install SMAGEXP?
 ### Using the toolshed
 
 SMAGEXP is available on the galaxy toolshed : https://testtoolshed.g2.bx.psu.edu/view/sblanck/smagexp/c05f899d5dcd.SMAGEXP
+
 SMAGEXP dependencies are available through conda either on bioconda or r conda channels.
 
 If you want to manually install the SMAGEXP dependencies, without conda, these are the required R packages.
