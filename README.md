@@ -8,17 +8,13 @@ How to install SMAGEXP?
 
 ### Using the toolshed
 
-SMAGEXP is available on the galaxy toolshed : https://testtoolshed.g2.bx.psu.edu/view/sblanck/smagexp/c05f899d5dcd.
-SMAGEXP dependencies rely on the r-smagexp conda package avalaible at https://anaconda.org/sblanck/r-smagexp
+SMAGEXP is available on the galaxy toolshed : https://testtoolshed.g2.bx.psu.edu/view/sblanck/smagexp/c05f899d5dcd.SMAGEXP
+SMAGEXP dependencies are available through conda either on bioconda or r conda channels.
 
-To enable the sblanck conda channel, and allow galaxy to handle SMAGEXP dependencies, you may modify your galaxy.ini file, so that the `conda_ensure_channels` parameter looks like this
-```
-conda_ensure_channels = sblanck,iuc,bioconda,r,defaults,conda-forge
-```
 If you want to manually install the SMAGEXP dependencies, without conda, these are the required R packages.
 
 * From bioconductor : 
-	* GEOquery
+	* GEOquery 
 	* limma
 	* affy
 	* annaffy
