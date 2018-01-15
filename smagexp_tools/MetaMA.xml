@@ -22,6 +22,7 @@
         Rscript 
         ${__tool_directory__}/MetaMA.R
             --input $input
+            --species $species
             --htmloutput $result_html 
             --htmloutputpath $result_html.extra_files_path
             --htmltemplate ${__tool_directory__}/MetaMa_tpl.html
@@ -30,6 +31,18 @@
 
     <inputs>
         <param format="rdata" name="input" multiple="true" type="data" optional="false" label="rdata files" help="rdata files containing the results of the analysis to be used in the meta-analysis"/>
+        <param name="species" type="select" optionnal="false" label="species" help="species for annotation">
+            <option value="org.Bt.eg.db">Bovine</option>
+            <option value="org.Cf.eg.db">Canine</option>
+            <option value="org.Gg.eg.db">Chicken</option>
+            <option value="org.Dm.eg.db">Fly</option>
+            <option value="org.Hs.eg.db">Human</option>
+            <option value="org.Mm.eg.db">Mouse</option>
+            <option value="org.Ss.eg.db">Pig</option>
+            <option value="org.Rn.eg.db">Rat</option>
+            <option value="org.Ce.eg.db">Worm</option>
+            <option value="org.Dr.eg.db">Zebrafish</option>
+        </param>
     </inputs>
 
     <outputs>

@@ -9,7 +9,8 @@ library("optparse")
 
 ##### Read options
 option_list=list(
-		make_option("--input",type="character",default="NULL",help="list of rdata objects containing eset objects"),
+		make_option("--input",type="character",default="NULL",help="List of rdata objects containing eset objects"),
+		make_option("--species",type="character",default="NULL",help="Species for annotations"),
 		make_option("--htmloutput",type="character",default=NULL,help="Output html report"),
 		make_option("--htmloutputpath",type="character",default="NULL",help="Path of output html report"),
 		make_option("--htmltemplate",type="character",default=NULL,help="html template)")
@@ -19,6 +20,10 @@ opt_parser = OptionParser(option_list=option_list);
 opt = parse_args(opt_parser);
 
 if(is.null(opt$input)){
+	print_help(opt_parser)
+	stop("input required.", call.=FALSE)
+}
+if(is.null(opt$species)){
 	print_help(opt_parser)
 	stop("input required.", call.=FALSE)
 }
@@ -32,6 +37,7 @@ suppressPackageStartupMessages(require(VennDiagram))
 suppressPackageStartupMessages(require(GEOquery))
 
 listInput <- trimws( unlist( strsplit(trimws(opt$input), ",") ) )
+species=opt$species
 
 rdataList=list()
 condition1List=list()
@@ -61,7 +67,12 @@ showVenn<-function(res,file)
 	dev.off()
 }
 
-library("org.Hs.eg.db")
+if(!species %in% installed.packages()[,"Package"]) {
+	source("https://bioconductor.org/biocLite.R")
+	biocLite(species)
+}
+
+#library("org.Hs.eg.db")
 x <- org.Hs.egUNIGENE
 mapped_genes <- mappedkeys(x)
 link <- as.list(x[mapped_genes])

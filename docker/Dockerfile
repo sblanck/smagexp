@@ -4,7 +4,7 @@
 
 FROM bgruening/galaxy-stable:dev
 
-MAINTAINER S. BLANCK, samuel.blanck@inria.fr
+MAINTAINER S. BLANCK, samuel.blanck@univ-lill2.fr
 
 ENV GALAXY_CONFIG_BRAND="Galaxy SMAGEXP"
 ENV ENABLE_TTS_INSTALL True
