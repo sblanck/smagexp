@@ -89,13 +89,14 @@ SMAGEXP handles affymetrix .CEL files. Les fichiers .CEL doivent d'abord être n
 Several normalization methods are available :
 - rma normalization
 - quantile normalization + log2
--       background correction + log2
-       log2 only
+- background correction + log2
+- log2 only
 
-Results
+The outputs are 
+- Several quality figures : microarray images, boxplots and MA plots
+- Rdata object containing the normalized data for further analysis
 
-    Several quality figures : microarray images, boxplots and MA plots
-    Rdata object containing the normalized data for further analysis
+
 
 
 #### Custom matrix data
@@ -105,5 +106,6 @@ Results
 ### Rna-seq data 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMTMyMTA0OSwtMTEyNDcwMjYyNl19
+eyJoaXN0b3J5IjpbLTE5NTg1NzQwNjksLTExMjQ3MDI2MjZdfQ
+==
 -->
