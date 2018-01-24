@@ -96,10 +96,12 @@ The outputs are
 - Several quality figures : microarray images, boxplots and MA plots
 - Rdata object containing the normalized data for further analysis
 
-How to interpret quality figures ?
+##### How to interpret quality figures ?
 
  1. microarray images.
 	 These images
+2.	
+
 
 #### Custom matrix data
 
@@ -108,5 +110,6 @@ How to interpret quality figures ?
 ### Rna-seq data 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzg4MDMxMSwtMTEyNDcwMjYyNl19
+eyJoaXN0b3J5IjpbLTE3NDc2MzEwNTgsLTExMjQ3MDI2MjZdfQ
+==
 -->
