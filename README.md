@@ -84,7 +84,7 @@ GSM80477 	series of 4 normals	GSM80477 OSCE-9N Series of 4 Normals
 
 ```
 #### Data from affymetrix .CEL files
-SMAGEXP handles affymetrix .CEL files. Les fichiers .CEL doivent d'abord être normalisés avec l'outil QCnormalization. Cet outil permet de normaliser les données issues des fichiers .CEL et de s'assurer de la qualité de 
+SMAGEXP handles affymetrix .CEL files. Les fichiers .CEL doivent d'abord être normalisés avec l'outil QCnormalization. Cet outil permet de normaliser les données issues des fichiers .CEL et de s'assurer de la qualité de ces 
 
 #### Custom matrix data
 
@@ -93,5 +93,5 @@ SMAGEXP handles affymetrix .CEL files. Les fichiers .CEL doivent d'abord être n
 ### Rna-seq data 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg3MzU1NzNdfQ==
+eyJoaXN0b3J5IjpbMTUwMTE2NzM2Nl19
 -->
