@@ -84,11 +84,14 @@ GSM80477 	series of 4 normals	GSM80477 OSCE-9N Series of 4 Normals
 
 ```
 #### Data from affymetrix .CEL files
+SMAGEXP handles affymetrix .CEL files.  
+
+#### Custom matrix data
 
 #### Running a meta analysis
 
 ### Rna-seq data 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNjg2OTE0N119
+eyJoaXN0b3J5IjpbLTIwNjUzODg0NTFdfQ==
 -->
