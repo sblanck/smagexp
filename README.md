@@ -96,7 +96,7 @@ The outputs are
 - Several quality figures : microarray images, boxplots and MA plots
 - Rdata object containing the normalized data for further analysis
 
-
+Interprétations des figure
 
 
 #### Custom matrix data
@@ -106,6 +106,5 @@ The outputs are
 ### Rna-seq data 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTg1NzQwNjksLTExMjQ3MDI2MjZdfQ
-==
+eyJoaXN0b3J5IjpbLTU5OTQyNDQ0OCwtMTEyNDcwMjYyNl19
 -->
