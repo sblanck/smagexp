@@ -89,3 +89,6 @@ GSM80477 	series of 4 normals	GSM80477 OSCE-9N Series of 4 Normals
 
 ### Rna-seq data 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTkzNjg2OTE0N119
+-->
