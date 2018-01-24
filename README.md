@@ -84,7 +84,7 @@ GSM80477 	series of 4 normals	GSM80477 OSCE-9N Series of 4 Normals
 
 ```
 #### Data from affymetrix .CEL files
-SMAGEXP handles affymetrix .CEL files. Les fichiers .CEL doivent d'abord 
+SMAGEXP handles affymetrix .CEL files. Les fichiers .CEL doivent d'abord êtres n
 
 #### Custom matrix data
 
@@ -93,5 +93,5 @@ SMAGEXP handles affymetrix .CEL files. Les fichiers .CEL doivent d'abord
 ### Rna-seq data 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzQwNjYyMTBdfQ==
+eyJoaXN0b3J5IjpbLTEyNTM1NzQzNzZdfQ==
 -->
