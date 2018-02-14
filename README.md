@@ -99,7 +99,7 @@ The outputs are
 ##### How to interpret quality figures ?
 
 1. Microarray pseudo images.
-		
+		![Pseudo images with error](https://github.com/sblanck/smagexp/blob/master/images/bad.png)
 	 
 3. Boxplots
 	Boxplots
@@ -113,6 +113,6 @@ The outputs are
 ### Rna-seq data 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjM5OTc1NCwtMTg5OTI4MjIxNCwtMT
+eyJoaXN0b3J5IjpbLTM5OTk2MDA0OSwtMTg5OTI4MjIxNCwtMT
 EyNDcwMjYyNl19
 -->
