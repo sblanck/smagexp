@@ -99,10 +99,11 @@ The outputs are
 ##### How to interpret quality figures ?
 
 1. Microarray pseudo images.
+		
 	 
-2. Boxplots
+3. Boxplots
 	Boxplots
-3. MA plots
+4. MA plots
 
 
 #### Custom matrix data
@@ -112,6 +113,6 @@ The outputs are
 ### Rna-seq data 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzODc1Nzc4NCwtMTg5OTI4MjIxNCwtMT
+eyJoaXN0b3J5IjpbMTgxNjM5OTc1NCwtMTg5OTI4MjIxNCwtMT
 EyNDcwMjYyNl19
 -->
