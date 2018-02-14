@@ -98,7 +98,7 @@ The outputs are
 
 ##### How to interpret quality figures ?
 
-1. Microarray images.
+1. Microarray pimages.
 	 
 2. Boxplots
 	Boxplots
@@ -112,5 +112,6 @@ The outputs are
 ### Rna-seq data 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU2MjI4Mzk4LC0xMTI0NzAyNjI2XX0=
+eyJoaXN0b3J5IjpbLTE4OTkyODIyMTQsNDU2MjI4Mzk4LC0xMT
+I0NzAyNjI2XX0=
 -->
