@@ -72,7 +72,7 @@ if(!species %in% installed.packages()[,"Package"]) {
 	biocLite(species)
 }
 
-#library("org.Hs.eg.db")
+library("org.Hs.eg.db")
 x <- org.Hs.egUNIGENE
 mapped_genes <- mappedkeys(x)
 link <- as.list(x[mapped_genes])

@@ -31,7 +31,7 @@
     </command>
 
     <inputs>
-        <param format="tabular" name="inputList" multiple="true" type="data" optional="false" label="Counts file" help="Must have the same number of row in each study. The experimental conditions must be specified in the header of each file"/>
+        <param format="tabular" name="inputs" multiple="true" type="data" optional="false" label="Counts file" help="Must have the same number of row in each study. The experimental conditions must be specified in the header of each file"/>
     </inputs>
 
     <outputs>
