@@ -76,11 +76,11 @@ Exemple of a .cond file
 
 ```
 
-GSM80460	series of 16 tumors	GSM80460 OSCE-2T SERIES OF 16 TUMORS
-GSM80461	series of 16 tumors	GSM80461 OSCE-4T Series of 16 Tumors
-GSM80461	series of 16 tumors	GSM80462 OSCE-6T Series of 16 Tumors
-GSM80476	series of 4 normals	GSM80476 OSCE-2N Series of 4 Normals
-GSM80477 	series of 4 normals	GSM80477 OSCE-9N Series of 4 Normals
+GSM80460	series of 16 tumors		GSM80460 OSCE-2T SERIES OF 16 TUMORS
+GSM80461	series of 16 tumors		GSM80461 OSCE-4T Series of 16 Tumors
+GSM80461	series of 16 tumors		GSM80462 OSCE-6T Series of 16 Tumors
+GSM80476	series of 4 normals		GSM80476 OSCE-2N Series of 4 Normals
+GSM80477 	series of 4 normals		GSM80477 OSCE-9N Series of 4 Normals
 
 ```
 #### Data from affymetrix .CEL files
@@ -99,10 +99,10 @@ The outputs are
 ##### How to interpret quality figures ?
 
 1. Microarray pseudo images.
-		
+	
 	 
 3. Boxplots
-	Boxplots
+	Boxplots 
 4. MA plots
 
 
@@ -113,6 +113,6 @@ The outputs are
 ### Rna-seq data 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjM5OTc1NCwtMTg5OTI4MjIxNCwtMT
-EyNDcwMjYyNl19
+eyJoaXN0b3J5IjpbLTE0NzcwNzMwODAsLTE4OTkyODIyMTQsLT
+ExMjQ3MDI2MjZdfQ==
 -->
