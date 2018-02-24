@@ -43,16 +43,6 @@ for (i in 1:length(listInput))
 	listfilenames=c(listfilenames,inputFileInfo[2])
 }
 
-cargs <- commandArgs()
-cargs <- cargs[(which(cargs == "--args")+1):length(cargs)]
-nbargs=length(cargs)
-listfiles=vector()
-listfilenames=vector()
-for (i in seq(1,nbargs-6,2)) {
-	listfiles=c(listfiles,cargs[[i]])
-	listfilenames=c(listfilenames,cargs[[i+1]])
-}
-#mod<-cargs[[length(cargs) - 6]]
 outputfile <- opt$result
 result.html = opt$htmloutput
 html.files.path=opt$htmloutputpath
