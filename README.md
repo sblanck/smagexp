@@ -145,12 +145,12 @@ The outpouts are :
 - Boxplots, p-value histograms and a volcano plot 
 - Table summarizing the differentially expressed genes and their annotations. This table is sortable and requestable.
 - Rdata object to perform further meta-analysis. 
-- Text file containing the annotresults of the differential analysis
+- Text file containing the annotated results of the differential analysis
 #### Running a meta analysis
 
 ### Rna-seq meta analysis 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTA0NDg1NiwtMTg5OTI4MjIxNCwtMT
+eyJoaXN0b3J5IjpbLTMzMjQ2MzE0MCwtMTg5OTI4MjIxNCwtMT
 EyNDcwMjYyNl19
 -->
