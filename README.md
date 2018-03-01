@@ -148,7 +148,7 @@ The outpouts are :
 - Text file containing the annotated results of the differential analysis
 
 #### Running a meta analysis
-Given several Rdata object the microarray meta tool run a meta-analysis using the metaMA R package.
+Given several Rdata object the microarray meta-ana tool run a meta-analysis using the metaMA R package.
 		
 **Results**
 		
@@ -165,6 +165,6 @@ Given several Rdata object the microarray meta tool run a meta-analysis using th
 ### Rna-seq meta analysis 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNTI3NzUwNSwtMTg5OTI4MjIxNCwtMT
+eyJoaXN0b3J5IjpbLTM4ODA5MjAwOCwtMTg5OTI4MjIxNCwtMT
 EyNDcwMjYyNl19
 -->
