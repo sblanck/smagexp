@@ -126,16 +126,18 @@ Header of input tabular text file
 "1294_at"	0.961993677420255	-0.0320936297098533	-0.169744675832317	-0.0969617298870879	-0.181149439104566
 "1316_at"	0.0454429707611671	0.43616183931445	-0.766111939825723	-0.182786075741673	0.599317793698226
 "1405_i_at"	2.23450132056221	0.369606070031838	-1.06190243892591	-0.190997225060914	0.595503660502742
-```
-				
+```				
+
 The outputs are
 	- Boxplots and MA plots 
 	- Rdata object containing the data for further analysis.
+
+
 #### Running a meta analysis
 
 ### Rna-seq data 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MjMwMzA4MiwtMTg5OTI4MjIxNCwtMT
+eyJoaXN0b3J5IjpbLTgyMDE3MzkzOCwtMTg5OTI4MjIxNCwtMT
 EyNDcwMjYyNl19
 -->
