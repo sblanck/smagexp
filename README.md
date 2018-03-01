@@ -96,8 +96,9 @@ The outputs are
 - Text file containing normalized data
 
 #### Custom matrix data
-Import custom data tool imports data stored in a tabular text file. 
+Import custom data tool imports data stored in a tabular text file. A few  normalization methods are proposed, but it is possible to skip the normalization step, by choosing "none" in the normalization methods options. Therefore this tool is of special interest when the input dataset has been previously normalized.
 Column titles (chip IDs) must match the IDs of the .cond file.
+
 GPL annotation code is also required to fetch annotations from GEO.
 
 Example of a header of input tabular text file
@@ -167,5 +168,5 @@ It also generates a text file containing summarization of the results of each si
 
 ![Header of RNA-seq data meta-analysis text results](https://raw.githubusercontent.com/sblanck/smagexp/master/images/fig9.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMTE0ODcyOF19
+eyJoaXN0b3J5IjpbLTE0NDg5MjYzNzNdfQ==
 -->
