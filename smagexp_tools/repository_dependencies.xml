@@ -1,4 +1,4 @@
 <?xml version="1.0"?>
 <repositories description="smagexp datatypes">
-  <repository name="smagexp_datatypes" owner="sblanck" toolshed="https://testtoolshed.g2.bx.psu.edu" />
+  <repository name="smagexp_datatypes" owner="sblanck" toolshed="https://toolshed.g2.bx.psu.edu" />
 </repositories>
