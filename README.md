@@ -148,7 +148,7 @@ The outpouts are :
 - Text file containing the annotated results of the differential analysis
 
 #### Running a meta analysis
-Given several Rdata from the limma analysuobject the microarray meta-analysis tool run a meta-analysis using the metaMA R package.
+Given several Rdata from the limma analysis tooobject the microarray meta-analysis tool run a meta-analysis using the metaMA R package.
 		
 **Results**
 		
@@ -165,6 +165,6 @@ Given several Rdata from the limma analysuobject the microarray meta-analysis to
 ### Rna-seq meta analysis 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzgxMjc3MDQsLTgyNTM1NzMxNiwtMT
-g5OTI4MjIxNCwtMTEyNDcwMjYyNl19
+eyJoaXN0b3J5IjpbLTY2MTkyNDc2MSwtODI1MzU3MzE2LC0xOD
+k5MjgyMjE0LC0xMTI0NzAyNjI2XX0=
 -->
