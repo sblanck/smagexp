@@ -162,9 +162,9 @@ The outputs are  :
 ### Rna-seq meta analysis 
 The RNA-seq data meta-analysis tool relies on DESeq2 results.
 
-The  outputs a Venn diagram and the same indicators as in the microarray data analysis tool for both Fisher and inverse normal p-values combinations.
+The  outputs a Venn diagram and the same indicators as in the microarray meta-analysis tool for both Fisher and inverse normal p-values combinations.
 It also generates a text file containing summarization of the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
-![Example of RNA-seq data meta-analysis results](https://raw.githubusercontent.com/sblanck/smagexp/master/images/metaRNAseq_results.png)
+![Example of RNA-seq data meta-analysis plots![\](https://raw.githubusercontent.com/sblanck/smagexp/master/images/metaRNAseq_results.png)](https://raw.githubusercontent.com/sblanck/smagexp/master/images/fig9.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNTc5NzA5NF19
+eyJoaXN0b3J5IjpbLTE0MzY0MzczNDFdfQ==
 -->
