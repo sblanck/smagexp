@@ -138,7 +138,7 @@ The .cond file should look like this
  GSM80477	series of 4 normals	GSM80477 OSCE-9N Series of 4 Normals
 
 				
-**Results**
+The outputs are
 	- Boxplots and MA plots 
 	- Rdata object containing the data for further analysis.
 #### Running a meta analysis
@@ -146,6 +146,6 @@ The .cond file should look like this
 ### Rna-seq data 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODEyNTM5MTUsLTE4OTkyODIyMTQsLT
+eyJoaXN0b3J5IjpbLTEzMjE0Mjk0MzQsLTE4OTkyODIyMTQsLT
 ExMjQ3MDI2MjZdfQ==
 -->
