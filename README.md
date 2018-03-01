@@ -108,7 +108,7 @@ The outputs are
 
 
 #### Custom matrix data
-This tool imports data stored in a tabular text file. 
+Import custom data tool imports data stored in a tabular text file. 
 Column titles (chip IDs) must match the IDs of the .cond file.
 GPL annotation code is also required to fetch annotations from GEO.
 
@@ -146,6 +146,6 @@ The .cond file should look like this
 ### Rna-seq data 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NTU1NzM4MSwtMTg5OTI4MjIxNCwtMT
-EyNDcwMjYyNl19
+eyJoaXN0b3J5IjpbLTE1ODEyNTM5MTUsLTE4OTkyODIyMTQsLT
+ExMjQ3MDI2MjZdfQ==
 -->
