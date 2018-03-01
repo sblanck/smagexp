@@ -133,7 +133,6 @@ The outputs are
 #### Limma Analysis
 The Limma analysis tool performs single analysis either of data previously retrieved from GEO database or normalized affymetrix .CEL files data. 
 Given a .cond file, it runs a standard limma differential expression analysis. 
-
 	
 The outpouts are :
 		
@@ -141,6 +140,7 @@ The outpouts are :
 - Table summarizing the differentially expressed genes and their annotations. This table is sortable and requestable.
 - Rdata object to perform further meta-analysis. 
 - Text file containing the annotated results of the differential analysis
+
 
 #### Running a meta analysis
 Given several Rdata object from the limma analysis tool the microarray meta-analysis tool run a meta-analysis using the metaMA R package.
@@ -164,5 +164,5 @@ The  outputs a Venn diagram and the same indicators as in the microarray data an
 It also generates a text file containing summarization of the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 ![Example of RNA-seq data meta-analysis results](https://raw.githubusercontent.com/sblanck/smagexp/master/images/metaRNAseq_results.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTQ0OTM3OV19
+eyJoaXN0b3J5IjpbMTA3MTcwMzU1OV19
 -->
