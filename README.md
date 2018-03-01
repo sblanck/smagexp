@@ -135,11 +135,13 @@ The outputs are
 	- Boxplots and MA plots 
 	- Rdata object containing the data for further analysis.
 
+#### Limma Analysis
+
 #### Running a meta analysis
 
-### Rna-seq data 
+### Rna-seq meta analysis 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NDIyMzk4MiwtMTg5OTI4MjIxNCwtMT
-EyNDcwMjYyNl19
+eyJoaXN0b3J5IjpbLTE3MjM2NzQ5MTUsLTE4OTkyODIyMTQsLT
+ExMjQ3MDI2MjZdfQ==
 -->
