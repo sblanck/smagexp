@@ -102,9 +102,7 @@ Import custom data tool imports data stored in a tabular text file.
 Column titles (chip IDs) must match the IDs of the .cond file.
 GPL annotation code is also required to fetch annotations from GEO.
 
-**Exemple**
-
-Header of input tabular text file
+Exemple of a header of input tabular text file
 ::
 
 ```
@@ -132,8 +130,8 @@ GSM80477 	series of 4 normals		GSM80477 OSCE-9N Series of 4 Normals
 ```
 				
 The outputs are
-	- Boxplots and MA plots 
-	- Rdata object containing the data for further analysis.
+ - Boxplots and MA plots 
+ - Rdata object containing the data for further analysis.
 
 #### Limma Analysis
 The Limma analysis tool performs single analysis either of data previously retrieved from GEO database or normalized affymetrix .CEL files data. 
@@ -150,8 +148,7 @@ The outpouts are :
 #### Running a meta analysis
 Given several Rdata object from the limma analysis tool the microarray meta-analysis tool run a meta-analysis using the metaMA R package.
 		
-**Results**
-		
+The outputs are  :		
 - Venn Diagram summarizing the results of the meta-analysis
 - A list of indicators to evaluate the quality of the performance of the meta-analysis
 		
@@ -166,6 +163,5 @@ Given several Rdata object from the limma analysis tool the microarray meta-anal
 ### Rna-seq meta analysis 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MjU3MDU2MSwtODI1MzU3MzE2LC0xOD
-k5MjgyMjE0LC0xMTI0NzAyNjI2XX0=
+eyJoaXN0b3J5IjpbMTYxNTkzMDA4NF19
 -->
