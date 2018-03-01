@@ -148,7 +148,7 @@ The outpouts are :
 - Text file containing the annotated results of the differential analysis
 
 #### Running a meta analysis
-Given several Rdata from the limma analysis toolobject the microarray meta-analysis tool run a meta-analysis using the metaMA R package.
+Given several Rdata object from the limma analysis tool the microarray meta-analysis tool run a meta-analysis using the metaMA R package.
 		
 **Results**
 		
@@ -162,9 +162,10 @@ Given several Rdata from the limma analysis toolobject the microarray meta-analy
 	- IRR (Integration-driven Revision) : corresponding proportion of Loss
 		
 - Fully sortable and requestable table, with gene annotations and hypertext links to NCBI gene database.
+
 ### Rna-seq meta analysis 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgyNTUzNjY1LC04MjUzNTczMTYsLTE4OT
-kyODIyMTQsLTExMjQ3MDI2MjZdfQ==
+eyJoaXN0b3J5IjpbMTM2MjU3MDU2MSwtODI1MzU3MzE2LC0xOD
+k5MjgyMjE0LC0xMTI0NzAyNjI2XX0=
 -->
