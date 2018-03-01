@@ -8,7 +8,7 @@ How to install SMAGEXP?
 
 ### Using the toolshed
 
-SMAGEXP is available on the galaxy toolshed : https://toolshed.g2.bx.psu.edu/view/sblanck/smagexp/c05f899d5dcd.SMAGEXP
+[SMAGEXP is available on the galaxy main toolshed ](https://toolshed.g2.bx.psu.edu/view/sblanck/smagexp/58052f8bc987)
 
 SMAGEXP dependencies are available through conda either on bioconda or r conda channels.
 
@@ -168,5 +168,5 @@ It also generates a text file containing summarization of the results of each si
 
 ![Header of RNA-seq data meta-analysis text results](https://raw.githubusercontent.com/sblanck/smagexp/master/images/fig9.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzU1MDQ2MV19
+eyJoaXN0b3J5IjpbLTE3ODIxMTMwOV19
 -->
