@@ -97,16 +97,6 @@ The outputs are
 - Rdata object containing the normalized data for further analysis
 - Text file containing normalized data
 
-##### How to interpret quality figures ?
-
-1. Microarray pseudo images.
-	
-	 
-3. Boxplots
-	Boxplots 
-4. MA plots
-
-
 #### Custom matrix data
 Import custom data tool imports data stored in a tabular text file. 
 Column titles (chip IDs) must match the IDs of the .cond file.
@@ -128,24 +118,28 @@ Header of input tabular text file
 "1405_i_at"	2.23450132056221	0.369606070031838	-1.06190243892591	-0.190997225060914	0.595503660502742
 ```
 
-The .cond file should look like this 
+The according .cond file should look like this 
 ::
 
- GSM80460	series of 16 tumors	GSM80460 OSCE-2T SERIES OF 16 TUMORS
- GSM80461	series of 16 tumors	GSM80461 OSCE-4T Series of 16 Tumors
- GSM80462	series of 16 tumors	GSM80462 OSCE-6T Series of 16 Tumors
- GSM80476	series of 4 normals	GSM80476 OSCE-2N Series of 4 Normals
- GSM80477	series of 4 normals	GSM80477 OSCE-9N Series of 4 Normals
+```
 
+GSM80460	series of 16 tumors		GSM80460 OSCE-2T SERIES OF 16 TUMORS
+GSM80461	series of 16 tumors		GSM80461 OSCE-4T Series of 16 Tumors
+GSM80461	series of 16 tumors		GSM80462 OSCE-6T Series of 16 Tumors
+GSM80476	series of 4 normals		GSM80476 OSCE-2N Series of 4 Normals
+GSM80477 	series of 4 normals		GSM80477 OSCE-9N Series of 4 Normals
+
+```
 				
 The outputs are
 	- Boxplots and MA plots 
 	- Rdata object containing the data for further analysis.
+
 #### Running a meta analysis
 
 ### Rna-seq data 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNzk3MTc2LC0xODk5MjgyMjE0LC0xMT
-I0NzAyNjI2XX0=
+eyJoaXN0b3J5IjpbMTE2NDIyMzk4MiwtMTg5OTI4MjIxNCwtMT
+EyNDcwMjYyNl19
 -->
