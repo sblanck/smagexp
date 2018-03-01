@@ -157,6 +157,8 @@ The outputs are  :
 		
 - Fully sortable and requestable table, with gene annotations and hypertext links to NCBI gene database.
 
+![Plots and results generated](https://raw.githubusercontent.com/sblanck/smagexp/master/images/fig7.png)
+
 ### Rna-seq meta analysis 
 The RNA-seq data meta-analysis tool relies on DESeq2 results.
 
@@ -164,5 +166,5 @@ The  outputs a Venn diagram and the same indicators as in the microarray data an
 It also generates a text file containing summarization of the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 ![Example of RNA-seq data meta-analysis results](https://raw.githubusercontent.com/sblanck/smagexp/master/images/metaRNAseq_results.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMDY1NTI2Ml19
+eyJoaXN0b3J5IjpbMTczMTk2Mjc1M119
 -->
