@@ -158,7 +158,10 @@ The outputs are  :
 - Fully sortable and requestable table, with gene annotations and hypertext links to NCBI gene database.
 
 ### Rna-seq meta analysis 
+The RNA-seq data meta-analysis tool relies on DESeq2 results.
 
+The  outputs a Venn diagram and the same indicators as in the microarray data analysis tool for both Fisher and inverse normal p-values combinations.
+It also generates a text file containing summarization of the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1Nzg5MjQzOF19
+eyJoaXN0b3J5IjpbLTEzMjIyMzI0NTFdfQ==
 -->
