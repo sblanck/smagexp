@@ -102,9 +102,7 @@ Import custom data tool imports data stored in a tabular text file.
 Column titles (chip IDs) must match the IDs of the .cond file.
 GPL annotation code is also required to fetch annotations from GEO.
 
-Exemple of a header of input tabular text file
-
-
+Example of a header of input tabular text file
 ```
 ""			"GSM80460"			"GSM80461"			"GSM80462"			"GSM80463"			"GSM80464"
 "1007_s_at"	-0.0513991525066443	0.306845500314283	0.0854246562526777	-0.142417044615852	0.0854246562526777
@@ -117,7 +115,6 @@ Exemple of a header of input tabular text file
 ```
 
 The according .cond file should look like this 
-::
 
 ```
 
@@ -163,5 +160,5 @@ The outputs are  :
 ### Rna-seq meta analysis 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ5MDk2NTQ4XX0=
+eyJoaXN0b3J5IjpbMTY1Nzg5MjQzOF19
 -->
