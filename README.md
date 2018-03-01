@@ -146,11 +146,25 @@ The outpouts are :
 - Table summarizing the differentially expressed genes and their annotations. This table is sortable and requestable.
 - Rdata object to perform further meta-analysis. 
 - Text file containing the annotated results of the differential analysis
-#### Running a meta analysis
 
+#### Running a meta analysis
+Given several Rdata object the microarray meta tool run a meta-analysis using the metaMA R package.
+		
+**Results**
+		
+- Venn Diagram summarizing the results of the meta-analysis
+- A list of indicators to evaluate the quality of the performance of the meta-analysis
+		
+	- DE : Number of differentially expressed genes 
+	- IDD (Integration Driven discoveries) : number of genes that are declared differentially expressed in the meta-analysis that were not identified in any of the single studies alone
+	- Loss : Number of genes that are identified differentially expressed in single studies but not in meta-analysis 
+	- DR (Integration-driven Discovery Rate) : corresponding proportion of IDD
+	- IRR (Integration-driven Revision) : corresponding proportion of Loss
+		
+- Fully sortable and requestable table, with gene annotations and hypertext links to NCBI gene database.
 ### Rna-seq meta analysis 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMjQ2MzE0MCwtMTg5OTI4MjIxNCwtMT
+eyJoaXN0b3J5IjpbLTYyNTI3NzUwNSwtMTg5OTI4MjIxNCwtMT
 EyNDcwMjYyNl19
 -->
