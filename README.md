@@ -95,7 +95,7 @@ Several normalization methods are available :
 The outputs are 
 - Several quality figures : microarray images, boxplots and MA plots
 - Rdata object containing the normalized data for further analysis
-- Matrix
+- Text file containing normalized data
 
 ##### How to interpret quality figures ?
 
@@ -114,6 +114,6 @@ The outputs are
 ### Rna-seq data 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MzM3MTYxMSwtMTg5OTI4MjIxNCwtMT
+eyJoaXN0b3J5IjpbMTk4NDM2MjA5MCwtMTg5OTI4MjIxNCwtMT
 EyNDcwMjYyNl19
 -->
