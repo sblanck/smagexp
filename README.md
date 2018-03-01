@@ -19,7 +19,6 @@ If you want to manually install the SMAGEXP dependencies, without conda, these a
 	* limma
 	* affy
 	* annaffy
-	* org.Hs.eg.db
 	* HTSFilter
 	* GEOmetadb
 	* affyPLM
@@ -168,5 +167,5 @@ It also generates a text file containing summarization of the results of each si
 
 ![Header of RNA-seq data meta-analysis text results](https://raw.githubusercontent.com/sblanck/smagexp/master/images/fig9.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODIxMTMwOV19
+eyJoaXN0b3J5IjpbNDcyNzgzODQ0XX0=
 -->
