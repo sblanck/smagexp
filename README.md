@@ -84,7 +84,7 @@ GSM80477 	series of 4 normals		GSM80477 OSCE-9N Series of 4 Normals
 
 ```
 #### Data from affymetrix .CEL files
-SMAGEXP handles affymetrix .CEL files. Les fichiers .CEL doivent d'abord être normalisés avec l'outil QCnormalization. Cet outil permet de normaliser les données issues des fichiers .CEL et de s'assurer de la qualité de ces données.
+SMAGEXP handles affymetrix .CEL files. .CEL files have to be normalized with QCnormalization tools. This tool normalizes data and ensure allow the user to check quality.
 
 Several normalization methods are available :
 - rma normalization
@@ -95,24 +95,70 @@ Several normalization methods are available :
 The outputs are 
 - Several quality figures : microarray images, boxplots and MA plots
 - Rdata object containing the normalized data for further analysis
-
-##### How to interpret quality figures ?
-
-1. Microarray pseudo images.
-	
-	 
-3. Boxplots
-	Boxplots 
-4. MA plots
-
+- Text file containing normalized data
 
 #### Custom matrix data
+Import custom data tool imports data stored in a tabular text file. 
+Column titles (chip IDs) must match the IDs of the .cond file.
+GPL annotation code is also required to fetch annotations from GEO.
+
+Example of a header of input tabular text file
+```
+""			"GSM80460"			"GSM80461"			"GSM80462"			"GSM80463"			"GSM80464"
+"1007_s_at"	-0.0513991525066443	0.306845500314283	0.0854246562526777	-0.142417044615852	0.0854246562526777
+"1053_at"	-0.187707155126729	-0.488026018218199	-0.282789700980404	0.160920188181103	0.989865622866287
+"117_at"	0.814755482809874	-2.15842936260448	-0.125006361067033	-0.256700472111743	0.0114956388378294
+"121_at"	-0.0558912008920451	-0.0649174766813385	0.49467161164755	-0.0892673380970874	0.113700499164728
+"1294_at"	0.961993677420255	-0.0320936297098533	-0.169744675832317	-0.0969617298870879	-0.181149439104566
+"1316_at"	0.0454429707611671	0.43616183931445	-0.766111939825723	-0.182786075741673	0.599317793698226
+"1405_i_at"	2.23450132056221	0.369606070031838	-1.06190243892591	-0.190997225060914	0.595503660502742
+```
+
+The according .cond file should look like this 
+
+```
+
+GSM80460	series of 16 tumors		GSM80460 OSCE-2T SERIES OF 16 TUMORS
+GSM80461	series of 16 tumors		GSM80461 OSCE-4T Series of 16 Tumors
+GSM80461	series of 16 tumors		GSM80462 OSCE-6T Series of 16 Tumors
+GSM80476	series of 4 normals		GSM80476 OSCE-2N Series of 4 Normals
+GSM80477 	series of 4 normals		GSM80477 OSCE-9N Series of 4 Normals
+
+```
+				
+The outputs are
+ - Boxplots and MA plots 
+ - Rdata object containing the data for further analysis.
+
+#### Limma Analysis
+The Limma analysis tool performs single analysis either of data previously retrieved from GEO database or normalized affymetrix .CEL files data. 
+Given a .cond file, it runs a standard limma differential expression analysis. 
+
+	
+The outpouts are :
+		
+- Boxplots, p-value histograms and a volcano plot 
+- Table summarizing the differentially expressed genes and their annotations. This table is sortable and requestable.
+- Rdata object to perform further meta-analysis. 
+- Text file containing the annotated results of the differential analysis
 
 #### Running a meta analysis
+Given several Rdata object from the limma analysis tool the microarray meta-analysis tool run a meta-analysis using the metaMA R package.
+		
+The outputs are  :		
+- Venn Diagram summarizing the results of the meta-analysis
+- A list of indicators to evaluate the quality of the performance of the meta-analysis
+		
+	- DE : Number of differentially expressed genes 
+	- IDD (Integration Driven discoveries) : number of genes that are declared differentially expressed in the meta-analysis that were not identified in any of the single studies alone
+	- Loss : Number of genes that are identified differentially expressed in single studies but not in meta-analysis 
+	- DR (Integration-driven Discovery Rate) : corresponding proportion of IDD
+	- IRR (Integration-driven Revision) : corresponding proportion of Loss
+		
+- Fully sortable and requestable table, with gene annotations and hypertext links to NCBI gene database.
 
-### Rna-seq data 
+### Rna-seq meta analysis 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzcwNzMwODAsLTE4OTkyODIyMTQsLT
-ExMjQ3MDI2MjZdfQ==
+eyJoaXN0b3J5IjpbMTY1Nzg5MjQzOF19
 -->
