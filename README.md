@@ -108,12 +108,44 @@ The outputs are
 
 
 #### Custom matrix data
+This tool imports data stored in a tabular text file. 
+Column titles (chip IDs) must match the IDs of the .cond file.
+GPL annotation code is also required to fetch annotations from GEO.
 
+**Exemple**
+
+Header of input tabular text file
+::
+
+
+""	"GSM80460"	"GSM80461"	"GSM80462"	"GSM80463"	"GSM80464"
+"1007_s_at"	-0.0513991525066443	0.306845500314283	0.0854246562526777	-0.142417044615852	0.0854246562526777
+"1053_at"	-0.187707155126729	-0.488026018218199	-0.282789700980404	0.160920188181103	0.989865622866287
+"117_at"	0.814755482809874	-2.15842936260448	-0.125006361067033	-0.256700472111743	0.0114956388378294
+"121_at"	-0.0558912008920451	-0.0649174766813385	0.49467161164755	-0.0892673380970874	0.113700499164728
+"1294_at"	0.961993677420255	-0.0320936297098533	-0.169744675832317	-0.0969617298870879	-0.181149439104566
+"1316_at"	0.0454429707611671	0.43616183931445	-0.766111939825723	-0.182786075741673	0.599317793698226
+"1405_i_at"	2.23450132056221	0.369606070031838	-1.06190243892591	-0.190997225060914	0.595503660502742
+
+
+The .cond file should look like this 
+::
+
+ GSM80460	series of 16 tumors	GSM80460 OSCE-2T SERIES OF 16 TUMORS
+ GSM80461	series of 16 tumors	GSM80461 OSCE-4T Series of 16 Tumors
+ GSM80462	series of 16 tumors	GSM80462 OSCE-6T Series of 16 Tumors
+ GSM80476	series of 4 normals	GSM80476 OSCE-2N Series of 4 Normals
+ GSM80477	series of 4 normals	GSM80477 OSCE-9N Series of 4 Normals
+
+				
+**Results**
+	- Boxplots and MA plots 
+	- Rdata object containing the data for further analysis.
 #### Running a meta analysis
 
 ### Rna-seq data 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NDM2MjA5MCwtMTg5OTI4MjIxNCwtMT
+eyJoaXN0b3J5IjpbMTU2NTU1NzM4MSwtMTg5OTI4MjIxNCwtMT
 EyNDcwMjYyNl19
 -->
