@@ -139,29 +139,18 @@ The outputs are
 The Limma analysis tool performs single analysis either of data previously retrieved from GEO database or normalized affymetrix .CEL files data. 
 Given a .cond file, it runs a standard limma differential expression analysis. 
 
-**Example** of .cond file      	
-
-The .cond file should look like this 
-::
-
-
- GSM80460	series of 16 tumors	GSM80460 OSCE-2T SERIES OF 16 TUMORS
- GSM80461	series of 16 tumors	GSM80461 OSCE-4T Series of 16 Tumors
- GSM80462	series of 16 tumors	GSM80462 OSCE-6T Series of 16 Tumors
- GSM80476	series of 4 normals	GSM80476 OSCE-2N Series of 4 Normals
- GSM80477	series of 4 normals	GSM80477 OSCE-9N Series of 4 Normals
 	
-		
-**Results**
+The outpouts are :
 		
 - Boxplots, p-value histograms and a volcano plot 
 - Table summarizing the differentially expressed genes and their annotations. This table is sortable and requestable.
 - Rdata object to perform further meta-analysis. 
+- Text file containing the aresults of the differential analysis
 #### Running a meta analysis
 
 ### Rna-seq meta analysis 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY2MTU3Mzg1LC0xODk5MjgyMjE0LC0xMT
-I0NzAyNjI2XX0=
+eyJoaXN0b3J5IjpbLTI1MjYxNzI2NywtMTg5OTI4MjIxNCwtMT
+EyNDcwMjYyNl19
 -->
