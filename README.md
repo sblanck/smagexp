@@ -126,18 +126,26 @@ Header of input tabular text file
 "1294_at"	0.961993677420255	-0.0320936297098533	-0.169744675832317	-0.0969617298870879	-0.181149439104566
 "1316_at"	0.0454429707611671	0.43616183931445	-0.766111939825723	-0.182786075741673	0.599317793698226
 "1405_i_at"	2.23450132056221	0.369606070031838	-1.06190243892591	-0.190997225060914	0.595503660502742
-```				
+```
 
+The .cond file should look like this 
+::
+
+ GSM80460	series of 16 tumors	GSM80460 OSCE-2T SERIES OF 16 TUMORS
+ GSM80461	series of 16 tumors	GSM80461 OSCE-4T Series of 16 Tumors
+ GSM80462	series of 16 tumors	GSM80462 OSCE-6T Series of 16 Tumors
+ GSM80476	series of 4 normals	GSM80476 OSCE-2N Series of 4 Normals
+ GSM80477	series of 4 normals	GSM80477 OSCE-9N Series of 4 Normals
+
+				
 The outputs are
 	- Boxplots and MA plots 
 	- Rdata object containing the data for further analysis.
-
-
 #### Running a meta analysis
 
 ### Rna-seq data 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMDE3MzkzOCwtMTg5OTI4MjIxNCwtMT
-EyNDcwMjYyNl19
+eyJoaXN0b3J5IjpbMTQyNzk3MTc2LC0xODk5MjgyMjE0LC0xMT
+I0NzAyNjI2XX0=
 -->
