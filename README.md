@@ -103,7 +103,7 @@ Column titles (chip IDs) must match the IDs of the .cond file.
 GPL annotation code is also required to fetch annotations from GEO.
 
 Exemple of a header of input tabular text file
-::
+
 
 ```
 ""			"GSM80460"			"GSM80461"			"GSM80462"			"GSM80463"			"GSM80464"
@@ -163,5 +163,5 @@ The outputs are  :
 ### Rna-seq meta analysis 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTkzMDA4NF19
+eyJoaXN0b3J5IjpbNTQ5MDk2NTQ4XX0=
 -->
