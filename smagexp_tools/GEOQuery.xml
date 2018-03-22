@@ -3,7 +3,7 @@
     <description>GEOQuery wrapper</description>
 
     <requirements>
-        <requirement type="package" version="2.42.0">bioconductor-geoquery</requirement>
+        <requirement type="package" version="2.46.0">bioconductor-geoquery</requirement>
         <requirement type="package">r-optparse</requirement>
     </requirements>
     <stdio>

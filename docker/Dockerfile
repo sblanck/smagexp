@@ -2,7 +2,7 @@
 #
 # VERSION       0.2
 
-FROM bgruening/galaxy-stable:dev
+FROM bgruening/galaxy-stable:latest
 
 MAINTAINER S. BLANCK, samuel.blanck@univ-lille2.fr
 
