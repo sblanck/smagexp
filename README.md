@@ -42,6 +42,12 @@ After the successful installation, all you need to do is:
 ```
 docker run -d -p 8080:80 -p 8021:21 -p 8022:22 sblanck/galaxy-smagexp
 ```
+Then, you just need to open a web browser (chrome or firefox are recommanded) ad type 
+```
+localhost:8080
+```
+into the adress bar to access Galaxy running smagexp
+
 Docker images are "read-only", all your changes inside one session will be lost after restart. This mode is useful to present Galaxy to your colleagues or to run workshops with it. To install Tool Shed repositories or to save your data you need to export the calculated data to the host computer.
 
 Fortunately, this is as easy as:
