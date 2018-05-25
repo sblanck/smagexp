@@ -42,7 +42,7 @@ After the successful installation, all you need to do is:
 ```
 docker run -d -p 8080:80 -p 8021:21 -p 8022:22 sblanck/galaxy-smagexp
 ```
-Then, you just need to open a web browser (chrome or firefox are recommanded) ad type 
+Then, you just need to open a web browser (chrome or firefox are recommanded) and type 
 ```
 localhost:8080
 ```
