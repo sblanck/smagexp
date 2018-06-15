@@ -62,9 +62,11 @@ For more information about the parameters and docker usage, please refer to http
 How to analyse data with SMAGEXP
 ------------------------
 
-### Microarray data
+###  Step by step micro-array meta-analysis
 
-#### Data from GEO database
+SMAG
+
+##### Data from GEO database
 
 SMAGEXP can fetch data directly from [GEO database](https://www.ncbi.nlm.nih.gov/geo/), thanks to the GEOQuery R package. The GEO Series Accession ID of the microarray experiment is needed.
 
@@ -176,8 +178,8 @@ It also generates a text file containing summarization of the results of each si
 
 ![Header of RNA-seq data meta-analysis text results](https://raw.githubusercontent.com/sblanck/smagexp/master/images/fig9.png)
 
-### Step by step micro-array meta-analysis
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MjQxMjEwLDExMjcxMDQ3ODZdfQ==
+eyJoaXN0b3J5IjpbMTIzNjgwNzE2MSwxMTI3MTA0Nzg2XX0=
 -->
