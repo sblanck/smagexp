@@ -246,7 +246,7 @@ To easily upload these data on galaxy, it is possible to load an existing histor
 ```
 https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-Data.tar.gz 
 ```
-Download this history on your computer and import it in galaxy. If you choose 
+Download this history on your computer and import it in galaxy. If you choose to manuall
 
 The following video will show you how to import this history in Galaxy
 
@@ -302,11 +302,11 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjcxNDQyNDAsLTIxMjkzMTAyNzQsLT
-gzNjU4NDg2MSw4OTg3NDAxODcsLTE0NDY5NzQ4ODYsMTkwMTA1
-NjYyMCw5NzE3NTcxMzAsLTE3NTg3NjQxNzEsMTE0MDE4MzY3Mi
-wtMTU1OTE3MzU3MiwtOTYxNTYyMjE4LC0xMTczODA0NjY5LC04
-ODI5NzExODUsMzE1MDYxMjYyLDE1MDcyMDcyNDYsMTY2MTY2Mj
-UwLDMyMTY1ODYsLTkwMTk0NTAxMywzMjIyMzY3MjksMTc4Mzgz
-MzEwNF19
+eyJoaXN0b3J5IjpbLTI3MTA4ODk0MywtMTYyNzE0NDI0MCwtMj
+EyOTMxMDI3NCwtODM2NTg0ODYxLDg5ODc0MDE4NywtMTQ0Njk3
+NDg4NiwxOTAxMDU2NjIwLDk3MTc1NzEzMCwtMTc1ODc2NDE3MS
+wxMTQwMTgzNjcyLC0xNTU5MTczNTcyLC05NjE1NjIyMTgsLTEx
+NzM4MDQ2NjksLTg4Mjk3MTE4NSwzMTUwNjEyNjIsMTUwNzIwNz
+I0NiwxNjYxNjYyNTAsMzIxNjU4NiwtOTAxOTQ1MDEzLDMyMjIz
+NjcyOV19
 -->
