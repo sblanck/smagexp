@@ -70,7 +70,7 @@ For more information about the parameters and docker usage, please refer to http
 How to analyse data with SMAGEXP
 ------------------------
 
-###  Step by step micro-array meta-analysis
+###  Micro-array meta-analysis
 
 SMAGEXP is able to perform analysis from 3 different data source :
 * From GEO database
@@ -201,7 +201,7 @@ It also generates a text file containing summarization of the results of each si
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MzkyNjg1MCwzNDcxNDAzNjcsMzQyOT
+eyJoaXN0b3J5IjpbLTY0NzY5MTA1NSwzNDcxNDAzNjcsMzQyOT
 YxNTU3LC02MDQ4Mjg1NjksNzY5MDM2Njc4LC0zNTExMzI5MzUs
 MTY3OTkxODE5MCwxMTI3MTA0Nzg2XX0=
 -->
