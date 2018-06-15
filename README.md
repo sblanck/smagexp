@@ -177,7 +177,7 @@ It also generates a text file containing summarization of the results of each si
 
 ![Header of RNA-seq data meta-analysis text results](https://raw.githubusercontent.com/sblanck/smagexp/master/images/fig9.png)
 
-Example of 
+Example of Mi
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMzUyNjgwMzQ3XX0=
@@ -186,5 +186,5 @@ eyJoaXN0b3J5IjpbMzUyNjgwMzQ3XX0=
 eyJoaXN0b3J5IjpbLTkxMzg3ODg5OF19
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMzczMzc0Nl19
+eyJoaXN0b3J5IjpbMTEyNzEwNDc4NiwtNzAzNzMzNzQ2XX0=
 -->
