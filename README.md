@@ -217,7 +217,7 @@ It also generates a text file containing summarization of the results of each si
 
 Step by step example of a micro-array meta-analysis
 ------------------------
-The 
+The full history of this example is available at  : 
 
 ### 1st analysis : from raw .CEL files
 
@@ -296,11 +296,11 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4NzQwMTg3LC03MDQ2MDU2NTIsLTE0ND
-Y5NzQ4ODYsMTkwMTA1NjYyMCw5NzE3NTcxMzAsLTE3NTg3NjQx
-NzEsMTE0MDE4MzY3MiwtMTU1OTE3MzU3MiwtOTYxNTYyMjE4LC
-0xMTczODA0NjY5LC04ODI5NzExODUsMzE1MDYxMjYyLDE1MDcy
-MDcyNDYsMTY2MTY2MjUwLDMyMTY1ODYsLTkwMTk0NTAxMywzMj
-IyMzY3MjksMTc4MzgzMzEwNCwxOTYzODc5MzgsMjA5MjI3MTA0
-MV19
+eyJoaXN0b3J5IjpbNjY0MzIxMDEzLDg5ODc0MDE4NywtMTQ0Nj
+k3NDg4NiwxOTAxMDU2NjIwLDk3MTc1NzEzMCwtMTc1ODc2NDE3
+MSwxMTQwMTgzNjcyLC0xNTU5MTczNTcyLC05NjE1NjIyMTgsLT
+ExNzM4MDQ2NjksLTg4Mjk3MTE4NSwzMTUwNjEyNjIsMTUwNzIw
+NzI0NiwxNjYxNjYyNTAsMzIxNjU4NiwtOTAxOTQ1MDEzLDMyMj
+IzNjcyOSwxNzgzODMzMTA0LDE5NjM4NzkzOCwyMDkyMjcxMDQx
+XX0=
 -->
