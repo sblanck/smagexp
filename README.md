@@ -48,6 +48,8 @@ localhost:8080
 ```
 into the adress bar to access Galaxy running smagexp
 
+The Galaxy Admin User has the username `admin@galaxy.org` and the password `admin`. In order to use certain features of Galaxy, like import history, one has to be logged in.
+
 Docker images are "read-only", all your changes inside one session will be lost after restart. This mode is useful to present Galaxy to your colleagues or to run workshops with it. To install Tool Shed repositories or to save your data you need to export the calculated data to the host computer.
 
 Fortunately, this is as easy as:
@@ -302,11 +304,11 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjgwNTYwMDQsLTEzMDM1MjU0MiwzNz
-AxMDAwMDcsLTIxMjkzMTAyNzQsLTgzNjU4NDg2MSw4OTg3NDAx
-ODcsLTE0NDY5NzQ4ODYsMTkwMTA1NjYyMCw5NzE3NTcxMzAsLT
-E3NTg3NjQxNzEsMTE0MDE4MzY3MiwtMTU1OTE3MzU3MiwtOTYx
-NTYyMjE4LC0xMTczODA0NjY5LC04ODI5NzExODUsMzE1MDYxMj
-YyLDE1MDcyMDcyNDYsMTY2MTY2MjUwLDMyMTY1ODYsLTkwMTk0
-NTAxM119
+eyJoaXN0b3J5IjpbLTE1MDYzOTUzMDEsLTEzNjgwNTYwMDQsLT
+EzMDM1MjU0MiwzNzAxMDAwMDcsLTIxMjkzMTAyNzQsLTgzNjU4
+NDg2MSw4OTg3NDAxODcsLTE0NDY5NzQ4ODYsMTkwMTA1NjYyMC
+w5NzE3NTcxMzAsLTE3NTg3NjQxNzEsMTE0MDE4MzY3MiwtMTU1
+OTE3MzU3MiwtOTYxNTYyMjE4LC0xMTczODA0NjY5LC04ODI5Nz
+ExODUsMzE1MDYxMjYyLDE1MDcyMDcyNDYsMTY2MTY2MjUwLDMy
+MTY1ODZdfQ==
 -->
