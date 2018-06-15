@@ -228,11 +228,12 @@ The tool produce
 ### Get data from raw .CEL files
 
 #### upload data
+.CEL files and according .cond file can be found here :
 
 
 #### Run QC normalisation tool
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ0MzQzMzE0LDE3ODM4MzMxMDQsMTk2Mz
+eyJoaXN0b3J5IjpbMzIyMjM2NzI5LDE3ODM4MzMxMDQsMTk2Mz
 g3OTM4LDIwOTIyNzEwNDEsLTE1NTU2MjAxODIsLTg4OTY2Mzk2
 NSwtNDAxNTIzNjIyLC0xNjk3MDA5NDUwLC0xMDU4NzY0NzQ0LC
 0xMjg3NTAyMzY5LC0yNzA2NjE3MDcsMzQ3MTQwMzY3LDM0Mjk2
