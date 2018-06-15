@@ -240,13 +240,14 @@ To easily upload these data on galaxy, it is possible to load an existing histor
 ```
 https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-Data.tar.gz 
 ```
-Download this history on your computer and import it in 
-The following video will show you how to import
+Download this history on your computer and import it in galaxy
+The following video will show you how to import this history in Galaxy
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/bf9i2/bsvkjv" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
 
 #### Run QC normalisation tool
+The QC normalisation tool
 
 
 ### Fetch data with the GEOQuery Tool
@@ -260,11 +261,11 @@ The tool produce
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4Mjk3MTE4NSwtODQ5OTE3NTI2LDMxNT
-A2MTI2MiwxNTA3MjA3MjQ2LDE2NjE2NjI1MCwzMjE2NTg2LC05
-MDE5NDUwMTMsMzIyMjM2NzI5LDE3ODM4MzMxMDQsMTk2Mzg3OT
-M4LDIwOTIyNzEwNDEsLTE1NTU2MjAxODIsLTg4OTY2Mzk2NSwt
-NDAxNTIzNjIyLC0xNjk3MDA5NDUwLC0xMDU4NzY0NzQ0LC0xMj
-g3NTAyMzY5LC0yNzA2NjE3MDcsMzQ3MTQwMzY3LDM0Mjk2MTU1
-N119
+eyJoaXN0b3J5IjpbLTExNzM4MDQ2NjksLTg4Mjk3MTE4NSwzMT
+UwNjEyNjIsMTUwNzIwNzI0NiwxNjYxNjYyNTAsMzIxNjU4Niwt
+OTAxOTQ1MDEzLDMyMjIzNjcyOSwxNzgzODMzMTA0LDE5NjM4Nz
+kzOCwyMDkyMjcxMDQxLC0xNTU1NjIwMTgyLC04ODk2NjM5NjUs
+LTQwMTUyMzYyMiwtMTY5NzAwOTQ1MCwtMTA1ODc2NDc0NCwtMT
+I4NzUwMjM2OSwtMjcwNjYxNzA3LDM0NzE0MDM2NywzNDI5NjE1
+NTddfQ==
 -->
