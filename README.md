@@ -249,6 +249,8 @@ The following video will show you how to import this history in Galaxy
 #### Run QC normalisation tool
 The QC normalisation tool
 
+<div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/h6b4y/frkvqh" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+
 
 ### Fetch data with the GEOQuery Tool
 Only the GSE accession ID is needed. The log2 transformation is set to auto.
@@ -261,11 +263,11 @@ The tool produce
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzM4MDQ2NjksLTg4Mjk3MTE4NSwzMT
-UwNjEyNjIsMTUwNzIwNzI0NiwxNjYxNjYyNTAsMzIxNjU4Niwt
-OTAxOTQ1MDEzLDMyMjIzNjcyOSwxNzgzODMzMTA0LDE5NjM4Nz
-kzOCwyMDkyMjcxMDQxLC0xNTU1NjIwMTgyLC04ODk2NjM5NjUs
-LTQwMTUyMzYyMiwtMTY5NzAwOTQ1MCwtMTA1ODc2NDc0NCwtMT
-I4NzUwMjM2OSwtMjcwNjYxNzA3LDM0NzE0MDM2NywzNDI5NjE1
-NTddfQ==
+eyJoaXN0b3J5IjpbLTExNTA1Nzg4OTUsLTExNzM4MDQ2NjksLT
+g4Mjk3MTE4NSwzMTUwNjEyNjIsMTUwNzIwNzI0NiwxNjYxNjYy
+NTAsMzIxNjU4NiwtOTAxOTQ1MDEzLDMyMjIzNjcyOSwxNzgzOD
+MzMTA0LDE5NjM4NzkzOCwyMDkyMjcxMDQxLC0xNTU1NjIwMTgy
+LC04ODk2NjM5NjUsLTQwMTUyMzYyMiwtMTY5NzAwOTQ1MCwtMT
+A1ODc2NDc0NCwtMTI4NzUwMjM2OSwtMjcwNjYxNzA3LDM0NzE0
+MDM2N119
 -->
