@@ -81,7 +81,7 @@ SMAGEXP can fetch data directly from [GEO database](https://www.ncbi.nlm.nih.gov
 The outputs are :
 
 * A tabular file containing the values of each probes (lines) for each samples (columns) of the experiment
-* A .rdata file containing a bioconductor eset object. This file is required for further differential analysis
+* A .rdata file containing a bioconductor eset object. This file is required for further differential analysis.
 * A tabular text file (.cond extension) summarizing the conditions of the experiment.
 
 Exemple of a .cond file
@@ -95,6 +95,9 @@ GSM80477 	series of 4 normals		GSM80477 OSCE-9N Series of 4 Normals
 
 ```
 .cond file is a text file, containing 3 columns, summarizing the conditions of the experiment. 
+* 1st column is the ID of the sample
+* 2nd column is the condition of the sample
+* 3rd column is a description of 
 
 
 #### Data from affymetrix .CEL files
@@ -189,7 +192,7 @@ It also generates a text file containing summarization of the results of each si
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1OTY5NDU3NSwzNDI5NjE1NTcsLTYwND
+eyJoaXN0b3J5IjpbLTgyODUwNjI5MiwzNDI5NjE1NTcsLTYwND
 gyODU2OSw3NjkwMzY2NzgsLTM1MTEzMjkzNSwxNjc5OTE4MTkw
 LDExMjcxMDQ3ODZdfQ==
 -->
