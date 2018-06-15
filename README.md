@@ -217,11 +217,34 @@ It also generates a text file containing summarization of the results of each si
 
 Step by step example of a micro-array meta-analysis
 ------------------------
+### Fetch data with the GEOQuery Tool
+Only the GSE accession ID is needed. The log2 transformation is set to auto.
+The tool produce 
+* A tabular text files containing normalized expression value for each probe (in row) and each sample (in column).
+* A .cond file summarizing the conditions of the experiment.
+* A .rdata for further analysis
 
+
+### Get data from raw .CEL files
+
+#### upload data
+.CEL files and according .cond file can be found here :
+https://github.com/sblanck/smagexp/raw/master/examples/GSM342582.CEL
+https://github.com/sblanck/smagexp/raw/master/examples/GSM342583.CEL
+https://github.com/sblanck/smagexp/raw/master/examples/GSM342584.CEL
+https://github.com/sblanck/smagexp/raw/master/examples/GSM342585.CEL
+https://github.com/sblanck/smagexp/raw/master/examples/GSM342586.CEL
+https://github.com/sblanck/smagexp/raw/master/examples/GSM342587.CEL
+
+https://raw.githubusercontent.com/sblanck/smagexp/master/examples/Celfiles.cond
+
+
+#### Run QC normalisation tool
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4OTY2Mzk2NSwtNDAxNTIzNjIyLC0xNj
-k3MDA5NDUwLC0xMDU4NzY0NzQ0LC0xMjg3NTAyMzY5LC0yNzA2
-NjE3MDcsMzQ3MTQwMzY3LDM0Mjk2MTU1NywtNjA0ODI4NTY5LD
-c2OTAzNjY3OCwtMzUxMTMyOTM1LDE2Nzk5MTgxOTAsMTEyNzEw
-NDc4Nl19
+eyJoaXN0b3J5IjpbLTkwMTk0NTAxMywzMjIyMzY3MjksMTc4Mz
+gzMzEwNCwxOTYzODc5MzgsMjA5MjI3MTA0MSwtMTU1NTYyMDE4
+MiwtODg5NjYzOTY1LC00MDE1MjM2MjIsLTE2OTcwMDk0NTAsLT
+EwNTg3NjQ3NDQsLTEyODc1MDIzNjksLTI3MDY2MTcwNywzNDcx
+NDAzNjcsMzQyOTYxNTU3LC02MDQ4Mjg1NjksNzY5MDM2Njc4LC
+0zNTExMzI5MzUsMTY3OTkxODE5MCwxMTI3MTA0Nzg2XX0=
 -->
