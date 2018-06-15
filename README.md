@@ -252,8 +252,8 @@ It will generate an html report showing chip pseudo images, and boxplots and MA 
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/xc6id/nfvshz" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
-#### Run limma analy
-
+#### Run limma analysis
+The limma analysis tool takes an rdata and a .cond file as inputs.
 
 
 ### Fetch data with the GEOQuery Tool
@@ -267,7 +267,7 @@ The tool produce
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MTU2MjIxOCwtMTQ5OTYwNzkxNSwtMT
+eyJoaXN0b3J5IjpbLTE1NTkxNzM1NzIsLTk2MTU2MjIxOCwtMT
 E3MzgwNDY2OSwtODgyOTcxMTg1LDMxNTA2MTI2MiwxNTA3MjA3
 MjQ2LDE2NjE2NjI1MCwzMjE2NTg2LC05MDE5NDUwMTMsMzIyMj
 M2NzI5LDE3ODM4MzMxMDQsMTk2Mzg3OTM4LDIwOTIyNzEwNDEs
