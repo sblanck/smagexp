@@ -218,11 +218,13 @@ It also generates a text file containing summarization of the results of each si
 Step by step example of a micro-array meta-analysis
 ------------------------
 ### Fetch data with the GEOQuery Tool
-### 
+Only the GSE accession ID is needed. 
+
+### Get data from raw .CEL files
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODE4MTMzNTMsLTE1NTU2MjAxODIsLT
-g4OTY2Mzk2NSwtNDAxNTIzNjIyLC0xNjk3MDA5NDUwLC0xMDU4
-NzY0NzQ0LC0xMjg3NTAyMzY5LC0yNzA2NjE3MDcsMzQ3MTQwMz
-Y3LDM0Mjk2MTU1NywtNjA0ODI4NTY5LDc2OTAzNjY3OCwtMzUx
-MTMyOTM1LDE2Nzk5MTgxOTAsMTEyNzEwNDc4Nl19
+eyJoaXN0b3J5IjpbMTQyOTA2NjYwNCwtMTU1NTYyMDE4MiwtOD
+g5NjYzOTY1LC00MDE1MjM2MjIsLTE2OTcwMDk0NTAsLTEwNTg3
+NjQ3NDQsLTEyODc1MDIzNjksLTI3MDY2MTcwNywzNDcxNDAzNj
+csMzQyOTYxNTU3LC02MDQ4Mjg1NjksNzY5MDM2Njc4LC0zNTEx
+MzI5MzUsMTY3OTkxODE5MCwxMTI3MTA0Nzg2XX0=
 -->
