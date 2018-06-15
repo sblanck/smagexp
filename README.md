@@ -178,7 +178,7 @@ The inputs are
 The outpouts are :
 		
 - Boxplots, p-value histograms and a volcano plot 
-- Table summarizing the differentially expressed genes and their annotations. This table is sortable and requestable and annotated. When a line is expended, link to nbci annotations and 
+- Table summarizing the differentially expressed genes and their annotations. This table is sortable and requestable and annotated. When a line is expended, link to nbci annotations and GO
 - Rdata object to perform further meta-analysis. 
 - Text file containing the annotated results of the differential analysis
 
@@ -215,8 +215,8 @@ It also generates a text file containing summarization of the results of each si
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNDQzMzAzOSwtMTA1ODc2NDc0NCwtMT
-I4NzUwMjM2OSwtMjcwNjYxNzA3LDM0NzE0MDM2NywzNDI5NjE1
-NTcsLTYwNDgyODU2OSw3NjkwMzY2NzgsLTM1MTEzMjkzNSwxNj
-c5OTE4MTkwLDExMjcxMDQ3ODZdfQ==
+eyJoaXN0b3J5IjpbMjU2OTcwNzQzLDE2MTQ0MzMwMzksLTEwNT
+g3NjQ3NDQsLTEyODc1MDIzNjksLTI3MDY2MTcwNywzNDcxNDAz
+NjcsMzQyOTYxNTU3LC02MDQ4Mjg1NjksNzY5MDM2Njc4LC0zNT
+ExMzI5MzUsMTY3OTkxODE5MCwxMTI3MTA0Nzg2XX0=
 -->
