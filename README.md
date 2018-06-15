@@ -223,17 +223,21 @@ Step by step example of a micro-array meta-analysis
 #### upload data
 
 Data used in this example are extracted from the GEO dataset GSE13601. We picked up 6 .CEL (to simplify the example) which can be found at the here
+```
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342582.CEL
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342583.CEL
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342584.CEL
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342585.CEL
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342586.CEL
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342587.CEL
+```
 
 We also manually generated a .cond file according to these 6 .cel files.
+```
 https://raw.githubusercontent.com/sblanck/smagexp/master/examples/Celfiles.cond
 
-To easily upload these data on galaxy, it is possible to load an existing history  : https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-Data.tar.gz 
+To easily upload these data on galaxy, it is possible to load an existing history containing all these data : https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-Data.tar.gz 
+
 
 
 #### Run QC normalisation tool
@@ -250,7 +254,7 @@ The tool produce
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNzIwNzI0NiwtNTEzOTMzODE4LDE2Nj
+eyJoaXN0b3J5IjpbLTY3NjU0NjQ5OCwxNTA3MjA3MjQ2LDE2Nj
 E2NjI1MCwzMjE2NTg2LC05MDE5NDUwMTMsMzIyMjM2NzI5LDE3
 ODM4MzMxMDQsMTk2Mzg3OTM4LDIwOTIyNzEwNDEsLTE1NTU2Mj
 AxODIsLTg4OTY2Mzk2NSwtNDAxNTIzNjIyLC0xNjk3MDA5NDUw
