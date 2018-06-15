@@ -243,13 +243,14 @@ https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-Da
 Download this history on your computer and import it in galaxy
 The following video will show you how to import this history in Galaxy
 
-<div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/bf9i2/bsvkjv" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+<div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/h6b4y/frkvqh" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
 
 #### Run QC normalisation tool
-The QC normalisation tool
+The QC normalisation tool only needs 
 
-<div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/h6b4y/frkvqh" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+<div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/xc6id/nfvshz" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+
 
 
 ### Fetch data with the GEOQuery Tool
@@ -263,11 +264,11 @@ The tool produce
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTA1Nzg4OTUsLTExNzM4MDQ2NjksLT
-g4Mjk3MTE4NSwzMTUwNjEyNjIsMTUwNzIwNzI0NiwxNjYxNjYy
-NTAsMzIxNjU4NiwtOTAxOTQ1MDEzLDMyMjIzNjcyOSwxNzgzOD
-MzMTA0LDE5NjM4NzkzOCwyMDkyMjcxMDQxLC0xNTU1NjIwMTgy
-LC04ODk2NjM5NjUsLTQwMTUyMzYyMiwtMTY5NzAwOTQ1MCwtMT
-A1ODc2NDc0NCwtMTI4NzUwMjM2OSwtMjcwNjYxNzA3LDM0NzE0
-MDM2N119
+eyJoaXN0b3J5IjpbLTY4OTE4MjgxMSwtMTE3MzgwNDY2OSwtOD
+gyOTcxMTg1LDMxNTA2MTI2MiwxNTA3MjA3MjQ2LDE2NjE2NjI1
+MCwzMjE2NTg2LC05MDE5NDUwMTMsMzIyMjM2NzI5LDE3ODM4Mz
+MxMDQsMTk2Mzg3OTM4LDIwOTIyNzEwNDEsLTE1NTU2MjAxODIs
+LTg4OTY2Mzk2NSwtNDAxNTIzNjIyLC0xNjk3MDA5NDUwLC0xMD
+U4NzY0NzQ0LC0xMjg3NTAyMzY5LC0yNzA2NjE3MDcsMzQ3MTQw
+MzY3XX0=
 -->
