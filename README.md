@@ -168,6 +168,8 @@ The outputs are
 #### Limma Analysis
 The Limma analysis tool performs single analysis either of data previously retrieved from GEO database or normalized affymetrix .CEL files data. 
 Given a .cond file, it runs a standard limma differential expression analysis. 
+
+The inpu
 	
 The outpouts are :
 		
@@ -209,7 +211,7 @@ It also generates a text file containing summarization of the results of each si
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0Mzk4MzE1MywtMjcwNjYxNzA3LDM0Nz
-E0MDM2NywzNDI5NjE1NTcsLTYwNDgyODU2OSw3NjkwMzY2Nzgs
-LTM1MTEzMjkzNSwxNjc5OTE4MTkwLDExMjcxMDQ3ODZdfQ==
+eyJoaXN0b3J5IjpbODE2MjYzMzQ2LC0yNzA2NjE3MDcsMzQ3MT
+QwMzY3LDM0Mjk2MTU1NywtNjA0ODI4NTY5LDc2OTAzNjY3OCwt
+MzUxMTMyOTM1LDE2Nzk5MTgxOTAsMTEyNzEwNDc4Nl19
 -->
