@@ -176,6 +176,9 @@ It also generates a text file containing summarization of the results of each si
 ![Example of RNA-seq data meta-analysis plots](https://raw.githubusercontent.com/sblanck/smagexp/master/images/metaRNAseq_results.png)
 
 ![Header of RNA-seq data meta-analysis text results](https://raw.githubusercontent.com/sblanck/smagexp/master/images/fig9.png)
+
+Example of 
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMzUyNjgwMzQ3XX0=
 -->
@@ -183,5 +186,5 @@ eyJoaXN0b3J5IjpbMzUyNjgwMzQ3XX0=
 eyJoaXN0b3J5IjpbLTkxMzg3ODg5OF19
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgzMjkxMjY3XX0=
+eyJoaXN0b3J5IjpbLTcwMzczMzc0Nl19
 -->
