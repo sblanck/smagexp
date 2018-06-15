@@ -99,7 +99,7 @@ GSM80477 	series of 4 normals		GSM80477 OSCE-9N Series of 4 Normals
 * 2nd column is the condition of the sample
 * 3rd column is a description of the sample
 
-When extracting data from GEO 
+When extracting data from GEO data
 
 
 #### Data from affymetrix .CEL files
@@ -194,7 +194,7 @@ It also generates a text file containing summarization of the results of each si
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MjgyMjYwNywtMTM3NDgyMjgyMSwzND
-I5NjE1NTcsLTYwNDgyODU2OSw3NjkwMzY2NzgsLTM1MTEzMjkz
-NSwxNjc5OTE4MTkwLDExMjcxMDQ3ODZdfQ==
+eyJoaXN0b3J5IjpbLTQ4MjY2MTM4MywxNjUyODIyNjA3LDM0Mj
+k2MTU1NywtNjA0ODI4NTY5LDc2OTAzNjY3OCwtMzUxMTMyOTM1
+LDE2Nzk5MTgxOTAsMTEyNzEwNDc4Nl19
 -->
