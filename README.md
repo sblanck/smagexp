@@ -99,8 +99,9 @@ GSM80477 	series of 4 normals		GSM80477 OSCE-9N Series of 4 Normals
 * 2nd column is the condition of the sample
 * 3rd column is a description of the sample
 
-When extracting data from GEO database, SMAGEXP automatically generates a .cond files based on the metadata of the experiment. Mais les 
+When extracting data from GEO database, SMAGEXP automatically generates a .cond files based on the metadata of the experiment. 
 
+Example
 
 
 
@@ -197,7 +198,7 @@ It also generates a text file containing summarization of the results of each si
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzkxNDI3LDM0NzE0MDM2NywzNDI5Nj
-E1NTcsLTYwNDgyODU2OSw3NjkwMzY2NzgsLTM1MTEzMjkzNSwx
-Njc5OTE4MTkwLDExMjcxMDQ3ODZdfQ==
+eyJoaXN0b3J5IjpbMTExNTM1OTA0OSwzNDcxNDAzNjcsMzQyOT
+YxNTU3LC02MDQ4Mjg1NjksNzY5MDM2Njc4LC0zNTExMzI5MzUs
+MTY3OTkxODE5MCwxMTI3MTA0Nzg2XX0=
 -->
