@@ -253,13 +253,13 @@ It will generate an html report showing chip pseudo images, and boxplots and MA 
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/xc6id/nfvshz" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
 #### Run limma analysis
-The limma analysis tool takes an rdata and a .cond file as inputs. It generates a html report with boxplots, p-value histogram a volcano plot and a table listing the differentially expressed genes. This table gives access to annotation on ncbi an gene ontology websi
+The limma analysis tool takes an rdata and a .cond file as inputs. It generates a html report with boxplots, p-value histogram a volcano plot and a table listing the differentially expressed genes. This table gives access to gene annotation on ncbi and gene ontology website.
 
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.234%;"><iframe src="https://streamable.com/s/cdt5q/pkjtyc" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
 ### Fetch data with the GEOQuery Tool
-Only the GSE accession ID is needed. The log2 transformation is set to auto.
+Only the GSE accession ID is needed. The log2 transformation is set to auto in this example.
 The tool produce 
 * A tabular text files containing normalized expression value for each probe (in row) and each sample (in column).
 * A .cond file summarizing the conditions of the experiment.
@@ -269,11 +269,11 @@ The tool produce
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTg3NjQxNzEsMTQ0MDMzOTQwNywxMT
-QwMTgzNjcyLC0xNTU5MTczNTcyLC05NjE1NjIyMTgsLTExNzM4
-MDQ2NjksLTg4Mjk3MTE4NSwzMTUwNjEyNjIsMTUwNzIwNzI0Ni
-wxNjYxNjYyNTAsMzIxNjU4NiwtOTAxOTQ1MDEzLDMyMjIzNjcy
-OSwxNzgzODMzMTA0LDE5NjM4NzkzOCwyMDkyMjcxMDQxLC0xNT
-U1NjIwMTgyLC04ODk2NjM5NjUsLTQwMTUyMzYyMiwtMTY5NzAw
-OTQ1MF19
+eyJoaXN0b3J5IjpbLTE2NDM3MzczMjAsLTE3NTg3NjQxNzEsMT
+E0MDE4MzY3MiwtMTU1OTE3MzU3MiwtOTYxNTYyMjE4LC0xMTcz
+ODA0NjY5LC04ODI5NzExODUsMzE1MDYxMjYyLDE1MDcyMDcyND
+YsMTY2MTY2MjUwLDMyMTY1ODYsLTkwMTk0NTAxMywzMjIyMzY3
+MjksMTc4MzgzMzEwNCwxOTYzODc5MzgsMjA5MjI3MTA0MSwtMT
+U1NTYyMDE4MiwtODg5NjYzOTY1LC00MDE1MjM2MjIsLTE2OTcw
+MDk0NTBdfQ==
 -->
