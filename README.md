@@ -294,7 +294,7 @@ The outputs are  :
 	- IRR (Integration-driven Revision) : corresponding proportion of Loss
 		
 - Fully sortable and requestable table, with gene annotations and hypertext links to NCBI gene database.
-
+<iframe width="640" height="564" src="https://player.vimeo.com/video/275302173" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/z107n/fzbium" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
 
@@ -302,11 +302,11 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDM1MjU0MiwzNzAxMDAwMDcsLTIxMj
-kzMTAyNzQsLTgzNjU4NDg2MSw4OTg3NDAxODcsLTE0NDY5NzQ4
-ODYsMTkwMTA1NjYyMCw5NzE3NTcxMzAsLTE3NTg3NjQxNzEsMT
-E0MDE4MzY3MiwtMTU1OTE3MzU3MiwtOTYxNTYyMjE4LC0xMTcz
-ODA0NjY5LC04ODI5NzExODUsMzE1MDYxMjYyLDE1MDcyMDcyND
-YsMTY2MTY2MjUwLDMyMTY1ODYsLTkwMTk0NTAxMywzMjIyMzY3
-MjldfQ==
+eyJoaXN0b3J5IjpbLTEzNjgwNTYwMDQsLTEzMDM1MjU0MiwzNz
+AxMDAwMDcsLTIxMjkzMTAyNzQsLTgzNjU4NDg2MSw4OTg3NDAx
+ODcsLTE0NDY5NzQ4ODYsMTkwMTA1NjYyMCw5NzE3NTcxMzAsLT
+E3NTg3NjQxNzEsMTE0MDE4MzY3MiwtMTU1OTE3MzU3MiwtOTYx
+NTYyMjE4LC0xMTczODA0NjY5LC04ODI5NzExODUsMzE1MDYxMj
+YyLDE1MDcyMDcyNDYsMTY2MTY2MjUwLDMyMTY1ODYsLTkwMTk0
+NTAxM119
 -->
