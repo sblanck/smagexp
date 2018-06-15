@@ -130,7 +130,7 @@ Import custom data tool imports data stored in a tabular text file. A few  norma
 
 The inputs are :
 * A text file, with probes in row and samples in columns. Column titles (chip IDs) must match the IDs of the .cond file.
-* A GPL annotation code is  to fetch annotations from GEO.
+* A GPL annotation code to fetch annotations from GEO.
 
 Example of a header of input tabular text file
 ```
@@ -204,7 +204,7 @@ It also generates a text file containing summarization of the results of each si
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNjkwOTM0NSwxMzQ2NzA0MjA5LDM0Nz
+eyJoaXN0b3J5IjpbLTI3MDY2MTcwNywtNTA2OTA5MzQ1LDM0Nz
 E0MDM2NywzNDI5NjE1NTcsLTYwNDgyODU2OSw3NjkwMzY2Nzgs
 LTM1MTEzMjkzNSwxNjc5OTE4MTkwLDExMjcxMDQ3ODZdfQ==
 -->
