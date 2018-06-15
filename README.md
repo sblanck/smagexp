@@ -246,7 +246,7 @@ To easily upload these data on galaxy, it is possible to load an existing histor
 ```
 https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-Data.tar.gz 
 ```
-Download this history on your computer and import it in galaxy. If you choose to manually upload these data on Galaxy don't forget to specify the of each file (.CEL or .cond) as Galaxy won't recigni
+Download this history on your computer and import it in galaxy. If you choose to manually upload these data on Galaxy don't forget to specify the type of each file (.CEL or .cond) as Galaxy won't auto-detect them.
 
 The following video will show you how to import this history in Galaxy
 
@@ -302,7 +302,7 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcwMTAwMDA3LDE5MzI1MDY5MTYsLTIxMj
+eyJoaXN0b3J5IjpbLTM1MzUxMzk0MSwzNzAxMDAwMDcsLTIxMj
 kzMTAyNzQsLTgzNjU4NDg2MSw4OTg3NDAxODcsLTE0NDY5NzQ4
 ODYsMTkwMTA1NjYyMCw5NzE3NTcxMzAsLTE3NTg3NjQxNzEsMT
 E0MDE4MzY3MiwtMTU1OTE3MzU3MiwtOTYxNTYyMjE4LC0xMTcz
