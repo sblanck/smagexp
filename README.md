@@ -128,7 +128,7 @@ The outputs are
 #### Custom matrix data
 Import custom data tool imports data stored in a tabular text file. A few  normalization methods are proposed, but it is possible to skip the normalization step, by choosing "none" in the normalization methods options. Therefore this tool is of special interest when the input dataset has been previously normalized.
 
-The o
+The 
 
 Column titles (chip IDs) must match the IDs of the .cond file.
 
@@ -206,7 +206,7 @@ It also generates a text file containing summarization of the results of each si
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNzkwMDI2OCwzNDcxNDAzNjcsMzQyOT
-YxNTU3LC02MDQ4Mjg1NjksNzY5MDM2Njc4LC0zNTExMzI5MzUs
-MTY3OTkxODE5MCwxMTI3MTA0Nzg2XX0=
+eyJoaXN0b3J5IjpbMTM0NjcwNDIwOSwtODM3OTAwMjY4LDM0Nz
+E0MDM2NywzNDI5NjE1NTcsLTYwNDgyODU2OSw3NjkwMzY2Nzgs
+LTM1MTEzMjkzNSwxNjc5OTE4MTkwLDExMjcxMDQ3ODZdfQ==
 -->
