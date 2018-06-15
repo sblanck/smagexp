@@ -226,7 +226,7 @@ https://github.com/sblanck/smagexp/blob/master/examples/Galaxy-History-Micro-arr
 
 #### upload data
 
-Data used in this example are extracted from the GEO dataset GSE13601. We picked up 6 .CEL (to simplify the example) which can be found at the here
+Data used in this example are extracted from the GEO dataset GSE13601. We picked up 6 .CEL (to simplify the example) which can be found here
 ```
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342582.CEL
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342583.CEL
@@ -240,7 +240,7 @@ We also manually generated a .cond file according to these 6 .cel files.
 ```
 https://raw.githubusercontent.com/sblanck/smagexp/master/examples/Celfiles.cond
 ```
-To easily upload these data on galaxy, it is possible to load an existing history containing all these data : 
+You may To easily upload these data on galaxy, it is possible to load an existing history containing all these data : 
 ```
 https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-Data.tar.gz 
 ```
@@ -300,11 +300,11 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDM4MTMyNjUsLTgzNjU4NDg2MSw4OT
-g3NDAxODcsLTE0NDY5NzQ4ODYsMTkwMTA1NjYyMCw5NzE3NTcx
-MzAsLTE3NTg3NjQxNzEsMTE0MDE4MzY3MiwtMTU1OTE3MzU3Mi
-wtOTYxNTYyMjE4LC0xMTczODA0NjY5LC04ODI5NzExODUsMzE1
-MDYxMjYyLDE1MDcyMDcyNDYsMTY2MTY2MjUwLDMyMTY1ODYsLT
-kwMTk0NTAxMywzMjIyMzY3MjksMTc4MzgzMzEwNCwxOTYzODc5
-MzhdfQ==
+eyJoaXN0b3J5IjpbMzYzMDU5OTg3LC04MzY1ODQ4NjEsODk4Nz
+QwMTg3LC0xNDQ2OTc0ODg2LDE5MDEwNTY2MjAsOTcxNzU3MTMw
+LC0xNzU4NzY0MTcxLDExNDAxODM2NzIsLTE1NTkxNzM1NzIsLT
+k2MTU2MjIxOCwtMTE3MzgwNDY2OSwtODgyOTcxMTg1LDMxNTA2
+MTI2MiwxNTA3MjA3MjQ2LDE2NjE2NjI1MCwzMjE2NTg2LC05MD
+E5NDUwMTMsMzIyMjM2NzI5LDE3ODM4MzMxMDQsMTk2Mzg3OTM4
+XX0=
 -->
