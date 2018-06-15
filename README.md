@@ -215,11 +215,13 @@ It also generates a text file containing summarization of the results of each si
 
 ![Header of RNA-seq data meta-analysis text results](https://raw.githubusercontent.com/sblanck/smagexp/master/images/fig9.png)
 
-
+Step by step example of a micro-array meta-analysis
+------------------------
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTUyMzYyMiwtMTY5NzAwOTQ1MCwtMT
-A1ODc2NDc0NCwtMTI4NzUwMjM2OSwtMjcwNjYxNzA3LDM0NzE0
-MDM2NywzNDI5NjE1NTcsLTYwNDgyODU2OSw3NjkwMzY2NzgsLT
-M1MTEzMjkzNSwxNjc5OTE4MTkwLDExMjcxMDQ3ODZdfQ==
+eyJoaXN0b3J5IjpbLTg4OTY2Mzk2NSwtNDAxNTIzNjIyLC0xNj
+k3MDA5NDUwLC0xMDU4NzY0NzQ0LC0xMjg3NTAyMzY5LC0yNzA2
+NjE3MDcsMzQ3MTQwMzY3LDM0Mjk2MTU1NywtNjA0ODI4NTY5LD
+c2OTAzNjY3OCwtMzUxMTMyOTM1LDE2Nzk5MTgxOTAsMTEyNzEw
+NDc4Nl19
 -->
