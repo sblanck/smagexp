@@ -178,7 +178,7 @@ The inputs are
 The outpouts are :
 		
 - Boxplots, p-value histograms and a volcano plot 
-- Table summarizing the differentially expressed genes and their annotations. This table is sortable and requestable and annotated. When a line is expended, link to nbci annotations and GO
+- Table summarizing the differentially expressed genes and their annotations. This table is sortable and requestable and annotated. When a line is expended, link to NCBI gene annotations and Gene Ontology functions are available
 - Rdata object to perform further meta-analysis. 
 - Text file containing the annotated results of the differential analysis
 
@@ -188,6 +188,7 @@ The outpouts are :
 #### Running a meta analysis
 Given several Rdata object from the limma analysis tool the microarray meta-analysis tool run a meta-analysis using the metaMA R package.
 		
+The 		
 The outputs are  :		
 - Venn Diagram summarizing the results of the meta-analysis
 - A list of indicators to evaluate the quality of the performance of the meta-analysis
@@ -215,8 +216,8 @@ It also generates a text file containing summarization of the results of each si
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU2OTcwNzQzLDE2MTQ0MzMwMzksLTEwNT
-g3NjQ3NDQsLTEyODc1MDIzNjksLTI3MDY2MTcwNywzNDcxNDAz
-NjcsMzQyOTYxNTU3LC02MDQ4Mjg1NjksNzY5MDM2Njc4LC0zNT
-ExMzI5MzUsMTY3OTkxODE5MCwxMTI3MTA0Nzg2XX0=
+eyJoaXN0b3J5IjpbMzE5NDYwOTg1LDI1Njk3MDc0MywtMTA1OD
+c2NDc0NCwtMTI4NzUwMjM2OSwtMjcwNjYxNzA3LDM0NzE0MDM2
+NywzNDI5NjE1NTcsLTYwNDgyODU2OSw3NjkwMzY2NzgsLTM1MT
+EzMjkzNSwxNjc5OTE4MTkwLDExMjcxMDQ3ODZdfQ==
 -->
