@@ -171,7 +171,8 @@ The Limma analysis tool performs single analysis either of data previously retri
 Given a .cond file, it runs a standard limma differential expression analysis. 
 
 The inputs are 
-* A Rdata object from GEOQuery tool, QCnormalization tool or 
+* A Rdata object from GEOQuery tool, QCnormalization tool or Import custom data tool
+* A .cond file
 	
 The outpouts are :
 		
@@ -213,8 +214,8 @@ It also generates a text file containing summarization of the results of each si
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTAxNDg5MDcsLTEyODc1MDIzNjksLT
-I3MDY2MTcwNywzNDcxNDAzNjcsMzQyOTYxNTU3LC02MDQ4Mjg1
-NjksNzY5MDM2Njc4LC0zNTExMzI5MzUsMTY3OTkxODE5MCwxMT
-I3MTA0Nzg2XX0=
+eyJoaXN0b3J5IjpbMTQ0ODE0MzM2LC0xMjg3NTAyMzY5LC0yNz
+A2NjE3MDcsMzQ3MTQwMzY3LDM0Mjk2MTU1NywtNjA0ODI4NTY5
+LDc2OTAzNjY3OCwtMzUxMTMyOTM1LDE2Nzk5MTgxOTAsMTEyNz
+EwNDc4Nl19
 -->
