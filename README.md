@@ -222,7 +222,7 @@ Step by step example of a micro-array meta-analysis
 
 #### upload data
 
-Data used in this example are extracted from the G
+Data used in this example are extracted from the GE
 .CEL files and according .cond file can be found here :
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342582.CEL
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342583.CEL
@@ -248,11 +248,11 @@ The tool produce
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NDQ4ODY1LC05MDE5NDUwMTMsMzIyMj
-M2NzI5LDE3ODM4MzMxMDQsMTk2Mzg3OTM4LDIwOTIyNzEwNDEs
-LTE1NTU2MjAxODIsLTg4OTY2Mzk2NSwtNDAxNTIzNjIyLC0xNj
-k3MDA5NDUwLC0xMDU4NzY0NzQ0LC0xMjg3NTAyMzY5LC0yNzA2
-NjE3MDcsMzQ3MTQwMzY3LDM0Mjk2MTU1NywtNjA0ODI4NTY5LD
-c2OTAzNjY3OCwtMzUxMTMyOTM1LDE2Nzk5MTgxOTAsMTEyNzEw
-NDc4Nl19
+eyJoaXN0b3J5IjpbMTMyNTU3NjYwLC04NzQ0ODg2NSwtOTAxOT
+Q1MDEzLDMyMjIzNjcyOSwxNzgzODMzMTA0LDE5NjM4NzkzOCwy
+MDkyMjcxMDQxLC0xNTU1NjIwMTgyLC04ODk2NjM5NjUsLTQwMT
+UyMzYyMiwtMTY5NzAwOTQ1MCwtMTA1ODc2NDc0NCwtMTI4NzUw
+MjM2OSwtMjcwNjYxNzA3LDM0NzE0MDM2NywzNDI5NjE1NTcsLT
+YwNDgyODU2OSw3NjkwMzY2NzgsLTM1MTEzMjkzNSwxNjc5OTE4
+MTkwXX0=
 -->
