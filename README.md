@@ -66,7 +66,8 @@ How to analyse data with SMAGEXP
 
 SMAGEXP is able to perform analysis from 3 different data source :
 * From GEO database
-* From 
+* From .CEL files
+* From custom matrix text files
 
 ##### Data from GEO database
 
@@ -183,6 +184,6 @@ It also generates a text file containing summarization of the results of each si
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMTEwOTAzOSwtMzUxMTMyOTM1LDE2Nz
-k5MTgxOTAsMTEyNzEwNDc4Nl19
+eyJoaXN0b3J5IjpbNzY5MDM2Njc4LC0zNTExMzI5MzUsMTY3OT
+kxODE5MCwxMTI3MTA0Nzg2XX0=
 -->
