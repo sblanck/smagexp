@@ -248,7 +248,7 @@ The following video will show you how to import this history in Galaxy
 
 #### Run QC normalisation tool
 The QC normalisation tool only needs a liste of .CEL files and a normalization method. 
-It will generate 
+It will generate an html report showing chip pseudo images, and boxplots and MA plot for raw and normalized data. It also generates a .rdata file containinf
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/xc6id/nfvshz" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
@@ -265,11 +265,11 @@ The tool produce
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDQ2ODk2NjksLTExNzM4MDQ2NjksLT
-g4Mjk3MTE4NSwzMTUwNjEyNjIsMTUwNzIwNzI0NiwxNjYxNjYy
-NTAsMzIxNjU4NiwtOTAxOTQ1MDEzLDMyMjIzNjcyOSwxNzgzOD
-MzMTA0LDE5NjM4NzkzOCwyMDkyMjcxMDQxLC0xNTU1NjIwMTgy
-LC04ODk2NjM5NjUsLTQwMTUyMzYyMiwtMTY5NzAwOTQ1MCwtMT
-A1ODc2NDc0NCwtMTI4NzUwMjM2OSwtMjcwNjYxNzA3LDM0NzE0
-MDM2N119
+eyJoaXN0b3J5IjpbNjEyMTc3MzE1LC0xMTczODA0NjY5LC04OD
+I5NzExODUsMzE1MDYxMjYyLDE1MDcyMDcyNDYsMTY2MTY2MjUw
+LDMyMTY1ODYsLTkwMTk0NTAxMywzMjIyMzY3MjksMTc4MzgzMz
+EwNCwxOTYzODc5MzgsMjA5MjI3MTA0MSwtMTU1NTYyMDE4Miwt
+ODg5NjYzOTY1LC00MDE1MjM2MjIsLTE2OTcwMDk0NTAsLTEwNT
+g3NjQ3NDQsLTEyODc1MDIzNjksLTI3MDY2MTcwNywzNDcxNDAz
+NjddfQ==
 -->
