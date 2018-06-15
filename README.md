@@ -233,7 +233,7 @@ https://github.com/sblanck/smagexp/raw/master/examples/GSM342587.CEL
 We also manually generated a .cond file according to these 6 .cel files.
 https://raw.githubusercontent.com/sblanck/smagexp/master/examples/Celfiles.cond
 
-To easily upload these data on galaxy, it is possible to load a existing history :  
+To easily upload these data on galaxy, it is possible to load an existing history : https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-Data.tar.gz 
 
 
 #### Run QC normalisation tool
@@ -250,11 +250,11 @@ The tool produce
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MTY2MjUwLDMyMTY1ODYsLTkwMTk0NT
-AxMywzMjIyMzY3MjksMTc4MzgzMzEwNCwxOTYzODc5MzgsMjA5
-MjI3MTA0MSwtMTU1NTYyMDE4MiwtODg5NjYzOTY1LC00MDE1Mj
-M2MjIsLTE2OTcwMDk0NTAsLTEwNTg3NjQ3NDQsLTEyODc1MDIz
-NjksLTI3MDY2MTcwNywzNDcxNDAzNjcsMzQyOTYxNTU3LC02MD
-Q4Mjg1NjksNzY5MDM2Njc4LC0zNTExMzI5MzUsMTY3OTkxODE5
-MF19
+eyJoaXN0b3J5IjpbLTUxMzkzMzgxOCwxNjYxNjYyNTAsMzIxNj
+U4NiwtOTAxOTQ1MDEzLDMyMjIzNjcyOSwxNzgzODMzMTA0LDE5
+NjM4NzkzOCwyMDkyMjcxMDQxLC0xNTU1NjIwMTgyLC04ODk2Nj
+M5NjUsLTQwMTUyMzYyMiwtMTY5NzAwOTQ1MCwtMTA1ODc2NDc0
+NCwtMTI4NzUwMjM2OSwtMjcwNjYxNzA3LDM0NzE0MDM2NywzND
+I5NjE1NTcsLTYwNDgyODU2OSw3NjkwMzY2NzgsLTM1MTEzMjkz
+NV19
 -->
