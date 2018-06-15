@@ -274,6 +274,18 @@ As previously a limma analysis is run on data retrieved from GEO database.
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/h31cd/tjvlhf" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
 ### Meta-analysis
+The meta analysis tool only needs the rdata files produced by the limma tool. 
+The outputs are  :		
+- Venn Diagram summarizing the results of the meta-analysis
+- A list of indicators to evaluate the quality of the performance of the meta-analysis
+		
+	- DE : Number of differentially expressed genes 
+	- IDD (Integration Driven discoveries) : number of genes that are declared differentially expressed in the meta-analysis that were not identified in any of the single studies alone
+	- Loss : Number of genes that are identified differentially expressed in single studies but not in meta-analysis 
+	- DR (Integration-driven Discovery Rate) : corresponding proportion of IDD
+	- IRR (Integration-driven Revision) : corresponding proportion of Loss
+		
+- Fully sortable and requestable table, with gene annotations and hypertext links to NCBI gene database.
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/z107n/fzbium" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
@@ -282,11 +294,11 @@ As previously a limma analysis is run on data retrieved from GEO database.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjM0MDYwMTgsOTcxNzU3MTMwLC0xNz
-U4NzY0MTcxLDExNDAxODM2NzIsLTE1NTkxNzM1NzIsLTk2MTU2
-MjIxOCwtMTE3MzgwNDY2OSwtODgyOTcxMTg1LDMxNTA2MTI2Mi
-wxNTA3MjA3MjQ2LDE2NjE2NjI1MCwzMjE2NTg2LC05MDE5NDUw
-MTMsMzIyMjM2NzI5LDE3ODM4MzMxMDQsMTk2Mzg3OTM4LDIwOT
-IyNzEwNDEsLTE1NTU2MjAxODIsLTg4OTY2Mzk2NSwtNDAxNTIz
-NjIyXX0=
+eyJoaXN0b3J5IjpbMTkwMTA1NjYyMCw5NzE3NTcxMzAsLTE3NT
+g3NjQxNzEsMTE0MDE4MzY3MiwtMTU1OTE3MzU3MiwtOTYxNTYy
+MjE4LC0xMTczODA0NjY5LC04ODI5NzExODUsMzE1MDYxMjYyLD
+E1MDcyMDcyNDYsMTY2MTY2MjUwLDMyMTY1ODYsLTkwMTk0NTAx
+MywzMjIyMzY3MjksMTc4MzgzMzEwNCwxOTYzODc5MzgsMjA5Mj
+I3MTA0MSwtMTU1NTYyMDE4MiwtODg5NjYzOTY1LC00MDE1MjM2
+MjJdfQ==
 -->
