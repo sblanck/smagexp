@@ -275,6 +275,7 @@ As previously a limma analysis is run on data retrieved from GEO database.
 
 ### Meta-analysis
 The meta analysis tool only needs the rdata files produced by the limma tool. 
+
 The outputs are  :		
 - Venn Diagram summarizing the results of the meta-analysis
 - A list of indicators to evaluate the quality of the performance of the meta-analysis
@@ -294,11 +295,11 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMTA1NjYyMCw5NzE3NTcxMzAsLTE3NT
-g3NjQxNzEsMTE0MDE4MzY3MiwtMTU1OTE3MzU3MiwtOTYxNTYy
-MjE4LC0xMTczODA0NjY5LC04ODI5NzExODUsMzE1MDYxMjYyLD
-E1MDcyMDcyNDYsMTY2MTY2MjUwLDMyMTY1ODYsLTkwMTk0NTAx
-MywzMjIyMzY3MjksMTc4MzgzMzEwNCwxOTYzODc5MzgsMjA5Mj
-I3MTA0MSwtMTU1NTYyMDE4MiwtODg5NjYzOTY1LC00MDE1MjM2
-MjJdfQ==
+eyJoaXN0b3J5IjpbLTE0NDY5NzQ4ODYsMTkwMTA1NjYyMCw5Nz
+E3NTcxMzAsLTE3NTg3NjQxNzEsMTE0MDE4MzY3MiwtMTU1OTE3
+MzU3MiwtOTYxNTYyMjE4LC0xMTczODA0NjY5LC04ODI5NzExOD
+UsMzE1MDYxMjYyLDE1MDcyMDcyNDYsMTY2MTY2MjUwLDMyMTY1
+ODYsLTkwMTk0NTAxMywzMjIyMzY3MjksMTc4MzgzMzEwNCwxOT
+YzODc5MzgsMjA5MjI3MTA0MSwtMTU1NTYyMDE4MiwtODg5NjYz
+OTY1XX0=
 -->
