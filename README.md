@@ -156,6 +156,10 @@ GSM80476	series of 4 normals		GSM80476 OSCE-2N Series of 4 Normals
 GSM80477 	series of 4 normals		GSM80477 OSCE-9N Series of 4 Normals
 
 ```
+.cond file is a text file, containing 3 columns, separate by tabs, summarizing the conditions of the experiment. 
+* 1st column is the ID of the sample
+* 2nd column is the condition of the sample
+* 3rd column is a description of the sample
 				
 The outputs are
  - Boxplots and MA plots 
@@ -205,7 +209,7 @@ It also generates a text file containing summarization of the results of each si
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNTg0NTgwMSwtMjcwNjYxNzA3LDM0Nz
+eyJoaXN0b3J5IjpbLTU0Mzk4MzE1MywtMjcwNjYxNzA3LDM0Nz
 E0MDM2NywzNDI5NjE1NTcsLTYwNDgyODU2OSw3NjkwMzY2Nzgs
 LTM1MTEzMjkzNSwxNjc5OTE4MTkwLDExMjcxMDQ3ODZdfQ==
 -->
