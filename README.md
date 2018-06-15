@@ -217,11 +217,11 @@ It also generates a text file containing summarization of the results of each si
 
 Step by step example of a micro-array meta-analysis
 ------------------------
-
+G
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4OTY2Mzk2NSwtNDAxNTIzNjIyLC0xNj
-k3MDA5NDUwLC0xMDU4NzY0NzQ0LC0xMjg3NTAyMzY5LC0yNzA2
-NjE3MDcsMzQ3MTQwMzY3LDM0Mjk2MTU1NywtNjA0ODI4NTY5LD
-c2OTAzNjY3OCwtMzUxMTMyOTM1LDE2Nzk5MTgxOTAsMTEyNzEw
-NDc4Nl19
+eyJoaXN0b3J5IjpbLTE1NTU2MjAxODIsLTg4OTY2Mzk2NSwtND
+AxNTIzNjIyLC0xNjk3MDA5NDUwLC0xMDU4NzY0NzQ0LC0xMjg3
+NTAyMzY5LC0yNzA2NjE3MDcsMzQ3MTQwMzY3LDM0Mjk2MTU1Ny
+wtNjA0ODI4NTY5LDc2OTAzNjY3OCwtMzUxMTMyOTM1LDE2Nzk5
+MTgxOTAsMTEyNzEwNDc4Nl19
 -->
