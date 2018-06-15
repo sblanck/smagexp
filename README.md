@@ -222,11 +222,11 @@ Only the GSE accession ID is needed. The log2 transformation is set to auto.
 The tool produce 
 * A tabular text files containing normalized expression value for each probe (in row) and each sample (in column).
 * A .cond file summarizing the conditions of the experiment.
-* A .ra
+* A .rdate
 
 ### Get data from raw .CEL files
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMyMTM2NzkyLDE2NDQ4MzQ4NTIsLTE1NT
+eyJoaXN0b3J5IjpbMjA5MjI3MTA0MSw2MzIxMzY3OTIsLTE1NT
 U2MjAxODIsLTg4OTY2Mzk2NSwtNDAxNTIzNjIyLC0xNjk3MDA5
 NDUwLC0xMDU4NzY0NzQ0LC0xMjg3NTAyMzY5LC0yNzA2NjE3MD
 csMzQ3MTQwMzY3LDM0Mjk2MTU1NywtNjA0ODI4NTY5LDc2OTAz
