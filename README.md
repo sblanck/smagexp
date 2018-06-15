@@ -188,7 +188,7 @@ The outpouts are :
 #### Running a meta analysis
 Given several Rdata object from the limma analysis tool the microarray meta-analysis tool run a meta-analysis using the metaMA R package.
 		
-The 		
+The Inpots		
 The outputs are  :		
 - Venn Diagram summarizing the results of the meta-analysis
 - A list of indicators to evaluate the quality of the performance of the meta-analysis
@@ -216,8 +216,8 @@ It also generates a text file containing summarization of the results of each si
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE5NDYwOTg1LDI1Njk3MDc0MywtMTA1OD
-c2NDc0NCwtMTI4NzUwMjM2OSwtMjcwNjYxNzA3LDM0NzE0MDM2
-NywzNDI5NjE1NTcsLTYwNDgyODU2OSw3NjkwMzY2NzgsLTM1MT
-EzMjkzNSwxNjc5OTE4MTkwLDExMjcxMDQ3ODZdfQ==
+eyJoaXN0b3J5IjpbLTE2OTcwMDk0NTAsMzE5NDYwOTg1LC0xMD
+U4NzY0NzQ0LC0xMjg3NTAyMzY5LC0yNzA2NjE3MDcsMzQ3MTQw
+MzY3LDM0Mjk2MTU1NywtNjA0ODI4NTY5LDc2OTAzNjY3OCwtMz
+UxMTMyOTM1LDE2Nzk5MTgxOTAsMTEyNzEwNDc4Nl19
 -->
