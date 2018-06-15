@@ -240,6 +240,10 @@ To easily upload these data on galaxy, it is possible to load an existing histor
 ```
 https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-Data.tar.gz 
 ```
+Download this history on your computer and import it
+The following video will show you how to import
+
+<div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/bf9i2/bsvkjv" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
 
 #### Run QC normalisation tool
@@ -256,11 +260,11 @@ The tool produce
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE1MDYxMjYyLDE1MDcyMDcyNDYsMTY2MT
-Y2MjUwLDMyMTY1ODYsLTkwMTk0NTAxMywzMjIyMzY3MjksMTc4
-MzgzMzEwNCwxOTYzODc5MzgsMjA5MjI3MTA0MSwtMTU1NTYyMD
-E4MiwtODg5NjYzOTY1LC00MDE1MjM2MjIsLTE2OTcwMDk0NTAs
-LTEwNTg3NjQ3NDQsLTEyODc1MDIzNjksLTI3MDY2MTcwNywzND
-cxNDAzNjcsMzQyOTYxNTU3LC02MDQ4Mjg1NjksNzY5MDM2Njc4
-XX0=
+eyJoaXN0b3J5IjpbLTg0OTkxNzUyNiwzMTUwNjEyNjIsMTUwNz
+IwNzI0NiwxNjYxNjYyNTAsMzIxNjU4NiwtOTAxOTQ1MDEzLDMy
+MjIzNjcyOSwxNzgzODMzMTA0LDE5NjM4NzkzOCwyMDkyMjcxMD
+QxLC0xNTU1NjIwMTgyLC04ODk2NjM5NjUsLTQwMTUyMzYyMiwt
+MTY5NzAwOTQ1MCwtMTA1ODc2NDc0NCwtMTI4NzUwMjM2OSwtMj
+cwNjYxNzA3LDM0NzE0MDM2NywzNDI5NjE1NTcsLTYwNDgyODU2
+OV19
 -->
