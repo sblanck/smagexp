@@ -128,11 +128,9 @@ The outputs are
 #### Custom matrix data
 Import custom data tool imports data stored in a tabular text file. A few  normalization methods are proposed, but it is possible to skip the normalization step, by choosing "none" in the normalization methods options. Therefore this tool is of special interest when the input dataset has been previously normalized.
 
-The 
-
-Column titles (chip IDs) must match the IDs of the .cond file.
-
-GPL annotation code is also required to fetch annotations from GEO.
+The inputs are :
+* A text file, with probes in row and samples in columns. Column titles (chip IDs) must match the IDs of the .cond file.
+* A GPL annotation code is  to fetch annotations from GEO.
 
 Example of a header of input tabular text file
 ```
@@ -206,7 +204,7 @@ It also generates a text file containing summarization of the results of each si
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NjcwNDIwOSwtODM3OTAwMjY4LDM0Nz
+eyJoaXN0b3J5IjpbLTUwNjkwOTM0NSwxMzQ2NzA0MjA5LDM0Nz
 E0MDM2NywzNDI5NjE1NTcsLTYwNDgyODU2OSw3NjkwMzY2Nzgs
 LTM1MTEzMjkzNSwxNjc5OTE4MTkwLDExMjcxMDQ3ODZdfQ==
 -->
