@@ -113,13 +113,12 @@ When extracting data from GEO database, SMAGEXP automatically generates a .cond 
 SMAGEXP handles affymetrix .CEL files. .CEL files have to be normalized with QCnormalization tool. This tool normalizes data and allows the user to check quality.
 
 The inputs are
-
-
-Several normalization methods are available :
-- rma normalization
-- quantile normalization + log2
-- background correction + log2
-- log2 only
+* A list of .CEL files
+* The normalization methods
+	- rma normalization
+	- quantile normalization + log2
+	- background correction + log2
+	- log2 only
 
 The outputs are 
 - Several quality figures : microarray images, boxplots and MA plots
@@ -128,6 +127,8 @@ The outputs are
 
 #### Custom matrix data
 Import custom data tool imports data stored in a tabular text file. A few  normalization methods are proposed, but it is possible to skip the normalization step, by choosing "none" in the normalization methods options. Therefore this tool is of special interest when the input dataset has been previously normalized.
+
+The o
 
 Column titles (chip IDs) must match the IDs of the .cond file.
 
@@ -205,7 +206,7 @@ It also generates a text file containing summarization of the results of each si
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjkxNzg0MDEsMzQ3MTQwMzY3LDM0Mj
-k2MTU1NywtNjA0ODI4NTY5LDc2OTAzNjY3OCwtMzUxMTMyOTM1
-LDE2Nzk5MTgxOTAsMTEyNzEwNDc4Nl19
+eyJoaXN0b3J5IjpbLTgzNzkwMDI2OCwzNDcxNDAzNjcsMzQyOT
+YxNTU3LC02MDQ4Mjg1NjksNzY5MDM2Njc4LC0zNTExMzI5MzUs
+MTY3OTkxODE5MCwxMTI3MTA0Nzg2XX0=
 -->
