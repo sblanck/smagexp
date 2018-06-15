@@ -71,7 +71,11 @@ SMAGEXP is able to perform analysis from 3 different data source :
 
 ##### Data from GEO database
 
-SMAGEXP can fetch data directly from [GEO database](https://www.ncbi.nlm.nih.gov/geo/), thanks to the GEOQuery R package. The GEO Series Accession ID of the microarray experiment is needed.
+SMAGEXP can fetch data directly from [GEO database](https://www.ncbi.nlm.nih.gov/geo/), thanks to the GEOQuery R package. 
+
+2 inputs are needed : 
+
+The GEO Series Accession ID of the microarray experiment is needed.
 
 log2 transformation option : Limma expects data values to be in log space. If the values of the experiments are not in log space, SMAGEXP is able to check and to transform them accordingly (option auto).
 The user can also choose to force the transformation (option yes) or to override the auto detect feature (option no)
@@ -184,6 +188,6 @@ It also generates a text file containing summarization of the results of each si
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY5MDM2Njc4LC0zNTExMzI5MzUsMTY3OT
-kxODE5MCwxMTI3MTA0Nzg2XX0=
+eyJoaXN0b3J5IjpbLTUwMDg4MTU2Niw3NjkwMzY2NzgsLTM1MT
+EzMjkzNSwxNjc5OTE4MTkwLDExMjcxMDQ3ODZdfQ==
 -->
