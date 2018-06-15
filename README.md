@@ -267,7 +267,10 @@ The tool produce
 * A .rdata for further analysis
 * 
 #### Run limma analysis
-As previously a limm
+As previously a limma analysis is run on these data.
+
+### Meta-analysis
+
 
 
 
@@ -275,7 +278,7 @@ As previously a limm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcxNzU3MTMwLC0xOTE5MDI2MDI2LC0xNz
+eyJoaXN0b3J5IjpbLTE1MjE5OTA1NTEsOTcxNzU3MTMwLC0xNz
 U4NzY0MTcxLDExNDAxODM2NzIsLTE1NTkxNzM1NzIsLTk2MTU2
 MjIxOCwtMTE3MzgwNDY2OSwtODgyOTcxMTg1LDMxNTA2MTI2Mi
 wxNTA3MjA3MjQ2LDE2NjE2NjI1MCwzMjE2NTg2LC05MDE5NDUw
