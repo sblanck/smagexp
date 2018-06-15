@@ -236,9 +236,12 @@ https://github.com/sblanck/smagexp/raw/master/examples/GSM342585.CEL
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342586.CEL
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342587.CEL
 
+https://raw.githubusercontent.com/sblanck/smagexp/master/examples/Celfiles.cond
+
+
 #### Run QC normalisation tool
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODY3MDg3NiwzMjIyMzY3MjksMTc4Mz
+eyJoaXN0b3J5IjpbLTkwMTk0NTAxMywzMjIyMzY3MjksMTc4Mz
 gzMzEwNCwxOTYzODc5MzgsMjA5MjI3MTA0MSwtMTU1NTYyMDE4
 MiwtODg5NjYzOTY1LC00MDE1MjM2MjIsLTE2OTcwMDk0NTAsLT
 EwNTg3NjQ3NDQsLTEyODc1MDIzNjksLTI3MDY2MTcwNywzNDcx
