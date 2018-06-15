@@ -222,7 +222,8 @@ Step by step example of a micro-array meta-analysis
 
 #### upload data
 
-Data used in this example are extracted from the GE
+Data used in this example are extracted from the GEO dataset GSE13601. We picked up 6 .CEL (to simplify the example). 
+
 .CEL files and according .cond file can be found here :
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342582.CEL
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342583.CEL
@@ -248,7 +249,7 @@ The tool produce
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNTU3NjYwLC04NzQ0ODg2NSwtOTAxOT
+eyJoaXN0b3J5IjpbNTM3MzYwMDYwLDEzMjU1NzY2MCwtOTAxOT
 Q1MDEzLDMyMjIzNjcyOSwxNzgzODMzMTA0LDE5NjM4NzkzOCwy
 MDkyMjcxMDQxLC0xNTU1NjIwMTgyLC04ODk2NjM5NjUsLTQwMT
 UyMzYyMiwtMTY5NzAwOTQ1MCwtMTA1ODc2NDc0NCwtMTI4NzUw
