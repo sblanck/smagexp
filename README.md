@@ -234,8 +234,9 @@ https://github.com/sblanck/smagexp/raw/master/examples/GSM342584.CEL
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342585.CEL
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342586.CEL
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342587.CEL
-```
 
+
+```
 We also manually generated a .cond file according to these 6 .cel files.
 ```
 https://raw.githubusercontent.com/sblanck/smagexp/master/examples/Celfiles.cond
@@ -245,7 +246,7 @@ To easily upload these data on galaxy, it is possible to load an existing histor
 ```
 https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-Data.tar.gz 
 ```
-Download this history on your computer and import it in galaxy.
+Download this history on your computer and import it in galaxy. If you choose 
 
 The following video will show you how to import this history in Galaxy
 
@@ -301,7 +302,7 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjgzNjMxOTksLTIxMjkzMTAyNzQsLT
+eyJoaXN0b3J5IjpbLTE2MjcxNDQyNDAsLTIxMjkzMTAyNzQsLT
 gzNjU4NDg2MSw4OTg3NDAxODcsLTE0NDY5NzQ4ODYsMTkwMTA1
 NjYyMCw5NzE3NTcxMzAsLTE3NTg3NjQxNzEsMTE0MDE4MzY3Mi
 wtMTU1OTE3MzU3MiwtOTYxNTYyMjE4LC0xMTczODA0NjY5LC04
