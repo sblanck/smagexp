@@ -239,8 +239,9 @@ https://github.com/sblanck/smagexp/raw/master/examples/GSM342587.CEL
 We also manually generated a .cond file according to these 6 .cel files.
 ```
 https://raw.githubusercontent.com/sblanck/smagexp/master/examples/Celfiles.cond
+
 ```
-You may want to To easily upload these data on galaxy, it is possible to load an existing history containing all these data : 
+To easily upload these data on galaxy, it is possible to load an existing history containing all these data : 
 ```
 https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-Data.tar.gz 
 ```
@@ -300,11 +301,11 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjkzMTAyNzQsMzYzMDU5OTg3LC04Mz
-Y1ODQ4NjEsODk4NzQwMTg3LC0xNDQ2OTc0ODg2LDE5MDEwNTY2
-MjAsOTcxNzU3MTMwLC0xNzU4NzY0MTcxLDExNDAxODM2NzIsLT
-E1NTkxNzM1NzIsLTk2MTU2MjIxOCwtMTE3MzgwNDY2OSwtODgy
-OTcxMTg1LDMxNTA2MTI2MiwxNTA3MjA3MjQ2LDE2NjE2NjI1MC
-wzMjE2NTg2LC05MDE5NDUwMTMsMzIyMjM2NzI5LDE3ODM4MzMx
-MDRdfQ==
+eyJoaXN0b3J5IjpbLTIwNjgzNjMxOTksLTIxMjkzMTAyNzQsLT
+gzNjU4NDg2MSw4OTg3NDAxODcsLTE0NDY5NzQ4ODYsMTkwMTA1
+NjYyMCw5NzE3NTcxMzAsLTE3NTg3NjQxNzEsMTE0MDE4MzY3Mi
+wtMTU1OTE3MzU3MiwtOTYxNTYyMjE4LC0xMTczODA0NjY5LC04
+ODI5NzExODUsMzE1MDYxMjYyLDE1MDcyMDcyNDYsMTY2MTY2Mj
+UwLDMyMTY1ODYsLTkwMTk0NTAxMywzMjIyMzY3MjksMTc4Mzgz
+MzEwNF19
 -->
