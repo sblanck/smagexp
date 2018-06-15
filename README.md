@@ -247,13 +247,13 @@ The following video will show you how to import this history in Galaxy
 
 
 #### Run QC normalisation tool
-The QC normalisation tool only needs a liste of .CEL files and a normalization method. 
+The QC normalisation tool only needs a list of .CEL files and a normalization method. 
 It will generate an html report showing chip pseudo images, and boxplots and MA plot for raw and normalized data. It also generates a .rdata file containing normalized data in a eset object for further analysis with limma.
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/xc6id/nfvshz" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
 #### Run limma analysis
-The limma analysis tool takes an rdata and a .cond file as inputs.
+The limma analysis tool takes an rdata and a .cond file as inputs. It generates a html report with boxplots, p-value histogram and a volcano plot.
 
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.234%;"><iframe src="https://streamable.com/s/cdt5q/pkjtyc" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
@@ -269,11 +269,11 @@ The tool produce
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MDE4MzY3MiwtMTg5MDI3NTI0NCwtMT
-U1OTE3MzU3MiwtOTYxNTYyMjE4LC0xMTczODA0NjY5LC04ODI5
-NzExODUsMzE1MDYxMjYyLDE1MDcyMDcyNDYsMTY2MTY2MjUwLD
-MyMTY1ODYsLTkwMTk0NTAxMywzMjIyMzY3MjksMTc4MzgzMzEw
-NCwxOTYzODc5MzgsMjA5MjI3MTA0MSwtMTU1NTYyMDE4MiwtOD
-g5NjYzOTY1LC00MDE1MjM2MjIsLTE2OTcwMDk0NTAsLTEwNTg3
-NjQ3NDRdfQ==
+eyJoaXN0b3J5IjpbMjI4NzQ0MzU2LDExNDAxODM2NzIsLTE1NT
+kxNzM1NzIsLTk2MTU2MjIxOCwtMTE3MzgwNDY2OSwtODgyOTcx
+MTg1LDMxNTA2MTI2MiwxNTA3MjA3MjQ2LDE2NjE2NjI1MCwzMj
+E2NTg2LC05MDE5NDUwMTMsMzIyMjM2NzI5LDE3ODM4MzMxMDQs
+MTk2Mzg3OTM4LDIwOTIyNzEwNDEsLTE1NTU2MjAxODIsLTg4OT
+Y2Mzk2NSwtNDAxNTIzNjIyLC0xNjk3MDA5NDUwLC0xMDU4NzY0
+NzQ0XX0=
 -->
