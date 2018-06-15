@@ -99,7 +99,7 @@ GSM80477 	series of 4 normals		GSM80477 OSCE-9N Series of 4 Normals
 * 2nd column is the condition of the sample
 * 3rd column is a description of the sample
 
-When extracting data from GEO database, SMAGEXP automatically generates a .cond files based on the metadata of the experiment. Unfotunately
+When extracting data from GEO database, SMAGEXP automatically generates a .cond files based on the metadata of the experiment. Unfortunately
 
 #### Data from affymetrix .CEL files
 SMAGEXP handles affymetrix .CEL files. .CEL files have to be normalized with QCnormalization tool. This tool normalizes data and allows the user to check quality.
@@ -193,7 +193,7 @@ It also generates a text file containing summarization of the results of each si
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTU2NzUxMDksLTQ4MjY2MTM4MywzND
-I5NjE1NTcsLTYwNDgyODU2OSw3NjkwMzY2NzgsLTM1MTEzMjkz
-NSwxNjc5OTE4MTkwLDExMjcxMDQ3ODZdfQ==
+eyJoaXN0b3J5IjpbMzQ3MTQwMzY3LC0xMDE1Njc1MTA5LDM0Mj
+k2MTU1NywtNjA0ODI4NTY5LDc2OTAzNjY3OCwtMzUxMTMyOTM1
+LDE2Nzk5MTgxOTAsMTEyNzEwNDc4Nl19
 -->
