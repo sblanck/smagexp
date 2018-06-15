@@ -64,7 +64,7 @@ How to analyse data with SMAGEXP
 
 ###  Step by step micro-array meta-analysis
 
-SMAGEXP
+SMAGEXP is able to 
 
 ##### Data from GEO database
 
@@ -181,6 +181,6 @@ It also generates a text file containing summarization of the results of each si
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3OTkxODE5MCwxMjM2ODA3MTYxLDExMj
+eyJoaXN0b3J5IjpbLTM1MTEzMjkzNSwxNjc5OTE4MTkwLDExMj
 cxMDQ3ODZdfQ==
 -->
