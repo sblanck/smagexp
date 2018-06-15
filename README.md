@@ -1,4 +1,3 @@
-
 SMAGEXP (Statistical Meta Analysis for Gene EXPression) for Galaxy
 ========
 
@@ -176,15 +175,6 @@ It also generates a text file containing summarization of the results of each si
 ![Example of RNA-seq data meta-analysis plots](https://raw.githubusercontent.com/sblanck/smagexp/master/images/metaRNAseq_results.png)
 
 ![Header of RNA-seq data meta-analysis text results](https://raw.githubusercontent.com/sblanck/smagexp/master/images/fig9.png)
-
-Example of Mi
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUyNjgwMzQ3XX0=
--->
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzg3ODg5OF19
--->
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNzEwNDc4NiwtNzAzNzMzNzQ2XX0=
+eyJoaXN0b3J5IjpbLTkyNjIzNTgwNiwxMTI3MTA0Nzg2XX0=
 -->
