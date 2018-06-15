@@ -172,13 +172,13 @@ Given a .cond file, it runs a standard limma differential expression analysis.
 
 The inputs are 
 * A Rdata object from GEOQuery tool, QCnormalization tool or Import custom data tool
-* A .cond file
-* 
+* A .cond file,
+* 2 conditions to compare
 	
 The outpouts are :
 		
 - Boxplots, p-value histograms and a volcano plot 
-- Table summarizing the differentially expressed genes and their annotations. This table is sortable and requestable.
+- Table summarizing the differentially expressed genes and their annotations. This table is sortable and requestable. Each line 
 - Rdata object to perform further meta-analysis. 
 - Text file containing the annotated results of the differential analysis
 
@@ -215,8 +215,8 @@ It also generates a text file containing summarization of the results of each si
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTg3NjQ3NDQsMTQ0ODE0MzM2LC0xMj
-g3NTAyMzY5LC0yNzA2NjE3MDcsMzQ3MTQwMzY3LDM0Mjk2MTU1
-NywtNjA0ODI4NTY5LDc2OTAzNjY3OCwtMzUxMTMyOTM1LDE2Nz
-k5MTgxOTAsMTEyNzEwNDc4Nl19
+eyJoaXN0b3J5IjpbLTM4NDM4MTk1MSwtMTA1ODc2NDc0NCwtMT
+I4NzUwMjM2OSwtMjcwNjYxNzA3LDM0NzE0MDM2NywzNDI5NjE1
+NTcsLTYwNDgyODU2OSw3NjkwMzY2NzgsLTM1MTEzMjkzNSwxNj
+c5OTE4MTkwLDExMjcxMDQ3ODZdfQ==
 -->
