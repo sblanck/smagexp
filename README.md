@@ -229,14 +229,19 @@ The tool produce
 
 #### upload data
 .CEL files and according .cond file can be found here :
-
+https://github.com/sblanck/smagexp/raw/master/examples/GSM342582.CEL
+https://github.com/sblanck/smagexp/raw/master/examples/GSM342583.CEL
+https://github.com/sblanck/smagexp/raw/master/examples/GSM342584.CEL
+https://github.com/sblanck/smagexp/raw/master/examples/GSM342585.CEL
+https://github.com/sblanck/smagexp/raw/master/examples/GSM342586.CEL
+https://github.com/sblanck/smagexp/raw/master/examples/GSM342587.CEL
 
 #### Run QC normalisation tool
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIyMjM2NzI5LDE3ODM4MzMxMDQsMTk2Mz
-g3OTM4LDIwOTIyNzEwNDEsLTE1NTU2MjAxODIsLTg4OTY2Mzk2
-NSwtNDAxNTIzNjIyLC0xNjk3MDA5NDUwLC0xMDU4NzY0NzQ0LC
-0xMjg3NTAyMzY5LC0yNzA2NjE3MDcsMzQ3MTQwMzY3LDM0Mjk2
-MTU1NywtNjA0ODI4NTY5LDc2OTAzNjY3OCwtMzUxMTMyOTM1LD
-E2Nzk5MTgxOTAsMTEyNzEwNDc4Nl19
+eyJoaXN0b3J5IjpbLTIxODY3MDg3NiwzMjIyMzY3MjksMTc4Mz
+gzMzEwNCwxOTYzODc5MzgsMjA5MjI3MTA0MSwtMTU1NTYyMDE4
+MiwtODg5NjYzOTY1LC00MDE1MjM2MjIsLTE2OTcwMDk0NTAsLT
+EwNTg3NjQ3NDQsLTEyODc1MDIzNjksLTI3MDY2MTcwNywzNDcx
+NDAzNjcsMzQyOTYxNTU3LC02MDQ4Mjg1NjksNzY5MDM2Njc4LC
+0zNTExMzI5MzUsMTY3OTkxODE5MCwxMTI3MTA0Nzg2XX0=
 -->
