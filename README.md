@@ -255,7 +255,7 @@ The following video will show you how to import this history in Galaxy
 
 #### Run QC normalisation tool
 The QC normalisation tool only needs a list of .CEL files and a normalization method. 
-It will generate an html report showing chip pseudo images, and boxplots and MA plot for raw and normalized data. It also generates a .rdata file containing normalized data in a eset object for further analysis with limma.
+It will generate an html report showing chip pseudo images, boxplots and MA plot for raw and normalized data. It also generates a .rdata file containing normalized data in a eset object for further analysis with limma.
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/xc6id/nfvshz" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
@@ -266,7 +266,7 @@ The limma analysis tool takes an rdata and a .cond file as inputs. It generates 
 
 ### 2nd Analysis: from GEO database
 
-#### run The GEOQuery Tool
+#### Run The GEOQuery Tool
 Only the GSE accession ID is needed. The log2 transformation is set to auto in this example.
 The tool produce 
 * A tabular text files containing normalized expression value for each probe (in row) and each sample (in column).
@@ -302,7 +302,7 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MzUxMzk0MSwzNzAxMDAwMDcsLTIxMj
+eyJoaXN0b3J5IjpbLTEzMDM1MjU0MiwzNzAxMDAwMDcsLTIxMj
 kzMTAyNzQsLTgzNjU4NDg2MSw4OTg3NDAxODcsLTE0NDY5NzQ4
 ODYsMTkwMTA1NjYyMCw5NzE3NTcxMzAsLTE3NTg3NjQxNzEsMT
 E0MDE4MzY3MiwtMTU1OTE3MzU3MiwtOTYxNTYyMjE4LC0xMTcz
