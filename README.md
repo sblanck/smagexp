@@ -254,7 +254,7 @@ It will generate an html report showing chip pseudo images, and boxplots and MA 
 
 #### Run limma analysis
 The limma analysis tool takes an rdata and a .cond file as inputs.
-
+<div style="width:100%;height:0px;position:relative;padding-bottom:57.234%;"><iframe src="https://streamable.com/s/cdt5q/pkjtyc" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
 ### Fetch data with the GEOQuery Tool
 Only the GSE accession ID is needed. The log2 transformation is set to auto.
@@ -267,11 +267,11 @@ The tool produce
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTkxNzM1NzIsLTk2MTU2MjIxOCwtMT
-E3MzgwNDY2OSwtODgyOTcxMTg1LDMxNTA2MTI2MiwxNTA3MjA3
-MjQ2LDE2NjE2NjI1MCwzMjE2NTg2LC05MDE5NDUwMTMsMzIyMj
-M2NzI5LDE3ODM4MzMxMDQsMTk2Mzg3OTM4LDIwOTIyNzEwNDEs
-LTE1NTU2MjAxODIsLTg4OTY2Mzk2NSwtNDAxNTIzNjIyLC0xNj
-k3MDA5NDUwLC0xMDU4NzY0NzQ0LC0xMjg3NTAyMzY5LC0yNzA2
-NjE3MDddfQ==
+eyJoaXN0b3J5IjpbLTE4OTAyNzUyNDQsLTE1NTkxNzM1NzIsLT
+k2MTU2MjIxOCwtMTE3MzgwNDY2OSwtODgyOTcxMTg1LDMxNTA2
+MTI2MiwxNTA3MjA3MjQ2LDE2NjE2NjI1MCwzMjE2NTg2LC05MD
+E5NDUwMTMsMzIyMjM2NzI5LDE3ODM4MzMxMDQsMTk2Mzg3OTM4
+LDIwOTIyNzEwNDEsLTE1NTU2MjAxODIsLTg4OTY2Mzk2NSwtND
+AxNTIzNjIyLC0xNjk3MDA5NDUwLC0xMDU4NzY0NzQ0LC0xMjg3
+NTAyMzY5XX0=
 -->
