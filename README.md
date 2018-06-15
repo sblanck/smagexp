@@ -219,13 +219,14 @@ Step by step example of a micro-array meta-analysis
 ------------------------
 ### Fetch data with the GEOQuery Tool
 Only the GSE accession ID is needed. The log2 transformation is set to auto.
-The tool produce a tabular text files containing normalized expression value for each pro
+The tool produce a tabular text files containing normalized expression value for each probe (in
 
 ### Get data from raw .CEL files
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTAxNDg5MiwtMTU1NTYyMDE4MiwtOD
-g5NjYzOTY1LC00MDE1MjM2MjIsLTE2OTcwMDk0NTAsLTEwNTg3
-NjQ3NDQsLTEyODc1MDIzNjksLTI3MDY2MTcwNywzNDcxNDAzNj
-csMzQyOTYxNTU3LC02MDQ4Mjg1NjksNzY5MDM2Njc4LC0zNTEx
-MzI5MzUsMTY3OTkxODE5MCwxMTI3MTA0Nzg2XX0=
+eyJoaXN0b3J5IjpbMTY0NDgzNDg1MiwtODc5MDE0ODkyLC0xNT
+U1NjIwMTgyLC04ODk2NjM5NjUsLTQwMTUyMzYyMiwtMTY5NzAw
+OTQ1MCwtMTA1ODc2NDc0NCwtMTI4NzUwMjM2OSwtMjcwNjYxNz
+A3LDM0NzE0MDM2NywzNDI5NjE1NTcsLTYwNDgyODU2OSw3Njkw
+MzY2NzgsLTM1MTEzMjkzNSwxNjc5OTE4MTkwLDExMjcxMDQ3OD
+ZdfQ==
 -->
