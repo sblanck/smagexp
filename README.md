@@ -97,7 +97,7 @@ GSM80477 	series of 4 normals		GSM80477 OSCE-9N Series of 4 Normals
 .cond file is a text file, containing 3 columns, summarizing the conditions of the experiment. 
 * 1st column is the ID of the sample
 * 2nd column is the condition of the sample
-* 3rd column is a description of 
+* 3rd column is a description of the 
 
 
 #### Data from affymetrix .CEL files
@@ -192,7 +192,7 @@ It also generates a text file containing summarization of the results of each si
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyODUwNjI5MiwzNDI5NjE1NTcsLTYwND
-gyODU2OSw3NjkwMzY2NzgsLTM1MTEzMjkzNSwxNjc5OTE4MTkw
-LDExMjcxMDQ3ODZdfQ==
+eyJoaXN0b3J5IjpbLTEzNzQ4MjI4MjEsLTgyODUwNjI5MiwzND
+I5NjE1NTcsLTYwNDgyODU2OSw3NjkwMzY2NzgsLTM1MTEzMjkz
+NSwxNjc5OTE4MTkwLDExMjcxMDQ3ODZdfQ==
 -->
