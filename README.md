@@ -75,10 +75,8 @@ SMAGEXP can fetch data directly from [GEO database](https://www.ncbi.nlm.nih.gov
 
 2 inputs are needed : 
 
-The GEO Series Accession ID of the microarray experiment
-
-log2 transformation option : Limma expects data values to be in log space. If the values of the experiments are not in log space, SMAGEXP is able to check and to transform them accordingly (option auto).
-The user can also choose to force the transformation (option yes) or to override the auto detect feature (option no)
+* The GEO Series Accession ID of the microarray experiment
+* log2 transformation option : Limma expects data values to be in log space. If the values of the experiments are not in log space, SMAGEXP is able to check and to transform them accordingly (option auto). The user can also choose to force the transformation (option yes) or to override the auto detect feature (option no)
 
 The outputs are :
 
@@ -188,7 +186,7 @@ It also generates a text file containing summarization of the results of each si
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDgyODU2OSwtNTAwODgxNTY2LDc2OT
-AzNjY3OCwtMzUxMTMyOTM1LDE2Nzk5MTgxOTAsMTEyNzEwNDc4
-Nl19
+eyJoaXN0b3J5IjpbMzQyOTYxNTU3LC02MDQ4Mjg1NjksNzY5MD
+M2Njc4LC0zNTExMzI5MzUsMTY3OTkxODE5MCwxMTI3MTA0Nzg2
+XX0=
 -->
