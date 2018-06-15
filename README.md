@@ -94,6 +94,9 @@ GSM80476	series of 4 normals		GSM80476 OSCE-2N Series of 4 Normals
 GSM80477 	series of 4 normals		GSM80477 OSCE-9N Series of 4 Normals
 
 ```
+.cond file is a text file, containing 3 columns, summarizing the conditions of the experiment. 
+
+
 #### Data from affymetrix .CEL files
 SMAGEXP handles affymetrix .CEL files. .CEL files have to be normalized with QCnormalization tool. This tool normalizes data and allows the user to check quality.
 
@@ -186,7 +189,7 @@ It also generates a text file containing summarization of the results of each si
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQyOTYxNTU3LC02MDQ4Mjg1NjksNzY5MD
-M2Njc4LC0zNTExMzI5MzUsMTY3OTkxODE5MCwxMTI3MTA0Nzg2
-XX0=
+eyJoaXN0b3J5IjpbLTk1OTY5NDU3NSwzNDI5NjE1NTcsLTYwND
+gyODU2OSw3NjkwMzY2NzgsLTM1MTEzMjkzNSwxNjc5OTE4MTkw
+LDExMjcxMDQ3ODZdfQ==
 -->
