@@ -81,7 +81,7 @@ SMAGEXP is able to perform analysis from 3 different data source :
 
 SMAGEXP can fetch data directly from [GEO database](https://www.ncbi.nlm.nih.gov/geo/), thanks to the GEOQuery R package. 
 
-2 inputs are needed : 
+The inputs are : 
 
 * The GEO Series Accession ID of the microarray experiment
 * log2 transformation option : Limma expects data values to be in log space. If the values of the experiments are not in log space, SMAGEXP is able to check and to transform them accordingly (option auto). The user can also choose to force the transformation (option yes) or to override the auto detect feature (option no)
@@ -112,6 +112,9 @@ When extracting data from GEO database, SMAGEXP automatically generates a .cond 
 #### Data from affymetrix .CEL files
 SMAGEXP handles affymetrix .CEL files. .CEL files have to be normalized with QCnormalization tool. This tool normalizes data and allows the user to check quality.
 
+The inputs are
+
+
 Several normalization methods are available :
 - rma normalization
 - quantile normalization + log2
@@ -125,6 +128,7 @@ The outputs are
 
 #### Custom matrix data
 Import custom data tool imports data stored in a tabular text file. A few  normalization methods are proposed, but it is possible to skip the normalization step, by choosing "none" in the normalization methods options. Therefore this tool is of special interest when the input dataset has been previously normalized.
+
 Column titles (chip IDs) must match the IDs of the .cond file.
 
 GPL annotation code is also required to fetch annotations from GEO.
@@ -201,7 +205,7 @@ It also generates a text file containing summarization of the results of each si
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NzY5MTA1NSwzNDcxNDAzNjcsMzQyOT
-YxNTU3LC02MDQ4Mjg1NjksNzY5MDM2Njc4LC0zNTExMzI5MzUs
-MTY3OTkxODE5MCwxMTI3MTA0Nzg2XX0=
+eyJoaXN0b3J5IjpbLTE4MjkxNzg0MDEsMzQ3MTQwMzY3LDM0Mj
+k2MTU1NywtNjA0ODI4NTY5LDc2OTAzNjY3OCwtMzUxMTMyOTM1
+LDE2Nzk5MTgxOTAsMTEyNzEwNDc4Nl19
 -->
