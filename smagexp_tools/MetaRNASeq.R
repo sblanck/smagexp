@@ -153,8 +153,13 @@ dir.create(html.files.path, recursive=TRUE)
 
 # combinations
 library(metaRNASeq)
+library(UpSetR)
 fishcomb<-fishercomb(rawpval, BHth=alpha)
 warning(length(rawpval))
+
+#nrep=c(length(listFiles))
+
+
 invnormcomb<-invnorm(rawpval, nrep=c(8,8), BHth=alpha)
 #DE[["fishercomb"]]<-ifelse(fishcomb$adjpval<=alpha,1,0)
 #DE[["invnormcomb"]]<-ifelse(invnormcomb$adjpval<=alpha,1,0)
@@ -185,12 +190,25 @@ conflits<-data.frame(ID=listData[[1]][rownames(DEresults),1],DE=DEresults,FC=FC,
 #write DE outputfile
 write.table(conflits, outputfile,sep="\t",,row.names=FALSE)
 library(VennDiagram)
-DE_num=apply(DEresults, 2, FUN=function(x) which(x==1))
-venn.plot<-venn.diagram(x=as.list(DE_num),filename=NULL, col="black", fill=1:length(DE_num)+1,alpha=0.6)
-temp.venn.plot = file.path( html.files.path, paste("venn.png"))
-png(temp.venn.plot,width=500,height=500)
-grid.draw(venn.plot)
-dev.off()
+DE_num=apply(keepDE[,1:(length(listfiles)+2)], 2, FUN=function(x) which(x==1))
+#DE_num=apply(DEresults, 2, FUN=function(x) which(x==1))
+if (length(listfiles<=2)) {
+	title="VENN DIAGRAM"
+	width=500
+	venn.plot<-venn.diagram(x=as.list(DE_num),filename=NULL, col="black", fill=1:length(DE_num)+1,alpha=0.6)
+	temp.venn.plot = file.path( html.files.path, paste("venn.png"))
+	png(temp.venn.plot,width=width,height=500)
+	grid.draw(venn.plot)
+	dev.off()
+} else {
+	title="UPSETR DIAGRAM"
+	width=1000
+	png(temp.venn.plot,width=width,height=500)
+	upset(fromList(as.list(DE_num)), order.by = "freq")
+	dev.off()
+	
+}
+
 
 library(jsonlite)
 matrixConflits=as.matrix(conflits)
@@ -210,6 +228,8 @@ htmlfile=gsub(x=htmlfile,pattern = "###DATAJSON###",replacement = datajson, fixe
 htmlfile=gsub(x=htmlfile,pattern = "###FISHSUMMARYJSON###",replacement = summaryFishcombjson, fixed = TRUE)
 htmlfile=gsub(x=htmlfile,pattern = "###INVSUMMARYJSON###",replacement = summaryinvnormjson, fixed = TRUE)
 htmlfile=gsub(x=htmlfile,pattern = "###VENN###",replacement = vennFilename, fixed = TRUE)
+htmlfile=gsub(x=htmlfile,pattern = "###WIDTH##",replacement = as.character(width), fixed = TRUE)
+htmlfile=gsub(x=htmlfile,pattern = "###TITLE##",replacement = as.character(width), fixed = TRUE)
 write(htmlfile,result.html)
 
 #library(VennDiagram)
