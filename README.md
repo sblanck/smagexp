@@ -212,6 +212,12 @@ The RNA-seq data meta-analysis tool relies on DESeq2 results.
 
 It outputs a Venn diagram or an upsetR diagram (when the number of studies is greater than 2) and the same indicators as in the microarray meta-analysis tool for both Fisher and inverse normal p-values combinations.
 
+The inputs are :
+- At least 2 studies, and for each study
+	- Results of DESeq2 study
+	- Number of replicates of the study	
+- A FDR Threshold	
+
 The outputs are  :		
 - Venn Diagram or upsetR diagram (when the number of studies is greater than 3) summarizing the results of the meta-analysis
 - A list of indicators to evaluate the quality of the performance of the meta-analysis
@@ -315,11 +321,11 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDM1NDIxODYsLTE1MDYzOTUzMDEsLT
-EzNjgwNTYwMDQsLTEzMDM1MjU0MiwzNzAxMDAwMDcsLTIxMjkz
-MTAyNzQsLTgzNjU4NDg2MSw4OTg3NDAxODcsLTE0NDY5NzQ4OD
-YsMTkwMTA1NjYyMCw5NzE3NTcxMzAsLTE3NTg3NjQxNzEsMTE0
-MDE4MzY3MiwtMTU1OTE3MzU3MiwtOTYxNTYyMjE4LC0xMTczOD
-A0NjY5LC04ODI5NzExODUsMzE1MDYxMjYyLDE1MDcyMDcyNDYs
-MTY2MTY2MjUwXX0=
+eyJoaXN0b3J5IjpbNDQ5NTgxNzc2LC0xNzQzNTQyMTg2LC0xNT
+A2Mzk1MzAxLC0xMzY4MDU2MDA0LC0xMzAzNTI1NDIsMzcwMTAw
+MDA3LC0yMTI5MzEwMjc0LC04MzY1ODQ4NjEsODk4NzQwMTg3LC
+0xNDQ2OTc0ODg2LDE5MDEwNTY2MjAsOTcxNzU3MTMwLC0xNzU4
+NzY0MTcxLDExNDAxODM2NzIsLTE1NTkxNzM1NzIsLTk2MTU2Mj
+IxOCwtMTE3MzgwNDY2OSwtODgyOTcxMTg1LDMxNTA2MTI2Miwx
+NTA3MjA3MjQ2XX0=
 -->
