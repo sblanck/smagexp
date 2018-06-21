@@ -10,7 +10,9 @@ library("optparse")
 ##### Read options
 option_list=list(
 		make_option("--input",type="character",default="NULL",help="list of rdata objects containing eset objects"),
-		make_option("--fdr",type="character",default=NULL,help="Adjusted p-value threshold to be declared differentially expressed"),
+		make_option("--inputName",type="character",default=NULL,help="filenames of the Rddata objects"),
+                make_option("--nbreplicates",type="character",default=NULL,help="number of replicate per study"),
+                make_option("--fdr",type="character",default=NULL,help="Adjusted p-value threshold to be declared differentially expressed"),
 		make_option("--result",type="character",default=NULL,help="text file containing result of the meta-analysis"),
 		make_option("--htmloutput",type="character",default=NULL,help="Output html report"),
 		make_option("--htmloutputpath",type="character",default="NULL",help="Path of output html report"),
@@ -32,25 +34,32 @@ suppressPackageStartupMessages(require(annaffy))
 suppressPackageStartupMessages(require(VennDiagram))
 suppressPackageStartupMessages(require(GEOquery))
 
-listInput <- trimws( unlist( strsplit(trimws(opt$input), "|") ) )
+listfiles <- trimws( unlist( strsplit(trimws(opt$input), ";") ) )
+listfilenames <- trimws( unlist( strsplit(trimws(opt$inputName), ";") ) )
+nbreplicates <- as.numeric(trimws( unlist( strsplit(trimws(opt$nbreplicates), ";") ) ))
 
-listfiles=vector()
-listfilenames=vector()
-nbreplicates=vector()
+listfiles
+listfilenames
+nbreplicates
 
-for (i in 1:length(listInput))
-{
-	inputFileInfo <- unlist( strsplit( listInput[i], ';' ) )
-	listfiles=c(listfiles,inputFileInfo[1])
-	listfilenames=c(listfilenames,inputFileInfo[2])
-	nbreplicates[i]=as.numeric(inputFileInfo[3])
-}
+
+
+#for (i in 1:length(listInput))
+#{
+#	inputFileInfo <- unlist( strsplit( listInput[i], ';' ) )
+#	listfiles=c(listfiles,inputFileInfo[1])
+#	listfilenames=c(listfilenames,inputFileInfo[2])
+#	nbreplicates[i]=as.numeric(inputFileInfo[3])
+#}
 
 
 outputfile <- opt$result
 result.html = opt$htmloutput
 html.files.path=opt$htmloutputpath
 result.template=opt$htmltemplate
+
+
+html.files.path
 
 alpha=as.numeric(opt$fdr)
 
@@ -106,6 +115,7 @@ write.table(conflits, outputfile,sep="\t",,row.names=FALSE)
 library(VennDiagram)
 DE_num=apply(keepDE[,1:(length(listfiles)+2)], 2, FUN=function(x) which(x==1))
 #DE_num=apply(DEresults, 2, FUN=function(x) which(x==1))
+dir.create(html.files.path, showWarnings = TRUE, recursive = FALSE)
 temp.venn.plot = file.path( html.files.path, paste("venn.png"))
 if (length(listfiles)<=2) {
 	title="VENN DIAGRAM"
