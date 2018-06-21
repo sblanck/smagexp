@@ -194,7 +194,7 @@ The Inputs are :
 * .rdata files from limma analysis tool.
 		
 The outputs are  :		
-- Venn Diagram summarizing the results of the meta-analysis
+- Venn Diagram or upsetR diagram (when the number of studies is greater than 3) summarizing the results of the meta-analysis
 - A list of indicators to evaluate the quality of the performance of the meta-analysis
 		
 	- DE : Number of differentially expressed genes 
@@ -304,11 +304,11 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDYzOTUzMDEsLTEzNjgwNTYwMDQsLT
-EzMDM1MjU0MiwzNzAxMDAwMDcsLTIxMjkzMTAyNzQsLTgzNjU4
-NDg2MSw4OTg3NDAxODcsLTE0NDY5NzQ4ODYsMTkwMTA1NjYyMC
-w5NzE3NTcxMzAsLTE3NTg3NjQxNzEsMTE0MDE4MzY3MiwtMTU1
-OTE3MzU3MiwtOTYxNTYyMjE4LC0xMTczODA0NjY5LC04ODI5Nz
-ExODUsMzE1MDYxMjYyLDE1MDcyMDcyNDYsMTY2MTY2MjUwLDMy
-MTY1ODZdfQ==
+eyJoaXN0b3J5IjpbLTE0NzQ1OTQ2OTMsLTE1MDYzOTUzMDEsLT
+EzNjgwNTYwMDQsLTEzMDM1MjU0MiwzNzAxMDAwMDcsLTIxMjkz
+MTAyNzQsLTgzNjU4NDg2MSw4OTg3NDAxODcsLTE0NDY5NzQ4OD
+YsMTkwMTA1NjYyMCw5NzE3NTcxMzAsLTE3NTg3NjQxNzEsMTE0
+MDE4MzY3MiwtMTU1OTE3MzU3MiwtOTYxNTYyMjE4LC0xMTczOD
+A0NjY5LC04ODI5NzExODUsMzE1MDYxMjYyLDE1MDcyMDcyNDYs
+MTY2MTY2MjUwXX0=
 -->
