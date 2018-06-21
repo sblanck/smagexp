@@ -41,7 +41,7 @@
              <param format="tabular" name="input" multiple="false" type="data" optional="false" label="DESeq2 result file" help="Must have the same number of row in each study"/>
              <param name="nbreplicates" type="integer" value="10"  label="Number of replicates" help="Number of replicates of the study"/>
          </repeat>
-         <param name="fdr" type="float" value="0.05" label="FDR" min="0" max="1" help="adjusted p-value threshold to be declared differentially expressed"/>
+         <param name="fdr" type="float" value="0.05" label="FDR" min="0" max="1" help="Adjusted p-value threshold to be declared differentially expressed"/>
     </inputs>
 
 

@@ -1,0 +1,52 @@
+<tool id="Recount" name="Recount" version="1.0.0">
+
+    <description>Get rna-seq count data with R recount Package</description>
+
+    <requirements>
+        <requirement type="package">bioconductor-recount</requirement>
+        <requirement type="package">r-optparse</requirement>
+    </requirements>
+    <stdio>
+        <exit_code range="1:" />
+        <regex match="Warning" source="both" level="warning"/>
+    </stdio>
+
+    <command>
+        <![CDATA[ 
+        Rscript --vanilla
+        ${__tool_directory__}/Recount.R 
+            --id ${RecountID}
+            --report ${Report}
+        ]]>
+    </command>
+
+    <inputs>
+        <param name="RecountID" type="text" size="12" optional="false" label="GEOQuery ID" help="">
+            <validator type="empty_field"/>
+        </param>
+     </inputs>
+
+    <outputs>
+    <data format="txt" name="report">
+        <discover_datasets pattern="__designation_and_ext__" directory="split" visible="true" />
+    </data>
+</outputs>
+
+    <tests>
+    </tests>
+
+    <help>
+<![CDATA[ 
+**What it does**     	
+
+This tool fetches RNA-seq count data directly from Recount project based on the recount bioconductor R package. Given an ID, it returns a small report 
+containing the metadata of the experiment. Il also generates one count file per sample.
+
+**Results**
+	
+- Tabular file containing meta-data
+- One count file per sample
+]]> 		
+    </help>
+
+</tool>
