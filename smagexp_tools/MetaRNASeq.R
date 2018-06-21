@@ -43,7 +43,7 @@ for (i in 1:length(listInput))
 	inputFileInfo <- unlist( strsplit( listInput[i], ';' ) )
 	listfiles=c(listfiles,inputFileInfo[1])
 	listfilenames=c(listfilenames,inputFileInfo[2])
-	nbreplicates[i]=inputFileInfo[3]
+	nbreplicates[i]=as.numeric(inputFileInfo[3])
 }
 
 
