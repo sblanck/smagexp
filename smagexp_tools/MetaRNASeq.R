@@ -10,6 +10,7 @@ library("optparse")
 ##### Read options
 option_list=list(
 		make_option("--input",type="character",default="NULL",help="list of rdata objects containing eset objects"),
+		make_option("--fdr",type="character",default=NULL,help="Adjusted p-value threshold to be declared differentially expressed"),
 		make_option("--result",type="character",default=NULL,help="text file containing result of the meta-analysis"),
 		make_option("--htmloutput",type="character",default=NULL,help="Output html report"),
 		make_option("--htmloutputpath",type="character",default="NULL",help="Path of output html report"),
@@ -35,20 +36,23 @@ listInput <- trimws( unlist( strsplit(trimws(opt$input), ",") ) )
 
 listfiles=vector()
 listfilenames=vector()
+nbreplicates=vector()
 
 for (i in 1:length(listInput))
 {
 	inputFileInfo <- unlist( strsplit( listInput[i], ';' ) )
 	listfiles=c(listfiles,inputFileInfo[1])
 	listfilenames=c(listfilenames,inputFileInfo[2])
+	nbreplicates[i]=inputFileInfo[3]
 }
+
 
 outputfile <- opt$result
 result.html = opt$htmloutput
 html.files.path=opt$htmloutputpath
 result.template=opt$htmltemplate
 
-alpha=0.05
+alpha=opt$fdr
 
 #print(comparison)
 
@@ -160,7 +164,7 @@ warning(length(rawpval))
 #nrep=c(length(listFiles))
 
 
-invnormcomb<-invnorm(rawpval, nrep=c(8,8), BHth=alpha)
+invnormcomb<-invnorm(rawpval, nrep=nbreplicates, BHth=alpha)
 #DE[["fishercomb"]]<-ifelse(fishcomb$adjpval<=alpha,1,0)
 #DE[["invnormcomb"]]<-ifelse(invnormcomb$adjpval<=alpha,1,0)
 
@@ -229,7 +233,7 @@ htmlfile=gsub(x=htmlfile,pattern = "###FISHSUMMARYJSON###",replacement = summary
 htmlfile=gsub(x=htmlfile,pattern = "###INVSUMMARYJSON###",replacement = summaryinvnormjson, fixed = TRUE)
 htmlfile=gsub(x=htmlfile,pattern = "###VENN###",replacement = vennFilename, fixed = TRUE)
 htmlfile=gsub(x=htmlfile,pattern = "###WIDTH##",replacement = as.character(width), fixed = TRUE)
-htmlfile=gsub(x=htmlfile,pattern = "###TITLE##",replacement = as.character(width), fixed = TRUE)
+htmlfile=gsub(x=htmlfile,pattern = "###TITLE##",replacement = title, fixed = TRUE)
 write(htmlfile,result.html)
 
 #library(VennDiagram)

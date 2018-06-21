@@ -20,20 +20,30 @@
 
     <command>
 
-    <![CDATA[ 	
+<![CDATA[   
         Rscript 
         ${__tool_directory__}/MetaRNASeq.R 
-            --input "#for $input in $inputs# $input;$input.name, #end for#"
+            --input "#for $s in $studies: 
+                        ${s.input};${s.input.name};${s.nbreplicates}, 
+                    #end for
+"
+            --fdr $fdr
             --result $top_table
             --htmloutput $result_html 
             --htmloutputpath $result_html.extra_files_path
-            --htmltemplate ${__tool_directory__}/MetaRNASeq_tpl.html	
-    ]]>	
+            --htmltemplate ${__tool_directory__}/MetaRNASeq_tpl.html    
+    ]]>
+
     </command>
 
     <inputs>
-        <param format="tabular" name="inputs" multiple="true" type="data" optional="false" label="Counts file" help="Must have the same number of row in each study. The experimental conditions must be specified in the header of each file"/>
+         <repeat name="studies" title="Study results" min="2" default="2" help="DESeq2 Result file and number of replicate of the study">
+             <param format="tabular" name="input" multiple="false" type="data" optional="false" label="DESeq2 result file" help="Must have the same number of row in each study"/>
+             <param name="nbreplicates" type="integer" value="10"  label="Number of replicates" help="Number of replicates of the study"/>
+         </repeat>
+         <param name="fdr" type="float" value="0.05" label="FDR" min="0" max="1" help="adjusted p-value threshold to be declared differentially expressed"/>
     </inputs>
+
 
     <outputs>
         <data format="tabular" name="top_table" label="Summary of meta-analysis and single studie analysis from ${tool.name} on ${on_string}"/>
