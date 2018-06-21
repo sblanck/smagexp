@@ -210,7 +210,18 @@ The outputs are  :
 ### Rna-seq meta analysis 
 The RNA-seq data meta-analysis tool relies on DESeq2 results.
 
-It outputs a Venn diagram and the same indicators as in the microarray meta-analysis tool for both Fisher and inverse normal p-values combinations.
+It outputs a Venn diagram or an upsetR diagram (when the number of studies is greater than 2) and the same indicators as in the microarray meta-analysis tool for both Fisher and inverse normal p-values combinations.
+
+The outputs are  :		
+- Venn Diagram or upsetR diagram (when the number of studies is greater than 3) summarizing the results of the meta-analysis
+- A list of indicators to evaluate the quality of the performance of the meta-analysis
+		
+	- DE : Number of differentially expressed genes 
+	- IDD (Integration Driven discoveries) : number of genes that are declared differentially expressed in the meta-analysis that were not identified in any of the single studies alone
+	- Loss : Number of genes that are identified differentially expressed in single studies but not in meta-analysis 
+	- DR (Integration-driven Discovery Rate) : corresponding proportion of IDD
+	- IRR (Integration-driven Revision) : corresponding proportion of Loss
+
 It also generates a text file containing summarization of the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 ![Example of RNA-seq data meta-analysis plots](https://raw.githubusercontent.com/sblanck/smagexp/master/images/metaRNAseq_results.png)
@@ -304,7 +315,7 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzQ1OTQ2OTMsLTE1MDYzOTUzMDEsLT
+eyJoaXN0b3J5IjpbLTE3NDM1NDIxODYsLTE1MDYzOTUzMDEsLT
 EzNjgwNTYwMDQsLTEzMDM1MjU0MiwzNzAxMDAwMDcsLTIxMjkz
 MTAyNzQsLTgzNjU4NDg2MSw4OTg3NDAxODcsLTE0NDY5NzQ4OD
 YsMTkwMTA1NjYyMCw5NzE3NTcxMzAsLTE3NTg3NjQxNzEsMTE0
