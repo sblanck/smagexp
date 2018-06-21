@@ -32,7 +32,7 @@ suppressPackageStartupMessages(require(annaffy))
 suppressPackageStartupMessages(require(VennDiagram))
 suppressPackageStartupMessages(require(GEOquery))
 
-listInput <- trimws( unlist( strsplit(trimws(opt$input), ",") ) )
+listInput <- trimws( unlist( strsplit(trimws(opt$input), "|") ) )
 
 listfiles=vector()
 listfilenames=vector()

@@ -24,7 +24,7 @@
         Rscript 
         ${__tool_directory__}/MetaRNASeq.R 
             --input "#for $s in $studies: 
-                        ${s.input};${s.input.name};${s.nbreplicates}, 
+                        ${s.input};${s.input.name};${s.nbreplicates}| 
                     #end for
 "
             --fdr $fdr
