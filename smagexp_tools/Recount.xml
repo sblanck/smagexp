@@ -15,20 +15,20 @@
         <![CDATA[ 
         Rscript --vanilla
         ${__tool_directory__}/Recount.R 
-            --id ${RecountID}
-            --report ${Report}
+            --id ${recountID}
+            --report ${report}
         ]]>
     </command>
 
     <inputs>
-        <param name="RecountID" type="text" size="12" optional="false" label="GEOQuery ID" help="">
+        <param name="recountID" type="text" size="12" optional="false" label="Recount ID" help="">
             <validator type="empty_field"/>
         </param>
      </inputs>
 
     <outputs>
     <data format="txt" name="report">
-        <discover_datasets pattern="__designation_and_ext__" directory="split" visible="true" />
+        <discover_datasets pattern="__designation_and_ext__" format="tabular" directory="split" visible="true" />
     </data>
 </outputs>
 

@@ -23,7 +23,7 @@ if(is.null(opt$id)){
 }
 
 #loading libraries
-suppressPackageStartupMessages(require(GEOquery))
+suppressPackageStartupMessages(require(recount))
 
 studyID=opt$id
 reportFile=opt$report
@@ -40,8 +40,8 @@ for (i in 1:ncol(counts))
 {
 	currentCount=as.data.frame(counts[,i])
 	sampleID=colnames(counts)[i]
-	colnames(currentCount)=sampleID
-	write.table(x=currentCount,file=paste0("./split/",sampleID,"_",conditions[i]),sep="\t",row.names = T, col.names = T)
+	#colnames(currentCount)=sampleID
+	write.table(x=currentCount,file=paste0("./split/",sampleID,"_",conditions[i],'.tabular'),sep="\t",row.names = T, col.names = F)
 }
 
 write.table(as.data.frame(cbind(sampleID=colnames(counts),title=conditions)),quote = FALSE,col.names =TRUE, row.names=FALSE,file=reportFile,sep="\t")
