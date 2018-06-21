@@ -52,7 +52,7 @@ result.html = opt$htmloutput
 html.files.path=opt$htmloutputpath
 result.template=opt$htmltemplate
 
-alpha=opt$fdr
+alpha=as.numeric(opt$fdr)
 
 #print(comparison)
 
