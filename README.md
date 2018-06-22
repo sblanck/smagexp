@@ -309,6 +309,8 @@ This table gives access to gene annotation on ncbi and gene ontology website.
 
 #### Run The GEOQuery Tool
 Only the GSE accession ID is needed. The log2 transformation is set to auto in this example.
+![GEOQuery tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_geoqueryID_form.png)
+*GEO
 The tool produce 
 * A tabular text files containing normalized expression value for each probe (in row) and each sample (in column).
 * A .cond file summarizing the conditions of the experiment.
@@ -343,11 +345,11 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTI4NjM5NjgsLTk2NzEwMTA2OCwxMD
-A2MzEyMDQ2LC0xNDUzODA4NTYxLC0xOTY5NDgwMTE3LDQ0OTU4
-MTc3NiwtMTc0MzU0MjE4NiwtMTUwNjM5NTMwMSwtMTM2ODA1Nj
-AwNCwtMTMwMzUyNTQyLDM3MDEwMDAwNywtMjEyOTMxMDI3NCwt
-ODM2NTg0ODYxLDg5ODc0MDE4NywtMTQ0Njk3NDg4NiwxOTAxMD
-U2NjIwLDk3MTc1NzEzMCwtMTc1ODc2NDE3MSwxMTQwMTgzNjcy
-LC0xNTU5MTczNTcyXX0=
+eyJoaXN0b3J5IjpbMTQ4NTY0ODIzOSwtOTY3MTAxMDY4LDEwMD
+YzMTIwNDYsLTE0NTM4MDg1NjEsLTE5Njk0ODAxMTcsNDQ5NTgx
+Nzc2LC0xNzQzNTQyMTg2LC0xNTA2Mzk1MzAxLC0xMzY4MDU2MD
+A0LC0xMzAzNTI1NDIsMzcwMTAwMDA3LC0yMTI5MzEwMjc0LC04
+MzY1ODQ4NjEsODk4NzQwMTg3LC0xNDQ2OTc0ODg2LDE5MDEwNT
+Y2MjAsOTcxNzU3MTMwLC0xNzU4NzY0MTcxLDExNDAxODM2NzIs
+LTE1NTkxNzM1NzJdfQ==
 -->
