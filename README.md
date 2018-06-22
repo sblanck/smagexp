@@ -12,7 +12,7 @@ SMAGEXP (Statistical Meta-Analysis for Gene EXPression) for Galaxy is a Galaxy t
 - [How to analyse data with SMAGEXP](#How-to-analyse-data-with-SMAGEXP)
 	- [Micro-array meta-analysis](#Micro-array-meta-analysis)
 		- [Data from GEO database](#Data-from-GEO-database)
-		- [Data from affymetrix .CEL files
+		- [Data from affymetrix .CEL files](
 		- 
 	- [Using docker](#Using-docker)
 
@@ -461,11 +461,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDYyMTg1MDUsLTg2MjQ4NDQ5NywtMT
-k0MTQ1NzY2MiwtMjA5OTQ0MzEwMSwtMTc3OTk3NzEzMCwtMTQ5
-OTc4NDI1MCwtMTIwNTI3MDQ2NywtMTYyODM4Nzg0OSwtMjI2ND
-gwOTQzLDY2MDIzNzcyMCwtOTUzODkzODE2LC0yMTQxODU3OTgw
-LDMwMDcyMDQ5OCwtNDIwNDU2NDcxLC01NzQ4MTI5OSwtODM3Mj
-A5MjMwLC03MDUwMDU2MDQsMTY5NzExMDEwMyw0Mjc4NDg4MjIs
-LTE1ODA0MzYyMTBdfQ==
+eyJoaXN0b3J5IjpbLTE0MTg1Mzg1ODAsLTE5MDYyMTg1MDUsLT
+E5NDE0NTc2NjIsLTIwOTk0NDMxMDEsLTE3Nzk5NzcxMzAsLTE0
+OTk3ODQyNTAsLTEyMDUyNzA0NjcsLTE2MjgzODc4NDksLTIyNj
+Q4MDk0Myw2NjAyMzc3MjAsLTk1Mzg5MzgxNiwtMjE0MTg1Nzk4
+MCwzMDA3MjA0OTgsLTQyMDQ1NjQ3MSwtNTc0ODEyOTksLTgzNz
+IwOTIzMCwtNzA1MDA1NjA0LDE2OTcxMTAxMDMsNDI3ODQ4ODIy
+LC0xNTgwNDM2MjEwXX0=
 -->
