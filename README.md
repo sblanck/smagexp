@@ -366,9 +366,9 @@ Step by step example of a RNA-seq meta-analysis
 ### Data used in this example
 ### First Analysis
 ### Second Analysis
-### Meta 
+### Meta Analysis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDg4MjM4MjMsLTkwODE3MDQ4NCw2OT
+eyJoaXN0b3J5IjpbMTM3MDAxOTE4OSwtMTQwODgyMzgyMyw2OT
 U4NTIyNTEsMjA2MzQzODI0OSwtMjEyODI5MzYwNSw2MzIyMDQ1
 MTMsLTcyMzY0Njg4LC05NjcxMDEwNjgsMTAwNjMxMjA0NiwtMT
 Q1MzgwODU2MSwtMTk2OTQ4MDExNyw0NDk1ODE3NzYsLTE3NDM1
