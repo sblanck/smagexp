@@ -443,7 +443,7 @@ In this example we keep the 10 tumor samples to compare with the 6 normal sample
 *DESeq2 tool form*
 
 
-### Meta Analysis with metaRNASeq
+### Meta Analysis with metaRNASeq  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
 
 MetaRNASeq tool takes several results from DESeq2 tool and perform a meta-analysis.
 It requires text results file from DESeq2 and the number of replicates of each analysis. In this example we have 11 replicates for the first analysis and 16 for the second analysis.
@@ -466,11 +466,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NzE1MTM2MiwxMjc1OTQ4MzUxLC0xND
-E4NTM4NTgwLC0xOTQxNDU3NjYyLC0yMDk5NDQzMTAxLC0xNzc5
-OTc3MTMwLC0xNDk5Nzg0MjUwLC0xMjA1MjcwNDY3LC0xNjI4Mz
-g3ODQ5LC0yMjY0ODA5NDMsNjYwMjM3NzIwLC05NTM4OTM4MTYs
-LTIxNDE4NTc5ODAsMzAwNzIwNDk4LC00MjA0NTY0NzEsLTU3ND
-gxMjk5LC04MzcyMDkyMzAsLTcwNTAwNTYwNCwxNjk3MTEwMTAz
-LDQyNzg0ODgyMl19
+eyJoaXN0b3J5IjpbNzU4MTA3MDk0LDE1NDcxNTEzNjIsMTI3NT
+k0ODM1MSwtMTQxODUzODU4MCwtMTk0MTQ1NzY2MiwtMjA5OTQ0
+MzEwMSwtMTc3OTk3NzEzMCwtMTQ5OTc4NDI1MCwtMTIwNTI3MD
+Q2NywtMTYyODM4Nzg0OSwtMjI2NDgwOTQzLDY2MDIzNzcyMCwt
+OTUzODkzODE2LC0yMTQxODU3OTgwLDMwMDcyMDQ5OCwtNDIwND
+U2NDcxLC01NzQ4MTI5OSwtODM3MjA5MjMwLC03MDUwMDU2MDQs
+MTY5NzExMDEwM119
 -->
