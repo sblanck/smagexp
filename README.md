@@ -434,18 +434,18 @@ It also requires a FDR threshold for genes to be declared differentially express
 *MetaRNAseq tool form*
 
 The tool outputs 2 datasets :
-![Venn diagram and statistical indocators of the meta](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_metarnaseq_diagram.png)
+![Venn diagram and statistical indocators of the meta-analy](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_metarnaseq_diagram.png)
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTk3NDEyMDcsLTE2MjgzODc4NDksLT
-IyNjQ4MDk0Myw2NjAyMzc3MjAsLTk1Mzg5MzgxNiwtMjE0MTg1
-Nzk4MCwzMDA3MjA0OTgsLTQyMDQ1NjQ3MSwtNTc0ODEyOTksLT
-gzNzIwOTIzMCwtNzA1MDA1NjA0LDE2OTcxMTAxMDMsNDI3ODQ4
-ODIyLC0xNTgwNDM2MjEwLDEzNzAwMTkxODksLTE0MDg4MjM4Mj
-MsNjk1ODUyMjUxLDIwNjM0MzgyNDksLTIxMjgyOTM2MDUsNjMy
-MjA0NTEzXX0=
+eyJoaXN0b3J5IjpbLTEyMDUyNzA0NjcsLTE0MTk3NDEyMDcsLT
+E2MjgzODc4NDksLTIyNjQ4MDk0Myw2NjAyMzc3MjAsLTk1Mzg5
+MzgxNiwtMjE0MTg1Nzk4MCwzMDA3MjA0OTgsLTQyMDQ1NjQ3MS
+wtNTc0ODEyOTksLTgzNzIwOTIzMCwtNzA1MDA1NjA0LDE2OTcx
+MTAxMDMsNDI3ODQ4ODIyLC0xNTgwNDM2MjEwLDEzNzAwMTkxOD
+ksLTE0MDg4MjM4MjMsNjk1ODUyMjUxLDIwNjM0MzgyNDksLTIx
+MjgyOTM2MDVdfQ==
 -->
