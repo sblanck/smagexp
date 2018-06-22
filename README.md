@@ -325,6 +325,8 @@ It generates a html report with boxplots, p-value histogram a volcano plot and a
 
 ### Meta-analysis
 The meta analysis tool only needs the rdata files produced by the limma tool. 
+![MetaMA tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_metaMA_form.png)
+*MetaMA tool form*
 
 The outputs are  :		
 - Venn Diagram summarizing the results of the meta-analysis
@@ -343,11 +345,11 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MzQzODI0OSwtMjEyODI5MzYwNSw2Mz
-IyMDQ1MTMsLTcyMzY0Njg4LC05NjcxMDEwNjgsMTAwNjMxMjA0
-NiwtMTQ1MzgwODU2MSwtMTk2OTQ4MDExNyw0NDk1ODE3NzYsLT
-E3NDM1NDIxODYsLTE1MDYzOTUzMDEsLTEzNjgwNTYwMDQsLTEz
-MDM1MjU0MiwzNzAxMDAwMDcsLTIxMjkzMTAyNzQsLTgzNjU4ND
-g2MSw4OTg3NDAxODcsLTE0NDY5NzQ4ODYsMTkwMTA1NjYyMCw5
-NzE3NTcxMzBdfQ==
+eyJoaXN0b3J5IjpbNjk1ODUyMjUxLDIwNjM0MzgyNDksLTIxMj
+gyOTM2MDUsNjMyMjA0NTEzLC03MjM2NDY4OCwtOTY3MTAxMDY4
+LDEwMDYzMTIwNDYsLTE0NTM4MDg1NjEsLTE5Njk0ODAxMTcsND
+Q5NTgxNzc2LC0xNzQzNTQyMTg2LC0xNTA2Mzk1MzAxLC0xMzY4
+MDU2MDA0LC0xMzAzNTI1NDIsMzcwMTAwMDA3LC0yMTI5MzEwMj
+c0LC04MzY1ODQ4NjEsODk4NzQwMTg3LC0xNDQ2OTc0ODg2LDE5
+MDEwNTY2MjBdfQ==
 -->
