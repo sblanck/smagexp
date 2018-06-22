@@ -256,7 +256,8 @@ Accession ID
 Outputs are
 	-
 #### Running DESeq2 analysis
-Count files retrieved by the recount galaxy tool have to be analyzed with the The [ DESeq2 tool available on the galaxy toolshed](https://toolshed.g2.bx.psu.edu/repository?repository_id=1f158f7565dc70f9&changeset_revision=9a616afdbda5)
+Count files retrieved by the recount galaxy tool can be analyzed with the The [DESeq2 tool available on the galaxy toolshed](https://toolshed.g2.bx.psu.edu/repository?repository_id=1f158f7565dc70f9&changeset_revision=9a616afdbda5)
+For more information of how this tool works, sse the help section on the tool 
 
 #### Running a RNA-seq meta-analysis
 
@@ -496,7 +497,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNDk2Njg0NywtOTQwMzU5NjgwLDE0Mj
+eyJoaXN0b3J5IjpbLTQ2OTQ2NDE3MSwtOTQwMzU5NjgwLDE0Mj
 E1ODcxODksMTU2NTcxMzM4MiwtMTg1NzE3MzY1Niw1NjI4MjE4
 MTEsMTY4MzMzNTQ3MiwzMjg2NDc2NjAsNTE2MjA0NjAwLDIwMT
 I2OTYwMjEsMTE0MTk4ODU2Miw4MjA3MjM1MiwtNjM1ODE1ODY0
