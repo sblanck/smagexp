@@ -369,7 +369,7 @@ The full history of this example is available at  :
 ```
 https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-of-RNA-seq-meta-analysis.tar.gz
 ```
-Two dataset from the recount database are used in th
+Two dataset from the recount database are used in this e
 
 ### First Analysis
 
@@ -411,11 +411,11 @@ The same kind of analysis on an other recount dataset
 
 ### Meta Analysis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjMyNjg1NzQsMzAwNzIwNDk4LC00Mj
-A0NTY0NzEsLTU3NDgxMjk5LC04MzcyMDkyMzAsLTcwNTAwNTYw
-NCwxNjk3MTEwMTAzLDQyNzg0ODgyMiwtMTU4MDQzNjIxMCwxMz
-cwMDE5MTg5LC0xNDA4ODIzODIzLDY5NTg1MjI1MSwyMDYzNDM4
-MjQ5LC0yMTI4MjkzNjA1LDYzMjIwNDUxMywtNzIzNjQ2ODgsLT
-k2NzEwMTA2OCwxMDA2MzEyMDQ2LC0xNDUzODA4NTYxLC0xOTY5
-NDgwMTE3XX0=
+eyJoaXN0b3J5IjpbNzkxMjE2MDE5LC0xMjIzMjY4NTc0LDMwMD
+cyMDQ5OCwtNDIwNDU2NDcxLC01NzQ4MTI5OSwtODM3MjA5MjMw
+LC03MDUwMDU2MDQsMTY5NzExMDEwMyw0Mjc4NDg4MjIsLTE1OD
+A0MzYyMTAsMTM3MDAxOTE4OSwtMTQwODgyMzgyMyw2OTU4NTIy
+NTEsMjA2MzQzODI0OSwtMjEyODI5MzYwNSw2MzIyMDQ1MTMsLT
+cyMzY0Njg4LC05NjcxMDEwNjgsMTAwNjMxMjA0NiwtMTQ1Mzgw
+ODU2MV19
 -->
