@@ -19,6 +19,7 @@ Table of Contents <a name="toc" />
 - [Step by step example of a micro-array meta-analysis](#step-by-step-example-of-a-micro-array-meta-analysis)
 	- [Data used in this example](#data-used-in-this-example)
 	- [First analysis: from GEO database](#first-analysis-from-geo-database)
+		- [Run The GEOQuery Tool](#Run-the-geoQuery Tool)
 -  [Step by step example of a RNA-seq meta-analysis](#step-by-step-example-of-a-rna-seq-meta-analysis)
 
 
@@ -468,7 +469,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUyNzQ5NzI3LC01MDI5OTk1MzIsLTg5Nz
+eyJoaXN0b3J5IjpbLTQ0MjUyMjY2NiwzNTI3NDk3MjcsLTg5Nz
 IxOTA1NSw1OTYxMTkxMjUsNzU4MTA3MDk0LDEyNzU5NDgzNTEs
 LTE0MTg1Mzg1ODAsLTE5NDE0NTc2NjIsLTIwOTk0NDMxMDEsLT
 E3Nzk5NzcxMzAsLTE0OTk3ODQyNTAsLTEyMDUyNzA0NjcsLTE2
