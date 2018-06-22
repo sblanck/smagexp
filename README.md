@@ -71,7 +71,7 @@ docker run -d -p 8080:80 -p 8021:21 -p 8800:8800 \
 For more information about the parameters and docker usage, please refer to https://github.com/bgruening/docker-galaxy-stable/blob/master/README.md#Usage
 
 
-Description of the tools
+How to analyse data with SMAGEXP
 ------------------------
 
 ###  Micro-array meta-analysis
@@ -237,6 +237,8 @@ It also generates a text file containing summarization of the results of each si
 ![Example of RNA-seq data meta-analysis plots](https://raw.githubusercontent.com/sblanck/smagexp/master/images/metaRNAseq_results.png)
 
 ![Header of RNA-seq data meta-analysis text results](https://raw.githubusercontent.com/sblanck/smagexp/master/images/fig9.png)
+
+*Header of RNA-seq data meta-analysis text results*
 
 Step by step example of a micro-array meta-analysis
 ------------------------
@@ -438,11 +440,11 @@ The tool outputs
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU1NTUxOTU0LC0xNjI4Mzg3ODQ5LC0yMj
-Y0ODA5NDMsNjYwMjM3NzIwLC05NTM4OTM4MTYsLTIxNDE4NTc5
-ODAsMzAwNzIwNDk4LC00MjA0NTY0NzEsLTU3NDgxMjk5LC04Mz
-cyMDkyMzAsLTcwNTAwNTYwNCwxNjk3MTEwMTAzLDQyNzg0ODgy
-MiwtMTU4MDQzNjIxMCwxMzcwMDE5MTg5LC0xNDA4ODIzODIzLD
-Y5NTg1MjI1MSwyMDYzNDM4MjQ5LC0yMTI4MjkzNjA1LDYzMjIw
-NDUxM119
+eyJoaXN0b3J5IjpbMTA2NzIzMDkzMiwtMTYyODM4Nzg0OSwtMj
+I2NDgwOTQzLDY2MDIzNzcyMCwtOTUzODkzODE2LC0yMTQxODU3
+OTgwLDMwMDcyMDQ5OCwtNDIwNDU2NDcxLC01NzQ4MTI5OSwtOD
+M3MjA5MjMwLC03MDUwMDU2MDQsMTY5NzExMDEwMyw0Mjc4NDg4
+MjIsLTE1ODA0MzYyMTAsMTM3MDAxOTE4OSwtMTQwODgyMzgyMy
+w2OTU4NTIyNTEsMjA2MzQzODI0OSwtMjEyODI5MzYwNSw2MzIy
+MDQ1MTNdfQ==
 -->
