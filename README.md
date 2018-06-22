@@ -376,7 +376,7 @@ https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-of
 The first step is to fetch raw count data from Recount. The recount wrap the recount bioconductor package. Given the accession ID. 
 ![Recount tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_recount_form.png)
 
-*Re
+*Recount 
 
 The recount tool generate one count file per sample of the experiment, in order to be analyzed with DESeq2.
 
@@ -389,11 +389,11 @@ The recount tool generate one count file per sample of the experiment, in order 
 
 ### Meta Analysis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxOTM0MzA0NywtNDEzMDk1OTMwLC0xNT
-gwNDM2MjEwLDEzNzAwMTkxODksLTE0MDg4MjM4MjMsNjk1ODUy
-MjUxLDIwNjM0MzgyNDksLTIxMjgyOTM2MDUsNjMyMjA0NTEzLC
-03MjM2NDY4OCwtOTY3MTAxMDY4LDEwMDYzMTIwNDYsLTE0NTM4
-MDg1NjEsLTE5Njk0ODAxMTcsNDQ5NTgxNzc2LC0xNzQzNTQyMT
-g2LC0xNTA2Mzk1MzAxLC0xMzY4MDU2MDA0LC0xMzAzNTI1NDIs
-MzcwMTAwMDA3XX0=
+eyJoaXN0b3J5IjpbNDI3ODQ4ODIyLDE3MTkzNDMwNDcsLTE1OD
+A0MzYyMTAsMTM3MDAxOTE4OSwtMTQwODgyMzgyMyw2OTU4NTIy
+NTEsMjA2MzQzODI0OSwtMjEyODI5MzYwNSw2MzIyMDQ1MTMsLT
+cyMzY0Njg4LC05NjcxMDEwNjgsMTAwNjMxMjA0NiwtMTQ1Mzgw
+ODU2MSwtMTk2OTQ4MDExNyw0NDk1ODE3NzYsLTE3NDM1NDIxOD
+YsLTE1MDYzOTUzMDEsLTEzNjgwNTYwMDQsLTEzMDM1MjU0Miwz
+NzAxMDAwMDddfQ==
 -->
