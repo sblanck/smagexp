@@ -194,7 +194,7 @@ The Inputs are :
 * .rdata files from limma analysis tool.
 		
 The outputs are  :		
-- Venn Diagram summarizing the results of the meta-analysis
+- Venn Diagram or upsetR diagram (when the number of studies is greater than 3) summarizing the results of the meta-analysis
 - A list of indicators to evaluate the quality of the performance of the meta-analysis
 		
 	- DE : Number of differentially expressed genes 
@@ -210,7 +210,24 @@ The outputs are  :
 ### Rna-seq meta analysis 
 The RNA-seq data meta-analysis tool relies on DESeq2 results.
 
-It outputs a Venn diagram and the same indicators as in the microarray meta-analysis tool for both Fisher and inverse normal p-values combinations.
+It outputs a Venn diagram or an upsetR diagram (when the number of studies is greater than 2) and the same indicators as in the microarray meta-analysis tool for both Fisher and inverse normal p-values combinations.
+
+The inputs are :
+- At least 2 studies, and for each study
+	- Results of DESeq2 study
+	- Number of replicates of the study	
+- A FDR Threshold	
+
+The outputs are  :		
+- Venn Diagram or upsetR diagram (when the number of studies is greater than 3) summarizing the results of the meta-analysis
+- A list of indicators to evaluate the quality of the performance of the meta-analysis
+		
+	- DE : Number of differentially expressed genes 
+	- IDD (Integration Driven discoveries) : number of genes that are declared differentially expressed in the meta-analysis that were not identified in any of the single studies alone
+	- Loss : Number of genes that are identified differentially expressed in single studies but not in meta-analysis 
+	- DR (Integration-driven Discovery Rate) : corresponding proportion of IDD
+	- IRR (Integration-driven Revision) : corresponding proportion of Loss
+
 It also generates a text file containing summarization of the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 ![Example of RNA-seq data meta-analysis plots](https://raw.githubusercontent.com/sblanck/smagexp/master/images/metaRNAseq_results.png)
@@ -304,11 +321,11 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDYzOTUzMDEsLTEzNjgwNTYwMDQsLT
-EzMDM1MjU0MiwzNzAxMDAwMDcsLTIxMjkzMTAyNzQsLTgzNjU4
-NDg2MSw4OTg3NDAxODcsLTE0NDY5NzQ4ODYsMTkwMTA1NjYyMC
-w5NzE3NTcxMzAsLTE3NTg3NjQxNzEsMTE0MDE4MzY3MiwtMTU1
-OTE3MzU3MiwtOTYxNTYyMjE4LC0xMTczODA0NjY5LC04ODI5Nz
-ExODUsMzE1MDYxMjYyLDE1MDcyMDcyNDYsMTY2MTY2MjUwLDMy
-MTY1ODZdfQ==
+eyJoaXN0b3J5IjpbNDQ5NTgxNzc2LC0xNzQzNTQyMTg2LC0xNT
+A2Mzk1MzAxLC0xMzY4MDU2MDA0LC0xMzAzNTI1NDIsMzcwMTAw
+MDA3LC0yMTI5MzEwMjc0LC04MzY1ODQ4NjEsODk4NzQwMTg3LC
+0xNDQ2OTc0ODg2LDE5MDEwNTY2MjAsOTcxNzU3MTMwLC0xNzU4
+NzY0MTcxLDExNDAxODM2NzIsLTE1NTkxNzM1NzIsLTk2MTU2Mj
+IxOCwtMTE3MzgwNDY2OSwtODgyOTcxMTg1LDMxNTA2MTI2Miwx
+NTA3MjA3MjQ2XX0=
 -->
