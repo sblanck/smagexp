@@ -376,7 +376,7 @@ Two dataset from the recount database are used in this example :
 ### First Analysis
 
 #### Recount
-The first step is to fetch raw count data from Recount. The recount wrap the recount bioconductor package. It only needs the accession ID (iof the experiment. 
+The first step is to fetch raw count data from Recount. The recount wrap the recount bioconductor package. It only needs the accession ID of the experiment. 
 ![Recount tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_recount_form.png)
 
 *Recount tool form*
@@ -414,12 +414,13 @@ The same kind of analysis on an the other recount dataset
 
 #### DESeq2
 
-In this
+In this example we keep the 10 tumor samples to compare with the 6 normal samples.
 
 ![DESeq2 tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_deseq2_form2.png)
+
 ### Meta Analysis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTMzNTA3MywxNjI0NjMzOTg2LC0yMT
+eyJoaXN0b3J5IjpbMTQ4MzYyODEzNCwxMTgxMzM1MDczLC0yMT
 QxODU3OTgwLDMwMDcyMDQ5OCwtNDIwNDU2NDcxLC01NzQ4MTI5
 OSwtODM3MjA5MjMwLC03MDUwMDU2MDQsMTY5NzExMDEwMyw0Mj
 c4NDg4MjIsLTE1ODA0MzYyMTAsMTM3MDAxOTE4OSwtMTQwODgy
