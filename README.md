@@ -10,7 +10,7 @@ Table of Contents <a name="toc" />
 	- [Using docker](#using-docker)
 - [How to analyse data with SMAGEXP](#how-to-analyse-data-with-smagexp)
 	- [Micro-array meta-analysis](#micro-array-meta-analysis)
-		- [Data from GEO database](#Data-from-GEO-database)
+		- [Data from GEO database](#data-from-geo-database)
 		- [Data from affymetrix .CEL files](#Data-from-affymetrix-.CEL-files) 
 		- [Custom matrix data](#Custom-matrix-data)
 		- [Limma Analysis](#Limma-Analysis)
@@ -93,14 +93,14 @@ For more information about the parameters and docker usage, please refer to http
 How to analyse data with SMAGEXP  <a name="how-to-analyse-data-with-smagexp" /> [[toc]](#toc)
 ------------------------
 
-###  Micro-array meta-analysis  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
+###  Micro-array meta-analysis  <a name="micro-array-meta-analysis" /> [[toc]](#toc)
 
 SMAGEXP is able to perform analysis from 3 different data source :
 * From GEO database
 * From .CEL files
 * From custom matrix text files
 
-#### Data from GEO database  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
+#### Data from GEO database  <a name="data-from-geo-database" /> [[toc]](#toc)
 
 SMAGEXP can fetch data directly from [GEO database](https://www.ncbi.nlm.nih.gov/geo/), thanks to the GEOQuery R package. 
 
@@ -466,7 +466,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTY0NzM2MTEsNzU4MTA3MDk0LDEyNz
+eyJoaXN0b3J5IjpbLTIwMTA1NTI3NzksNzU4MTA3MDk0LDEyNz
 U5NDgzNTEsLTE0MTg1Mzg1ODAsLTE5NDE0NTc2NjIsLTIwOTk0
 NDMxMDEsLTE3Nzk5NzcxMzAsLTE0OTk3ODQyNTAsLTEyMDUyNz
 A0NjcsLTE2MjgzODc4NDksLTIyNjQ4MDk0Myw2NjAyMzc3MjAs
