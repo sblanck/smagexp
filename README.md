@@ -256,7 +256,7 @@ Accession ID
 Outputs are
 	-
 #### Running DESeq2 analysis
-Count files retrived with the recount galaxy tool have to be analyzed with the DESeq2 galaxy tool available on the tool
+Count files retrived with the recount galaxy tool have to be analyzed with the DESeq2 galaxy tool available on the toolshed
 
 #### Running a RNA-seq meta-analysis
 
@@ -496,11 +496,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTUyMjk5NiwxNDIxNTg3MTg5LDE1Nj
-U3MTMzODIsLTE4NTcxNzM2NTYsNTYyODIxODExLDE2ODMzMzU0
-NzIsMzI4NjQ3NjYwLDUxNjIwNDYwMCwyMDEyNjk2MDIxLDExND
-E5ODg1NjIsODIwNzIzNTIsLTYzNTgxNTg2NCwtMTk4NjU3MTcw
-NywtODk3MjE5MDU1LDU5NjExOTEyNSw3NTgxMDcwOTQsMTI3NT
-k0ODM1MSwtMTQxODUzODU4MCwtMTk0MTQ1NzY2MiwtMjA5OTQ0
-MzEwMV19
+eyJoaXN0b3J5IjpbLTk0MDM1OTY4MCwxNzIxNTIyOTk2LDE0Mj
+E1ODcxODksMTU2NTcxMzM4MiwtMTg1NzE3MzY1Niw1NjI4MjE4
+MTEsMTY4MzMzNTQ3MiwzMjg2NDc2NjAsNTE2MjA0NjAwLDIwMT
+I2OTYwMjEsMTE0MTk4ODU2Miw4MjA3MjM1MiwtNjM1ODE1ODY0
+LC0xOTg2NTcxNzA3LC04OTcyMTkwNTUsNTk2MTE5MTI1LDc1OD
+EwNzA5NCwxMjc1OTQ4MzUxLC0xNDE4NTM4NTgwLC0xOTQxNDU3
+NjYyXX0=
 -->
