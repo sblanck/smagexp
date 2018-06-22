@@ -14,7 +14,8 @@ SMAGEXP (Statistical Meta-Analysis for Gene EXPression) for Galaxy is a Galaxy t
 		- [Data from GEO database](#Data-from-GEO-database)
 		- [Data from affymetrix .CEL files](#Data-from-affymetrix-.CEL-files) 
 		- [Custom matrix data](#Custom-matrix-data)
-	- [Using docker](#Using-docker)
+		- [Limma Analysis](#Limma-Analysis)
+		- 
 
 
 How to install SMAGEXP
@@ -95,7 +96,7 @@ SMAGEXP is able to perform analysis from 3 different data source :
 * From .CEL files
 * From custom matrix text files
 
-##### Data from GEO database
+#### Data from GEO database
 
 SMAGEXP can fetch data directly from [GEO database](https://www.ncbi.nlm.nih.gov/geo/), thanks to the GEOQuery R package. 
 
@@ -461,7 +462,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODYxODY2ODQsLTE0MTg1Mzg1ODAsLT
+eyJoaXN0b3J5IjpbLTEwODE1OTE2MDIsLTE0MTg1Mzg1ODAsLT
 E5NDE0NTc2NjIsLTIwOTk0NDMxMDEsLTE3Nzk5NzcxMzAsLTE0
 OTk3ODQyNTAsLTEyMDUyNzA0NjcsLTE2MjgzODc4NDksLTIyNj
 Q4MDk0Myw2NjAyMzc3MjAsLTk1Mzg5MzgxNiwtMjE0MTg1Nzk4
