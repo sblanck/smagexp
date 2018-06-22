@@ -1,7 +1,7 @@
 SMAGEXP (Statistical Meta Analysis for Gene EXPression) for Galaxy
 ========
 
-SMAGEXP (Statistical Meta-Analysis for Gene EXPression) for Galaxy is a Galaxy tool suite providing a unified way to carry out meta-analysis of gene expression data, while taking care of their specificities. It handles microarray data from Gene Expression Omnibus (GEO) database or custom data from affymetrix microarrays. These data are then combined to carry out meta-analysis using metaMA package. SMAGEXP also offers to combine Next Generation Sequencing (NGS) RNA-seq analysis from Deseq2 results thanks to metaRNASeq package. In both cases, key values, independent from the technology type, are reported to judge the quality of the meta-analysis. 
+SMAGEXP (Statistical Meta-Analysis for Gene EXPression) for Galaxy is a Galaxy tool suite providing a unified way to carry out meta-analysis of gene expression data, while taking care of their specificities. It handles microarray data from Gene Expression Omnibus (GEO) database or custom data from affymetrix microarrays. These data are then combined to carry out meta-analysis using metaMA package. SMAGEXP also offers to combine Next Generation Sequencing (NGS) RNA-seq analysis from DESeq2 results thanks to metaRNASeq package. In both cases, key values, independent from the technology type, are reported to judge the quality of the meta-analysis. 
 
 Table of Contents <a name="toc" />
 ------------------------
@@ -506,11 +506,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyODY2NTAyNCwtMTM4MjgxOTc3NywtMz
-U0MTAzMTYwLDM4NDg4OTA4MywxMTY2MjEwNDE1LDE0OTQ2NDc5
-MSwtMTc0NjgwNjk0NywtOTQwMzU5NjgwLDE0MjE1ODcxODksMT
-U2NTcxMzM4MiwtMTg1NzE3MzY1Niw1NjI4MjE4MTEsMTY4MzMz
-NTQ3MiwzMjg2NDc2NjAsNTE2MjA0NjAwLDIwMTI2OTYwMjEsMT
-E0MTk4ODU2Miw4MjA3MjM1MiwtNjM1ODE1ODY0LC0xOTg2NTcx
-NzA3XX0=
+eyJoaXN0b3J5IjpbLTc3MTU0MjQ2NCwtNTI4NjY1MDI0LC0xMz
+gyODE5Nzc3LC0zNTQxMDMxNjAsMzg0ODg5MDgzLDExNjYyMTA0
+MTUsMTQ5NDY0NzkxLC0xNzQ2ODA2OTQ3LC05NDAzNTk2ODAsMT
+QyMTU4NzE4OSwxNTY1NzEzMzgyLC0xODU3MTczNjU2LDU2Mjgy
+MTgxMSwxNjgzMzM1NDcyLDMyODY0NzY2MCw1MTYyMDQ2MDAsMj
+AxMjY5NjAyMSwxMTQxOTg4NTYyLDgyMDcyMzUyLC02MzU4MTU4
+NjRdfQ==
 -->
