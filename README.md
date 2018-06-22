@@ -282,7 +282,7 @@ The full history of this example is available at  :
 ```
 https://github.com/sblanck/smagexp/blob/master/examples/Galaxy-History-Micro-array-meta-analysis-history.tar.gz
 ```
-.CEL files used in this examples are extracted from the GEO dataset GSE13601. We picked up 6 .CEL files (to simplify the example) which can be found here :
+.CEL files used in this example are extracted from the GEO dataset GSE13601. We picked up 6 .CEL files (to simplify the example) which can be found here :
 ```
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342582.CEL
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342583.CEL
@@ -481,11 +481,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MzMzNTQ3MiwzMjg2NDc2NjAsNTE2Mj
-A0NjAwLDIwMTI2OTYwMjEsMTE0MTk4ODU2Miw4MjA3MjM1Miwt
-NjM1ODE1ODY0LC0xOTg2NTcxNzA3LC04OTcyMTkwNTUsNTk2MT
-E5MTI1LDc1ODEwNzA5NCwxMjc1OTQ4MzUxLC0xNDE4NTM4NTgw
-LC0xOTQxNDU3NjYyLC0yMDk5NDQzMTAxLC0xNzc5OTc3MTMwLC
-0xNDk5Nzg0MjUwLC0xMjA1MjcwNDY3LC0xNjI4Mzg3ODQ5LC0y
-MjY0ODA5NDNdfQ==
+eyJoaXN0b3J5IjpbNTYyODIxODExLDE2ODMzMzU0NzIsMzI4Nj
+Q3NjYwLDUxNjIwNDYwMCwyMDEyNjk2MDIxLDExNDE5ODg1NjIs
+ODIwNzIzNTIsLTYzNTgxNTg2NCwtMTk4NjU3MTcwNywtODk3Mj
+E5MDU1LDU5NjExOTEyNSw3NTgxMDcwOTQsMTI3NTk0ODM1MSwt
+MTQxODUzODU4MCwtMTk0MTQ1NzY2MiwtMjA5OTQ0MzEwMSwtMT
+c3OTk3NzEzMCwtMTQ5OTc4NDI1MCwtMTIwNTI3MDQ2NywtMTYy
+ODM4Nzg0OV19
 -->
