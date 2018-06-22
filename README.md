@@ -294,7 +294,7 @@ The limma analysis tool takes an rdata and a .cond file as inputs.
 
 It generates a html report with boxplots, p-value histogram a volcano plot and a table listing the differentially expressed genes. 
 ![Limma analysis tool graphic outputs](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_result_graph.png)
-
+*
 This table gives access to gene annotation on ncbi and gene ontology website.
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.234%;"><iframe src="https://streamable.com/s/cdt5q/pkjtyc" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
@@ -337,11 +337,11 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNDM4ODE2NCwxMDA2MzEyMDQ2LC0xND
-UzODA4NTYxLC0xOTY5NDgwMTE3LDQ0OTU4MTc3NiwtMTc0MzU0
-MjE4NiwtMTUwNjM5NTMwMSwtMTM2ODA1NjAwNCwtMTMwMzUyNT
-QyLDM3MDEwMDAwNywtMjEyOTMxMDI3NCwtODM2NTg0ODYxLDg5
-ODc0MDE4NywtMTQ0Njk3NDg4NiwxOTAxMDU2NjIwLDk3MTc1Nz
-EzMCwtMTc1ODc2NDE3MSwxMTQwMTgzNjcyLC0xNTU5MTczNTcy
-LC05NjE1NjIyMThdfQ==
+eyJoaXN0b3J5IjpbLTg1NTUxNTMxMCwxMTE0Mzg4MTY0LDEwMD
+YzMTIwNDYsLTE0NTM4MDg1NjEsLTE5Njk0ODAxMTcsNDQ5NTgx
+Nzc2LC0xNzQzNTQyMTg2LC0xNTA2Mzk1MzAxLC0xMzY4MDU2MD
+A0LC0xMzAzNTI1NDIsMzcwMTAwMDA3LC0yMTI5MzEwMjc0LC04
+MzY1ODQ4NjEsODk4NzQwMTg3LC0xNDQ2OTc0ODg2LDE5MDEwNT
+Y2MjAsOTcxNzU3MTMwLC0xNzU4NzY0MTcxLDExNDAxODM2NzIs
+LTE1NTkxNzM1NzJdfQ==
 -->
