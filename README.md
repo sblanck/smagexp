@@ -283,6 +283,7 @@ The QC normalisation tool only needs a list of .CEL files and a normalization me
 It will generate an html report showing chip pseudo images, boxplots and MA plot for raw and normalized data. It also generates a .rdata file containing normalized data in a eset object for further analysis with limma.
 
 ![QCnormalization tool (partial) results](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_QC_report.png)
+*QCnormalization tool (partial) results with chip pseudo-images, boxplots and MA-plots for raw data*
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/xc6id/nfvshz" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
@@ -329,7 +330,7 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMjc3ODc2OCwtMTQ1MzgwODU2MSwtMT
+eyJoaXN0b3J5IjpbMjA5MjM4MzYwMCwtMTQ1MzgwODU2MSwtMT
 k2OTQ4MDExNyw0NDk1ODE3NzYsLTE3NDM1NDIxODYsLTE1MDYz
 OTUzMDEsLTEzNjgwNTYwMDQsLTEzMDM1MjU0MiwzNzAxMDAwMD
 csLTIxMjkzMTAyNzQsLTgzNjU4NDg2MSw4OTg3NDAxODcsLTE0
