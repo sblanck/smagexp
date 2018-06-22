@@ -269,7 +269,7 @@ https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-Da
 ```
 Download this history on your computer and import it in galaxy. If you choose to manually upload these data on Galaxy don't forget to specify the type of each file (.CEL or .cond) as Galaxy won't auto-detect them.
 
-### 1st analysis : from raw .CEL files
+### 2nd analysis : from raw .CEL files
 
 #### Run QC normalisation tool
 The QC normalisation tool only needs a list of .CEL files and a normalization method. 
@@ -295,10 +295,6 @@ It generates a html report with boxplots, p-value histogram a volcano plot and a
 
 ![Limma analysis tool table output](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_table2.png)
 *Limma analysis tool table output*
-
-This table gives access to gene annotation on ncbi and gene ontology website.
-![ncbi gene annotations](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_result_ncbi.png)
-*NCBI gene annotations*
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.234%;"><iframe src="https://streamable.com/s/cdt5q/pkjtyc" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
@@ -363,11 +359,11 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDkzODYzMjYsNjMyMjA0NTEzLC03Mj
-M2NDY4OCwtOTY3MTAxMDY4LDEwMDYzMTIwNDYsLTE0NTM4MDg1
-NjEsLTE5Njk0ODAxMTcsNDQ5NTgxNzc2LC0xNzQzNTQyMTg2LC
-0xNTA2Mzk1MzAxLC0xMzY4MDU2MDA0LC0xMzAzNTI1NDIsMzcw
-MTAwMDA3LC0yMTI5MzEwMjc0LC04MzY1ODQ4NjEsODk4NzQwMT
-g3LC0xNDQ2OTc0ODg2LDE5MDEwNTY2MjAsOTcxNzU3MTMwLC0x
-NzU4NzY0MTcxXX0=
+eyJoaXN0b3J5IjpbLTI4MjE4MTkxOSw2MzIyMDQ1MTMsLTcyMz
+Y0Njg4LC05NjcxMDEwNjgsMTAwNjMxMjA0NiwtMTQ1MzgwODU2
+MSwtMTk2OTQ4MDExNyw0NDk1ODE3NzYsLTE3NDM1NDIxODYsLT
+E1MDYzOTUzMDEsLTEzNjgwNTYwMDQsLTEzMDM1MjU0MiwzNzAx
+MDAwMDcsLTIxMjkzMTAyNzQsLTgzNjU4NDg2MSw4OTg3NDAxOD
+csLTE0NDY5NzQ4ODYsMTkwMTA1NjYyMCw5NzE3NTcxMzAsLTE3
+NTg3NjQxNzFdfQ==
 -->
