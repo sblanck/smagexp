@@ -255,7 +255,9 @@ Accession ID
 
 Outputs are
 	-
-#### 
+#### Running DESeq2 analysis
+Count files retrived with the recount galaxy tool have to be analyzed with the DESeq2 galaxy tool available on the tool
+
 #### Running a RNA-seq meta-analysis
 
 The RNA-seq data meta-analysis tool relies on DESeq2 results. It uses the metaRNAseq R package from CRAN.
@@ -494,7 +496,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzI5NzEzNSwxNDIxNTg3MTg5LDE1Nj
+eyJoaXN0b3J5IjpbMTcyMTUyMjk5NiwxNDIxNTg3MTg5LDE1Nj
 U3MTMzODIsLTE4NTcxNzM2NTYsNTYyODIxODExLDE2ODMzMzU0
 NzIsMzI4NjQ3NjYwLDUxNjIwNDYwMCwyMDEyNjk2MDIxLDExND
 E5ODg1NjIsODIwNzIzNTIsLTYzNTgxNTg2NCwtMTk4NjU3MTcw
