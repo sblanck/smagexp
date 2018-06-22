@@ -64,7 +64,29 @@
     </tests>
 
     <help>
-
+<![CDATA[ 
+**What it does**
+		
+Given several DESeq2 results this tool runs a meta-analysis using the metaRNAseq R package.
+		
+**Inputs**
+At list 2 studies
+- Results of DESeq2 study
+- Number of replicate of the study			
+	
+**Results**
+		
+- Venn Diagram or upsetR diagram (when the number of studies is greater than 2) summarizing the results of the meta-analysis
+- A list of indicators to evaluate the quality of the performance of the meta-analysis
+		
+	- DE : Number of differentially expressed genes 
+	- IDD (Integration Driven discoveries) : number of genes that are declared differentially expressed in the meta-analysis that were not identified in any of the single studies alone
+	- Loss : Number of genes that are identified differentially expressed in single studies but not in meta-analysis 
+	- DR (Integration-driven Discovery Rate) : corresponding proportion of IDD
+	- IRR (Integration-driven Revision) : corresponding proportion of Loss
+		
+- Fully sortable and requestable table, with gene annotations and hypertext links to NCBI gene database.
+]]>
     </help>
 
 </tool>
