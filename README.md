@@ -11,10 +11,10 @@ Table of Contents <a name="toc" />
 - [How to analyse data with SMAGEXP](#how-to-analyse-data-with-smagexp)
 	- [Micro-array meta-analysis](#micro-array-meta-analysis)
 		- [Data from GEO database](#data-from-geo-database)
-		- [Data from affymetrix .CEL files](#data-from-affymetrix-.CEL-files) 
-		- [Custom matrix data](#Custom-matrix-data)
-		- [Limma Analysis](#Limma-Analysis)
-		- [Running a meta analysis](#Running-a-meta-analysis)
+		- [Data from affymetrix .CEL files](#data-from-affymetrix-cel-files) 
+		- [Custom matrix data](#custom-matrix-data)
+		- [Limma Analysis](#limma-analysis)
+		- [Running a meta analysis](#running-a-meta-analysis)
 	- [Rna-seq meta analysis](#Rna-seq-meta-analysis) 
 - [Step by step example of a micro-array meta-analysis](#Step-by-step-example-of-a-micro-array-meta-analysis)
 -  [Step by step example of a RNA-seq meta-analysis](#Step-by-step-example-of-a-RNA-seq-meta-analysis)
@@ -132,7 +132,7 @@ GSM80477 	series of 4 normals		GSM80477 OSCE-9N Series of 4 Normals
 
 When extracting data from GEO database, SMAGEXP automatically generates a .cond files based on the metadata of the experiment. 
 
-#### Data from affymetrix .CEL files  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
+#### Data from affymetrix .CEL files  <a name="data-from-affymetrix-cel-files" /> [[toc]](#toc)
 SMAGEXP handles affymetrix .CEL files. .CEL files have to be normalized with QCnormalization tool. This tool normalizes data and allows the user to check quality.
 
 The inputs are
@@ -148,7 +148,7 @@ The outputs are
 - Rdata object containing the normalized data for further analysis
 - Text file containing normalized data
 
-#### Custom matrix data  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
+#### Custom matrix data  <a name="custom-matrix-data" /> [[toc]](#toc)
 Import custom data tool imports data stored in a tabular text file. A few  normalization methods are proposed, but it is possible to skip the normalization step, by choosing "none" in the normalization methods options. Therefore this tool is of special interest when the input dataset has been previously normalized.
 
 The inputs are :
@@ -189,7 +189,7 @@ The outputs are
  - Boxplots and MA plots 
  - Rdata object containing the data for further analysis.
 
-#### Limma Analysis  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
+#### Limma Analysis  <a name="limma-analysis" /> [[toc]](#toc)
 The Limma analysis tool performs single analysis either of data previously retrieved from GEO database or normalized affymetrix .CEL files data. 
 Given a .cond file, it runs a standard limma differential expression analysis. 
 
@@ -466,7 +466,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk2MTE5MTI1LC0yMDEwNTUyNzc5LDc1OD
+eyJoaXN0b3J5IjpbLTExNzIyODA1MjAsNTk2MTE5MTI1LDc1OD
 EwNzA5NCwxMjc1OTQ4MzUxLC0xNDE4NTM4NTgwLC0xOTQxNDU3
 NjYyLC0yMDk5NDQzMTAxLC0xNzc5OTc3MTMwLC0xNDk5Nzg0Mj
 UwLC0xMjA1MjcwNDY3LC0xNjI4Mzg3ODQ5LC0yMjY0ODA5NDMs
