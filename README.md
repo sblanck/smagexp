@@ -464,13 +464,13 @@ It will generate a pdf report and a tabular text results
 ### Second Analysis  <a name="second-analysis2" /> [[toc]](#toc)
 The same kind of analysis on an the other recount dataset
 
-#### Run the recount too  <a name="run-recount2" /> [[toc]](#toc)
+#### Run the recount tool  <a name="run-recount2" /> [[toc]](#toc)
 ![Recount tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_recount_form2.png)
 
 *Recount tool form*
 
 In this example 24 count files are generated
-#### Run DESeq2  <a name="run-deseq2" /> [[toc]](#toc)
+#### Run a DESeq2 analysis  <a name="run-deseq2" /> [[toc]](#toc)
 
 In this example we keep the 10 tumor samples to compare with the 6 normal samples.
 
@@ -502,7 +502,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NDEwMzE2MCw2MzMzMTQxMzIsMzg0OD
+eyJoaXN0b3J5IjpbNjA3Mzg5MTAxLC0zNTQxMDMxNjAsMzg0OD
 g5MDgzLDExNjYyMTA0MTUsMTQ5NDY0NzkxLC0xNzQ2ODA2OTQ3
 LC05NDAzNTk2ODAsMTQyMTU4NzE4OSwxNTY1NzEzMzgyLC0xOD
 U3MTczNjU2LDU2MjgyMTgxMSwxNjgzMzM1NDcyLDMyODY0NzY2
