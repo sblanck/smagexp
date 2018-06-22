@@ -251,7 +251,10 @@ The outputs are  :
 ![Recount2](https://jhubiostatistics.shinyapps.io/recount/) is an online resource consisting of RNA-seq gene and exon counts as well as coverage bigWig files for 2041 different studies. The recount galaxy tool wraps the bioconductor R package recount and fetch gene counts from one experiment
 
 Input is
--
+Accession ID
+
+Outputs are
+	-
 
 
 #### Running a RNA-seq meta-analysis
@@ -491,7 +494,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NTcxMzM4MiwtNjY4ODMwMjczLC0xOD
+eyJoaXN0b3J5IjpbMTQyMTU4NzE4OSwxNTY1NzEzMzgyLC0xOD
 U3MTczNjU2LDU2MjgyMTgxMSwxNjgzMzM1NDcyLDMyODY0NzY2
 MCw1MTYyMDQ2MDAsMjAxMjY5NjAyMSwxMTQxOTg4NTYyLDgyMD
 cyMzUyLC02MzU4MTU4NjQsLTE5ODY1NzE3MDcsLTg5NzIxOTA1
