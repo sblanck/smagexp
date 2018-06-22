@@ -257,7 +257,7 @@ Input is
 Outputs are
 - One file
 - 
-#### Running DESeq2 analysis
+#### Running a DESeq2 analysis
 Count files retrieved by the recount galaxy tool can be analyzed with the The [DESeq2 tool available on the galaxy toolshed](https://toolshed.g2.bx.psu.edu/repository?repository_id=1f158f7565dc70f9&changeset_revision=9a616afdbda5)
 For more information of how this tool works, sse the help section on the tool or refer to the  [Run DESeq2](#run-deseq) section of the [Step by step example of a RNA-seq meta-analysis](#step-by-step-example-of-a-rna-seq-meta-analysis) chapter.
 
@@ -499,11 +499,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NjIxMDQxNSwxNDk0NjQ3OTEsLTE3ND
-Y4MDY5NDcsLTk0MDM1OTY4MCwxNDIxNTg3MTg5LDE1NjU3MTMz
-ODIsLTE4NTcxNzM2NTYsNTYyODIxODExLDE2ODMzMzU0NzIsMz
-I4NjQ3NjYwLDUxNjIwNDYwMCwyMDEyNjk2MDIxLDExNDE5ODg1
-NjIsODIwNzIzNTIsLTYzNTgxNTg2NCwtMTk4NjU3MTcwNywtOD
-k3MjE5MDU1LDU5NjExOTEyNSw3NTgxMDcwOTQsMTI3NTk0ODM1
-MV19
+eyJoaXN0b3J5IjpbLTkyNjA2MTEzNiwxMTY2MjEwNDE1LDE0OT
+Q2NDc5MSwtMTc0NjgwNjk0NywtOTQwMzU5NjgwLDE0MjE1ODcx
+ODksMTU2NTcxMzM4MiwtMTg1NzE3MzY1Niw1NjI4MjE4MTEsMT
+Y4MzMzNTQ3MiwzMjg2NDc2NjAsNTE2MjA0NjAwLDIwMTI2OTYw
+MjEsMTE0MTk4ODU2Miw4MjA3MjM1MiwtNjM1ODE1ODY0LC0xOT
+g2NTcxNzA3LC04OTcyMTkwNTUsNTk2MTE5MTI1LDc1ODEwNzA5
+NF19
 -->
