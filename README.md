@@ -288,7 +288,10 @@ It will generate an html report showing chip pseudo images, boxplots and MA plot
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/xc6id/nfvshz" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
 #### Run limma analysis
-The limma analysis tool takes an rdata and a .cond file as inputs. It generates a html report with boxplots, p-value histogram a volcano plot and a table listing the differentially expressed genes. This table gives access to gene annotation on ncbi and gene ontology website.
+The limma analysis tool takes an rdata and a .cond file as inputs.
+
+
+It generates a html report with boxplots, p-value histogram a volcano plot and a table listing the differentially expressed genes. This table gives access to gene annotation on ncbi and gene ontology website.
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.234%;"><iframe src="https://streamable.com/s/cdt5q/pkjtyc" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
@@ -330,7 +333,7 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MjM4MzYwMCwtMTQ1MzgwODU2MSwtMT
+eyJoaXN0b3J5IjpbMTAwNjMxMjA0NiwtMTQ1MzgwODU2MSwtMT
 k2OTQ4MDExNyw0NDk1ODE3NzYsLTE3NDM1NDIxODYsLTE1MDYz
 OTUzMDEsLTEzNjgwNTYwMDQsLTEzMDM1MjU0MiwzNzAxMDAwMD
 csLTIxMjkzMTAyNzQsLTgzNjU4NDg2MSw4OTg3NDAxODcsLTE0
