@@ -29,6 +29,8 @@ Table of Contents <a name="toc" />
 -  [Step by step example of a RNA-seq meta-analysis](#step-by-step-example-of-a-rna-seq-meta-analysis)
 	- [Data used in this example](#data-used-in-this-example2")
 	- [First Analysis](#first-analysis2")
+		- [Run recount](#run-recount)
+		- 
 
 
 
@@ -477,11 +479,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwOTk2ODc0MywyMDEyNjk2MDIxLDExND
-E5ODg1NjIsODIwNzIzNTIsLTYzNTgxNTg2NCwtMTk4NjU3MTcw
-NywtODk3MjE5MDU1LDU5NjExOTEyNSw3NTgxMDcwOTQsMTI3NT
-k0ODM1MSwtMTQxODUzODU4MCwtMTk0MTQ1NzY2MiwtMjA5OTQ0
-MzEwMSwtMTc3OTk3NzEzMCwtMTQ5OTc4NDI1MCwtMTIwNTI3MD
-Q2NywtMTYyODM4Nzg0OSwtMjI2NDgwOTQzLDY2MDIzNzcyMCwt
-OTUzODkzODE2XX0=
+eyJoaXN0b3J5IjpbLTE2MDIwMzI0NzAsMjAxMjY5NjAyMSwxMT
+QxOTg4NTYyLDgyMDcyMzUyLC02MzU4MTU4NjQsLTE5ODY1NzE3
+MDcsLTg5NzIxOTA1NSw1OTYxMTkxMjUsNzU4MTA3MDk0LDEyNz
+U5NDgzNTEsLTE0MTg1Mzg1ODAsLTE5NDE0NTc2NjIsLTIwOTk0
+NDMxMDEsLTE3Nzk5NzcxMzAsLTE0OTk3ODQyNTAsLTEyMDUyNz
+A0NjcsLTE2MjgzODc4NDksLTIyNjQ4MDk0Myw2NjAyMzc3MjAs
+LTk1Mzg5MzgxNl19
 -->
