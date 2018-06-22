@@ -392,7 +392,9 @@ In this example we keep the 6 invasive lung cancer samples to compare with the 5
 
 ![DESeq2 form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_deseq2_form.png) 
 
-It will generate a pdf report and a tabular text results.
+*DESeq2 form*
+
+It will generate a pdf report and a tabular text results 
 
 ![DESeq2 results header](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_deseq2_results.png)
 
@@ -406,11 +408,11 @@ It will generate a pdf report and a tabular text results.
 
 ### Meta Analysis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NTY2MjY0NiwtNDIwNDU2NDcxLC01Nz
-Q4MTI5OSwtODM3MjA5MjMwLC03MDUwMDU2MDQsMTY5NzExMDEw
-Myw0Mjc4NDg4MjIsLTE1ODA0MzYyMTAsMTM3MDAxOTE4OSwtMT
-QwODgyMzgyMyw2OTU4NTIyNTEsMjA2MzQzODI0OSwtMjEyODI5
-MzYwNSw2MzIyMDQ1MTMsLTcyMzY0Njg4LC05NjcxMDEwNjgsMT
-AwNjMxMjA0NiwtMTQ1MzgwODU2MSwtMTk2OTQ4MDExNyw0NDk1
-ODE3NzZdfQ==
+eyJoaXN0b3J5IjpbMzAwNzIwNDk4LC00MjA0NTY0NzEsLTU3ND
+gxMjk5LC04MzcyMDkyMzAsLTcwNTAwNTYwNCwxNjk3MTEwMTAz
+LDQyNzg0ODgyMiwtMTU4MDQzNjIxMCwxMzcwMDE5MTg5LC0xND
+A4ODIzODIzLDY5NTg1MjI1MSwyMDYzNDM4MjQ5LC0yMTI4Mjkz
+NjA1LDYzMjIwNDUxMywtNzIzNjQ2ODgsLTk2NzEwMTA2OCwxMD
+A2MzEyMDQ2LC0xNDUzODA4NTYxLC0xOTY5NDgwMTE3LDQ0OTU4
+MTc3Nl19
 -->
