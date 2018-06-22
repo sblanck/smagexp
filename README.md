@@ -364,15 +364,23 @@ Step by step example of a RNA-seq meta-analysis
 ------------------------
 
 ### Data used in this example
+
+The full history of this example is available at  : 
+```
+https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-of-RNA-seq-meta-analysis.tar.gz
+```
+
 ### First Analysis
+
+
 ### Second Analysis
 ### Meta Analysis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MDAxOTE4OSwtMTQwODgyMzgyMyw2OT
-U4NTIyNTEsMjA2MzQzODI0OSwtMjEyODI5MzYwNSw2MzIyMDQ1
-MTMsLTcyMzY0Njg4LC05NjcxMDEwNjgsMTAwNjMxMjA0NiwtMT
-Q1MzgwODU2MSwtMTk2OTQ4MDExNyw0NDk1ODE3NzYsLTE3NDM1
-NDIxODYsLTE1MDYzOTUzMDEsLTEzNjgwNTYwMDQsLTEzMDM1Mj
-U0MiwzNzAxMDAwMDcsLTIxMjkzMTAyNzQsLTgzNjU4NDg2MSw4
-OTg3NDAxODddfQ==
+eyJoaXN0b3J5IjpbMTc4Mjc4OTQ0NiwxMzcwMDE5MTg5LC0xND
+A4ODIzODIzLDY5NTg1MjI1MSwyMDYzNDM4MjQ5LC0yMTI4Mjkz
+NjA1LDYzMjIwNDUxMywtNzIzNjQ2ODgsLTk2NzEwMTA2OCwxMD
+A2MzEyMDQ2LC0xNDUzODA4NTYxLC0xOTY5NDgwMTE3LDQ0OTU4
+MTc3NiwtMTc0MzU0MjE4NiwtMTUwNjM5NTMwMSwtMTM2ODA1Nj
+AwNCwtMTMwMzUyNTQyLDM3MDEwMDAwNywtMjEyOTMxMDI3NCwt
+ODM2NTg0ODYxXX0=
 -->
