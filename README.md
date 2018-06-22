@@ -238,16 +238,13 @@ It also generates a text file containing summarization of the results of each si
 
 Step by step example of a micro-array meta-analysis
 ------------------------
+### Data used in this example
+
 The full history of this example is available at  : 
 ```
 https://github.com/sblanck/smagexp/blob/master/examples/Galaxy-History-Micro-array-meta-analysis-history.tar.gz
 ```
-
-### 1st analysis : from raw .CEL files
-
-#### upload data
-
-Data used in this example are extracted from the GEO dataset GSE13601. We picked up 6 .CEL (to simplify the example) which can be found here
+.CEL files used in this examples are extracted from the GEO dataset GSE13601. We picked up 6 .CEL files (to simplify the example) which can be found here :
 ```
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342582.CEL
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342583.CEL
@@ -255,13 +252,10 @@ https://github.com/sblanck/smagexp/raw/master/examples/GSM342584.CEL
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342585.CEL
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342586.CEL
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342587.CEL
-
-
 ```
 We also manually generated a .cond file according to these 6 .cel files.
 ```
 https://raw.githubusercontent.com/sblanck/smagexp/master/examples/Celfiles.cond
-
 ```
 To easily upload these data on galaxy, it is possible to load an existing history containing all these data : 
 ```
@@ -269,43 +263,7 @@ https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-Da
 ```
 Download this history on your computer and import it in galaxy. If you choose to manually upload these data on Galaxy don't forget to specify the type of each file (.CEL or .cond) as Galaxy won't auto-detect them.
 
-The following video will show you how to import this history in Galaxy
-
-<div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/h6b4y/frkvqh" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
-
-
-#### Run QC normalisation tool
-The QC normalisation tool only needs a list of .CEL files and a normalization method. 
-
-![QCnormalization tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_QC_form.png)
-*QCnormalization tool form*
-
-It will generate an html report showing chip pseudo images, boxplots and MA plot for raw and normalized data. It also generates a .rdata file containing normalized data in a eset object for further analysis with limma.
-
-![QCnormalization tool (partial) results](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_QC_report.png)
-*QCnormalization tool (partial) results with chip pseudo-images, boxplots and MA-plots for raw data*
-
-<div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/xc6id/nfvshz" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
-
-#### Run limma analysis
-The limma analysis tool takes an rdata and a .cond file as inputs.
-![Limma analysis tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_form.png)
-*Limma analysis tool form*
-
-It generates a html report with boxplots, p-value histogram a volcano plot and a table listing the differentially expressed genes. 
-![Limma analysis tool graphic outputs](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_result_graph.png)
-*Limma analysis tool graphic outputs*
-
-![Limma analysis tool table output](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_result_table.png)
-*Limma analysis tool table output*
-
-This table gives access to gene annotation on ncbi and gene ontology website.
-![ncbi gene annotations](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_result_ncbi.png)
-*NCBI gene annotations*
-
-<div style="width:100%;height:0px;position:relative;padding-bottom:57.234%;"><iframe src="https://streamable.com/s/cdt5q/pkjtyc" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
-
-### 2nd Analysis: from GEO database
+### First analysis: from GEO database
 
 #### Run The GEOQuery Tool
 The GSE accession ID is needed (i.e GSE3524). The log2 transformation is set to auto in this example.
@@ -322,12 +280,53 @@ The tool produce
 
 * A .rdata for further analysis
 
-<div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/ktaey/jfpbyx" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
-
 #### Run limma analysis
-As previously a limma analysis is run on data retrieved from GEO database.
+Run limma analysis
+The limma analysis tool takes an rdata and a .cond file as inputs.
+![Limma analysis tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_form.png)
+*Limma analysis tool form*
+
+It generates a html report with boxplots, p-value histogram a volcano plot and a table listing the differentially expressed genes. 
+![Limma analysis tool graphic outputs](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_result_graph.png)
+*Limma analysis tool graphic outputs*
+
+![Limma analysis tool table output](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_result_table.png)
+*Limma analysis tool table output*
+
+This table gives access to gene annotation on ncbi and gene ontology website.
+![ncbi gene annotations](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_result_ncbi.png)
+*NCBI gene annotations*
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/h31cd/tjvlhf" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+
+### 2nd analysis : from raw .CEL files
+
+#### Run QC normalisation tool
+The QC normalisation tool only needs a list of .CEL files and a normalization method. 
+
+![QCnormalization tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_QC_form.png)
+*QCnormalization tool form*
+
+It will generate an html report showing chip pseudo images, boxplots and MA plot for raw and normalized data. It also generates a .rdata file containing normalized data in a eset object for further analysis with limma.
+
+![QCnormalization tool (partial) results](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_QC_report.png)
+*QCnormalization tool (partial) results with chip pseudo-images, boxplots and MA-plots for raw data*
+
+#### Run limma analysis
+The limma analysis tool takes an rdata and a .cond file as inputs.
+![Limma analysis tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_form2.png)
+*Limma analysis tool form*
+
+It generates a html report with boxplots, p-value histogram a volcano plot and a table listing the differentially expressed genes. 
+![Limma analysis tool graphic outputs](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_graph2.png)
+*Limma analysis tool graphic outputs*
+
+![Limma analysis tool table output](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_table2.png)
+*Limma analysis tool table output*
+
+<iframe width="640" height="564" src="https://player.vimeo.com/video/275302173" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen>
+
+<div style="width:100%;height:0px;position:relative;padding-bottom:57.234%;"><iframe src="https://streamable.com/s/cdt5q/pkjtyc" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
 ### Meta-analysis
 The meta analysis tool only needs the rdata files produced by the limma tool. 
@@ -344,19 +343,20 @@ The outputs are  :
 		
 - Fully sortable and requestable table, with gene annotations and hypertext links to NCBI gene database.
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/275302173" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
-<div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/z107n/fzbium" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+</iframe>
+<div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;">
+<iframe src="https://streamable.com/s/z107n/fzbium" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMzY0Njg4LC05NjcxMDEwNjgsMTAwNj
-MxMjA0NiwtMTQ1MzgwODU2MSwtMTk2OTQ4MDExNyw0NDk1ODE3
-NzYsLTE3NDM1NDIxODYsLTE1MDYzOTUzMDEsLTEzNjgwNTYwMD
-QsLTEzMDM1MjU0MiwzNzAxMDAwMDcsLTIxMjkzMTAyNzQsLTgz
-NjU4NDg2MSw4OTg3NDAxODcsLTE0NDY5NzQ4ODYsMTkwMTA1Nj
-YyMCw5NzE3NTcxMzAsLTE3NTg3NjQxNzEsMTE0MDE4MzY3Miwt
-MTU1OTE3MzU3Ml19
+eyJoaXN0b3J5IjpbMTYzNTc1NzQ1MywtMjEyODI5MzYwNSw2Mz
+IyMDQ1MTMsLTcyMzY0Njg4LC05NjcxMDEwNjgsMTAwNjMxMjA0
+NiwtMTQ1MzgwODU2MSwtMTk2OTQ4MDExNyw0NDk1ODE3NzYsLT
+E3NDM1NDIxODYsLTE1MDYzOTUzMDEsLTEzNjgwNTYwMDQsLTEz
+MDM1MjU0MiwzNzAxMDAwMDcsLTIxMjkzMTAyNzQsLTgzNjU4ND
+g2MSw4OTg3NDAxODcsLTE0NDY5NzQ4ODYsMTkwMTA1NjYyMCw5
+NzE3NTcxMzBdfQ==
 -->
