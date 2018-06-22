@@ -16,8 +16,8 @@ Table of Contents <a name="toc" />
 		- [Limma Analysis](#limma-analysis)
 		- [Running a meta analysis](#running-a-meta-analysis)
 	- [Rna-seq meta analysis](#rna-seq-meta-analysis) 
-- [Step by step example of a micro-array meta-analysis](#Step-by-step-example-of-a-micro-array-meta-analysis)
--  [Step by step example of a RNA-seq meta-analysis](#Step-by-step-example-of-a-RNA-seq-meta-analysis)
+- [Step by step example of a micro-array meta-analysis](#step-by-step-example-of-a-micro-array-meta-analysis)
+-  [Step by step example of a RNA-seq meta-analysis](#step-by-step-example-of-a-rna-seq-meta-analysis)
 
 
 
@@ -381,7 +381,7 @@ The outputs are  :
 
 *MetaMA tools results*
 
-Step by step example of a RNA-seq meta-analysis  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
+Step by step example of a RNA-seq meta-analysis  <a name="step-by-step-example-of-a-micro-array-meta-analysis" /> [[toc]](#toc)
 ------------------------
 
 ### Data used in this example  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
@@ -466,7 +466,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NjUxNzgyLDU5NjExOTEyNSw3NTgxMD
+eyJoaXN0b3J5IjpbODM2NjgxMDAyLDU5NjExOTEyNSw3NTgxMD
 cwOTQsMTI3NTk0ODM1MSwtMTQxODUzODU4MCwtMTk0MTQ1NzY2
 MiwtMjA5OTQ0MzEwMSwtMTc3OTk3NzEzMCwtMTQ5OTc4NDI1MC
 wtMTIwNTI3MDQ2NywtMTYyODM4Nzg0OSwtMjI2NDgwOTQzLDY2
