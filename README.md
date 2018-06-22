@@ -251,10 +251,11 @@ The outputs are  :
 [Recount2](https://jhubiostatistics.shinyapps.io/recount/) is an online resource consisting of RNA-seq gene and exon counts as well as coverage bigWig files for 2041 different studies. The recount galaxy tool wraps the bioconductor R package recount and fetch gene counts from one experiment
 
 Input is
-Accession ID
+- Accession ID
 
 Outputs are
-	-
+- One file
+- 
 #### Running DESeq2 analysis
 Count files retrieved by the recount galaxy tool can be analyzed with the The [DESeq2 tool available on the galaxy toolshed](https://toolshed.g2.bx.psu.edu/repository?repository_id=1f158f7565dc70f9&changeset_revision=9a616afdbda5)
 For more information of how this tool works, sse the help section on the tool or refer to the  [Run DESeq2](#run-deseq) section of the
@@ -497,11 +498,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDY4MDY5NDcsLTk1MjQ0MzI0LC05ND
-AzNTk2ODAsMTQyMTU4NzE4OSwxNTY1NzEzMzgyLC0xODU3MTcz
-NjU2LDU2MjgyMTgxMSwxNjgzMzM1NDcyLDMyODY0NzY2MCw1MT
-YyMDQ2MDAsMjAxMjY5NjAyMSwxMTQxOTg4NTYyLDgyMDcyMzUy
-LC02MzU4MTU4NjQsLTE5ODY1NzE3MDcsLTg5NzIxOTA1NSw1OT
-YxMTkxMjUsNzU4MTA3MDk0LDEyNzU5NDgzNTEsLTE0MTg1Mzg1
-ODBdfQ==
+eyJoaXN0b3J5IjpbMTkxODE2MDAzMywtMTc0NjgwNjk0NywtOT
+QwMzU5NjgwLDE0MjE1ODcxODksMTU2NTcxMzM4MiwtMTg1NzE3
+MzY1Niw1NjI4MjE4MTEsMTY4MzMzNTQ3MiwzMjg2NDc2NjAsNT
+E2MjA0NjAwLDIwMTI2OTYwMjEsMTE0MTk4ODU2Miw4MjA3MjM1
+MiwtNjM1ODE1ODY0LC0xOTg2NTcxNzA3LC04OTcyMTkwNTUsNT
+k2MTE5MTI1LDc1ODEwNzA5NCwxMjc1OTQ4MzUxLC0xNDE4NTM4
+NTgwXX0=
 -->
