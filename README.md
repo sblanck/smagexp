@@ -247,7 +247,9 @@ The outputs are  :
 
 ### Rna-seq meta analysis  <a name="rna-seq-meta-analysis" /> [[toc]](#toc)
 
-#### 
+#### Getting data from recount2
+
+
 
 #### Running a RNA-seq meta-analysis
 
@@ -486,11 +488,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MTQ1NzYxNSw1NjI4MjE4MTEsMTY4Mz
-MzNTQ3MiwzMjg2NDc2NjAsNTE2MjA0NjAwLDIwMTI2OTYwMjEs
-MTE0MTk4ODU2Miw4MjA3MjM1MiwtNjM1ODE1ODY0LC0xOTg2NT
-cxNzA3LC04OTcyMTkwNTUsNTk2MTE5MTI1LDc1ODEwNzA5NCwx
-Mjc1OTQ4MzUxLC0xNDE4NTM4NTgwLC0xOTQxNDU3NjYyLC0yMD
-k5NDQzMTAxLC0xNzc5OTc3MTMwLC0xNDk5Nzg0MjUwLC0xMjA1
-MjcwNDY3XX0=
+eyJoaXN0b3J5IjpbLTE5MjIwODY0MDcsNTYyODIxODExLDE2OD
+MzMzU0NzIsMzI4NjQ3NjYwLDUxNjIwNDYwMCwyMDEyNjk2MDIx
+LDExNDE5ODg1NjIsODIwNzIzNTIsLTYzNTgxNTg2NCwtMTk4Nj
+U3MTcwNywtODk3MjE5MDU1LDU5NjExOTEyNSw3NTgxMDcwOTQs
+MTI3NTk0ODM1MSwtMTQxODUzODU4MCwtMTk0MTQ1NzY2MiwtMj
+A5OTQ0MzEwMSwtMTc3OTk3NzEzMCwtMTQ5OTc4NDI1MCwtMTIw
+NTI3MDQ2N119
 -->
