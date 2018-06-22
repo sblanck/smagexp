@@ -248,7 +248,7 @@ The following video will show you how to import this history in Galaxy
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/h6b4y/frkvqh" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
-Some .CEL files are are extracted from the GEO dataset GSE13601. We picked up 6 .CEL (to simplify the example) which can be found here
+.CEL files used in this examples are extracted from the GEO dataset GSE13601. We picked up 6 .CEL files (to simplify the example) which can be found here :
 ```
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342582.CEL
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342583.CEL
@@ -256,12 +256,10 @@ https://github.com/sblanck/smagexp/raw/master/examples/GSM342584.CEL
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342585.CEL
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342586.CEL
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342587.CEL
-
 ```
 We also manually generated a .cond file according to these 6 .cel files.
 ```
 https://raw.githubusercontent.com/sblanck/smagexp/master/examples/Celfiles.cond
-
 ```
 To easily upload these data on galaxy, it is possible to load an existing history containing all these data : 
 ```
@@ -305,6 +303,7 @@ This table gives access to gene annotation on ncbi and gene ontology website.
 *NCBI gene annotations*
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/h31cd/tjvlhf" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+
 ### 2nd analysis : from raw .CEL files
 
 #### Run QC normalisation tool
@@ -357,7 +356,7 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDA0NjI2MjksNjMyMjA0NTEzLC03Mj
+eyJoaXN0b3J5IjpbLTExNzE5MTMwNzMsNjMyMjA0NTEzLC03Mj
 M2NDY4OCwtOTY3MTAxMDY4LDEwMDYzMTIwNDYsLTE0NTM4MDg1
 NjEsLTE5Njk0ODAxMTcsNDQ5NTgxNzc2LC0xNzQzNTQyMTg2LC
 0xNTA2Mzk1MzAxLC0xMzY4MDU2MDA0LC0xMzAzNTI1NDIsMzcw
