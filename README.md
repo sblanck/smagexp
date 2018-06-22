@@ -255,8 +255,7 @@ Accession ID
 
 Outputs are
 	-
-
-
+#### 
 #### Running a RNA-seq meta-analysis
 
 The RNA-seq data meta-analysis tool relies on DESeq2 results. It uses the metaRNAseq R package from CRAN.
@@ -352,6 +351,7 @@ It generates a html report with boxplots, p-value histogram a volcano plot and a
 *Limma analysis tool table output*
 
 This table gives access to gene annotation on ncbi and gene ontology website.
+
 ![ncbi gene annotations](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_result_ncbi.png)
 
 *NCBI gene annotations*
@@ -494,11 +494,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMTU4NzE4OSwxNTY1NzEzMzgyLC0xOD
-U3MTczNjU2LDU2MjgyMTgxMSwxNjgzMzM1NDcyLDMyODY0NzY2
-MCw1MTYyMDQ2MDAsMjAxMjY5NjAyMSwxMTQxOTg4NTYyLDgyMD
-cyMzUyLC02MzU4MTU4NjQsLTE5ODY1NzE3MDcsLTg5NzIxOTA1
-NSw1OTYxMTkxMjUsNzU4MTA3MDk0LDEyNzU5NDgzNTEsLTE0MT
-g1Mzg1ODAsLTE5NDE0NTc2NjIsLTIwOTk0NDMxMDEsLTE3Nzk5
-NzcxMzBdfQ==
+eyJoaXN0b3J5IjpbMTQ2MzI5NzEzNSwxNDIxNTg3MTg5LDE1Nj
+U3MTMzODIsLTE4NTcxNzM2NTYsNTYyODIxODExLDE2ODMzMzU0
+NzIsMzI4NjQ3NjYwLDUxNjIwNDYwMCwyMDEyNjk2MDIxLDExND
+E5ODg1NjIsODIwNzIzNTIsLTYzNTgxNTg2NCwtMTk4NjU3MTcw
+NywtODk3MjE5MDU1LDU5NjExOTEyNSw3NTgxMDcwOTQsMTI3NT
+k0ODM1MSwtMTQxODUzODU4MCwtMTk0MTQ1NzY2MiwtMjA5OTQ0
+MzEwMV19
 -->
