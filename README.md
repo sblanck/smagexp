@@ -278,6 +278,7 @@ The following video will show you how to import this history in Galaxy
 The QC normalisation tool only needs a list of .CEL files and a normalization method. 
 
 ![QCnormalization tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_QC_form.png)
+*QCnormalization tool form*
 
 It will generate an html report showing chip pseudo images, boxplots and MA plot for raw and normalized data. It also generates a .rdata file containing normalized data in a eset object for further analysis with limma.
 
@@ -328,11 +329,11 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTM4MDg1NjEsLTE5Njk0ODAxMTcsND
-Q5NTgxNzc2LC0xNzQzNTQyMTg2LC0xNTA2Mzk1MzAxLC0xMzY4
-MDU2MDA0LC0xMzAzNTI1NDIsMzcwMTAwMDA3LC0yMTI5MzEwMj
-c0LC04MzY1ODQ4NjEsODk4NzQwMTg3LC0xNDQ2OTc0ODg2LDE5
-MDEwNTY2MjAsOTcxNzU3MTMwLC0xNzU4NzY0MTcxLDExNDAxOD
-M2NzIsLTE1NTkxNzM1NzIsLTk2MTU2MjIxOCwtMTE3MzgwNDY2
-OSwtODgyOTcxMTg1XX0=
+eyJoaXN0b3J5IjpbMTEwMjc3ODc2OCwtMTQ1MzgwODU2MSwtMT
+k2OTQ4MDExNyw0NDk1ODE3NzYsLTE3NDM1NDIxODYsLTE1MDYz
+OTUzMDEsLTEzNjgwNTYwMDQsLTEzMDM1MjU0MiwzNzAxMDAwMD
+csLTIxMjkzMTAyNzQsLTgzNjU4NDg2MSw4OTg3NDAxODcsLTE0
+NDY5NzQ4ODYsMTkwMTA1NjYyMCw5NzE3NTcxMzAsLTE3NTg3Nj
+QxNzEsMTE0MDE4MzY3MiwtMTU1OTE3MzU3MiwtOTYxNTYyMjE4
+LC0xMTczODA0NjY5XX0=
 -->
