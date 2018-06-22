@@ -247,6 +247,8 @@ The outputs are  :
 
 ### Rna-seq meta analysis  <a name="rna-seq-meta-analysis" /> [[toc]](#toc)
 
+#### 
+
 #### Running a RNA-seq meta-analysis
 
 The RNA-seq data meta-analysis tool relies on DESeq2 results. It uses the metaRNAseq R package from CRAN.
@@ -484,7 +486,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MjU1MTI4OSw1NjI4MjE4MTEsMTY4Mz
+eyJoaXN0b3J5IjpbMTA3MTQ1NzYxNSw1NjI4MjE4MTEsMTY4Mz
 MzNTQ3MiwzMjg2NDc2NjAsNTE2MjA0NjAwLDIwMTI2OTYwMjEs
 MTE0MTk4ODU2Miw4MjA3MjM1MiwtNjM1ODE1ODY0LC0xOTg2NT
 cxNzA3LC04OTcyMTkwNTUsNTk2MTE5MTI1LDc1ODEwNzA5NCwx
