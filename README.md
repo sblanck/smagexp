@@ -425,18 +425,20 @@ In this example we keep the 10 tumor samples to compare with the 6 normal sample
 
 MetaRNASeq tool takes several results from DESeq2 tool and perform a meta-analysis.
 It requires text results file from DESeq2 and the number of replicates of each analysis. In this example we have 11 replicates for the first analysis and 16 for the second analysis.
+![MetaRNAseq tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_metarnaseq_form.png)
 
+*MetaRNAseq tool form*
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MzU3NjM2MCwtMjI2NDgwOTQzLDY2MD
-IzNzcyMCwtOTUzODkzODE2LC0yMTQxODU3OTgwLDMwMDcyMDQ5
-OCwtNDIwNDU2NDcxLC01NzQ4MTI5OSwtODM3MjA5MjMwLC03MD
-UwMDU2MDQsMTY5NzExMDEwMyw0Mjc4NDg4MjIsLTE1ODA0MzYy
-MTAsMTM3MDAxOTE4OSwtMTQwODgyMzgyMyw2OTU4NTIyNTEsMj
-A2MzQzODI0OSwtMjEyODI5MzYwNSw2MzIyMDQ1MTMsLTcyMzY0
-Njg4XX0=
+eyJoaXN0b3J5IjpbLTEzMjE5OTUzNzIsLTIyNjQ4MDk0Myw2Nj
+AyMzc3MjAsLTk1Mzg5MzgxNiwtMjE0MTg1Nzk4MCwzMDA3MjA0
+OTgsLTQyMDQ1NjQ3MSwtNTc0ODEyOTksLTgzNzIwOTIzMCwtNz
+A1MDA1NjA0LDE2OTcxMTAxMDMsNDI3ODQ4ODIyLC0xNTgwNDM2
+MjEwLDEzNzAwMTkxODksLTE0MDg4MjM4MjMsNjk1ODUyMjUxLD
+IwNjM0MzgyNDksLTIxMjgyOTM2MDUsNjMyMjA0NTEzLC03MjM2
+NDY4OF19
 -->
