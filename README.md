@@ -373,7 +373,7 @@ https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-of
 ```
 Two dataset from the recount database are used in this example :
 * [SRP032833](https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP032833)
-* SRP028180
+* [SRP028180](https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP028180)
 
 ### First Analysis
 
@@ -447,11 +447,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzk5NzcxMzAsLTE0OTk3ODQyNTAsLT
-EyMDUyNzA0NjcsLTE2MjgzODc4NDksLTIyNjQ4MDk0Myw2NjAy
-Mzc3MjAsLTk1Mzg5MzgxNiwtMjE0MTg1Nzk4MCwzMDA3MjA0OT
-gsLTQyMDQ1NjQ3MSwtNTc0ODEyOTksLTgzNzIwOTIzMCwtNzA1
-MDA1NjA0LDE2OTcxMTAxMDMsNDI3ODQ4ODIyLC0xNTgwNDM2Mj
-EwLDEzNzAwMTkxODksLTE0MDg4MjM4MjMsNjk1ODUyMjUxLDIw
-NjM0MzgyNDldfQ==
+eyJoaXN0b3J5IjpbLTIwOTk0NDMxMDEsLTE3Nzk5NzcxMzAsLT
+E0OTk3ODQyNTAsLTEyMDUyNzA0NjcsLTE2MjgzODc4NDksLTIy
+NjQ4MDk0Myw2NjAyMzc3MjAsLTk1Mzg5MzgxNiwtMjE0MTg1Nz
+k4MCwzMDA3MjA0OTgsLTQyMDQ1NjQ3MSwtNTc0ODEyOTksLTgz
+NzIwOTIzMCwtNzA1MDA1NjA0LDE2OTcxMTAxMDMsNDI3ODQ4OD
+IyLC0xNTgwNDM2MjEwLDEzNzAwMTkxODksLTE0MDg4MjM4MjMs
+Njk1ODUyMjUxXX0=
 -->
