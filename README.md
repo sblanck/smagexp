@@ -289,7 +289,8 @@ It will generate an html report showing chip pseudo images, boxplots and MA plot
 
 #### Run limma analysis
 The limma analysis tool takes an rdata and a .cond file as inputs.
-
+![Limma analysis tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_form.png)
+*Limma analysis tool form*
 
 It generates a html report with boxplots, p-value histogram a volcano plot and a table listing the differentially expressed genes. This table gives access to gene annotation on ncbi and gene ontology website.
 
@@ -333,11 +334,11 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjMxMjA0NiwtMTQ1MzgwODU2MSwtMT
-k2OTQ4MDExNyw0NDk1ODE3NzYsLTE3NDM1NDIxODYsLTE1MDYz
-OTUzMDEsLTEzNjgwNTYwMDQsLTEzMDM1MjU0MiwzNzAxMDAwMD
-csLTIxMjkzMTAyNzQsLTgzNjU4NDg2MSw4OTg3NDAxODcsLTE0
-NDY5NzQ4ODYsMTkwMTA1NjYyMCw5NzE3NTcxMzAsLTE3NTg3Nj
-QxNzEsMTE0MDE4MzY3MiwtMTU1OTE3MzU3MiwtOTYxNTYyMjE4
-LC0xMTczODA0NjY5XX0=
+eyJoaXN0b3J5IjpbLTExMTQ4NTU2OTEsMTAwNjMxMjA0NiwtMT
+Q1MzgwODU2MSwtMTk2OTQ4MDExNyw0NDk1ODE3NzYsLTE3NDM1
+NDIxODYsLTE1MDYzOTUzMDEsLTEzNjgwNTYwMDQsLTEzMDM1Mj
+U0MiwzNzAxMDAwMDcsLTIxMjkzMTAyNzQsLTgzNjU4NDg2MSw4
+OTg3NDAxODcsLTE0NDY5NzQ4ODYsMTkwMTA1NjYyMCw5NzE3NT
+cxMzAsLTE3NTg3NjQxNzEsMTE0MDE4MzY3MiwtMTU1OTE3MzU3
+MiwtOTYxNTYyMjE4XX0=
 -->
