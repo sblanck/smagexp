@@ -278,6 +278,7 @@ The following video will show you how to import this history in Galaxy
 The QC normalisation tool only needs a list of .CEL files and a normalization method. 
 It will generate an html report showing chip pseudo images, boxplots and MA plot for raw and normalized data. It also generates a .rdata file containing normalized data in a eset object for further analysis with limma.
 
+
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/xc6id/nfvshz" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
 #### Run limma analysis
@@ -323,11 +324,11 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njk0ODAxMTcsNDQ5NTgxNzc2LC0xNz
-QzNTQyMTg2LC0xNTA2Mzk1MzAxLC0xMzY4MDU2MDA0LC0xMzAz
-NTI1NDIsMzcwMTAwMDA3LC0yMTI5MzEwMjc0LC04MzY1ODQ4Nj
-EsODk4NzQwMTg3LC0xNDQ2OTc0ODg2LDE5MDEwNTY2MjAsOTcx
-NzU3MTMwLC0xNzU4NzY0MTcxLDExNDAxODM2NzIsLTE1NTkxNz
-M1NzIsLTk2MTU2MjIxOCwtMTE3MzgwNDY2OSwtODgyOTcxMTg1
-LDMxNTA2MTI2Ml19
+eyJoaXN0b3J5IjpbLTU4MTgxNjQxOSwtMTk2OTQ4MDExNyw0ND
+k1ODE3NzYsLTE3NDM1NDIxODYsLTE1MDYzOTUzMDEsLTEzNjgw
+NTYwMDQsLTEzMDM1MjU0MiwzNzAxMDAwMDcsLTIxMjkzMTAyNz
+QsLTgzNjU4NDg2MSw4OTg3NDAxODcsLTE0NDY5NzQ4ODYsMTkw
+MTA1NjYyMCw5NzE3NTcxMzAsLTE3NTg3NjQxNzEsMTE0MDE4Mz
+Y3MiwtMTU1OTE3MzU3MiwtOTYxNTYyMjE4LC0xMTczODA0NjY5
+LC04ODI5NzExODVdfQ==
 -->
