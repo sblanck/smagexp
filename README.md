@@ -417,14 +417,14 @@ The same kind of analysis on an the other recount dataset
 In this example we keep the 10 tumor samples to compare with the 6 normal samples.
 
 ![DESeq2 tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_deseq2_form2.png)
-
+*
 ### Meta Analysis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MzYyODEzNCwxMTgxMzM1MDczLC0yMT
-QxODU3OTgwLDMwMDcyMDQ5OCwtNDIwNDU2NDcxLC01NzQ4MTI5
-OSwtODM3MjA5MjMwLC03MDUwMDU2MDQsMTY5NzExMDEwMyw0Mj
-c4NDg4MjIsLTE1ODA0MzYyMTAsMTM3MDAxOTE4OSwtMTQwODgy
-MzgyMyw2OTU4NTIyNTEsMjA2MzQzODI0OSwtMjEyODI5MzYwNS
-w2MzIyMDQ1MTMsLTcyMzY0Njg4LC05NjcxMDEwNjgsMTAwNjMx
-MjA0Nl19
+eyJoaXN0b3J5IjpbNjQwMDUzODk2LDE0ODM2MjgxMzQsLTIxND
+E4NTc5ODAsMzAwNzIwNDk4LC00MjA0NTY0NzEsLTU3NDgxMjk5
+LC04MzcyMDkyMzAsLTcwNTAwNTYwNCwxNjk3MTEwMTAzLDQyNz
+g0ODgyMiwtMTU4MDQzNjIxMCwxMzcwMDE5MTg5LC0xNDA4ODIz
+ODIzLDY5NTg1MjI1MSwyMDYzNDM4MjQ5LC0yMTI4MjkzNjA1LD
+YzMjIwNDUxMywtNzIzNjQ2ODgsLTk2NzEwMTA2OCwxMDA2MzEy
+MDQ2XX0=
 -->
