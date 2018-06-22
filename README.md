@@ -34,10 +34,7 @@ Table of Contents <a name="toc" />
 	- [Second Analysis](#second-analysis2")
 		- [Run recount](#run-recount2)
 		- [Run DESeq2](#run-deseq2)
-	[Meta Analysis with metaRNASeq](# 
-		
-
-
+	- 	[Meta-analysis with metaRNASeq](#meta-analysis-with-metaRNASeq)
 
 
 How to install SMAGEXP  <a name="how-to-install-smagexp" /> [[toc]](#toc)
@@ -484,11 +481,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI4NjQ3NjYwLDUxNjIwNDYwMCwyMDEyNj
-k2MDIxLDExNDE5ODg1NjIsODIwNzIzNTIsLTYzNTgxNTg2NCwt
-MTk4NjU3MTcwNywtODk3MjE5MDU1LDU5NjExOTEyNSw3NTgxMD
-cwOTQsMTI3NTk0ODM1MSwtMTQxODUzODU4MCwtMTk0MTQ1NzY2
-MiwtMjA5OTQ0MzEwMSwtMTc3OTk3NzEzMCwtMTQ5OTc4NDI1MC
-wtMTIwNTI3MDQ2NywtMTYyODM4Nzg0OSwtMjI2NDgwOTQzLDY2
-MDIzNzcyMF19
+eyJoaXN0b3J5IjpbLTE3MDE3NDUwMjgsMzI4NjQ3NjYwLDUxNj
+IwNDYwMCwyMDEyNjk2MDIxLDExNDE5ODg1NjIsODIwNzIzNTIs
+LTYzNTgxNTg2NCwtMTk4NjU3MTcwNywtODk3MjE5MDU1LDU5Nj
+ExOTEyNSw3NTgxMDcwOTQsMTI3NTk0ODM1MSwtMTQxODUzODU4
+MCwtMTk0MTQ1NzY2MiwtMjA5OTQ0MzEwMSwtMTc3OTk3NzEzMC
+wtMTQ5OTc4NDI1MCwtMTIwNTI3MDQ2NywtMTYyODM4Nzg0OSwt
+MjI2NDgwOTQzXX0=
 -->
