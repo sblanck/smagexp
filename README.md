@@ -32,7 +32,7 @@ Table of Contents <a name="toc" />
 		- [Run recount](#run-recount)
 		- [Run DESeq2](#run-deseq2)
 	- [Second Analysis](#first-analysis2")
-		- [Run recount](#run-recount)
+		- [Run recount](#run-recount2)
 		- [Run DESeq2](#run-deseq2)
 		- 
 
@@ -483,11 +483,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNTcxOTQ5MiwyMDEyNjk2MDIxLDExND
-E5ODg1NjIsODIwNzIzNTIsLTYzNTgxNTg2NCwtMTk4NjU3MTcw
-NywtODk3MjE5MDU1LDU5NjExOTEyNSw3NTgxMDcwOTQsMTI3NT
-k0ODM1MSwtMTQxODUzODU4MCwtMTk0MTQ1NzY2MiwtMjA5OTQ0
-MzEwMSwtMTc3OTk3NzEzMCwtMTQ5OTc4NDI1MCwtMTIwNTI3MD
-Q2NywtMTYyODM4Nzg0OSwtMjI2NDgwOTQzLDY2MDIzNzcyMCwt
-OTUzODkzODE2XX0=
+eyJoaXN0b3J5IjpbNTE2MjA0NjAwLC01MTU3MTk0OTIsMjAxMj
+Y5NjAyMSwxMTQxOTg4NTYyLDgyMDcyMzUyLC02MzU4MTU4NjQs
+LTE5ODY1NzE3MDcsLTg5NzIxOTA1NSw1OTYxMTkxMjUsNzU4MT
+A3MDk0LDEyNzU5NDgzNTEsLTE0MTg1Mzg1ODAsLTE5NDE0NTc2
+NjIsLTIwOTk0NDMxMDEsLTE3Nzk5NzcxMzAsLTE0OTk3ODQyNT
+AsLTEyMDUyNzA0NjcsLTE2MjgzODc4NDksLTIyNjQ4MDk0Myw2
+NjAyMzc3MjBdfQ==
 -->
