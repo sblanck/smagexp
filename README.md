@@ -352,7 +352,7 @@ It will generate an html report showing chip pseudo images, boxplots and MA plot
 
 *QCnormalization tool (partial) results with chip pseudo-images, boxplots and MA-plots for raw data*
 
-#### Run limma analysis  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
+#### Run limma analysis  <a name="run" /> [[toc]](#toc)
 The limma analysis tool takes an rdata and a .cond file as inputs.
 ![Limma analysis tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_form2.png)
 
@@ -475,11 +475,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAxNTk0NDg5LDc4MDU4MjU4NSw4MjA3Mj
-M1MiwtNjM1ODE1ODY0LC0xOTg2NTcxNzA3LC04OTcyMTkwNTUs
-NTk2MTE5MTI1LDc1ODEwNzA5NCwxMjc1OTQ4MzUxLC0xNDE4NT
-M4NTgwLC0xOTQxNDU3NjYyLC0yMDk5NDQzMTAxLC0xNzc5OTc3
-MTMwLC0xNDk5Nzg0MjUwLC0xMjA1MjcwNDY3LC0xNjI4Mzg3OD
-Q5LC0yMjY0ODA5NDMsNjYwMjM3NzIwLC05NTM4OTM4MTYsLTIx
-NDE4NTc5ODBdfQ==
+eyJoaXN0b3J5IjpbMTE0MTk4ODU2Miw1MDE1OTQ0ODksODIwNz
+IzNTIsLTYzNTgxNTg2NCwtMTk4NjU3MTcwNywtODk3MjE5MDU1
+LDU5NjExOTEyNSw3NTgxMDcwOTQsMTI3NTk0ODM1MSwtMTQxOD
+UzODU4MCwtMTk0MTQ1NzY2MiwtMjA5OTQ0MzEwMSwtMTc3OTk3
+NzEzMCwtMTQ5OTc4NDI1MCwtMTIwNTI3MDQ2NywtMTYyODM4Nz
+g0OSwtMjI2NDgwOTQzLDY2MDIzNzcyMCwtOTUzODkzODE2LC0y
+MTQxODU3OTgwXX0=
 -->
