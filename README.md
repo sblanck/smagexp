@@ -376,7 +376,7 @@ Two dataset from the recount database are used in this example :
 ### First Analysis
 
 #### Recount
-The first step is to fetch raw count data from Recount. The recount wrap the recount bioconductor package. It only needs the accession ID of the experiment. 
+The first step is to fetch raw count data from Recount. The recount wrap the recount bioconductor package. It only needs the accession ID (iof the experiment. 
 ![Recount tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_recount_form.png)
 
 *Recount tool form*
@@ -419,11 +419,11 @@ In this
 ![DESeq2 tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_deseq2_form2.png)
 ### Meta Analysis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNDYzMzk4NiwtMjE0MTg1Nzk4MCwzMD
-A3MjA0OTgsLTQyMDQ1NjQ3MSwtNTc0ODEyOTksLTgzNzIwOTIz
-MCwtNzA1MDA1NjA0LDE2OTcxMTAxMDMsNDI3ODQ4ODIyLC0xNT
-gwNDM2MjEwLDEzNzAwMTkxODksLTE0MDg4MjM4MjMsNjk1ODUy
-MjUxLDIwNjM0MzgyNDksLTIxMjgyOTM2MDUsNjMyMjA0NTEzLC
-03MjM2NDY4OCwtOTY3MTAxMDY4LDEwMDYzMTIwNDYsLTE0NTM4
-MDg1NjFdfQ==
+eyJoaXN0b3J5IjpbMTE4MTMzNTA3MywxNjI0NjMzOTg2LC0yMT
+QxODU3OTgwLDMwMDcyMDQ5OCwtNDIwNDU2NDcxLC01NzQ4MTI5
+OSwtODM3MjA5MjMwLC03MDUwMDU2MDQsMTY5NzExMDEwMyw0Mj
+c4NDg4MjIsLTE1ODA0MzYyMTAsMTM3MDAxOTE4OSwtMTQwODgy
+MzgyMyw2OTU4NTIyNTEsMjA2MzQzODI0OSwtMjEyODI5MzYwNS
+w2MzIyMDQ1MTMsLTcyMzY0Njg4LC05NjcxMDEwNjgsMTAwNjMx
+MjA0Nl19
 -->
