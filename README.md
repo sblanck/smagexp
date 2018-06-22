@@ -424,15 +424,15 @@ In this example we keep the 10 tumor samples to compare with the 6 normal sample
 ### Meta Analysis with metaRNASeq
 
 MetaRNASeq tool takes several results from DESeq2 tool and perform a meta-analysis.
-It requires t
+It requires text results file from DESeq2 and the number of replicates of each analysis. In this example we have 16 replicates
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYwMjM3NzIwLDcyMzE2OTAyNCwtOTUzOD
-kzODE2LC0yMTQxODU3OTgwLDMwMDcyMDQ5OCwtNDIwNDU2NDcx
-LC01NzQ4MTI5OSwtODM3MjA5MjMwLC03MDUwMDU2MDQsMTY5Nz
-ExMDEwMyw0Mjc4NDg4MjIsLTE1ODA0MzYyMTAsMTM3MDAxOTE4
-OSwtMTQwODgyMzgyMyw2OTU4NTIyNTEsMjA2MzQzODI0OSwtMj
-EyODI5MzYwNSw2MzIyMDQ1MTMsLTcyMzY0Njg4LC05NjcxMDEw
-NjhdfQ==
+eyJoaXN0b3J5IjpbLTIyNjQ4MDk0Myw2NjAyMzc3MjAsLTk1Mz
+g5MzgxNiwtMjE0MTg1Nzk4MCwzMDA3MjA0OTgsLTQyMDQ1NjQ3
+MSwtNTc0ODEyOTksLTgzNzIwOTIzMCwtNzA1MDA1NjA0LDE2OT
+cxMTAxMDMsNDI3ODQ4ODIyLC0xNTgwNDM2MjEwLDEzNzAwMTkx
+ODksLTE0MDg4MjM4MjMsNjk1ODUyMjUxLDIwNjM0MzgyNDksLT
+IxMjgyOTM2MDUsNjMyMjA0NTEzLC03MjM2NDY4OCwtOTY3MTAx
+MDY4XX0=
 -->
