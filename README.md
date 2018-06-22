@@ -24,7 +24,7 @@ Table of Contents <a name="toc" />
 	-	[2nd analysis : from raw .CEL files](#2nd-analysis-from-raw-cel-files)
 		-	[Run QCNormalisation tool](#run-qc-normalisation-tool)
 		-	[Run limma analysis](#run-limma-analysis2)
-		-	[Run meta-analysis](#)	
+	-	[Run meta-analysis](#run-meta-analysis)	
 		
 -  [Step by step example of a RNA-seq meta-analysis](#step-by-step-example-of-a-rna-seq-meta-analysis)
 
@@ -475,11 +475,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwNzIzNTIsLTEwMDM0NjQ5ODUsLTYzNT
-gxNTg2NCwtMTk4NjU3MTcwNywtODk3MjE5MDU1LDU5NjExOTEy
-NSw3NTgxMDcwOTQsMTI3NTk0ODM1MSwtMTQxODUzODU4MCwtMT
-k0MTQ1NzY2MiwtMjA5OTQ0MzEwMSwtMTc3OTk3NzEzMCwtMTQ5
-OTc4NDI1MCwtMTIwNTI3MDQ2NywtMTYyODM4Nzg0OSwtMjI2ND
-gwOTQzLDY2MDIzNzcyMCwtOTUzODkzODE2LC0yMTQxODU3OTgw
-LDMwMDcyMDQ5OF19
+eyJoaXN0b3J5IjpbMTQxMTEzOTkyMiw4MjA3MjM1MiwtNjM1OD
+E1ODY0LC0xOTg2NTcxNzA3LC04OTcyMTkwNTUsNTk2MTE5MTI1
+LDc1ODEwNzA5NCwxMjc1OTQ4MzUxLC0xNDE4NTM4NTgwLC0xOT
+QxNDU3NjYyLC0yMDk5NDQzMTAxLC0xNzc5OTc3MTMwLC0xNDk5
+Nzg0MjUwLC0xMjA1MjcwNDY3LC0xNjI4Mzg3ODQ5LC0yMjY0OD
+A5NDMsNjYwMjM3NzIwLC05NTM4OTM4MTYsLTIxNDE4NTc5ODAs
+MzAwNzIwNDk4XX0=
 -->
