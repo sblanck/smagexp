@@ -411,7 +411,7 @@ The same kind of analysis on an the other recount dataset
 ![Recount tool from](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_recount_form2.png)
 
 *Recount tool from*
-In this example 17 count files are generated
+In this example 24 count files are generated
 #### DESeq2
 
 In this example we keep the 10 tumor samples to compare with the 6 normal samples.
@@ -423,11 +423,11 @@ In this example we keep the 10 tumor samples to compare with the 6 normal sample
 
 ### Meta Analysis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1Mzg5MzgxNiwtMTg0NDA0ODA3MywtMj
-E0MTg1Nzk4MCwzMDA3MjA0OTgsLTQyMDQ1NjQ3MSwtNTc0ODEy
-OTksLTgzNzIwOTIzMCwtNzA1MDA1NjA0LDE2OTcxMTAxMDMsND
-I3ODQ4ODIyLC0xNTgwNDM2MjEwLDEzNzAwMTkxODksLTE0MDg4
-MjM4MjMsNjk1ODUyMjUxLDIwNjM0MzgyNDksLTIxMjgyOTM2MD
-UsNjMyMjA0NTEzLC03MjM2NDY4OCwtOTY3MTAxMDY4LDEwMDYz
-MTIwNDZdfQ==
+eyJoaXN0b3J5IjpbLTU4Nzg1MjcwMCwtOTUzODkzODE2LC0yMT
+QxODU3OTgwLDMwMDcyMDQ5OCwtNDIwNDU2NDcxLC01NzQ4MTI5
+OSwtODM3MjA5MjMwLC03MDUwMDU2MDQsMTY5NzExMDEwMyw0Mj
+c4NDg4MjIsLTE1ODA0MzYyMTAsMTM3MDAxOTE4OSwtMTQwODgy
+MzgyMyw2OTU4NTIyNTEsMjA2MzQzODI0OSwtMjEyODI5MzYwNS
+w2MzIyMDQ1MTMsLTcyMzY0Njg4LC05NjcxMDEwNjgsMTAwNjMx
+MjA0Nl19
 -->
