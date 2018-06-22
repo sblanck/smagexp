@@ -244,10 +244,6 @@ The full history of this example is available at  :
 ```
 https://github.com/sblanck/smagexp/blob/master/examples/Galaxy-History-Micro-array-meta-analysis-history.tar.gz
 ```
-The following video will show you how to import this history in Galaxy
-
-<div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/h6b4y/frkvqh" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
-
 .CEL files used in this examples are extracted from the GEO dataset GSE13601. We picked up 6 .CEL files (to simplify the example) which can be found here :
 ```
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342582.CEL
@@ -356,11 +352,11 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjgyOTM2MDUsLTE3NjUzMjQ0NzEsNj
-MyMjA0NTEzLC03MjM2NDY4OCwtOTY3MTAxMDY4LDEwMDYzMTIw
-NDYsLTE0NTM4MDg1NjEsLTE5Njk0ODAxMTcsNDQ5NTgxNzc2LC
-0xNzQzNTQyMTg2LC0xNTA2Mzk1MzAxLC0xMzY4MDU2MDA0LC0x
-MzAzNTI1NDIsMzcwMTAwMDA3LC0yMTI5MzEwMjc0LC04MzY1OD
-Q4NjEsODk4NzQwMTg3LC0xNDQ2OTc0ODg2LDE5MDEwNTY2MjAs
-OTcxNzU3MTMwXX0=
+eyJoaXN0b3J5IjpbMTYzNTc1NzQ1MywtMjEyODI5MzYwNSw2Mz
+IyMDQ1MTMsLTcyMzY0Njg4LC05NjcxMDEwNjgsMTAwNjMxMjA0
+NiwtMTQ1MzgwODU2MSwtMTk2OTQ4MDExNyw0NDk1ODE3NzYsLT
+E3NDM1NDIxODYsLTE1MDYzOTUzMDEsLTEzNjgwNTYwMDQsLTEz
+MDM1MjU0MiwzNzAxMDAwMDcsLTIxMjkzMTAyNzQsLTgzNjU4ND
+g2MSw4OTg3NDAxODcsLTE0NDY5NzQ4ODYsMTkwMTA1NjYyMCw5
+NzE3NTcxMzBdfQ==
 -->
