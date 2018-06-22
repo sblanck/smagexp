@@ -248,7 +248,7 @@ The outputs are  :
 ### Rna-seq meta analysis  <a name="rna-seq-meta-analysis" /> [[toc]](#toc)
 
 #### Getting rna-seq count data from recount2
-![Recount2](https://jhubiostatistics.shinyapps.io/recount/) is an online resource consisting of RNA-seq gene and exon counts as well as coverage bigWig files for 2041 different studies. The recount galaxy tool wraps the bioconductor R package recount and fetch gene counts from one experiment
+[Recount2](https://jhubiostatistics.shinyapps.io/recount/) is an online resource consisting of RNA-seq gene and exon counts as well as coverage bigWig files for 2041 different studies. The recount galaxy tool wraps the bioconductor R package recount and fetch gene counts from one experiment
 
 Input is
 Accession ID
@@ -497,11 +497,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MjQ0MzI0LDcyMjUzODY4NywtOTQwMz
-U5NjgwLDE0MjE1ODcxODksMTU2NTcxMzM4MiwtMTg1NzE3MzY1
-Niw1NjI4MjE4MTEsMTY4MzMzNTQ3MiwzMjg2NDc2NjAsNTE2Mj
-A0NjAwLDIwMTI2OTYwMjEsMTE0MTk4ODU2Miw4MjA3MjM1Miwt
-NjM1ODE1ODY0LC0xOTg2NTcxNzA3LC04OTcyMTkwNTUsNTk2MT
-E5MTI1LDc1ODEwNzA5NCwxMjc1OTQ4MzUxLC0xNDE4NTM4NTgw
-XX0=
+eyJoaXN0b3J5IjpbLTE3NDY4MDY5NDcsLTk1MjQ0MzI0LC05ND
+AzNTk2ODAsMTQyMTU4NzE4OSwxNTY1NzEzMzgyLC0xODU3MTcz
+NjU2LDU2MjgyMTgxMSwxNjgzMzM1NDcyLDMyODY0NzY2MCw1MT
+YyMDQ2MDAsMjAxMjY5NjAyMSwxMTQxOTg4NTYyLDgyMDcyMzUy
+LC02MzU4MTU4NjQsLTE5ODY1NzE3MDcsLTg5NzIxOTA1NSw1OT
+YxMTkxMjUsNzU4MTA3MDk0LDEyNzU5NDgzNTEsLTE0MTg1Mzg1
+ODBdfQ==
 -->
