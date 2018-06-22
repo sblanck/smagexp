@@ -22,7 +22,8 @@ Table of Contents <a name="toc" />
 		- [Run The GEOQuery Tool](#run-the-geoquery-tool)
 		- [Run limma analysis](#run-limma-analysis)
 	-	[2nd analysis : from raw .CEL files](#2nd-analysis-from-raw-cel-files)
-		-	[Run QC normalisation tool](#run-qc-normalisation tool)
+		-	[Run QCNormalisation tool](#run-qc-normalisation-tool)
+		-	[Run limma analysis](#run-limma-analysis2)
 		
 -  [Step by step example of a RNA-seq meta-analysis](#step-by-step-example-of-a-rna-seq-meta-analysis)
 
@@ -337,7 +338,7 @@ This table gives access to gene annotation on ncbi and gene ontology website.
 
 ### 2nd analysis : from raw .CEL files  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
 
-#### Run QC normalisation tool  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
+#### Run QCnormalisation tool  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
 The QC normalisation tool only needs a list of .CEL files and a normalization method. 
 
 ![QCnormalization tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_QC_form.png)
@@ -473,11 +474,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMjY2NjI5OSwtNjM1ODE1ODY0LC0xOT
-g2NTcxNzA3LC04OTcyMTkwNTUsNTk2MTE5MTI1LDc1ODEwNzA5
-NCwxMjc1OTQ4MzUxLC0xNDE4NTM4NTgwLC0xOTQxNDU3NjYyLC
-0yMDk5NDQzMTAxLC0xNzc5OTc3MTMwLC0xNDk5Nzg0MjUwLC0x
-MjA1MjcwNDY3LC0xNjI4Mzg3ODQ5LC0yMjY0ODA5NDMsNjYwMj
-M3NzIwLC05NTM4OTM4MTYsLTIxNDE4NTc5ODAsMzAwNzIwNDk4
-LC00MjA0NTY0NzFdfQ==
+eyJoaXN0b3J5IjpbLTIxMTk0MTg1MjksLTYzNTgxNTg2NCwtMT
+k4NjU3MTcwNywtODk3MjE5MDU1LDU5NjExOTEyNSw3NTgxMDcw
+OTQsMTI3NTk0ODM1MSwtMTQxODUzODU4MCwtMTk0MTQ1NzY2Mi
+wtMjA5OTQ0MzEwMSwtMTc3OTk3NzEzMCwtMTQ5OTc4NDI1MCwt
+MTIwNTI3MDQ2NywtMTYyODM4Nzg0OSwtMjI2NDgwOTQzLDY2MD
+IzNzcyMCwtOTUzODkzODE2LC0yMTQxODU3OTgwLDMwMDcyMDQ5
+OCwtNDIwNDU2NDcxXX0=
 -->
