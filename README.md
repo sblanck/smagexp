@@ -296,7 +296,7 @@ It generates a html report with boxplots, p-value histogram a volcano plot and a
 ![Limma analysis tool graphic outputs](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_result_graph.png)
 *Limma analysis tool graphic outputs*
 
-![Limma analysis tool table outputs](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_result_table.png)
+![Limma analysis tool table output](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_result_table.png)
 This table gives access to gene annotation on ncbi and gene ontology website.
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.234%;"><iframe src="https://streamable.com/s/cdt5q/pkjtyc" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
@@ -339,7 +339,7 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNjEzMTE1OSwtODU1NTE1MzEwLDEwMD
+eyJoaXN0b3J5IjpbLTk2NzEwMTA2OCwtOTM2MTMxMTU5LDEwMD
 YzMTIwNDYsLTE0NTM4MDg1NjEsLTE5Njk0ODAxMTcsNDQ5NTgx
 Nzc2LC0xNzQzNTQyMTg2LC0xNTA2Mzk1MzAxLC0xMzY4MDU2MD
 A0LC0xMzAzNTI1NDIsMzcwMTAwMDA3LC0yMTI5MzEwMjc0LC04
