@@ -22,7 +22,7 @@ If you want to manually install the SMAGEXP dependencies, without conda, these a
 	* HTSFilter
 	* GEOmetadb
 	* affyPLM
-	* 
+	* recount
 
 * From CRAN :  
 	* metaMA
@@ -31,6 +31,7 @@ If you want to manually install the SMAGEXP dependencies, without conda, these a
 	* VennDiagram
 	* dplyr
 	* optparse
+	* UpSetR
 
 ### Using Docker
 
@@ -49,7 +50,7 @@ localhost:8080
 ```
 into the adress bar to access Galaxy running smagexp
 
-The Galaxy Admin User has the username `admin@galaxy.org` and the password `admin`. In order to use certain features of Galaxy, like import history, one has to be logged in.
+The Galaxy Admin User has the username `admin@galaxy.org` and the password `admin`. In order to use some features of Galaxy, like import history, one has to be logged in.
 
 Docker images are "read-only", all your changes inside one session will be lost after restart. This mode is useful to present Galaxy to your colleagues or to run workshops with it. To install Tool Shed repositories or to save your data you need to export the calculated data to the host computer.
 
@@ -322,11 +323,11 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MjYzNDY0MCw0NDk1ODE3NzYsLTE3ND
-M1NDIxODYsLTE1MDYzOTUzMDEsLTEzNjgwNTYwMDQsLTEzMDM1
-MjU0MiwzNzAxMDAwMDcsLTIxMjkzMTAyNzQsLTgzNjU4NDg2MS
-w4OTg3NDAxODcsLTE0NDY5NzQ4ODYsMTkwMTA1NjYyMCw5NzE3
-NTcxMzAsLTE3NTg3NjQxNzEsMTE0MDE4MzY3MiwtMTU1OTE3Mz
-U3MiwtOTYxNTYyMjE4LC0xMTczODA0NjY5LC04ODI5NzExODUs
-MzE1MDYxMjYyXX0=
+eyJoaXN0b3J5IjpbLTE5Njk0ODAxMTcsNDQ5NTgxNzc2LC0xNz
+QzNTQyMTg2LC0xNTA2Mzk1MzAxLC0xMzY4MDU2MDA0LC0xMzAz
+NTI1NDIsMzcwMTAwMDA3LC0yMTI5MzEwMjc0LC04MzY1ODQ4Nj
+EsODk4NzQwMTg3LC0xNDQ2OTc0ODg2LDE5MDEwNTY2MjAsOTcx
+NzU3MTMwLC0xNzU4NzY0MTcxLDExNDAxODM2NzIsLTE1NTkxNz
+M1NzIsLTk2MTU2MjIxOCwtMTE3MzgwNDY2OSwtODgyOTcxMTg1
+LDMxNTA2MTI2Ml19
 -->
