@@ -35,6 +35,7 @@ suppressPackageStartupMessages(require(affy))
 suppressPackageStartupMessages(require(annaffy))
 suppressPackageStartupMessages(require(VennDiagram))
 suppressPackageStartupMessages(require(GEOquery))
+suppressPackageStartupMessages(require(UpSetR))
 
 listInput <- trimws( unlist( strsplit(trimws(opt$input), ",") ) )
 species=opt$species
@@ -56,23 +57,23 @@ result.html<-opt$htmloutput
 result.path<-opt$htmloutputpath
 result.template<-opt$htmltemplate
 
-showVenn<-function(res,file)
-{
-	venn.plot<-venn.diagram(x = c(res[c(1:(length(res)-3))],meta=list(res$Meta)),
-			filename = NULL, col = "black", 
-			fill = c(1:(length(res)-2)),
-			margin=0.05, alpha = 0.6)
-	jpeg(file)
-	grid.draw(venn.plot)
-	dev.off()
-}
+#showVenn<-function(res,file)
+#{
+#	venn.plot<-venn.diagram(x = c(res[c(1:(length(res)-3))],meta=list(res$Meta)),
+#			filename = NULL, col = "black", 
+#			fill = c(1:(length(res)-2)),
+#			margin=0.05, alpha = 0.6)
+#	jpeg(file)
+#	grid.draw(venn.plot)
+#	dev.off()
+#}
 
 if(!species %in% installed.packages()[,"Package"]) {
 	source("https://bioconductor.org/biocLite.R")
 	biocLite(species)
 }
 
-library("org.Hs.eg.db")
+library(species,character.only = TRUE)
 x <- org.Hs.egUNIGENE
 mapped_genes <- mappedkeys(x)
 link <- as.list(x[mapped_genes])
@@ -159,7 +160,7 @@ conv_unigene=conv$conv.unigene
 #write(file="~/galaxy-modal/classes.txt",length(classes))
 res=pvalcombination(esets=esets,classes=classes,moderated="limma")
 resIDDIRR=IDDIRR(res$Meta,res$AllIndStudies)
-length(res$Meta)
+#length(res$Meta)
 Hs.Meta=rownames(esets[[1]])[res$Meta]
 origId.Meta=lapply(conv_unigene,FUN=function(vec) as.vector(unlist(vec[Hs.Meta])))
 
@@ -182,12 +183,6 @@ summaryjson=toJSON(as.matrix(t(resIDDIRR)),pretty = TRUE)
 
 vennFilename="venn.png"
 vennFile=file.path(result.path,vennFilename)
-htmlfile=readChar(result.template, file.info(result.template)$size)
-htmlfile=gsub(x=htmlfile,pattern = "###DATAJSON###",replacement = datajson, fixed = TRUE)
-htmlfile=gsub(x=htmlfile,pattern = "###SUMMARYJSON###",replacement = summaryjson, fixed = TRUE)
-htmlfile=gsub(x=htmlfile,pattern = "###VENN###",replacement = vennFilename, fixed = TRUE)
-write(htmlfile,result.html)
-
 library(VennDiagram)
 flog.threshold(ERROR)
 
@@ -212,8 +207,28 @@ for(i in 1:length(esets))
 	l[[paste("study",i,sep="")]]<-res[[i]]
 }
 l[["Meta"]]=res[[length(res)-1]]
-showVenn(l,vennFile)
+
+if (length(l)<5) {
+	title="Venn diagram"
+	width=500
+	showVenn(l,vennFile)
+}	else {
+	title="Upsetr diagram"
+	width=1000
+	png(vennFile,width=width,height=500)
+	upset(fromList(as.list(l)), order.by = "freq")
+	dev.off()
+}
+
 file.copy(vennFilename,result.path)
+
+htmlfile=readChar(result.template, file.info(result.template)$size)
+htmlfile=gsub(x=htmlfile,pattern = "###DATAJSON###",replacement = datajson, fixed = TRUE)
+htmlfile=gsub(x=htmlfile,pattern = "###SUMMARYJSON###",replacement = summaryjson, fixed = TRUE)
+htmlfile=gsub(x=htmlfile,pattern = "###VENN###",replacement = vennFilename, fixed = TRUE)
+tmlfile=gsub(x=htmlfile,pattern = "###WIDTH###",replacement = as.character(width), fixed = TRUE)
+htmlfile=gsub(x=htmlfile,pattern = "###TITLE###",replacement = title, fixed = TRUE)
+write(htmlfile,result.html)
 #l=list()
 #for(i in 1:length(esets))
 #{

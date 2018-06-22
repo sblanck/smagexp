@@ -10,6 +10,7 @@
         <requirement type="package">r-venndiagram</requirement>
         <requirement type="package">r-metama</requirement>
         <requirement type="package">r-optparse</requirement>
+        <requirement type="package" version="1.3.3">r-upsetr</requirement>
     </requirements>
 
     <stdio>
@@ -57,7 +58,7 @@ Given several Rdata object this tool run a meta-analysis using the metaMA R pack
 		
 **Results**
 		
-- Venn Diagram summarizing the results of the meta-analysis
+- Venn Diagram or upsetR diagram (when the number of studies is greater than 2) summarizing the results of the meta-analysis
 - A list of indicators to evaluate the quality of the performance of the meta-analysis
 		
 	- DE : Number of differentially expressed genes 
