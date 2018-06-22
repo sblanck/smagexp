@@ -15,8 +15,9 @@ SMAGEXP (Statistical Meta-Analysis for Gene EXPression) for Galaxy is a Galaxy t
 		- [Custom matrix data](#Custom-matrix-data)
 		- [Limma Analysis](#Limma-Analysis)
 		- [Running a meta analysis](#Running-a-meta-analysis)
-		
-	-[Rna-seq meta analysis](#Rna-seq meta analysis) 
+	-	[Rna-seq meta analysis](#Rna-seq-meta-analysis) 
+-
+
 
 
 How to install SMAGEXP
@@ -463,7 +464,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNzcwMDIxOCwtMTQxODUzODU4MCwtMT
+eyJoaXN0b3J5IjpbMjE0MTUwNjgxOSwtMTQxODUzODU4MCwtMT
 k0MTQ1NzY2MiwtMjA5OTQ0MzEwMSwtMTc3OTk3NzEzMCwtMTQ5
 OTc4NDI1MCwtMTIwNTI3MDQ2NywtMTYyODM4Nzg0OSwtMjI2ND
 gwOTQzLDY2MDIzNzcyMCwtOTUzODkzODE2LC0yMTQxODU3OTgw
