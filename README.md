@@ -23,7 +23,7 @@ Table of Contents <a name="toc" />
 		- [Run limma analysis](#run-limma-analysis)
 	-	[2nd analysis : from raw .CEL files](#2nd-analysis-from-raw-cel-files)
 		-	[Run QCNormalisation tool](#run-qc-normalisation-tool)
-		-	[Run limma analysis](#run-limma-analysis2)
+		-	[Run limma analysis](#run-limma-analysis2)[Run meta-analysis](#)	
 		
 -  [Step by step example of a RNA-seq meta-analysis](#step-by-step-example-of-a-rna-seq-meta-analysis)
 
@@ -367,7 +367,7 @@ It generates a html report with boxplots, p-value histogram a volcano plot and a
 *Limma analysis tool table output*
 
 
-### Meta-analysis  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
+### Run meta-analysis  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
 The meta analysis tool only needs the rdata files produced by the limma tool. 
 ![MetaMA tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_metaMA_form.png)
 
@@ -474,7 +474,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTk0MTg1MjksLTYzNTgxNTg2NCwtMT
+eyJoaXN0b3J5IjpbLTEwMDM0NjQ5ODUsLTYzNTgxNTg2NCwtMT
 k4NjU3MTcwNywtODk3MjE5MDU1LDU5NjExOTEyNSw3NTgxMDcw
 OTQsMTI3NTk0ODM1MSwtMTQxODUzODU4MCwtMTk0MTQ1NzY2Mi
 wtMjA5OTQ0MzEwMSwtMTc3OTk3NzEzMCwtMTQ5OTc4NDI1MCwt
