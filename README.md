@@ -27,6 +27,7 @@ Table of Contents <a name="toc" />
 		-	[Run limma analysis](#run-limma-analysis2)
 	-	[Run meta-analysis](#run-meta-analysis)			
 -  [Step by step example of a RNA-seq meta-analysis](#step-by-step-example-of-a-rna-seq-meta-analysis)
+	- 
 
 
 
@@ -337,7 +338,7 @@ This table gives access to gene annotation on ncbi and gene ontology website.
 
 *NCBI gene annotations*
 
-### 2nd analysis : from raw .CEL files  <a name="2nd-analysis-from-raw-cel-files" /> [[toc]](#toc)
+### Second analysis : from raw .CEL files  <a name="2nd-analysis-from-raw-cel-files" /> [[toc]](#toc)
 
 #### Run QCnormalisation tool  <a name="run-qc-normalisation-tool" /> [[toc]](#toc)
 The QC normalisation tool only needs a list of .CEL files and a normalization method. 
@@ -393,7 +394,7 @@ The outputs are  :
 Step by step example of a RNA-seq meta-analysis  <a name="step-by-step-example-of-a-rna-seq-meta-analysis" /> [[toc]](#toc)
 ------------------------
 
-### Data used in this example  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
+### Data used in this example  <a name="data-used-in-this-example2" /> [[toc]](#toc)
 
 The full history of this example is available at  : 
 ```
@@ -475,11 +476,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzc2NDkxOTgsMTE0MTk4ODU2Miw4Mj
-A3MjM1MiwtNjM1ODE1ODY0LC0xOTg2NTcxNzA3LC04OTcyMTkw
-NTUsNTk2MTE5MTI1LDc1ODEwNzA5NCwxMjc1OTQ4MzUxLC0xND
-E4NTM4NTgwLC0xOTQxNDU3NjYyLC0yMDk5NDQzMTAxLC0xNzc5
-OTc3MTMwLC0xNDk5Nzg0MjUwLC0xMjA1MjcwNDY3LC0xNjI4Mz
-g3ODQ5LC0yMjY0ODA5NDMsNjYwMjM3NzIwLC05NTM4OTM4MTYs
-LTIxNDE4NTc5ODBdfQ==
+eyJoaXN0b3J5IjpbODExMDA4MTY1LDExNDE5ODg1NjIsODIwNz
+IzNTIsLTYzNTgxNTg2NCwtMTk4NjU3MTcwNywtODk3MjE5MDU1
+LDU5NjExOTEyNSw3NTgxMDcwOTQsMTI3NTk0ODM1MSwtMTQxOD
+UzODU4MCwtMTk0MTQ1NzY2MiwtMjA5OTQ0MzEwMSwtMTc3OTk3
+NzEzMCwtMTQ5OTc4NDI1MCwtMTIwNTI3MDQ2NywtMTYyODM4Nz
+g0OSwtMjI2NDgwOTQzLDY2MDIzNzcyMCwtOTUzODkzODE2LC0y
+MTQxODU3OTgwXX0=
 -->
