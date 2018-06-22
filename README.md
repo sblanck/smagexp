@@ -334,12 +334,14 @@ It generates a html report with boxplots, p-value histogram a volcano plot and a
 *Limma analysis tool graphic outputs*
 
 ![Limma analysis tool table output](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_table2.png)
+
 *Limma analysis tool table output*
 
 
 ### Meta-analysis
 The meta analysis tool only needs the rdata files produced by the limma tool. 
 ![MetaMA tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_metaMA_form.png)
+
 *MetaMA tool form*
 
 The outputs are  :		
@@ -355,14 +357,15 @@ The outputs are  :
 - Fully sortable and requestable table, with gene annotations and hypertext links to NCBI gene database.
 
 ![MetaMA tools results](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_metaMA_results.png)
+
 *MetaMA tools results*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTk1Mzc0NDIsNjk1ODUyMjUxLDIwNj
-M0MzgyNDksLTIxMjgyOTM2MDUsNjMyMjA0NTEzLC03MjM2NDY4
-OCwtOTY3MTAxMDY4LDEwMDYzMTIwNDYsLTE0NTM4MDg1NjEsLT
-E5Njk0ODAxMTcsNDQ5NTgxNzc2LC0xNzQzNTQyMTg2LC0xNTA2
-Mzk1MzAxLC0xMzY4MDU2MDA0LC0xMzAzNTI1NDIsMzcwMTAwMD
-A3LC0yMTI5MzEwMjc0LC04MzY1ODQ4NjEsODk4NzQwMTg3LC0x
-NDQ2OTc0ODg2XX0=
+eyJoaXN0b3J5IjpbLTMzNDEwNjkzMiw2OTU4NTIyNTEsMjA2Mz
+QzODI0OSwtMjEyODI5MzYwNSw2MzIyMDQ1MTMsLTcyMzY0Njg4
+LC05NjcxMDEwNjgsMTAwNjMxMjA0NiwtMTQ1MzgwODU2MSwtMT
+k2OTQ4MDExNyw0NDk1ODE3NzYsLTE3NDM1NDIxODYsLTE1MDYz
+OTUzMDEsLTEzNjgwNTYwMDQsLTEzMDM1MjU0MiwzNzAxMDAwMD
+csLTIxMjkzMTAyNzQsLTgzNjU4NDg2MSw4OTg3NDAxODcsLTE0
+NDY5NzQ4ODZdfQ==
 -->
