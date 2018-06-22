@@ -372,16 +372,16 @@ https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-of
 
 ### First Analysis
 #### Recount
-The first step is to fetch raw count data from Recount. The recount wrap the recount bioconductor package. Given the accession ID, the recount tool generate one file per sample oof the experiment
+The first step is to fetch raw count data from Recount. The recount wrap the recount bioconductor package. Given the accession ID, the recount tool generate one co file per sample oof the experiment
 
 ### Second Analysis
 ### Meta Analysis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MDk0NzYyMiwxMzcwMDE5MTg5LC0xND
-A4ODIzODIzLDY5NTg1MjI1MSwyMDYzNDM4MjQ5LC0yMTI4Mjkz
-NjA1LDYzMjIwNDUxMywtNzIzNjQ2ODgsLTk2NzEwMTA2OCwxMD
-A2MzEyMDQ2LC0xNDUzODA4NTYxLC0xOTY5NDgwMTE3LDQ0OTU4
-MTc3NiwtMTc0MzU0MjE4NiwtMTUwNjM5NTMwMSwtMTM2ODA1Nj
-AwNCwtMTMwMzUyNTQyLDM3MDEwMDAwNywtMjEyOTMxMDI3NCwt
-ODM2NTg0ODYxXX0=
+eyJoaXN0b3J5IjpbLTE1ODA0MzYyMTAsMTg2MDk0NzYyMiwxMz
+cwMDE5MTg5LC0xNDA4ODIzODIzLDY5NTg1MjI1MSwyMDYzNDM4
+MjQ5LC0yMTI4MjkzNjA1LDYzMjIwNDUxMywtNzIzNjQ2ODgsLT
+k2NzEwMTA2OCwxMDA2MzEyMDQ2LC0xNDUzODA4NTYxLC0xOTY5
+NDgwMTE3LDQ0OTU4MTc3NiwtMTc0MzU0MjE4NiwtMTUwNjM5NT
+MwMSwtMTM2ODA1NjAwNCwtMTMwMzUyNTQyLDM3MDEwMDAwNywt
+MjEyOTMxMDI3NF19
 -->
