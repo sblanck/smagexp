@@ -70,10 +70,12 @@
 Given several DESeq2 results this tool runs a meta-analysis using the metaRNAseq R package.
 		
 **Inputs**
-At list 2 studies
-- Results of DESeq2 study
-- Number of replicate of the study			
+- At least 2 studies, and for each study
+	- Results of DESeq2 study
+	- Number of replicates of the study	
+- A FDR Threshold for a gene to be declared differentially expressed		
 	
+
 **Results**
 		
 - Venn Diagram or upsetR diagram (when the number of studies is greater than 2) summarizing the results of the meta-analysis
@@ -84,8 +86,8 @@ At list 2 studies
 	- Loss : Number of genes that are identified differentially expressed in single studies but not in meta-analysis 
 	- DR (Integration-driven Discovery Rate) : corresponding proportion of IDD
 	- IRR (Integration-driven Revision) : corresponding proportion of Loss
-		
-- Fully sortable and requestable table, with gene annotations and hypertext links to NCBI gene database.
+
+It also generates a text file containing summarization of the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 ]]>
     </help>
 
