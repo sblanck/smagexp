@@ -408,16 +408,16 @@ It will generate a pdf report and a tabular text results
 The same kind of analysis on an the other recount dataset
 
 #### Recount
-![Recou](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_recount_form2.png)
+![Recount ](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_recount_form2.png)
 #### DESeq2
 
 ### Meta Analysis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMTUxMDgwMCw3OTEyMTYwMTksMzAwNz
-IwNDk4LC00MjA0NTY0NzEsLTU3NDgxMjk5LC04MzcyMDkyMzAs
-LTcwNTAwNTYwNCwxNjk3MTEwMTAzLDQyNzg0ODgyMiwtMTU4MD
-QzNjIxMCwxMzcwMDE5MTg5LC0xNDA4ODIzODIzLDY5NTg1MjI1
-MSwyMDYzNDM4MjQ5LC0yMTI4MjkzNjA1LDYzMjIwNDUxMywtNz
-IzNjQ2ODgsLTk2NzEwMTA2OCwxMDA2MzEyMDQ2LC0xNDUzODA4
-NTYxXX0=
+eyJoaXN0b3J5IjpbLTIxNDE4NTc5ODAsMTgwMTUxMDgwMCwzMD
+A3MjA0OTgsLTQyMDQ1NjQ3MSwtNTc0ODEyOTksLTgzNzIwOTIz
+MCwtNzA1MDA1NjA0LDE2OTcxMTAxMDMsNDI3ODQ4ODIyLC0xNT
+gwNDM2MjEwLDEzNzAwMTkxODksLTE0MDg4MjM4MjMsNjk1ODUy
+MjUxLDIwNjM0MzgyNDksLTIxMjgyOTM2MDUsNjMyMjA0NTEzLC
+03MjM2NDY4OCwtOTY3MTAxMDY4LDEwMDYzMTIwNDYsLTE0NTM4
+MDg1NjFdfQ==
 -->
