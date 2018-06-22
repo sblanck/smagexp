@@ -44,7 +44,7 @@ containing the metadata of the experiment. Il also generates one count file per 
 
 **Results**
 	
-- Tabular file containing meta-data
+- Tabular file containing samples ID and samples conditions
 - One count file per sample
 ]]> 		
     </help>
