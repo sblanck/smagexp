@@ -27,7 +27,7 @@ Table of Contents <a name="toc" />
 		-	[Run limma analysis](#run-limma-analysis2)
 	-	[Run meta-analysis](#run-meta-analysis)			
 -  [Step by step example of a RNA-seq meta-analysis](#step-by-step-example-of-a-rna-seq-meta-analysis)
-	- 
+	- [
 
 
 
@@ -476,11 +476,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODExMDA4MTY1LDExNDE5ODg1NjIsODIwNz
-IzNTIsLTYzNTgxNTg2NCwtMTk4NjU3MTcwNywtODk3MjE5MDU1
-LDU5NjExOTEyNSw3NTgxMDcwOTQsMTI3NTk0ODM1MSwtMTQxOD
-UzODU4MCwtMTk0MTQ1NzY2MiwtMjA5OTQ0MzEwMSwtMTc3OTk3
-NzEzMCwtMTQ5OTc4NDI1MCwtMTIwNTI3MDQ2NywtMTYyODM4Nz
-g0OSwtMjI2NDgwOTQzLDY2MDIzNzcyMCwtOTUzODkzODE2LC0y
-MTQxODU3OTgwXX0=
+eyJoaXN0b3J5IjpbMTUyNDgxODY4Niw4MTEwMDgxNjUsMTE0MT
+k4ODU2Miw4MjA3MjM1MiwtNjM1ODE1ODY0LC0xOTg2NTcxNzA3
+LC04OTcyMTkwNTUsNTk2MTE5MTI1LDc1ODEwNzA5NCwxMjc1OT
+Q4MzUxLC0xNDE4NTM4NTgwLC0xOTQxNDU3NjYyLC0yMDk5NDQz
+MTAxLC0xNzc5OTc3MTMwLC0xNDk5Nzg0MjUwLC0xMjA1MjcwND
+Y3LC0xNjI4Mzg3ODQ5LC0yMjY0ODA5NDMsNjYwMjM3NzIwLC05
+NTM4OTM4MTZdfQ==
 -->
