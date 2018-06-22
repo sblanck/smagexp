@@ -377,7 +377,7 @@ The first step is to fetch raw count data from Recount. The recount wrap the rec
 ![Recount tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_recount_form.png)
 
 *Recount tool form*
-
+![enter image description here](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_recount_result.png)
 The recount tool generate one count file per sample of the experiment, in order to be analysed with DESeq2.
 
 
@@ -392,11 +392,11 @@ The recount tool generate one count file per sample of the experiment, in order 
 
 ### Meta Analysis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzYzNTk1NzUsMTY5NzExMDEwMyw0Mj
-c4NDg4MjIsLTE1ODA0MzYyMTAsMTM3MDAxOTE4OSwtMTQwODgy
-MzgyMyw2OTU4NTIyNTEsMjA2MzQzODI0OSwtMjEyODI5MzYwNS
-w2MzIyMDQ1MTMsLTcyMzY0Njg4LC05NjcxMDEwNjgsMTAwNjMx
-MjA0NiwtMTQ1MzgwODU2MSwtMTk2OTQ4MDExNyw0NDk1ODE3Nz
-YsLTE3NDM1NDIxODYsLTE1MDYzOTUzMDEsLTEzNjgwNTYwMDQs
-LTEzMDM1MjU0Ml19
+eyJoaXN0b3J5IjpbLTcwNTAwNTYwNCwxNjk3MTEwMTAzLDQyNz
+g0ODgyMiwtMTU4MDQzNjIxMCwxMzcwMDE5MTg5LC0xNDA4ODIz
+ODIzLDY5NTg1MjI1MSwyMDYzNDM4MjQ5LC0yMTI4MjkzNjA1LD
+YzMjIwNDUxMywtNzIzNjQ2ODgsLTk2NzEwMTA2OCwxMDA2MzEy
+MDQ2LC0xNDUzODA4NTYxLC0xOTY5NDgwMTE3LDQ0OTU4MTc3Ni
+wtMTc0MzU0MjE4NiwtMTUwNjM5NTMwMSwtMTM2ODA1NjAwNCwt
+MTMwMzUyNTQyXX0=
 -->
