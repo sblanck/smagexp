@@ -341,8 +341,6 @@ This table gives access to gene annotation on ncbi and gene ontology website.
 ![ncbi gene annotations](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_result_ncbi.png)
 *NCBI gene annotations*
 
-<div style="width:100%;height:0px;position:relative;padding-bottom:57.234%;"><iframe src="https://streamable.com/s/cdt5q/pkjtyc" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
-
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/h31cd/tjvlhf" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
 ### Meta-analysis
@@ -368,11 +366,11 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk1MDc2OTU1LC03MjM2NDY4OCwtOTY3MT
-AxMDY4LDEwMDYzMTIwNDYsLTE0NTM4MDg1NjEsLTE5Njk0ODAx
-MTcsNDQ5NTgxNzc2LC0xNzQzNTQyMTg2LC0xNTA2Mzk1MzAxLC
-0xMzY4MDU2MDA0LC0xMzAzNTI1NDIsMzcwMTAwMDA3LC0yMTI5
-MzEwMjc0LC04MzY1ODQ4NjEsODk4NzQwMTg3LC0xNDQ2OTc0OD
-g2LDE5MDEwNTY2MjAsOTcxNzU3MTMwLC0xNzU4NzY0MTcxLDEx
-NDAxODM2NzJdfQ==
+eyJoaXN0b3J5IjpbLTU2MDU5MDM2OSwtNzIzNjQ2ODgsLTk2Nz
+EwMTA2OCwxMDA2MzEyMDQ2LC0xNDUzODA4NTYxLC0xOTY5NDgw
+MTE3LDQ0OTU4MTc3NiwtMTc0MzU0MjE4NiwtMTUwNjM5NTMwMS
+wtMTM2ODA1NjAwNCwtMTMwMzUyNTQyLDM3MDEwMDAwNywtMjEy
+OTMxMDI3NCwtODM2NTg0ODYxLDg5ODc0MDE4NywtMTQ0Njk3ND
+g4NiwxOTAxMDU2NjIwLDk3MTc1NzEzMCwtMTc1ODc2NDE3MSwx
+MTQwMTgzNjcyXX0=
 -->
