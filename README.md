@@ -414,13 +414,16 @@ The same kind of analysis on an the other recount dataset
 
 #### DESeq2
 
+In this
+
+![DESeq2 tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_deseq2_form2.png)
 ### Meta Analysis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjY4MjM1NzYsLTIxNDE4NTc5ODAsMz
-AwNzIwNDk4LC00MjA0NTY0NzEsLTU3NDgxMjk5LC04MzcyMDky
-MzAsLTcwNTAwNTYwNCwxNjk3MTEwMTAzLDQyNzg0ODgyMiwtMT
-U4MDQzNjIxMCwxMzcwMDE5MTg5LC0xNDA4ODIzODIzLDY5NTg1
-MjI1MSwyMDYzNDM4MjQ5LC0yMTI4MjkzNjA1LDYzMjIwNDUxMy
-wtNzIzNjQ2ODgsLTk2NzEwMTA2OCwxMDA2MzEyMDQ2LC0xNDUz
-ODA4NTYxXX0=
+eyJoaXN0b3J5IjpbMTYyNDYzMzk4NiwtMjE0MTg1Nzk4MCwzMD
+A3MjA0OTgsLTQyMDQ1NjQ3MSwtNTc0ODEyOTksLTgzNzIwOTIz
+MCwtNzA1MDA1NjA0LDE2OTcxMTAxMDMsNDI3ODQ4ODIyLC0xNT
+gwNDM2MjEwLDEzNzAwMTkxODksLTE0MDg4MjM4MjMsNjk1ODUy
+MjUxLDIwNjM0MzgyNDksLTIxMjgyOTM2MDUsNjMyMjA0NTEzLC
+03MjM2NDY4OCwtOTY3MTAxMDY4LDEwMDYzMTIwNDYsLTE0NTM4
+MDg1NjFdfQ==
 -->
