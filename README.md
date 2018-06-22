@@ -247,8 +247,8 @@ The outputs are  :
 
 ### Rna-seq meta analysis  <a name="rna-seq-meta-analysis" /> [[toc]](#toc)
 
-#### Getting count data from recount2
-
+#### Getting rna-seq count data from recount2
+![Recount2](https://jhubiostatistics.shinyapps.io/recount/) is an online resource consisting of RNA-seq gene and exon counts as well as coverage bigWig files for 2041 different studies.
 
 
 #### Running a RNA-seq meta-analysis
@@ -488,7 +488,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTcxNzM2NTYsLTE5MjIwODY0MDcsNT
+eyJoaXN0b3J5IjpbLTE1NzI0MzMwNzYsLTE4NTcxNzM2NTYsNT
 YyODIxODExLDE2ODMzMzU0NzIsMzI4NjQ3NjYwLDUxNjIwNDYw
 MCwyMDEyNjk2MDIxLDExNDE5ODg1NjIsODIwNzIzNTIsLTYzNT
 gxNTg2NCwtMTk4NjU3MTcwNywtODk3MjE5MDU1LDU5NjExOTEy
