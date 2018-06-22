@@ -371,7 +371,7 @@ https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-of
 ```
 Two dataset from the recount database are used in this example :
 * SRP032833
-* 
+* SRP028180
 
 ### First Analysis
 
@@ -408,16 +408,19 @@ It will generate a pdf report and a tabular text results
 The same kind of analysis on an the other recount dataset
 
 #### Recount
-![Recount ](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_recount_form2.png)
+![Recount tool from](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_recount_form2.png)
+
+*Recount tool from*
+
 #### DESeq2
 
 ### Meta Analysis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDE4NTc5ODAsMTgwMTUxMDgwMCwzMD
-A3MjA0OTgsLTQyMDQ1NjQ3MSwtNTc0ODEyOTksLTgzNzIwOTIz
-MCwtNzA1MDA1NjA0LDE2OTcxMTAxMDMsNDI3ODQ4ODIyLC0xNT
-gwNDM2MjEwLDEzNzAwMTkxODksLTE0MDg4MjM4MjMsNjk1ODUy
-MjUxLDIwNjM0MzgyNDksLTIxMjgyOTM2MDUsNjMyMjA0NTEzLC
-03MjM2NDY4OCwtOTY3MTAxMDY4LDEwMDYzMTIwNDYsLTE0NTM4
-MDg1NjFdfQ==
+eyJoaXN0b3J5IjpbLTEzMjY4MjM1NzYsLTIxNDE4NTc5ODAsMz
+AwNzIwNDk4LC00MjA0NTY0NzEsLTU3NDgxMjk5LC04MzcyMDky
+MzAsLTcwNTAwNTYwNCwxNjk3MTEwMTAzLDQyNzg0ODgyMiwtMT
+U4MDQzNjIxMCwxMzcwMDE5MTg5LC0xNDA4ODIzODIzLDY5NTg1
+MjI1MSwyMDYzNDM4MjQ5LC0yMTI4MjkzNjA1LDYzMjIwNDUxMy
+wtNzIzNjQ2ODgsLTk2NzEwMTA2OCwxMDA2MzEyMDQ2LC0xNDUz
+ODA4NTYxXX0=
 -->
