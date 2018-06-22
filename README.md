@@ -6,7 +6,7 @@ SMAGEXP (Statistical Meta-Analysis for Gene EXPression) for Galaxy is a Galaxy t
 Table of Contents <a name="toc" />
 ------------------------
 - [How to install SMAGEXP](#how-to-install-smagexp)
-	- [From the galaxy toolshed](#From-the-galaxy-toolshed)
+	- [From the galaxy toolshed](#from-the-galaxy-toolshed)
 	- [Using docker](#Using-docker)
 - [How to analyse data with SMAGEXP](#How-to-analyse-data-with-SMAGEXP)
 	- [Micro-array meta-analysis](#Micro-array-meta-analysis)
@@ -25,7 +25,7 @@ Table of Contents <a name="toc" />
 How to install SMAGEXP  <a name="how-to-install-smagexp" /> [[toc]](#toc)
 ------------------------
 
-### From the galaxy toolshed
+### From the galaxy toolshed <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
 
 [SMAGEXP is available on the galaxy main toolshed ](https://toolshed.g2.bx.psu.edu/view/sblanck/smagexp/58052f8bc987)
 
@@ -466,11 +466,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTM4NzcxMywxMjc1OTQ4MzUxLC0xND
-E4NTM4NTgwLC0xOTQxNDU3NjYyLC0yMDk5NDQzMTAxLC0xNzc5
-OTc3MTMwLC0xNDk5Nzg0MjUwLC0xMjA1MjcwNDY3LC0xNjI4Mz
-g3ODQ5LC0yMjY0ODA5NDMsNjYwMjM3NzIwLC05NTM4OTM4MTYs
-LTIxNDE4NTc5ODAsMzAwNzIwNDk4LC00MjA0NTY0NzEsLTU3ND
-gxMjk5LC04MzcyMDkyMzAsLTcwNTAwNTYwNCwxNjk3MTEwMTAz
-LDQyNzg0ODgyMl19
+eyJoaXN0b3J5IjpbLTIwNDYwNjgwMDcsMTI3NTk0ODM1MSwtMT
+QxODUzODU4MCwtMTk0MTQ1NzY2MiwtMjA5OTQ0MzEwMSwtMTc3
+OTk3NzEzMCwtMTQ5OTc4NDI1MCwtMTIwNTI3MDQ2NywtMTYyOD
+M4Nzg0OSwtMjI2NDgwOTQzLDY2MDIzNzcyMCwtOTUzODkzODE2
+LC0yMTQxODU3OTgwLDMwMDcyMDQ5OCwtNDIwNDU2NDcxLC01Nz
+Q4MTI5OSwtODM3MjA5MjMwLC03MDUwMDU2MDQsMTY5NzExMDEw
+Myw0Mjc4NDg4MjJdfQ==
 -->
