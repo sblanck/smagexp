@@ -382,6 +382,7 @@ The recount tool generate one count file per sample of the experiment, in order 
 
 
 
+
 #### DESeq2 
 
 ### Second Analysis
@@ -391,11 +392,11 @@ The recount tool generate one count file per sample of the experiment, in order 
 
 ### Meta Analysis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NzExMDEwMyw0Mjc4NDg4MjIsLTE1OD
-A0MzYyMTAsMTM3MDAxOTE4OSwtMTQwODgyMzgyMyw2OTU4NTIy
-NTEsMjA2MzQzODI0OSwtMjEyODI5MzYwNSw2MzIyMDQ1MTMsLT
-cyMzY0Njg4LC05NjcxMDEwNjgsMTAwNjMxMjA0NiwtMTQ1Mzgw
-ODU2MSwtMTk2OTQ4MDExNyw0NDk1ODE3NzYsLTE3NDM1NDIxOD
-YsLTE1MDYzOTUzMDEsLTEzNjgwNTYwMDQsLTEzMDM1MjU0Miwz
-NzAxMDAwMDddfQ==
+eyJoaXN0b3J5IjpbLTE4NzYzNTk1NzUsMTY5NzExMDEwMyw0Mj
+c4NDg4MjIsLTE1ODA0MzYyMTAsMTM3MDAxOTE4OSwtMTQwODgy
+MzgyMyw2OTU4NTIyNTEsMjA2MzQzODI0OSwtMjEyODI5MzYwNS
+w2MzIyMDQ1MTMsLTcyMzY0Njg4LC05NjcxMDEwNjgsMTAwNjMx
+MjA0NiwtMTQ1MzgwODU2MSwtMTk2OTQ4MDExNyw0NDk1ODE3Nz
+YsLTE3NDM1NDIxODYsLTE1MDYzOTUzMDEsLTEzNjgwNTYwMDQs
+LTEzMDM1MjU0Ml19
 -->
