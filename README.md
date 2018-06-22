@@ -270,7 +270,7 @@ It also generates a text file containing summarization the results of each singl
 
 Step by step example of a micro-array meta-analysis  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
 ------------------------
-### Data used in this example  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
+### Data used in this example  <a name="data-used-in-this-example" /> [[toc]](#toc)
 
 The full history of this example is available at  : 
 ```
@@ -295,9 +295,9 @@ https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-Da
 ```
 Download this history on your computer and import it in galaxy. If you choose to manually upload these data on Galaxy don't forget to specify the type of each file (.CEL or .cond) as Galaxy won't auto-detect them.
 
-### First analysis: from GEO database  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
+### First analysis: from GEO database  <a name="first-analysis-from-geo-database" /> [[toc]](#toc)
 
-#### Run The GEOQuery Tool  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
+#### Run The GEOQuery Tool  <a name="run-the-geoquery-tool" /> [[toc]](#toc)
 The GSE accession ID is needed (i.e GSE3524). The log2 transformation is set to auto in this example.
 ![GEOQuery tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_geoqueryID_form.png)
 
@@ -316,7 +316,7 @@ The tool produce
 
 * A .rdata for further analysis
 
-#### Run limma analysis  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
+#### Run limma analysis  <a name="run-limma-ana" /> [[toc]](#toc)
 
 The limma analysis tool takes an rdata and a .cond file as inputs.
 ![Limma analysis tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_form.png)
@@ -475,7 +475,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMTEzOTkyMiw4MjA3MjM1MiwtNjM1OD
+eyJoaXN0b3J5IjpbMTY3ODYwNDM2OSw4MjA3MjM1MiwtNjM1OD
 E1ODY0LC0xOTg2NTcxNzA3LC04OTcyMTkwNTUsNTk2MTE5MTI1
 LDc1ODEwNzA5NCwxMjc1OTQ4MzUxLC0xNDE4NTM4NTgwLC0xOT
 QxNDU3NjYyLC0yMDk5NDQzMTAxLC0xNzc5OTc3MTMwLC0xNDk5
