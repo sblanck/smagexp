@@ -22,7 +22,7 @@ Table of Contents <a name="toc" />
 	- [First analysis: from GEO database](#first-analysis-from-geo-database)
 		- [Run The GEOQuery Tool](#run-the-geoquery-tool)
 		- [Run limma analysis](#run-limma-analysis)
-	-	[2nd analysis : from raw .CEL files](#2nd-analysis-from-raw-cel-files)
+	-	[Second analysis : from raw .CEL files](#2nd-analysis-from-raw-cel-files)
 		-	[Run QCNormalisation tool](#run-qc-normalisation-tool)
 		-	[Run limma analysis](#run-limma-analysis2)
 	-	[Run meta-analysis](#run-meta-analysis)			
@@ -475,11 +475,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwODM1NTM5MCwxMTQxOTg4NTYyLDgyMD
-cyMzUyLC02MzU4MTU4NjQsLTE5ODY1NzE3MDcsLTg5NzIxOTA1
-NSw1OTYxMTkxMjUsNzU4MTA3MDk0LDEyNzU5NDgzNTEsLTE0MT
-g1Mzg1ODAsLTE5NDE0NTc2NjIsLTIwOTk0NDMxMDEsLTE3Nzk5
-NzcxMzAsLTE0OTk3ODQyNTAsLTEyMDUyNzA0NjcsLTE2MjgzOD
-c4NDksLTIyNjQ4MDk0Myw2NjAyMzc3MjAsLTk1Mzg5MzgxNiwt
-MjE0MTg1Nzk4MF19
+eyJoaXN0b3J5IjpbLTE1Mzc2NDkxOTgsMTE0MTk4ODU2Miw4Mj
+A3MjM1MiwtNjM1ODE1ODY0LC0xOTg2NTcxNzA3LC04OTcyMTkw
+NTUsNTk2MTE5MTI1LDc1ODEwNzA5NCwxMjc1OTQ4MzUxLC0xND
+E4NTM4NTgwLC0xOTQxNDU3NjYyLC0yMDk5NDQzMTAxLC0xNzc5
+OTc3MTMwLC0xNDk5Nzg0MjUwLC0xMjA1MjcwNDY3LC0xNjI4Mz
+g3ODQ5LC0yMjY0ODA5NDMsNjYwMjM3NzIwLC05NTM4OTM4MTYs
+LTIxNDE4NTc5ODBdfQ==
 -->
