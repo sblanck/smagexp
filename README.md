@@ -22,7 +22,7 @@ Table of Contents <a name="toc" />
 
 
 
-How to install SMAGEXP  <a name="How-to-install-SMAGEXP" /> [[toc]](#toc)
+How to install SMAGEXP  <a name="how-to-install-smagexp" /> [[toc]](#toc)
 ------------------------
 
 ### From the galaxy toolshed
@@ -466,11 +466,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMzODY0NzY3LC0xNDE4NTM4NTgwLC0xOT
-QxNDU3NjYyLC0yMDk5NDQzMTAxLC0xNzc5OTc3MTMwLC0xNDk5
-Nzg0MjUwLC0xMjA1MjcwNDY3LC0xNjI4Mzg3ODQ5LC0yMjY0OD
-A5NDMsNjYwMjM3NzIwLC05NTM4OTM4MTYsLTIxNDE4NTc5ODAs
-MzAwNzIwNDk4LC00MjA0NTY0NzEsLTU3NDgxMjk5LC04MzcyMD
-kyMzAsLTcwNTAwNTYwNCwxNjk3MTEwMTAzLDQyNzg0ODgyMiwt
-MTU4MDQzNjIxMF19
+eyJoaXN0b3J5IjpbMTI3NTk0ODM1MSwtMTQxODUzODU4MCwtMT
+k0MTQ1NzY2MiwtMjA5OTQ0MzEwMSwtMTc3OTk3NzEzMCwtMTQ5
+OTc4NDI1MCwtMTIwNTI3MDQ2NywtMTYyODM4Nzg0OSwtMjI2ND
+gwOTQzLDY2MDIzNzcyMCwtOTUzODkzODE2LC0yMTQxODU3OTgw
+LDMwMDcyMDQ5OCwtNDIwNDU2NDcxLC01NzQ4MTI5OSwtODM3Mj
+A5MjMwLC03MDUwMDU2MDQsMTY5NzExMDEwMyw0Mjc4NDg4MjIs
+LTE1ODA0MzYyMTBdfQ==
 -->
