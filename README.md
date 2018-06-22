@@ -464,7 +464,7 @@ It will generate a pdf report and a tabular text results
 ### Second Analysis  <a name="second-analysis2" /> [[toc]](#toc)
 The same kind of analysis on an the other recount dataset
 
-#### Run the recount  <a name="run-recount2" /> [[toc]](#toc)
+#### Run the recount too  <a name="run-recount2" /> [[toc]](#toc)
 ![Recount tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_recount_form2.png)
 
 *Recount tool form*
@@ -502,11 +502,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMzMzE0MTMyLDM4NDg4OTA4MywxMTY2Mj
-EwNDE1LDE0OTQ2NDc5MSwtMTc0NjgwNjk0NywtOTQwMzU5Njgw
-LDE0MjE1ODcxODksMTU2NTcxMzM4MiwtMTg1NzE3MzY1Niw1Nj
-I4MjE4MTEsMTY4MzMzNTQ3MiwzMjg2NDc2NjAsNTE2MjA0NjAw
-LDIwMTI2OTYwMjEsMTE0MTk4ODU2Miw4MjA3MjM1MiwtNjM1OD
-E1ODY0LC0xOTg2NTcxNzA3LC04OTcyMTkwNTUsNTk2MTE5MTI1
-XX0=
+eyJoaXN0b3J5IjpbLTM1NDEwMzE2MCw2MzMzMTQxMzIsMzg0OD
+g5MDgzLDExNjYyMTA0MTUsMTQ5NDY0NzkxLC0xNzQ2ODA2OTQ3
+LC05NDAzNTk2ODAsMTQyMTU4NzE4OSwxNTY1NzEzMzgyLC0xOD
+U3MTczNjU2LDU2MjgyMTgxMSwxNjgzMzM1NDcyLDMyODY0NzY2
+MCw1MTYyMDQ2MDAsMjAxMjY5NjAyMSwxMTQxOTg4NTYyLDgyMD
+cyMzUyLC02MzU4MTU4NjQsLTE5ODY1NzE3MDcsLTg5NzIxOTA1
+NV19
 -->
