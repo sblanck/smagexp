@@ -11,7 +11,7 @@ Table of Contents <a name="toc" />
 - [How to analyse data with SMAGEXP](#how-to-analyse-data-with-smagexp)
 	- [Micro-array meta-analysis](#micro-array-meta-analysis)
 		- [Data from GEO database](#data-from-geo-database)
-		- [Data from affymetrix .CEL files](#Data-from-affymetrix-.CEL-files) 
+		- [Data from affymetrix .CEL files](#data-from-affymetrix-.CEL-files) 
 		- [Custom matrix data](#Custom-matrix-data)
 		- [Limma Analysis](#Limma-Analysis)
 		- [Running a meta analysis](#Running-a-meta-analysis)
@@ -466,11 +466,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTA1NTI3NzksNzU4MTA3MDk0LDEyNz
-U5NDgzNTEsLTE0MTg1Mzg1ODAsLTE5NDE0NTc2NjIsLTIwOTk0
-NDMxMDEsLTE3Nzk5NzcxMzAsLTE0OTk3ODQyNTAsLTEyMDUyNz
-A0NjcsLTE2MjgzODc4NDksLTIyNjQ4MDk0Myw2NjAyMzc3MjAs
-LTk1Mzg5MzgxNiwtMjE0MTg1Nzk4MCwzMDA3MjA0OTgsLTQyMD
-Q1NjQ3MSwtNTc0ODEyOTksLTgzNzIwOTIzMCwtNzA1MDA1NjA0
-LDE2OTcxMTAxMDNdfQ==
+eyJoaXN0b3J5IjpbNTk2MTE5MTI1LC0yMDEwNTUyNzc5LDc1OD
+EwNzA5NCwxMjc1OTQ4MzUxLC0xNDE4NTM4NTgwLC0xOTQxNDU3
+NjYyLC0yMDk5NDQzMTAxLC0xNzc5OTc3MTMwLC0xNDk5Nzg0Mj
+UwLC0xMjA1MjcwNDY3LC0xNjI4Mzg3ODQ5LC0yMjY0ODA5NDMs
+NjYwMjM3NzIwLC05NTM4OTM4MTYsLTIxNDE4NTc5ODAsMzAwNz
+IwNDk4LC00MjA0NTY0NzEsLTU3NDgxMjk5LC04MzcyMDkyMzAs
+LTcwNTAwNTYwNF19
 -->
