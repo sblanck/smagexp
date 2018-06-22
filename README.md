@@ -300,7 +300,9 @@ It generates a html report with boxplots, p-value histogram a volcano plot and a
 *Limma analysis tool table output*
 
 This table gives access to gene annotation on ncbi and gene ontology website.
-![enter image description here](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_result_ncbi.png)
+![ncbi gene annotations](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_result_ncbi.png)
+*NCBI gene annotations*
+
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.234%;"><iframe src="https://streamable.com/s/cdt5q/pkjtyc" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
 ### 2nd Analysis: from GEO database
@@ -341,7 +343,7 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjA5MDI5NTUsLTk2NzEwMTA2OCwxMD
+eyJoaXN0b3J5IjpbLTEyNTI4NjM5NjgsLTk2NzEwMTA2OCwxMD
 A2MzEyMDQ2LC0xNDUzODA4NTYxLC0xOTY5NDgwMTE3LDQ0OTU4
 MTc3NiwtMTc0MzU0MjE4NiwtMTUwNjM5NTMwMSwtMTM2ODA1Nj
 AwNCwtMTMwMzUyNTQyLDM3MDEwMDAwNywtMjEyOTMxMDI3NCwt
