@@ -5,6 +5,7 @@ SMAGEXP (Statistical Meta-Analysis for Gene EXPression) for Galaxy is a Galaxy t
 
 Table of Contents <a name="toc" />
 ------------------------
+
 - [How to install SMAGEXP](#how-to-install-smagexp)
 	- [From the galaxy toolshed](#from-the-galaxy-toolshed)
 	- [Using docker](#using-docker)
@@ -24,8 +25,7 @@ Table of Contents <a name="toc" />
 	-	[2nd analysis : from raw .CEL files](#2nd-analysis-from-raw-cel-files)
 		-	[Run QCNormalisation tool](#run-qc-normalisation-tool)
 		-	[Run limma analysis](#run-limma-analysis2)
-	-	[Run meta-analysis](#run-meta-analysis)	
-		
+	-	[Run meta-analysis](#run-meta-analysis)			
 -  [Step by step example of a RNA-seq meta-analysis](#step-by-step-example-of-a-rna-seq-meta-analysis)
 
 
@@ -475,7 +475,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMjY5NDc1NCwxMTQxOTg4NTYyLDgyMD
+eyJoaXN0b3J5IjpbMTAwODM1NTM5MCwxMTQxOTg4NTYyLDgyMD
 cyMzUyLC02MzU4MTU4NjQsLTE5ODY1NzE3MDcsLTg5NzIxOTA1
 NSw1OTYxMTkxMjUsNzU4MTA3MDk0LDEyNzU5NDgzNTEsLTE0MT
 g1Mzg1ODAsLTE5NDE0NTc2NjIsLTIwOTk0NDMxMDEsLTE3Nzk5
