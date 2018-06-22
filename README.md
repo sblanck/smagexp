@@ -27,7 +27,7 @@ Table of Contents <a name="toc" />
 		-	[Run limma analysis](#run-limma-analysis2)
 	-	[Run meta-analysis](#run-meta-analysis)			
 -  [Step by step example of a RNA-seq meta-analysis](#step-by-step-example-of-a-rna-seq-meta-analysis)
-	- [
+	- [Data used in this example](#data-used-in-this-example2")
 
 
 
@@ -404,7 +404,7 @@ Two dataset from the recount database are used in this example :
 * [SRP032833](https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP032833)
 * [SRP028180](https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP028180)
 
-### First Analysis  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
+### First Analysis  <a name="first-analysis2" /> [[toc]](#toc)
 
 #### Recount  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
 The first step is to fetch raw count data from Recount. The galaxy recount tool wrap the recount bioconductor R package. It only needs the accession ID of the experiment. 
@@ -476,11 +476,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNDgxODY4Niw4MTEwMDgxNjUsMTE0MT
-k4ODU2Miw4MjA3MjM1MiwtNjM1ODE1ODY0LC0xOTg2NTcxNzA3
-LC04OTcyMTkwNTUsNTk2MTE5MTI1LDc1ODEwNzA5NCwxMjc1OT
-Q4MzUxLC0xNDE4NTM4NTgwLC0xOTQxNDU3NjYyLC0yMDk5NDQz
-MTAxLC0xNzc5OTc3MTMwLC0xNDk5Nzg0MjUwLC0xMjA1MjcwND
-Y3LC0xNjI4Mzg3ODQ5LC0yMjY0ODA5NDMsNjYwMjM3NzIwLC05
-NTM4OTM4MTZdfQ==
+eyJoaXN0b3J5IjpbLTUxMjI0MTQ0OCwxNTI0ODE4Njg2LDExND
+E5ODg1NjIsODIwNzIzNTIsLTYzNTgxNTg2NCwtMTk4NjU3MTcw
+NywtODk3MjE5MDU1LDU5NjExOTEyNSw3NTgxMDcwOTQsMTI3NT
+k0ODM1MSwtMTQxODUzODU4MCwtMTk0MTQ1NzY2MiwtMjA5OTQ0
+MzEwMSwtMTc3OTk3NzEzMCwtMTQ5OTc4NDI1MCwtMTIwNTI3MD
+Q2NywtMTYyODM4Nzg0OSwtMjI2NDgwOTQzLDY2MDIzNzcyMCwt
+OTUzODkzODE2XX0=
 -->
