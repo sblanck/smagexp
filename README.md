@@ -71,7 +71,7 @@ docker run -d -p 8080:80 -p 8021:21 -p 8800:8800 \
 For more information about the parameters and docker usage, please refer to https://github.com/bgruening/docker-galaxy-stable/blob/master/README.md#Usage
 
 
-How to analyse data with SMAGEXP
+Description of the tools
 ------------------------
 
 ###  Micro-array meta-analysis
@@ -425,7 +425,7 @@ In this example we keep the 10 tumor samples to compare with the 6 normal sample
 
 MetaRNASeq tool takes several results from DESeq2 tool and perform a meta-analysis.
 It requires text results file from DESeq2 and the number of replicates of each analysis. In this example we have 11 replicates for the first analysis and 16 for the second analysis.
-It also requires a FDR threshold for genes to be declard
+It also requires a FDR threshold for genes to be declared differentially expressed (default is 0.05)
 
 ![MetaRNAseq tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_metarnaseq_form.png)
 
@@ -438,11 +438,11 @@ The tool outputs
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjgzODc4NDksMzEyNzM3OTgsLTIyNj
-Q4MDk0Myw2NjAyMzc3MjAsLTk1Mzg5MzgxNiwtMjE0MTg1Nzk4
-MCwzMDA3MjA0OTgsLTQyMDQ1NjQ3MSwtNTc0ODEyOTksLTgzNz
-IwOTIzMCwtNzA1MDA1NjA0LDE2OTcxMTAxMDMsNDI3ODQ4ODIy
-LC0xNTgwNDM2MjEwLDEzNzAwMTkxODksLTE0MDg4MjM4MjMsNj
-k1ODUyMjUxLDIwNjM0MzgyNDksLTIxMjgyOTM2MDUsNjMyMjA0
-NTEzXX0=
+eyJoaXN0b3J5IjpbNDU1NTUxOTU0LC0xNjI4Mzg3ODQ5LC0yMj
+Y0ODA5NDMsNjYwMjM3NzIwLC05NTM4OTM4MTYsLTIxNDE4NTc5
+ODAsMzAwNzIwNDk4LC00MjA0NTY0NzEsLTU3NDgxMjk5LC04Mz
+cyMDkyMzAsLTcwNTAwNTYwNCwxNjk3MTEwMTAzLDQyNzg0ODgy
+MiwtMTU4MDQzNjIxMCwxMzcwMDE5MTg5LC0xNDA4ODIzODIzLD
+Y5NTg1MjI1MSwyMDYzNDM4MjQ5LC0yMTI4MjkzNjA1LDYzMjIw
+NDUxM119
 -->
