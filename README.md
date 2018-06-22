@@ -8,8 +8,8 @@ Table of Contents <a name="toc" />
 - [How to install SMAGEXP](#how-to-install-smagexp)
 	- [From the galaxy toolshed](#from-the-galaxy-toolshed)
 	- [Using docker](#using-docker)
-- [How to analyse data with SMAGEXP](#How-to-analyse-data-with-SMAGEXP)
-	- [Micro-array meta-analysis](#Micro-array-meta-analysis)
+- [How to analyse data with SMAGEXP](#how-to-analyse-data-with-smagexp)
+	- [Micro-array meta-analysis](#micro-array-meta-analysis)
 		- [Data from GEO database](#Data-from-GEO-database)
 		- [Data from affymetrix .CEL files](#Data-from-affymetrix-.CEL-files) 
 		- [Custom matrix data](#Custom-matrix-data)
@@ -52,7 +52,7 @@ If you want to manually install the SMAGEXP dependencies, without conda, these a
 	* optparse
 	* UpSetR
 
-### Using Docker  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
+### Using Docker  <a name="using-docker" /> [[toc]](#toc)
 
 A dockerized version of Galaxy containing SMAGEXP, based on [bgruening galaxy-stable](https://github.com/bgruening/docker-galaxy-stable) is also available.
 
@@ -90,7 +90,7 @@ docker run -d -p 8080:80 -p 8021:21 -p 8800:8800 \
 For more information about the parameters and docker usage, please refer to https://github.com/bgruening/docker-galaxy-stable/blob/master/README.md#Usage
 
 
-How to analyse data with SMAGEXP  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
+How to analyse data with SMAGEXP  <a name="how-to-analyse-data-with-smagexp" /> [[toc]](#toc)
 ------------------------
 
 ###  Micro-array meta-analysis  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
@@ -466,11 +466,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4MTA3MDk0LDE1NDcxNTEzNjIsMTI3NT
-k0ODM1MSwtMTQxODUzODU4MCwtMTk0MTQ1NzY2MiwtMjA5OTQ0
-MzEwMSwtMTc3OTk3NzEzMCwtMTQ5OTc4NDI1MCwtMTIwNTI3MD
-Q2NywtMTYyODM4Nzg0OSwtMjI2NDgwOTQzLDY2MDIzNzcyMCwt
-OTUzODkzODE2LC0yMTQxODU3OTgwLDMwMDcyMDQ5OCwtNDIwND
-U2NDcxLC01NzQ4MTI5OSwtODM3MjA5MjMwLC03MDUwMDU2MDQs
-MTY5NzExMDEwM119
+eyJoaXN0b3J5IjpbLTIwNTY0NzM2MTEsNzU4MTA3MDk0LDEyNz
+U5NDgzNTEsLTE0MTg1Mzg1ODAsLTE5NDE0NTc2NjIsLTIwOTk0
+NDMxMDEsLTE3Nzk5NzcxMzAsLTE0OTk3ODQyNTAsLTEyMDUyNz
+A0NjcsLTE2MjgzODc4NDksLTIyNjQ4MDk0Myw2NjAyMzc3MjAs
+LTk1Mzg5MzgxNiwtMjE0MTg1Nzk4MCwzMDA3MjA0OTgsLTQyMD
+Q1NjQ3MSwtNTc0ODEyOTksLTgzNzIwOTIzMCwtNzA1MDA1NjA0
+LDE2OTcxMTAxMDNdfQ==
 -->
