@@ -21,7 +21,7 @@ Table of Contents <a name="toc" />
 	- [First analysis: from GEO database](#first-analysis-from-geo-database)
 		- [Run The GEOQuery Tool](#run-the-geoquery-tool)
 		- [Run limma analysis](#run-limma-analysis)
-	-	[2nd analysis : from raw .CEL files](#2nd-analysis-from-raw-cel files) 
+	-	[2nd analysis : from raw .CEL files](#2nd-analysis-from-raw-cel_files) 
 -  [Step by step example of a RNA-seq meta-analysis](#step-by-step-example-of-a-rna-seq-meta-analysis)
 
 
@@ -471,11 +471,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTkzMjUyMzksLTE5ODY1NzE3MDcsLT
-g5NzIxOTA1NSw1OTYxMTkxMjUsNzU4MTA3MDk0LDEyNzU5NDgz
-NTEsLTE0MTg1Mzg1ODAsLTE5NDE0NTc2NjIsLTIwOTk0NDMxMD
-EsLTE3Nzk5NzcxMzAsLTE0OTk3ODQyNTAsLTEyMDUyNzA0Njcs
-LTE2MjgzODc4NDksLTIyNjQ4MDk0Myw2NjAyMzc3MjAsLTk1Mz
-g5MzgxNiwtMjE0MTg1Nzk4MCwzMDA3MjA0OTgsLTQyMDQ1NjQ3
-MSwtNTc0ODEyOTldfQ==
+eyJoaXN0b3J5IjpbLTYzNTgxNTg2NCwtMTQ5OTMyNTIzOSwtMT
+k4NjU3MTcwNywtODk3MjE5MDU1LDU5NjExOTEyNSw3NTgxMDcw
+OTQsMTI3NTk0ODM1MSwtMTQxODUzODU4MCwtMTk0MTQ1NzY2Mi
+wtMjA5OTQ0MzEwMSwtMTc3OTk3NzEzMCwtMTQ5OTc4NDI1MCwt
+MTIwNTI3MDQ2NywtMTYyODM4Nzg0OSwtMjI2NDgwOTQzLDY2MD
+IzNzcyMCwtOTUzODkzODE2LC0yMTQxODU3OTgwLDMwMDcyMDQ5
+OCwtNDIwNDU2NDcxXX0=
 -->
