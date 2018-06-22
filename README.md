@@ -397,7 +397,7 @@ Two dataset from the recount database are used in this example :
 ### First Analysis  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
 
 #### Recount  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
-The first step is to fetch raw count data from Recount. The recount wrap the recount bioconductor package. It only needs the accession ID of the experiment. 
+The first step is to fetch raw count data from Recount. The galaxy recount tool wrap the recount bioconductor R package. It only needs the accession ID of the experiment. 
 ![Recount tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_recount_form.png)
 
 *Recount tool form*
@@ -466,11 +466,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NzIxOTA1NSw1OTYxMTkxMjUsNzU4MT
-A3MDk0LDEyNzU5NDgzNTEsLTE0MTg1Mzg1ODAsLTE5NDE0NTc2
-NjIsLTIwOTk0NDMxMDEsLTE3Nzk5NzcxMzAsLTE0OTk3ODQyNT
-AsLTEyMDUyNzA0NjcsLTE2MjgzODc4NDksLTIyNjQ4MDk0Myw2
-NjAyMzc3MjAsLTk1Mzg5MzgxNiwtMjE0MTg1Nzk4MCwzMDA3Mj
-A0OTgsLTQyMDQ1NjQ3MSwtNTc0ODEyOTksLTgzNzIwOTIzMCwt
-NzA1MDA1NjA0XX0=
+eyJoaXN0b3J5IjpbMTQ2MjI5OTU5OSwtODk3MjE5MDU1LDU5Nj
+ExOTEyNSw3NTgxMDcwOTQsMTI3NTk0ODM1MSwtMTQxODUzODU4
+MCwtMTk0MTQ1NzY2MiwtMjA5OTQ0MzEwMSwtMTc3OTk3NzEzMC
+wtMTQ5OTc4NDI1MCwtMTIwNTI3MDQ2NywtMTYyODM4Nzg0OSwt
+MjI2NDgwOTQzLDY2MDIzNzcyMCwtOTUzODkzODE2LC0yMTQxOD
+U3OTgwLDMwMDcyMDQ5OCwtNDIwNDU2NDcxLC01NzQ4MTI5OSwt
+ODM3MjA5MjMwXX0=
 -->
