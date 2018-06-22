@@ -1,12 +1,49 @@
 SMAGEXP (Statistical Meta Analysis for Gene EXPression) for Galaxy
 ========
 
-SMAGEXP (Statistical Meta-Analysis for Gene EXPression) for Galaxy is a Galaxy tool suite providing a unified way to carry out meta-analysis of gene expression data, while taking care of their specificities. It handles microarray data from Gene Expression Omnibus (GEO) database or custom data from affymetrix microarrays. These data are then combined to carry out meta-analysis using metaMA package. SMAGEXP also offers to combine Next Generation Sequencing (NGS) RNA-seq analysis from Deseq2 results thanks to metaRNASeq package. In both cases, key values, independent from the technology type, are reported to judge the quality of the meta-analysis. 
+SMAGEXP (Statistical Meta-Analysis for Gene EXPression) for Galaxy is a Galaxy tool suite providing a unified way to carry out meta-analysis of gene expression data, while taking care of their specificities. It handles microarray data from Gene Expression Omnibus (GEO) database or custom data from affymetrix microarrays. These data are then combined to carry out meta-analysis using metaMA package. SMAGEXP also offers to combine Next Generation Sequencing (NGS) RNA-seq analysis from DESeq2 results thanks to metaRNASeq package. In both cases, key values, independent from the technology type, are reported to judge the quality of the meta-analysis. 
 
-How to install SMAGEXP?
+Table of Contents <a name="toc" />
 ------------------------
 
-### Using the toolshed
+- [How to install SMAGEXP](#how-to-install-smagexp)
+	- [From the galaxy toolshed](#from-the-galaxy-toolshed)
+	- [Using docker](#using-docker)
+- [How to analyse data with SMAGEXP](#how-to-analyse-data-with-smagexp)
+	- [Micro-array meta-analysis](#micro-array-meta-analysis)
+		- [Data from GEO database](#data-from-geo-database)
+		- [Data from affymetrix .CEL files](#data-from-affymetrix-cel-files) 
+		- [Custom matrix data](#custom-matrix-data)
+		- [Limma Analysis](#limma-analysis)
+		- [Micro-array meta analysis](#running-a-meta-analysis)
+	- [Rna-seq meta analysis](#rna-seq-meta-analysis) 
+		-  [RNA-seq count data from recount2]("#getting-rna-seq")
+		-  [DESeq2 analysis](#running-deseq2-analysis")
+		-  [RNA-seq meta-analysis](#running-rnaseq-meta-analysis)
+- [Step by step example of a micro-array meta-analysis](#step-by-step-example-of-a-micro-array-meta-analysis)
+	- [Data used in this example](#data-used-in-this-example)
+	- [First analysis: from GEO database](#first-analysis-from-geo-database)
+		- [Run the GEOQuery Tool](#run-the-geoquery-tool)
+		- [Run a limma analysis](#run-limma-analysis)
+	-	[Second analysis : from raw .CEL files](#2nd-analysis-from-raw-cel-files)
+		-	[Run the QCNormalisation tool](#run-qc-normalisation-tool)
+		-	[Run a limma analysis](#run-limma-analysis2)
+	-	[Run the meta-analysis with metaMA](#run-meta-analysis)			
+-  [Step by step example of a RNA-seq meta-analysis](#step-by-step-example-of-a-rna-seq-meta-analysis)
+	- [Data used in this example](#data-used-in-this-example2")
+	- [First Analysis](#first-analysis2")
+		- [Run the recount tool ](#run-recount)
+		- [Run a DESeq2 analysis ](#run-deseq)
+	- [Second Analysis](#second-analysis2")
+		- [Run the recount tool ](#run-recount2)
+		- [Run a DESeq2 analysis](#run-deseq2)
+	- 	[Run the Meta-analysis with metaRNASeq](#meta-analysis-with-metaRNASeq)
+
+
+How to install SMAGEXP  <a name="how-to-install-smagexp" /> [[toc]](#toc)
+------------------------
+
+### From the galaxy toolshed <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
 
 [SMAGEXP is available on the galaxy main toolshed ](https://toolshed.g2.bx.psu.edu/view/sblanck/smagexp/58052f8bc987)
 
@@ -33,7 +70,7 @@ If you want to manually install the SMAGEXP dependencies, without conda, these a
 	* optparse
 	* UpSetR
 
-### Using Docker
+### Using Docker  <a name="using-docker" /> [[toc]](#toc)
 
 A dockerized version of Galaxy containing SMAGEXP, based on [bgruening galaxy-stable](https://github.com/bgruening/docker-galaxy-stable) is also available.
 
@@ -71,17 +108,17 @@ docker run -d -p 8080:80 -p 8021:21 -p 8800:8800 \
 For more information about the parameters and docker usage, please refer to https://github.com/bgruening/docker-galaxy-stable/blob/master/README.md#Usage
 
 
-How to analyse data with SMAGEXP
+How to analyse data with SMAGEXP  <a name="how-to-analyse-data-with-smagexp" /> [[toc]](#toc)
 ------------------------
 
-###  Micro-array meta-analysis
+###  Micro-array meta-analysis  <a name="micro-array-meta-analysis" /> [[toc]](#toc)
 
 SMAGEXP is able to perform analysis from 3 different data source :
 * From GEO database
 * From .CEL files
 * From custom matrix text files
 
-##### Data from GEO database
+#### Data from GEO database  <a name="data-from-geo-database" /> [[toc]](#toc)
 
 SMAGEXP can fetch data directly from [GEO database](https://www.ncbi.nlm.nih.gov/geo/), thanks to the GEOQuery R package. 
 
@@ -113,7 +150,7 @@ GSM80477 	series of 4 normals		GSM80477 OSCE-9N Series of 4 Normals
 
 When extracting data from GEO database, SMAGEXP automatically generates a .cond files based on the metadata of the experiment. 
 
-#### Data from affymetrix .CEL files
+#### Data from affymetrix .CEL files  <a name="data-from-affymetrix-cel-files" /> [[toc]](#toc)
 SMAGEXP handles affymetrix .CEL files. .CEL files have to be normalized with QCnormalization tool. This tool normalizes data and allows the user to check quality.
 
 The inputs are
@@ -129,7 +166,7 @@ The outputs are
 - Rdata object containing the normalized data for further analysis
 - Text file containing normalized data
 
-#### Custom matrix data
+#### Custom matrix data  <a name="custom-matrix-data" /> [[toc]](#toc)
 Import custom data tool imports data stored in a tabular text file. A few  normalization methods are proposed, but it is possible to skip the normalization step, by choosing "none" in the normalization methods options. Therefore this tool is of special interest when the input dataset has been previously normalized.
 
 The inputs are :
@@ -170,7 +207,7 @@ The outputs are
  - Boxplots and MA plots 
  - Rdata object containing the data for further analysis.
 
-#### Limma Analysis
+#### Limma Analysis  <a name="limma-analysis" /> [[toc]](#toc)
 The Limma analysis tool performs single analysis either of data previously retrieved from GEO database or normalized affymetrix .CEL files data. 
 Given a .cond file, it runs a standard limma differential expression analysis. 
 
@@ -189,7 +226,7 @@ The outpouts are :
 ![Plots generated by limma analysis tool](https://raw.githubusercontent.com/sblanck/smagexp/master/images/fig5.png)
 ![Table generated by limma analysis tool](https://raw.githubusercontent.com/sblanck/smagexp/master/images/fig6.png)
 
-#### Running a meta analysis
+#### Micro-array meta analysis  <a name="running-a-meta-analysis" /> [[toc]](#toc)
 Given several Rdata object from the limma analysis tool the microarray meta-analysis tool run a meta-analysis using the metaMA R package.
 		
 The Inputs are :
@@ -211,8 +248,29 @@ The outputs are  :
 
 *Plots and results generated by the microarray meta-analysis tool*
 
-### Rna-seq meta analysis 
-The RNA-seq data meta-analysis tool relies on DESeq2 results.
+### Rna-seq meta analysis  <a name="rna-seq-meta-analysis" /> [[toc]](#toc)
+
+#### Getting rna-seq count data from recount2 <a name="getting-rna-seq" />[[toc]](#toc)
+[Recount2](https://jhubiostatistics.shinyapps.io/recount/) is an online resource consisting of RNA-seq gene and exon counts as well as coverage bigWig files for 2041 different studies. The recount galaxy tool wraps the bioconductor R package recount and fetch gene counts from one experiment
+
+Input is
+- Accession ID
+
+Outputs are
+-   Tabular file containing sample ID and samples conditions
+-   One count file per sample
+
+![recount tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_recount_form.png)
+
+*recount tool form*
+
+#### DESeq2 analysis <a name="running-deseq2-analysis" />[[toc]](#toc)
+Count files retrieved by the recount galaxy tool can be analyzed with the The [DESeq2 tool available on the galaxy toolshed](https://toolshed.g2.bx.psu.edu/repository?repository_id=1f158f7565dc70f9&changeset_revision=9a616afdbda5)
+For more information of how this tool works, sse the help section on the tool or refer to the  [Run DESeq2](#run-deseq) section of the [Step by step example of a RNA-seq meta-analysis](#step-by-step-example-of-a-rna-seq-meta-analysis) chapter.
+
+#### RNA-seq meta-analysis <a name="running-rnaseq-meta-analysis" />[[toc]](#toc)
+
+The RNA-seq data meta-analysis tool relies on DESeq2 results. It uses the metaRNAseq R package from CRAN.
 
 It outputs a Venn diagram or an upsetR diagram (when the number of studies is greater than 2) and the same indicators as in the microarray meta-analysis tool for both Fisher and inverse normal p-values combinations.
 
@@ -240,15 +298,15 @@ It also generates a text file containing summarization the results of each singl
 
 *Header of RNA-seq data meta-analysis text results*
 
-Step by step example of a micro-array meta-analysis
+Step by step example of a micro-array meta-analysis  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
 ------------------------
-### Data used in this example
+### Data used in this example  <a name="data-used-in-this-example" /> [[toc]](#toc)
 
 The full history of this example is available at  : 
 ```
 https://github.com/sblanck/smagexp/blob/master/examples/Galaxy-History-Micro-array-meta-analysis-history.tar.gz
 ```
-.CEL files used in this examples are extracted from the GEO dataset GSE13601. We picked up 6 .CEL files (to simplify the example) which can be found here :
+.CEL files used in this example are extracted from the GEO dataset GSE13601. We picked up 6 .CEL files (to simplify the example) which can be found here :
 ```
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342582.CEL
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342583.CEL
@@ -267,9 +325,9 @@ https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-Da
 ```
 Download this history on your computer and import it in galaxy. If you choose to manually upload these data on Galaxy don't forget to specify the type of each file (.CEL or .cond) as Galaxy won't auto-detect them.
 
-### First analysis: from GEO database
+### First analysis: from GEO database  <a name="first-analysis-from-geo-database" /> [[toc]](#toc)
 
-#### Run The GEOQuery Tool
+#### Run the GEOQuery Tool  <a name="run-the-geoquery-tool" /> [[toc]](#toc)
 The GSE accession ID is needed (i.e GSE3524). The log2 transformation is set to auto in this example.
 ![GEOQuery tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_geoqueryID_form.png)
 
@@ -288,8 +346,8 @@ The tool produce
 
 * A .rdata for further analysis
 
-#### Run limma analysis
-Run limma analysis
+#### Run a limma analysis  <a name="run-limma-analysis" /> [[toc]](#toc)
+
 The limma analysis tool takes an rdata and a .cond file as inputs.
 ![Limma analysis tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_form.png)
 
@@ -305,13 +363,14 @@ It generates a html report with boxplots, p-value histogram a volcano plot and a
 *Limma analysis tool table output*
 
 This table gives access to gene annotation on ncbi and gene ontology website.
+
 ![ncbi gene annotations](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_result_ncbi.png)
 
 *NCBI gene annotations*
 
-### 2nd analysis : from raw .CEL files
+### Second analysis : from raw .CEL files  <a name="2nd-analysis-from-raw-cel-files" /> [[toc]](#toc)
 
-#### Run QC normalisation tool
+#### Run the QCnormalisation tool  <a name="run-qc-normalisation-tool" /> [[toc]](#toc)
 The QC normalisation tool only needs a list of .CEL files and a normalization method. 
 
 ![QCnormalization tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_QC_form.png)
@@ -324,7 +383,7 @@ It will generate an html report showing chip pseudo images, boxplots and MA plot
 
 *QCnormalization tool (partial) results with chip pseudo-images, boxplots and MA-plots for raw data*
 
-#### Run limma analysis
+#### Run a limma analysis  <a name="run-limma-analysis2" /> [[toc]](#toc)
 The limma analysis tool takes an rdata and a .cond file as inputs.
 ![Limma analysis tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_form2.png)
 
@@ -340,7 +399,7 @@ It generates a html report with boxplots, p-value histogram a volcano plot and a
 *Limma analysis tool table output*
 
 
-### Meta-analysis
+### Run the meta-analysis with metaMA  <a name="run-meta-analysis" /> [[toc]](#toc)
 The meta analysis tool only needs the rdata files produced by the limma tool. 
 ![MetaMA tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_metaMA_form.png)
 
@@ -360,25 +419,25 @@ The outputs are  :
 
 ![MetaMA tools results](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_metaMA_results.png)
 
-*MetaMA tools results*
+*MetaMA tool results*
 
-Step by step example of a RNA-seq meta-analysis
+Step by step example of a RNA-seq meta-analysis  <a name="step-by-step-example-of-a-rna-seq-meta-analysis" /> [[toc]](#toc)
 ------------------------
 
-### Data used in this example
+### Data used in this example  <a name="data-used-in-this-example2" /> [[toc]](#toc)
 
 The full history of this example is available at  : 
 ```
 https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-of-RNA-seq-meta-analysis.tar.gz
 ```
 Two dataset from the recount database are used in this example :
-* SRP032833
-* SRP028180
+* [SRP032833](https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP032833)
+* [SRP028180](https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP028180)
 
-### First Analysis
+### First Analysis  <a name="first-analysis2" /> [[toc]](#toc)
 
-#### Recount
-The first step is to fetch raw count data from Recount. The recount wrap the recount bioconductor package. It only needs the accession ID of the experiment. 
+#### Run the recount tool  <a name="run-recount" /> [[toc]](#toc)
+The first step is to fetch raw count data from Recount. The galaxy recount tool wrap the recount bioconductor R package. It only needs the accession ID of the experiment. 
 ![Recount tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_recount_form.png)
 
 *Recount tool form*
@@ -391,8 +450,8 @@ The recount tool generate one count file per sample of the experiment, in order 
 
 In this example 17 count files are generated
 
-#### DESeq2 
-The DESeq2 tool take the count files generated by the recount tool as inputs. It also wraps others DESeq2 parameters (see DESeq2 tool help section for more information).
+#### Run a DESeq2 analysis  <a name="run-deseq" /> [[toc]](#toc)
+The [ DESeq2 tool is available on the galaxy toolshed](https://toolshed.g2.bx.psu.edu/repository?repository_id=1f158f7565dc70f9&changeset_revision=9a616afdbda5). It take the count files generated by the recount tool as inputs. It also wraps others DESeq2 parameters (see DESeq2 tool help section for more information).
 In this example we keep the 6 invasive lung cancer samples to compare with the 5 normal samples.
 
 ![DESeq2 form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_deseq2_form.png) 
@@ -406,15 +465,16 @@ It will generate a pdf report and a tabular text results
 *DESeq2 results header*
 
 
-### Second Analysis
+### Second Analysis  <a name="second-analysis2" /> [[toc]](#toc)
 The same kind of analysis on an the other recount dataset
 
-#### Recount
-![Recount tool from](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_recount_form2.png)
+#### Run the recount tool  <a name="run-recount2" /> [[toc]](#toc)
+![Recount tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_recount_form2.png)
 
-*Recount tool from*
+*Recount tool form*
+
 In this example 24 count files are generated
-#### DESeq2
+#### Run a DESeq2 analysis  <a name="run-deseq2" /> [[toc]](#toc)
 
 In this example we keep the 10 tumor samples to compare with the 6 normal samples.
 
@@ -423,7 +483,7 @@ In this example we keep the 10 tumor samples to compare with the 6 normal sample
 *DESeq2 tool form*
 
 
-### Meta Analysis with metaRNASeq
+### Meta Analysis with metaRNASeq  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
 
 MetaRNASeq tool takes several results from DESeq2 tool and perform a meta-analysis.
 It requires text results file from DESeq2 and the number of replicates of each analysis. In this example we have 11 replicates for the first analysis and 16 for the second analysis.
@@ -443,13 +503,14 @@ The tool outputs 2 datasets :
 
 *Header of the text file generated by the metaRNAseq tool*
 
+It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3OTY1MDc1NSwtMTIwNTI3MDQ2NywtMT
-YyODM4Nzg0OSwtMjI2NDgwOTQzLDY2MDIzNzcyMCwtOTUzODkz
-ODE2LC0yMTQxODU3OTgwLDMwMDcyMDQ5OCwtNDIwNDU2NDcxLC
-01NzQ4MTI5OSwtODM3MjA5MjMwLC03MDUwMDU2MDQsMTY5NzEx
-MDEwMyw0Mjc4NDg4MjIsLTE1ODA0MzYyMTAsMTM3MDAxOTE4OS
-wtMTQwODgyMzgyMyw2OTU4NTIyNTEsMjA2MzQzODI0OSwtMjEy
-ODI5MzYwNV19
+eyJoaXN0b3J5IjpbLTc3MTU0MjQ2NCwtNTI4NjY1MDI0LC0xMz
+gyODE5Nzc3LC0zNTQxMDMxNjAsMzg0ODg5MDgzLDExNjYyMTA0
+MTUsMTQ5NDY0NzkxLC0xNzQ2ODA2OTQ3LC05NDAzNTk2ODAsMT
+QyMTU4NzE4OSwxNTY1NzEzMzgyLC0xODU3MTczNjU2LDU2Mjgy
+MTgxMSwxNjgzMzM1NDcyLDMyODY0NzY2MCw1MTYyMDQ2MDAsMj
+AxMjY5NjAyMSwxMTQxOTg4NTYyLDgyMDcyMzUyLC02MzU4MTU4
+NjRdfQ==
 -->
