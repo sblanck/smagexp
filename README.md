@@ -340,16 +340,15 @@ The outputs are  :
 		
 - Fully sortable and requestable table, with gene annotations and hypertext links to NCBI gene database.
 
-
-
-
+![MetaMA tools results](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_metaMA_results.png)
+*MetaMA tools results*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk1ODUyMjUxLDIwNjM0MzgyNDksLTIxMj
-gyOTM2MDUsNjMyMjA0NTEzLC03MjM2NDY4OCwtOTY3MTAxMDY4
-LDEwMDYzMTIwNDYsLTE0NTM4MDg1NjEsLTE5Njk0ODAxMTcsND
-Q5NTgxNzc2LC0xNzQzNTQyMTg2LC0xNTA2Mzk1MzAxLC0xMzY4
-MDU2MDA0LC0xMzAzNTI1NDIsMzcwMTAwMDA3LC0yMTI5MzEwMj
-c0LC04MzY1ODQ4NjEsODk4NzQwMTg3LC0xNDQ2OTc0ODg2LDE5
-MDEwNTY2MjBdfQ==
+eyJoaXN0b3J5IjpbNzU0OTY0Nzk1LDY5NTg1MjI1MSwyMDYzND
+M4MjQ5LC0yMTI4MjkzNjA1LDYzMjIwNDUxMywtNzIzNjQ2ODgs
+LTk2NzEwMTA2OCwxMDA2MzEyMDQ2LC0xNDUzODA4NTYxLC0xOT
+Y5NDgwMTE3LDQ0OTU4MTc3NiwtMTc0MzU0MjE4NiwtMTUwNjM5
+NTMwMSwtMTM2ODA1NjAwNCwtMTMwMzUyNTQyLDM3MDEwMDAwNy
+wtMjEyOTMxMDI3NCwtODM2NTg0ODYxLDg5ODc0MDE4NywtMTQ0
+Njk3NDg4Nl19
 -->
