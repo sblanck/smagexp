@@ -17,6 +17,8 @@ Table of Contents <a name="toc" />
 		- [Limma Analysis](#limma-analysis)
 		- [Running a meta analysis](#running-a-meta-analysis)
 	- [Rna-seq meta analysis](#rna-seq-meta-analysis) 
+		-  [Getting rna-seq count data from recount2]("#getting-rna-seq")
+		- Running a DESeq2 analysis <a name="running-deseq2-analysis" />
 - [Step by step example of a micro-array meta-analysis](#step-by-step-example-of-a-micro-array-meta-analysis)
 	- [Data used in this example](#data-used-in-this-example)
 	- [First analysis: from GEO database](#first-analysis-from-geo-database)
@@ -499,7 +501,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5ODM2NDg5NCwxMTY2MjEwNDE1LDE0OT
+eyJoaXN0b3J5IjpbMTI1OTU4MDEwNywxMTY2MjEwNDE1LDE0OT
 Q2NDc5MSwtMTc0NjgwNjk0NywtOTQwMzU5NjgwLDE0MjE1ODcx
 ODksMTU2NTcxMzM4MiwtMTg1NzE3MzY1Niw1NjI4MjE4MTEsMT
 Y4MzMzNTQ3MiwzMjg2NDc2NjAsNTE2MjA0NjAwLDIwMTI2OTYw
