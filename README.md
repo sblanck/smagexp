@@ -297,8 +297,6 @@ This table gives access to gene annotation on ncbi and gene ontology website.
 ![ncbi gene annotations](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_result_ncbi.png)
 *NCBI gene annotations*
 
-<div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/h31cd/tjvlhf" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
-
 ### 2nd analysis : from raw .CEL files
 
 #### Run QC normalisation tool
@@ -324,9 +322,6 @@ It generates a html report with boxplots, p-value histogram a volcano plot and a
 ![Limma analysis tool table output](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_table2.png)
 *Limma analysis tool table output*
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/275302173" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen>
-
-<div style="width:100%;height:0px;position:relative;padding-bottom:57.234%;"><iframe src="https://streamable.com/s/cdt5q/pkjtyc" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
 ### Meta-analysis
 The meta analysis tool only needs the rdata files produced by the limma tool. 
@@ -343,16 +338,12 @@ The outputs are  :
 		
 - Fully sortable and requestable table, with gene annotations and hypertext links to NCBI gene database.
 
-</iframe>
-<div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;">
-<iframe src="https://streamable.com/s/z107n/fzbium" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
-
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTc1NzQ1MywtMjEyODI5MzYwNSw2Mz
+eyJoaXN0b3J5IjpbMjA2MzQzODI0OSwtMjEyODI5MzYwNSw2Mz
 IyMDQ1MTMsLTcyMzY0Njg4LC05NjcxMDEwNjgsMTAwNjMxMjA0
 NiwtMTQ1MzgwODU2MSwtMTk2OTQ4MDExNyw0NDk1ODE3NzYsLT
 E3NDM1NDIxODYsLTE1MDYzOTUzMDEsLTEzNjgwNTYwMDQsLTEz
