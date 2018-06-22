@@ -5,7 +5,6 @@ SMAGEXP (Statistical Meta-Analysis for Gene EXPression) for Galaxy is a Galaxy t
 
 #Table of Contents <a name="toc" />
 ------------------------
-
 - [How to install SMAGEXP](#How-to-install-SMAGEXP)
 	- [From the galaxy toolshed](#From-the-galaxy-toolshed)
 	- [Using docker](#Using-docker)
@@ -464,7 +463,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNTcwNTc1MiwtMTQxODUzODU4MCwtMT
+eyJoaXN0b3J5IjpbMTQyNzcwMDIxOCwtMTQxODUzODU4MCwtMT
 k0MTQ1NzY2MiwtMjA5OTQ0MzEwMSwtMTc3OTk3NzEzMCwtMTQ5
 OTc4NDI1MCwtMTIwNTI3MDQ2NywtMTYyODM4Nzg0OSwtMjI2ND
 gwOTQzLDY2MDIzNzcyMCwtOTUzODkzODE2LC0yMTQxODU3OTgw
