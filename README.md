@@ -352,7 +352,7 @@ It will generate an html report showing chip pseudo images, boxplots and MA plot
 
 *QCnormalization tool (partial) results with chip pseudo-images, boxplots and MA-plots for raw data*
 
-#### Run limma analysis  <a name="run" /> [[toc]](#toc)
+#### Run limma analysis  <a name="run-limma-analysis2" /> [[toc]](#toc)
 The limma analysis tool takes an rdata and a .cond file as inputs.
 ![Limma analysis tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_form2.png)
 
@@ -368,7 +368,7 @@ It generates a html report with boxplots, p-value histogram a volcano plot and a
 *Limma analysis tool table output*
 
 
-### Run meta-analysis  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
+### Run meta-analysis  <a name="run-meta-analysis" /> [[toc]](#toc)
 The meta analysis tool only needs the rdata files produced by the limma tool. 
 ![MetaMA tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_metaMA_form.png)
 
@@ -475,11 +475,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTk4ODU2Miw1MDE1OTQ0ODksODIwNz
-IzNTIsLTYzNTgxNTg2NCwtMTk4NjU3MTcwNywtODk3MjE5MDU1
-LDU5NjExOTEyNSw3NTgxMDcwOTQsMTI3NTk0ODM1MSwtMTQxOD
-UzODU4MCwtMTk0MTQ1NzY2MiwtMjA5OTQ0MzEwMSwtMTc3OTk3
-NzEzMCwtMTQ5OTc4NDI1MCwtMTIwNTI3MDQ2NywtMTYyODM4Nz
-g0OSwtMjI2NDgwOTQzLDY2MDIzNzcyMCwtOTUzODkzODE2LC0y
-MTQxODU3OTgwXX0=
+eyJoaXN0b3J5IjpbMTUxMjY5NDc1NCwxMTQxOTg4NTYyLDgyMD
+cyMzUyLC02MzU4MTU4NjQsLTE5ODY1NzE3MDcsLTg5NzIxOTA1
+NSw1OTYxMTkxMjUsNzU4MTA3MDk0LDEyNzU5NDgzNTEsLTE0MT
+g1Mzg1ODAsLTE5NDE0NTc2NjIsLTIwOTk0NDMxMDEsLTE3Nzk5
+NzcxMzAsLTE0OTk3ODQyNTAsLTEyMDUyNzA0NjcsLTE2MjgzOD
+c4NDksLTIyNjQ4MDk0Myw2NjAyMzc3MjAsLTk1Mzg5MzgxNiwt
+MjE0MTg1Nzk4MF19
 -->
