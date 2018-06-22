@@ -28,6 +28,7 @@ Table of Contents <a name="toc" />
 	-	[Run meta-analysis](#run-meta-analysis)			
 -  [Step by step example of a RNA-seq meta-analysis](#step-by-step-example-of-a-rna-seq-meta-analysis)
 	- [Data used in this example](#data-used-in-this-example2")
+	- 
 
 
 
@@ -476,7 +477,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMjI0MTQ0OCwxNTI0ODE4Njg2LDExND
+eyJoaXN0b3J5IjpbMjAxMjY5NjAyMSwtNTEyMjQxNDQ4LDExND
 E5ODg1NjIsODIwNzIzNTIsLTYzNTgxNTg2NCwtMTk4NjU3MTcw
 NywtODk3MjE5MDU1LDU5NjExOTEyNSw3NTgxMDcwOTQsMTI3NT
 k0ODM1MSwtMTQxODUzODU4MCwtMTk0MTQ1NzY2MiwtMjA5OTQ0
