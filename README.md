@@ -238,11 +238,33 @@ It also generates a text file containing summarization of the results of each si
 
 Step by step example of a micro-array meta-analysis
 ------------------------
+###
+
 The full history of this example is available at  : 
 ```
 https://github.com/sblanck/smagexp/blob/master/examples/Galaxy-History-Micro-array-meta-analysis-history.tar.gz
 ```
+Data used in this example are extracted from the GEO dataset GSE13601. We picked up 6 .CEL (to simplify the example) which can be found here
+```
+https://github.com/sblanck/smagexp/raw/master/examples/GSM342582.CEL
+https://github.com/sblanck/smagexp/raw/master/examples/GSM342583.CEL
+https://github.com/sblanck/smagexp/raw/master/examples/GSM342584.CEL
+https://github.com/sblanck/smagexp/raw/master/examples/GSM342585.CEL
+https://github.com/sblanck/smagexp/raw/master/examples/GSM342586.CEL
+https://github.com/sblanck/smagexp/raw/master/examples/GSM342587.CEL
 
+
+```
+We also manually generated a .cond file according to these 6 .cel files.
+```
+https://raw.githubusercontent.com/sblanck/smagexp/master/examples/Celfiles.cond
+
+```
+To easily upload these data on galaxy, it is possible to load an existing history containing all these data : 
+```
+https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-Data.tar.gz 
+```
+Download this history on your computer and import it in galaxy. If you choose to manually upload these data on Galaxy don't forget to specify the type of each file (.CEL or .cond) as Galaxy won't auto-detect them.
 ### 1st analysis : from raw .CEL files
 
 #### upload data
@@ -366,11 +388,11 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMyMjA0NTEzLC03MjM2NDY4OCwtOTY3MT
-AxMDY4LDEwMDYzMTIwNDYsLTE0NTM4MDg1NjEsLTE5Njk0ODAx
-MTcsNDQ5NTgxNzc2LC0xNzQzNTQyMTg2LC0xNTA2Mzk1MzAxLC
-0xMzY4MDU2MDA0LC0xMzAzNTI1NDIsMzcwMTAwMDA3LC0yMTI5
-MzEwMjc0LC04MzY1ODQ4NjEsODk4NzQwMTg3LC0xNDQ2OTc0OD
-g2LDE5MDEwNTY2MjAsOTcxNzU3MTMwLC0xNzU4NzY0MTcxLDEx
-NDAxODM2NzJdfQ==
+eyJoaXN0b3J5IjpbMTkxMTk3OTk5Nyw2MzIyMDQ1MTMsLTcyMz
+Y0Njg4LC05NjcxMDEwNjgsMTAwNjMxMjA0NiwtMTQ1MzgwODU2
+MSwtMTk2OTQ4MDExNyw0NDk1ODE3NzYsLTE3NDM1NDIxODYsLT
+E1MDYzOTUzMDEsLTEzNjgwNTYwMDQsLTEzMDM1MjU0MiwzNzAx
+MDAwMDcsLTIxMjkzMTAyNzQsLTgzNjU4NDg2MSw4OTg3NDAxOD
+csLTE0NDY5NzQ4ODYsMTkwMTA1NjYyMCw5NzE3NTcxMzAsLTE3
+NTg3NjQxNzFdfQ==
 -->
