@@ -316,7 +316,7 @@ The tool produce
 
 * A .rdata for further analysis
 
-#### Run limma analysis  <a name="run-limma-ana" /> [[toc]](#toc)
+#### Run limma analysis  <a name="run-limma-analysis" /> [[toc]](#toc)
 
 The limma analysis tool takes an rdata and a .cond file as inputs.
 ![Limma analysis tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_form.png)
@@ -475,11 +475,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3ODYwNDM2OSw4MjA3MjM1MiwtNjM1OD
-E1ODY0LC0xOTg2NTcxNzA3LC04OTcyMTkwNTUsNTk2MTE5MTI1
-LDc1ODEwNzA5NCwxMjc1OTQ4MzUxLC0xNDE4NTM4NTgwLC0xOT
-QxNDU3NjYyLC0yMDk5NDQzMTAxLC0xNzc5OTc3MTMwLC0xNDk5
-Nzg0MjUwLC0xMjA1MjcwNDY3LC0xNjI4Mzg3ODQ5LC0yMjY0OD
-A5NDMsNjYwMjM3NzIwLC05NTM4OTM4MTYsLTIxNDE4NTc5ODAs
-MzAwNzIwNDk4XX0=
+eyJoaXN0b3J5IjpbNzgwNTgyNTg1LDE2Nzg2MDQzNjksODIwNz
+IzNTIsLTYzNTgxNTg2NCwtMTk4NjU3MTcwNywtODk3MjE5MDU1
+LDU5NjExOTEyNSw3NTgxMDcwOTQsMTI3NTk0ODM1MSwtMTQxOD
+UzODU4MCwtMTk0MTQ1NzY2MiwtMjA5OTQ0MzEwMSwtMTc3OTk3
+NzEzMCwtMTQ5OTc4NDI1MCwtMTIwNTI3MDQ2NywtMTYyODM4Nz
+g0OSwtMjI2NDgwOTQzLDY2MDIzNzcyMCwtOTUzODkzODE2LC0y
+MTQxODU3OTgwXX0=
 -->
