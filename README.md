@@ -421,9 +421,13 @@ In this example we keep the 10 tumor samples to compare with the 6 normal sample
 *DESeq2 tool form*
 
 
-### Meta Analysis
+### Meta Analysis with metaRNASeq
+
+MetaRNASeq tool takes several rs
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4Nzg1MjcwMCwtOTUzODkzODE2LC0yMT
+eyJoaXN0b3J5IjpbLTY0NzY4NzAzNywtOTUzODkzODE2LC0yMT
 QxODU3OTgwLDMwMDcyMDQ5OCwtNDIwNDU2NDcxLC01NzQ4MTI5
 OSwtODM3MjA5MjMwLC03MDUwMDU2MDQsMTY5NzExMDEwMyw0Mj
 c4NDg4MjIsLTE1ODA0MzYyMTAsMTM3MDAxOTE4OSwtMTQwODgy
