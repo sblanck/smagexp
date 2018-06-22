@@ -17,6 +17,7 @@ Table of Contents <a name="toc" />
 		- [Running a meta analysis](#running-a-meta-analysis)
 	- [Rna-seq meta analysis](#rna-seq-meta-analysis) 
 - [Step by step example of a micro-array meta-analysis](#step-by-step-example-of-a-micro-array-meta-analysis)
+	- [Data used in this example](#data-used-in-this-example)
 -  [Step by step example of a RNA-seq meta-analysis](#step-by-step-example-of-a-rna-seq-meta-analysis)
 
 
@@ -466,11 +467,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MjI5OTU5OSwtODk3MjE5MDU1LDU5Nj
-ExOTEyNSw3NTgxMDcwOTQsMTI3NTk0ODM1MSwtMTQxODUzODU4
-MCwtMTk0MTQ1NzY2MiwtMjA5OTQ0MzEwMSwtMTc3OTk3NzEzMC
-wtMTQ5OTc4NDI1MCwtMTIwNTI3MDQ2NywtMTYyODM4Nzg0OSwt
-MjI2NDgwOTQzLDY2MDIzNzcyMCwtOTUzODkzODE2LC0yMTQxOD
-U3OTgwLDMwMDcyMDQ5OCwtNDIwNDU2NDcxLC01NzQ4MTI5OSwt
-ODM3MjA5MjMwXX0=
+eyJoaXN0b3J5IjpbLTIxMjUwMTg3NTgsLTg5NzIxOTA1NSw1OT
+YxMTkxMjUsNzU4MTA3MDk0LDEyNzU5NDgzNTEsLTE0MTg1Mzg1
+ODAsLTE5NDE0NTc2NjIsLTIwOTk0NDMxMDEsLTE3Nzk5NzcxMz
+AsLTE0OTk3ODQyNTAsLTEyMDUyNzA0NjcsLTE2MjgzODc4NDks
+LTIyNjQ4MDk0Myw2NjAyMzc3MjAsLTk1Mzg5MzgxNiwtMjE0MT
+g1Nzk4MCwzMDA3MjA0OTgsLTQyMDQ1NjQ3MSwtNTc0ODEyOTks
+LTgzNzIwOTIzMF19
 -->
