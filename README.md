@@ -14,11 +14,12 @@ Table of Contents <a name="toc" />
 		- [Data from GEO database](#data-from-geo-database)
 		- [Data from affymetrix .CEL files](#data-from-affymetrix-cel-files) 
 		- [Custom matrix data](#custom-matrix-data)
-		- [Limma Analysis](#limma-analysis)
+		- [Running a Limma Analysis](#limma-analysis)
 		- [Running a meta analysis](#running-a-meta-analysis)
 	- [Rna-seq meta analysis](#rna-seq-meta-analysis) 
 		-  [Getting rna-seq count data from recount2]("#getting-rna-seq")
-		- Running a DESeq2 analysis <a name="running-deseq2-analysis" />
+		-  [Running a DESeq2 analysis](#running-deseq2-analysis")
+		- 
 - [Step by step example of a micro-array meta-analysis](#step-by-step-example-of-a-micro-array-meta-analysis)
 	- [Data used in this example](#data-used-in-this-example)
 	- [First analysis: from GEO database](#first-analysis-from-geo-database)
@@ -501,11 +502,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1OTU4MDEwNywxMTY2MjEwNDE1LDE0OT
-Q2NDc5MSwtMTc0NjgwNjk0NywtOTQwMzU5NjgwLDE0MjE1ODcx
-ODksMTU2NTcxMzM4MiwtMTg1NzE3MzY1Niw1NjI4MjE4MTEsMT
-Y4MzMzNTQ3MiwzMjg2NDc2NjAsNTE2MjA0NjAwLDIwMTI2OTYw
-MjEsMTE0MTk4ODU2Miw4MjA3MjM1MiwtNjM1ODE1ODY0LC0xOT
-g2NTcxNzA3LC04OTcyMTkwNTUsNTk2MTE5MTI1LDc1ODEwNzA5
-NF19
+eyJoaXN0b3J5IjpbNTk1MDk0NzM2LDExNjYyMTA0MTUsMTQ5ND
+Y0NzkxLC0xNzQ2ODA2OTQ3LC05NDAzNTk2ODAsMTQyMTU4NzE4
+OSwxNTY1NzEzMzgyLC0xODU3MTczNjU2LDU2MjgyMTgxMSwxNj
+gzMzM1NDcyLDMyODY0NzY2MCw1MTYyMDQ2MDAsMjAxMjY5NjAy
+MSwxMTQxOTg4NTYyLDgyMDcyMzUyLC02MzU4MTU4NjQsLTE5OD
+Y1NzE3MDcsLTg5NzIxOTA1NSw1OTYxMTkxMjUsNzU4MTA3MDk0
+XX0=
 -->
