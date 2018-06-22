@@ -433,14 +433,15 @@ It also requires a FDR threshold for genes to be declared differentially express
 
 *MetaRNAseq tool form*
 
-The tool outputs 
+The tool outputs 2 datasets :
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NzIzMDkzMiwtMTYyODM4Nzg0OSwtMj
+eyJoaXN0b3J5IjpbLTg1ODExNDcyMSwtMTYyODM4Nzg0OSwtMj
 I2NDgwOTQzLDY2MDIzNzcyMCwtOTUzODkzODE2LC0yMTQxODU3
 OTgwLDMwMDcyMDQ5OCwtNDIwNDU2NDcxLC01NzQ4MTI5OSwtOD
 M3MjA5MjMwLC03MDUwMDU2MDQsMTY5NzExMDEwMyw0Mjc4NDg4
