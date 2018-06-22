@@ -28,16 +28,16 @@ Table of Contents <a name="toc" />
 	-	[Second analysis : from raw .CEL files](#2nd-analysis-from-raw-cel-files)
 		-	[Run the QCNormalisation tool](#run-qc-normalisation-tool)
 		-	[Run a limma analysis](#run-limma-analysis2)
-	-	[Run the meta-analysis](#run-meta-analysis)			
+	-	[Run the meta-analysis with metaMA](#run-meta-analysis)			
 -  [Step by step example of a RNA-seq meta-analysis](#step-by-step-example-of-a-rna-seq-meta-analysis)
 	- [Data used in this example](#data-used-in-this-example2")
 	- [First Analysis](#first-analysis2")
-		- [Run recount](#run-recount)
-		- [Run DESeq2](#run-deseq)
+		- [Run the recount tool ](#run-recount)
+		- [Run a DESeq2 analysis ](#run-deseq)
 	- [Second Analysis](#second-analysis2")
-		- [Run recount](#run-recount2)
-		- [Run DESeq2](#run-deseq2)
-	- 	[Meta-analysis with metaRNASeq](#meta-analysis-with-metaRNASeq)
+		- [Run the recount tool ](#run-recount2)
+		- [Run a DESeq2 analysis](#run-deseq2)
+	- 	[Run the Meta-analysis with metaRNASeq](#meta-analysis-with-metaRNASeq)
 
 
 How to install SMAGEXP  <a name="how-to-install-smagexp" /> [[toc]](#toc)
@@ -502,11 +502,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4OTAxMjM4LDM4NDg4OTA4MywxMTY2Mj
-EwNDE1LDE0OTQ2NDc5MSwtMTc0NjgwNjk0NywtOTQwMzU5Njgw
-LDE0MjE1ODcxODksMTU2NTcxMzM4MiwtMTg1NzE3MzY1Niw1Nj
-I4MjE4MTEsMTY4MzMzNTQ3MiwzMjg2NDc2NjAsNTE2MjA0NjAw
-LDIwMTI2OTYwMjEsMTE0MTk4ODU2Miw4MjA3MjM1MiwtNjM1OD
-E1ODY0LC0xOTg2NTcxNzA3LC04OTcyMTkwNTUsNTk2MTE5MTI1
-XX0=
+eyJoaXN0b3J5IjpbLTEyNTk2NzQ3MzEsMzg0ODg5MDgzLDExNj
+YyMTA0MTUsMTQ5NDY0NzkxLC0xNzQ2ODA2OTQ3LC05NDAzNTk2
+ODAsMTQyMTU4NzE4OSwxNTY1NzEzMzgyLC0xODU3MTczNjU2LD
+U2MjgyMTgxMSwxNjgzMzM1NDcyLDMyODY0NzY2MCw1MTYyMDQ2
+MDAsMjAxMjY5NjAyMSwxMTQxOTg4NTYyLDgyMDcyMzUyLC02Mz
+U4MTU4NjQsLTE5ODY1NzE3MDcsLTg5NzIxOTA1NSw1OTYxMTkx
+MjVdfQ==
 -->
