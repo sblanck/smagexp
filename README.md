@@ -305,7 +305,7 @@ This table gives access to gene annotation on ncbi and gene ontology website.
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.234%;"><iframe src="https://streamable.com/s/cdt5q/pkjtyc" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
-### 2nd Analysis: from GEO database
+### First analysis: from GEO database
 
 #### Run The GEOQuery Tool
 The GSE accession ID is needed (i.e GSE3524). The log2 transformation is set to auto in this example.
@@ -325,7 +325,23 @@ The tool produce
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/ktaey/jfpbyx" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
 #### Run limma analysis
-As previously a limma analysis is run on data retrieved from GEO database.
+Run limma analysis
+The limma analysis tool takes an rdata and a .cond file as inputs.
+![Limma analysis tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_form.png)
+*Limma analysis tool form*
+
+It generates a html report with boxplots, p-value histogram a volcano plot and a table listing the differentially expressed genes. 
+![Limma analysis tool graphic outputs](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_result_graph.png)
+*Limma analysis tool graphic outputs*
+
+![Limma analysis tool table output](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_result_table.png)
+*Limma analysis tool table output*
+
+This table gives access to gene annotation on ncbi and gene ontology website.
+![ncbi gene annotations](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_result_ncbi.png)
+*NCBI gene annotations*
+
+<div style="width:100%;height:0px;position:relative;padding-bottom:57.234%;"><iframe src="https://streamable.com/s/cdt5q/pkjtyc" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/h31cd/tjvlhf" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
@@ -352,11 +368,11 @@ The outputs are  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMzY0Njg4LC05NjcxMDEwNjgsMTAwNj
-MxMjA0NiwtMTQ1MzgwODU2MSwtMTk2OTQ4MDExNyw0NDk1ODE3
-NzYsLTE3NDM1NDIxODYsLTE1MDYzOTUzMDEsLTEzNjgwNTYwMD
-QsLTEzMDM1MjU0MiwzNzAxMDAwMDcsLTIxMjkzMTAyNzQsLTgz
-NjU4NDg2MSw4OTg3NDAxODcsLTE0NDY5NzQ4ODYsMTkwMTA1Nj
-YyMCw5NzE3NTcxMzAsLTE3NTg3NjQxNzEsMTE0MDE4MzY3Miwt
-MTU1OTE3MzU3Ml19
+eyJoaXN0b3J5IjpbNjk1MDc2OTU1LC03MjM2NDY4OCwtOTY3MT
+AxMDY4LDEwMDYzMTIwNDYsLTE0NTM4MDg1NjEsLTE5Njk0ODAx
+MTcsNDQ5NTgxNzc2LC0xNzQzNTQyMTg2LC0xNTA2Mzk1MzAxLC
+0xMzY4MDU2MDA0LC0xMzAzNTI1NDIsMzcwMTAwMDA3LC0yMTI5
+MzEwMjc0LC04MzY1ODQ4NjEsODk4NzQwMTg3LC0xNDQ2OTc0OD
+g2LDE5MDEwNTY2MjAsOTcxNzU3MTMwLC0xNzU4NzY0MTcxLDEx
+NDAxODM2NzJdfQ==
 -->
