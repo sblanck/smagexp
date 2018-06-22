@@ -14,12 +14,12 @@ Table of Contents <a name="toc" />
 		- [Data from GEO database](#data-from-geo-database)
 		- [Data from affymetrix .CEL files](#data-from-affymetrix-cel-files) 
 		- [Custom matrix data](#custom-matrix-data)
-		- [RunningLimma Analysis](#limma-analysis)
-		- [Running a meta analysis](#running-a-meta-analysis)
+		- [Limma Analysis](#limma-analysis)
+		- [Micro-array meta analysis](#running-a-meta-analysis)
 	- [Rna-seq meta analysis](#rna-seq-meta-analysis) 
-		-  [Getting rna-seq count data from recount2]("#getting-rna-seq")
-		-  [Running a DESeq2 analysis](#running-deseq2-analysis")
-		- 
+		-  [RNA-seq count data from recount2]("#getting-rna-seq")
+		-  [DESeq2 analysis](#running-deseq2-analysis")
+		-  [RNA-seq meta-analysis]
 - [Step by step example of a micro-array meta-analysis](#step-by-step-example-of-a-micro-array-meta-analysis)
 	- [Data used in this example](#data-used-in-this-example)
 	- [First analysis: from GEO database](#first-analysis-from-geo-database)
@@ -260,11 +260,11 @@ Input is
 Outputs are
 - One file
 - 
-#### Running a DESeq2 analysis <a name="running-deseq2-analysis" />[[toc]](#toc)
+#### DESeq2 analysis <a name="running-deseq2-analysis" />[[toc]](#toc)
 Count files retrieved by the recount galaxy tool can be analyzed with the The [DESeq2 tool available on the galaxy toolshed](https://toolshed.g2.bx.psu.edu/repository?repository_id=1f158f7565dc70f9&changeset_revision=9a616afdbda5)
 For more information of how this tool works, sse the help section on the tool or refer to the  [Run DESeq2](#run-deseq) section of the [Step by step example of a RNA-seq meta-analysis](#step-by-step-example-of-a-rna-seq-meta-analysis) chapter.
 
-#### Running a RNA-seq meta-analysis <a name="running-rnaseq-meta-analysis" />[[toc]](#toc)
+#### RNA-seq meta-analysis <a name="running-rnaseq-meta-analysis" />[[toc]](#toc)
 
 The RNA-seq data meta-analysis tool relies on DESeq2 results. It uses the metaRNAseq R package from CRAN.
 
@@ -502,11 +502,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg0ODg5MDgzLDU5NTA5NDczNiwxMTY2Mj
-EwNDE1LDE0OTQ2NDc5MSwtMTc0NjgwNjk0NywtOTQwMzU5Njgw
-LDE0MjE1ODcxODksMTU2NTcxMzM4MiwtMTg1NzE3MzY1Niw1Nj
-I4MjE4MTEsMTY4MzMzNTQ3MiwzMjg2NDc2NjAsNTE2MjA0NjAw
-LDIwMTI2OTYwMjEsMTE0MTk4ODU2Miw4MjA3MjM1MiwtNjM1OD
-E1ODY0LC0xOTg2NTcxNzA3LC04OTcyMTkwNTUsNTk2MTE5MTI1
-XX0=
+eyJoaXN0b3J5IjpbLTI5Mzc1ODI0NywzODQ4ODkwODMsMTE2Nj
+IxMDQxNSwxNDk0NjQ3OTEsLTE3NDY4MDY5NDcsLTk0MDM1OTY4
+MCwxNDIxNTg3MTg5LDE1NjU3MTMzODIsLTE4NTcxNzM2NTYsNT
+YyODIxODExLDE2ODMzMzU0NzIsMzI4NjQ3NjYwLDUxNjIwNDYw
+MCwyMDEyNjk2MDIxLDExNDE5ODg1NjIsODIwNzIzNTIsLTYzNT
+gxNTg2NCwtMTk4NjU3MTcwNywtODk3MjE5MDU1LDU5NjExOTEy
+NV19
 -->
