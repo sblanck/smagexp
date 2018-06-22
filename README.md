@@ -266,6 +266,7 @@ To easily upload these data on galaxy, it is possible to load an existing histor
 https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-Data.tar.gz 
 ```
 Download this history on your computer and import it in galaxy. If you choose to manually upload these data on Galaxy don't forget to specify the type of each file (.CEL or .cond) as Galaxy won't auto-detect them.
+
 ### First analysis: from GEO database
 
 #### Run The GEOQuery Tool
@@ -349,18 +350,19 @@ The outputs are  :
 - Fully sortable and requestable table, with gene annotations and hypertext links to NCBI gene database.
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/275302173" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
-<div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;"><iframe src="https://streamable.com/s/z107n/fzbium" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+<div style="width:100%;height:0px;position:relative;padding-bottom:57.231%;">
+<iframe src="https://streamable.com/s/z107n/fzbium" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzE5MTMwNzMsNjMyMjA0NTEzLC03Mj
-M2NDY4OCwtOTY3MTAxMDY4LDEwMDYzMTIwNDYsLTE0NTM4MDg1
-NjEsLTE5Njk0ODAxMTcsNDQ5NTgxNzc2LC0xNzQzNTQyMTg2LC
-0xNTA2Mzk1MzAxLC0xMzY4MDU2MDA0LC0xMzAzNTI1NDIsMzcw
-MTAwMDA3LC0yMTI5MzEwMjc0LC04MzY1ODQ4NjEsODk4NzQwMT
-g3LC0xNDQ2OTc0ODg2LDE5MDEwNTY2MjAsOTcxNzU3MTMwLC0x
-NzU4NzY0MTcxXX0=
+eyJoaXN0b3J5IjpbMjEzODMyODY1NSw2MzIyMDQ1MTMsLTcyMz
+Y0Njg4LC05NjcxMDEwNjgsMTAwNjMxMjA0NiwtMTQ1MzgwODU2
+MSwtMTk2OTQ4MDExNyw0NDk1ODE3NzYsLTE3NDM1NDIxODYsLT
+E1MDYzOTUzMDEsLTEzNjgwNTYwMDQsLTEzMDM1MjU0MiwzNzAx
+MDAwMDcsLTIxMjkzMTAyNzQsLTgzNjU4NDg2MSw4OTg3NDAxOD
+csLTE0NDY5NzQ4ODYsMTkwMTA1NjYyMCw5NzE3NTcxMzAsLTE3
+NTg3NjQxNzFdfQ==
 -->
