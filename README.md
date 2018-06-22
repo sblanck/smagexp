@@ -380,6 +380,8 @@ The first step is to fetch raw count data from Recount. The recount wrap the rec
 
 The recount tool generate one count file per sample of the experiment, in order to be analysed with DESeq2.
 
+
+
 #### DESeq2 
 
 ### Second Analysis
@@ -389,11 +391,11 @@ The recount tool generate one count file per sample of the experiment, in order 
 
 ### Meta Analysis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEzMzI3ODcsNDI3ODQ4ODIyLC0xNTgwND
-M2MjEwLDEzNzAwMTkxODksLTE0MDg4MjM4MjMsNjk1ODUyMjUx
-LDIwNjM0MzgyNDksLTIxMjgyOTM2MDUsNjMyMjA0NTEzLC03Mj
-M2NDY4OCwtOTY3MTAxMDY4LDEwMDYzMTIwNDYsLTE0NTM4MDg1
-NjEsLTE5Njk0ODAxMTcsNDQ5NTgxNzc2LC0xNzQzNTQyMTg2LC
-0xNTA2Mzk1MzAxLC0xMzY4MDU2MDA0LC0xMzAzNTI1NDIsMzcw
-MTAwMDA3XX0=
+eyJoaXN0b3J5IjpbMTY5NzExMDEwMyw0Mjc4NDg4MjIsLTE1OD
+A0MzYyMTAsMTM3MDAxOTE4OSwtMTQwODgyMzgyMyw2OTU4NTIy
+NTEsMjA2MzQzODI0OSwtMjEyODI5MzYwNSw2MzIyMDQ1MTMsLT
+cyMzY0Njg4LC05NjcxMDEwNjgsMTAwNjMxMjA0NiwtMTQ1Mzgw
+ODU2MSwtMTk2OTQ4MDExNyw0NDk1ODE3NzYsLTE3NDM1NDIxOD
+YsLTE1MDYzOTUzMDEsLTEzNjgwNTYwMDQsLTEzMDM1MjU0Miwz
+NzAxMDAwMDddfQ==
 -->
