@@ -175,7 +175,8 @@ The inputs are :
 * Normalization method (choose none if the data is already normalized)
 * A GPL annotation code to fetch annotations from GEO.
 
-The text file the .cond file have to be uploaded first with the Get Data -> upload
+The text file the .cond file have to be uploaded first by galaxy's Get Data -> upload file 
+
 Example of a header of input tabular text file
 ```
 ""			"GSM80460"			"GSM80461"			"GSM80462"			"GSM80463"			"GSM80464"
@@ -507,11 +508,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMjQ5NDc1NiwxOTM3OTkwNTgyLC03Nz
-E1NDI0NjQsLTUyODY2NTAyNCwtMTM4MjgxOTc3NywtMzU0MTAz
-MTYwLDM4NDg4OTA4MywxMTY2MjEwNDE1LDE0OTQ2NDc5MSwtMT
-c0NjgwNjk0NywtOTQwMzU5NjgwLDE0MjE1ODcxODksMTU2NTcx
-MzM4MiwtMTg1NzE3MzY1Niw1NjI4MjE4MTEsMTY4MzMzNTQ3Mi
-wzMjg2NDc2NjAsNTE2MjA0NjAwLDIwMTI2OTYwMjEsMTE0MTk4
-ODU2Ml19
+eyJoaXN0b3J5IjpbMzc4OTIyOCwxOTM3OTkwNTgyLC03NzE1ND
+I0NjQsLTUyODY2NTAyNCwtMTM4MjgxOTc3NywtMzU0MTAzMTYw
+LDM4NDg4OTA4MywxMTY2MjEwNDE1LDE0OTQ2NDc5MSwtMTc0Nj
+gwNjk0NywtOTQwMzU5NjgwLDE0MjE1ODcxODksMTU2NTcxMzM4
+MiwtMTg1NzE3MzY1Niw1NjI4MjE4MTEsMTY4MzMzNTQ3MiwzMj
+g2NDc2NjAsNTE2MjA0NjAwLDIwMTI2OTYwMjEsMTE0MTk4ODU2
+Ml19
 -->
