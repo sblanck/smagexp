@@ -74,7 +74,7 @@ If you want to manually install the SMAGEXP dependencies, without conda, these a
 
 A dockerized version of Galaxy containing SMAGEXP, based on [bgruening galaxy-stable](https://github.com/bgruening/docker-galaxy-stable) is also available.
 
-At first you need to install docker. Please follow the [very good instructions](https://docs.docker.com/installation/) from the Docker project.
+At first you need to install Docker. Please follow the [very good instructions](https://docs.docker.com/installation/) from the Docker project.
 
 After the successful installation, all you need to do is:
 
@@ -85,7 +85,7 @@ Then, you just need to open a web browser (chrome or firefox are recommanded) an
 ```
 localhost:8080
 ```
-into the adress bar to access Galaxy running smagexp
+into the adress bar to access Galaxy running SMAGEXP.
 
 The Galaxy Admin User has the username `admin@galaxy.org` and the password `admin`. In order to use some features of Galaxy, like import history, one has to be logged in.
 
@@ -529,11 +529,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzE5MTU1LC00NDkxNzA1NzcsNjQ5Mz
-AwNzgxLC0yMDAyMTA0ODAyLDE2MjI5MTAxOTAsMTMzMzA4MTM0
-OCwxOTIzNzM0MDY3LC0xNDc1MDA1MTQzLDM3ODkyMjgsMTkzNz
-k5MDU4MiwtNzcxNTQyNDY0LC01Mjg2NjUwMjQsLTEzODI4MTk3
-NzcsLTM1NDEwMzE2MCwzODQ4ODkwODMsMTE2NjIxMDQxNSwxND
-k0NjQ3OTEsLTE3NDY4MDY5NDcsLTk0MDM1OTY4MCwxNDIxNTg3
-MTg5XX0=
+eyJoaXN0b3J5IjpbNTY3Mzk5NTc5LC0xOTcxOTE1NSwtNDQ5MT
+cwNTc3LDY0OTMwMDc4MSwtMjAwMjEwNDgwMiwxNjIyOTEwMTkw
+LDEzMzMwODEzNDgsMTkyMzczNDA2NywtMTQ3NTAwNTE0MywzNz
+g5MjI4LDE5Mzc5OTA1ODIsLTc3MTU0MjQ2NCwtNTI4NjY1MDI0
+LC0xMzgyODE5Nzc3LC0zNTQxMDMxNjAsMzg0ODg5MDgzLDExNj
+YyMTA0MTUsMTQ5NDY0NzkxLC0xNzQ2ODA2OTQ3LC05NDAzNTk2
+ODBdfQ==
 -->
