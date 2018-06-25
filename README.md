@@ -224,7 +224,7 @@ GSM80476	series of 4 normals		GSM80476 OSCE-2N Series of 4 Normals
 GSM80477 	series of 4 normals		GSM80477 OSCE-9N Series of 4 Normals
 
 ```
-The .cond file is a text file, containing 3 columns, separate by tabs, summarizing the conditions of the experiment. 
+The .cond file is a text file, containing 3 columns, separated by tabs, summarizing the conditions of the experiment. 
 * 1st column is the ID of the sample, and must match the sample IDs of the .CEL files or the columns of the custom matrix data if it was manually generated.
 * 2nd column is the condition of the sample
 * 3rd column is a description of the sample
@@ -523,11 +523,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzc1MzczODcsMTk1MjU2NzgyMCwtMT
-E0NjUwNzQ4LC0xOTcxOTE1NSwtNDQ5MTcwNTc3LDY0OTMwMDc4
-MSwtMjAwMjEwNDgwMiwxNjIyOTEwMTkwLDEzMzMwODEzNDgsMT
-kyMzczNDA2NywtMTQ3NTAwNTE0MywzNzg5MjI4LDE5Mzc5OTA1
-ODIsLTc3MTU0MjQ2NCwtNTI4NjY1MDI0LC0xMzgyODE5Nzc3LC
-0zNTQxMDMxNjAsMzg0ODg5MDgzLDExNjYyMTA0MTUsMTQ5NDY0
-NzkxXX0=
+eyJoaXN0b3J5IjpbLTExMjA1NTY0ODcsLTE4Mzc1MzczODcsMT
+k1MjU2NzgyMCwtMTE0NjUwNzQ4LC0xOTcxOTE1NSwtNDQ5MTcw
+NTc3LDY0OTMwMDc4MSwtMjAwMjEwNDgwMiwxNjIyOTEwMTkwLD
+EzMzMwODEzNDgsMTkyMzczNDA2NywtMTQ3NTAwNTE0MywzNzg5
+MjI4LDE5Mzc5OTA1ODIsLTc3MTU0MjQ2NCwtNTI4NjY1MDI0LC
+0xMzgyODE5Nzc3LC0zNTQxMDMxNjAsMzg0ODg5MDgzLDExNjYy
+MTA0MTVdfQ==
 -->
