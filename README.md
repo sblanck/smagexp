@@ -330,7 +330,7 @@ https://github.com/sblanck/smagexp/raw/master/examples/GSM342585.CEL
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342586.CEL
 https://github.com/sblanck/smagexp/raw/master/examples/GSM342587.CEL
 ```
-We also manually generated a .cond file according to these 6 .cel files.
+We also manually generated a .cond file corresponding to these 6 .CEL files.
 ```
 https://raw.githubusercontent.com/sblanck/smagexp/master/examples/Celfiles.cond
 ```
@@ -523,7 +523,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTg4MDA1NiwtMTU4OTU4MTEwNiwxOT
+eyJoaXN0b3J5IjpbLTcwMjUwMjM0NSwtMTU4OTU4MTEwNiwxOT
 UyNTY3ODIwLC0xMTQ2NTA3NDgsLTE5NzE5MTU1LC00NDkxNzA1
 NzcsNjQ5MzAwNzgxLC0yMDAyMTA0ODAyLDE2MjI5MTAxOTAsMT
 MzMzA4MTM0OCwxOTIzNzM0MDY3LC0xNDc1MDA1MTQzLDM3ODky
