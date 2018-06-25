@@ -377,7 +377,7 @@ It generates a html report with boxplots, p-value histogram, a volcano plot and 
 
 *Limma analysis tool table output*
 
-This table gives access to gene annotation on ncbi and gene ontology website.
+This table gives access to gene annotation on NC and gene ontology website.
 
 ![ncbi gene annotations](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_limma_result_ncbi.png)
 
@@ -523,11 +523,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjM4MTY2MjksLTE1ODk1ODExMDYsMT
-k1MjU2NzgyMCwtMTE0NjUwNzQ4LC0xOTcxOTE1NSwtNDQ5MTcw
-NTc3LDY0OTMwMDc4MSwtMjAwMjEwNDgwMiwxNjIyOTEwMTkwLD
-EzMzMwODEzNDgsMTkyMzczNDA2NywtMTQ3NTAwNTE0MywzNzg5
-MjI4LDE5Mzc5OTA1ODIsLTc3MTU0MjQ2NCwtNTI4NjY1MDI0LC
-0xMzgyODE5Nzc3LC0zNTQxMDMxNjAsMzg0ODg5MDgzLDExNjYy
-MTA0MTVdfQ==
+eyJoaXN0b3J5IjpbMTMwNjM3Mzg3NCwtMTYyMzgxNjYyOSwtMT
+U4OTU4MTEwNiwxOTUyNTY3ODIwLC0xMTQ2NTA3NDgsLTE5NzE5
+MTU1LC00NDkxNzA1NzcsNjQ5MzAwNzgxLC0yMDAyMTA0ODAyLD
+E2MjI5MTAxOTAsMTMzMzA4MTM0OCwxOTIzNzM0MDY3LC0xNDc1
+MDA1MTQzLDM3ODkyMjgsMTkzNzk5MDU4MiwtNzcxNTQyNDY0LC
+01Mjg2NjUwMjQsLTEzODI4MTk3NzcsLTM1NDEwMzE2MCwzODQ4
+ODkwODNdfQ==
 -->
