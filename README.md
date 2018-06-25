@@ -294,7 +294,7 @@ The inputs are :
 - A FDR Threshold	
 
 The outputs are  :		
-- Venn Diagram or upsetR diagram (when the number of studies is greater than 3) summarizing the results of the meta-analysis
+- Venn Diagram or UpSetR diagram (when the number of studies is greater than 3) summarizing the results of the meta-analysis
 - A list of indicators to evaluate the quality of the performance of the meta-analysis
 		
 	- DE : Number of differentially expressed genes 
@@ -303,7 +303,7 @@ The outputs are  :
 	- DR (Integration-driven Discovery Rate) : corresponding proportion of IDD
 	- IRR (Integration-driven Revision) : corresponding proportion of Loss
 
-It also generates a text file containing summarization the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
+It also generates a text file containing summarization of the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 ![Example of RNA-seq data meta-analysis plots](https://raw.githubusercontent.com/sblanck/smagexp/master/images/metaRNAseq_results.png)
 
@@ -523,11 +523,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODUxODgyMzUsLTE1ODk1ODExMDYsMT
-k1MjU2NzgyMCwtMTE0NjUwNzQ4LC0xOTcxOTE1NSwtNDQ5MTcw
-NTc3LDY0OTMwMDc4MSwtMjAwMjEwNDgwMiwxNjIyOTEwMTkwLD
-EzMzMwODEzNDgsMTkyMzczNDA2NywtMTQ3NTAwNTE0MywzNzg5
-MjI4LDE5Mzc5OTA1ODIsLTc3MTU0MjQ2NCwtNTI4NjY1MDI0LC
-0xMzgyODE5Nzc3LC0zNTQxMDMxNjAsMzg0ODg5MDgzLDExNjYy
-MTA0MTVdfQ==
+eyJoaXN0b3J5IjpbLTE5MTg4MDA1NiwtMTU4OTU4MTEwNiwxOT
+UyNTY3ODIwLC0xMTQ2NTA3NDgsLTE5NzE5MTU1LC00NDkxNzA1
+NzcsNjQ5MzAwNzgxLC0yMDAyMTA0ODAyLDE2MjI5MTAxOTAsMT
+MzMzA4MTM0OCwxOTIzNzM0MDY3LC0xNDc1MDA1MTQzLDM3ODky
+MjgsMTkzNzk5MDU4MiwtNzcxNTQyNDY0LC01Mjg2NjUwMjQsLT
+EzODI4MTk3NzcsLTM1NDEwMzE2MCwzODQ4ODkwODMsMTE2NjIx
+MDQxNV19
 -->
