@@ -123,7 +123,7 @@ The inputs for each individual dataset are :
 
 The outputs are :
 
-* A tabular file containing the values of each probe (in row) for each sample (in column) of the experiment
+* A tabular file containing the values of probes in rows and samples in columns. of the experiment
 * A .rdata file containing a Bioconductor ExpressionSet object. This file is required for further differential analysis.
 * A tabular text file (.cond extension) summarizing the conditions of the experiment.
 
@@ -523,11 +523,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMzAxMjk0MiwtMTE0NjUwNzQ4LC0xOT
-cxOTE1NSwtNDQ5MTcwNTc3LDY0OTMwMDc4MSwtMjAwMjEwNDgw
-MiwxNjIyOTEwMTkwLDEzMzMwODEzNDgsMTkyMzczNDA2NywtMT
-Q3NTAwNTE0MywzNzg5MjI4LDE5Mzc5OTA1ODIsLTc3MTU0MjQ2
-NCwtNTI4NjY1MDI0LC0xMzgyODE5Nzc3LC0zNTQxMDMxNjAsMz
-g0ODg5MDgzLDExNjYyMTA0MTUsMTQ5NDY0NzkxLC0xNzQ2ODA2
-OTQ3XX0=
+eyJoaXN0b3J5IjpbLTIxMjc4MzY0MTAsLTExNDY1MDc0OCwtMT
+k3MTkxNTUsLTQ0OTE3MDU3Nyw2NDkzMDA3ODEsLTIwMDIxMDQ4
+MDIsMTYyMjkxMDE5MCwxMzMzMDgxMzQ4LDE5MjM3MzQwNjcsLT
+E0NzUwMDUxNDMsMzc4OTIyOCwxOTM3OTkwNTgyLC03NzE1NDI0
+NjQsLTUyODY2NTAyNCwtMTM4MjgxOTc3NywtMzU0MTAzMTYwLD
+M4NDg4OTA4MywxMTY2MjEwNDE1LDE0OTQ2NDc5MSwtMTc0Njgw
+Njk0N119
 -->
