@@ -250,7 +250,7 @@ The outputs are  :
 - A list of indicators to evaluate the quality of the performance of the meta-analysis
 		
 	- DE : Number of differentially expressed genes 
-	- IDD (Integration Driven discoveries) : number of genes that are declared differentially expressed in the meta-analysis that were not identified in any of the single studies alone
+	- IDD (Integration Driven Discoveries) : number of genes that are declared differentially expressed in the meta-analysis that were not identified in any of the single studies alone
 	- Loss : Number of genes that are identified differentially expressed in single studies but not in meta-analysis 
 	- DR (Integration-driven Discovery Rate) : corresponding proportion of IDD
 	- IRR (Integration-driven Revision) : corresponding proportion of Loss
@@ -264,7 +264,7 @@ The outputs are  :
 ### Rna-seq meta analysis  <a name="rna-seq-meta-analysis" /> [[toc]](#toc)
 
 #### Getting rna-seq count data from recount2 <a name="getting-rna-seq" />[[toc]](#toc)
-[Recount2](https://jhubiostatistics.shinyapps.io/recount/) is an online resource consisting of RNA-seq gene and exon counts as well as coverage bigWig files for 2041 different studies. The recount galaxy tool wraps the bioconductor R package recount and fetch gene counts from one experiment
+[recount2](https://jhubiostatistics.shinyapps.io/recount/) is an online resource consisting of RNA-seq gene and exon counts as well as coverage bigWig files for 2041 different studies. The recount galaxy tool wraps the bioconductor R package recount and fetch gene counts from one experiment
 
 Input is
 - Accession ID
@@ -523,11 +523,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MTczNDc5OSwtMTU4OTU4MTEwNiwxOT
-UyNTY3ODIwLC0xMTQ2NTA3NDgsLTE5NzE5MTU1LC00NDkxNzA1
-NzcsNjQ5MzAwNzgxLC0yMDAyMTA0ODAyLDE2MjI5MTAxOTAsMT
-MzMzA4MTM0OCwxOTIzNzM0MDY3LC0xNDc1MDA1MTQzLDM3ODky
-MjgsMTkzNzk5MDU4MiwtNzcxNTQyNDY0LC01Mjg2NjUwMjQsLT
-EzODI4MTk3NzcsLTM1NDEwMzE2MCwzODQ4ODkwODMsMTE2NjIx
-MDQxNV19
+eyJoaXN0b3J5IjpbLTIxMDM2MzM0MjMsLTE1ODk1ODExMDYsMT
+k1MjU2NzgyMCwtMTE0NjUwNzQ4LC0xOTcxOTE1NSwtNDQ5MTcw
+NTc3LDY0OTMwMDc4MSwtMjAwMjEwNDgwMiwxNjIyOTEwMTkwLD
+EzMzMwODEzNDgsMTkyMzczNDA2NywtMTQ3NTAwNTE0MywzNzg5
+MjI4LDE5Mzc5OTA1ODIsLTc3MTU0MjQ2NCwtNTI4NjY1MDI0LC
+0xMzgyODE5Nzc3LC0zNTQxMDMxNjAsMzg0ODg5MDgzLDExNjYy
+MTA0MTVdfQ==
 -->
