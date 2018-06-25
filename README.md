@@ -264,7 +264,7 @@ The outputs are  :
 ### Rna-seq meta analysis  <a name="rna-seq-meta-analysis" /> [[toc]](#toc)
 
 #### Getting rna-seq count data from recount2 <a name="getting-rna-seq" />[[toc]](#toc)
-[recount2](https://jhubiostatistics.shinyapps.io/recount/) is an online resource consisting of RNA-seq gene and exon counts as well as coverage bigWig files for 2041 different studies. The recount galaxy tool wraps the bioconductor R package recount and fetch gene counts from one experiment
+[recount2](https://jhubiostatistics.shinyapps.io/recount/) is an online resource consisting of RNA-seq gene and exon counts as well as coverage bigWig files for 2041 different studies. The recount galaxy tool wraps the Bioconductor R package recount and fetch gene counts from one experiment.
 
 Input is
 - Accession ID
@@ -278,8 +278,8 @@ Outputs are
 *recount tool form*
 
 #### DESeq2 analysis <a name="running-deseq2-analysis" />[[toc]](#toc)
-Count files retrieved by the recount galaxy tool can be analyzed with the The [DESeq2 tool available on the galaxy toolshed](https://toolshed.g2.bx.psu.edu/repository?repository_id=1f158f7565dc70f9&changeset_revision=9a616afdbda5)
-For more information of how this tool works, sse the help section on the tool or refer to the  [Run DESeq2](#run-deseq) section of the [Step by step example of a RNA-seq meta-analysis](#step-by-step-example-of-a-rna-seq-meta-analysis) chapter.
+Count files retrieved by the recount galaxy tool can be analyzed with the [DESeq2 tool available on the galaxy toolshed](https://toolshed.g2.bx.psu.edu/repository?repository_id=1f158f7565dc70f9&changeset_revision=9a616afdbda5)
+For more information of how this tool works, see the help section on the tool or refer to the  [Run DESeq2](#run-deseq) section of the [Step by step example of a RNA-seq meta-analysis](#step-by-step-example-of-a-rna-seq-meta-analysis) chapter.
 
 #### RNA-seq meta-analysis <a name="running-rnaseq-meta-analysis" />[[toc]](#toc)
 
@@ -523,11 +523,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDM2MzM0MjMsLTE1ODk1ODExMDYsMT
-k1MjU2NzgyMCwtMTE0NjUwNzQ4LC0xOTcxOTE1NSwtNDQ5MTcw
-NTc3LDY0OTMwMDc4MSwtMjAwMjEwNDgwMiwxNjIyOTEwMTkwLD
-EzMzMwODEzNDgsMTkyMzczNDA2NywtMTQ3NTAwNTE0MywzNzg5
-MjI4LDE5Mzc5OTA1ODIsLTc3MTU0MjQ2NCwtNTI4NjY1MDI0LC
-0xMzgyODE5Nzc3LC0zNTQxMDMxNjAsMzg0ODg5MDgzLDExNjYy
-MTA0MTVdfQ==
+eyJoaXN0b3J5IjpbNzU3NjE4MTk2LC0xNTg5NTgxMTA2LDE5NT
+I1Njc4MjAsLTExNDY1MDc0OCwtMTk3MTkxNTUsLTQ0OTE3MDU3
+Nyw2NDkzMDA3ODEsLTIwMDIxMDQ4MDIsMTYyMjkxMDE5MCwxMz
+MzMDgxMzQ4LDE5MjM3MzQwNjcsLTE0NzUwMDUxNDMsMzc4OTIy
+OCwxOTM3OTkwNTgyLC03NzE1NDI0NjQsLTUyODY2NTAyNCwtMT
+M4MjgxOTc3NywtMzU0MTAzMTYwLDM4NDg4OTA4MywxMTY2MjEw
+NDE1XX0=
 -->
