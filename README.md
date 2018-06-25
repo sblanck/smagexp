@@ -218,6 +218,8 @@ The inputs are
 * A .cond file,
 * 2 conditions to compare
 	
+
+
 The outpouts are :
 		
 - Boxplots, p-value histograms and a volcano plot 
@@ -508,11 +510,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzA4MTM0OCwxOTIzNzM0MDY3LC0xND
-c1MDA1MTQzLDM3ODkyMjgsMTkzNzk5MDU4MiwtNzcxNTQyNDY0
-LC01Mjg2NjUwMjQsLTEzODI4MTk3NzcsLTM1NDEwMzE2MCwzOD
-Q4ODkwODMsMTE2NjIxMDQxNSwxNDk0NjQ3OTEsLTE3NDY4MDY5
-NDcsLTk0MDM1OTY4MCwxNDIxNTg3MTg5LDE1NjU3MTMzODIsLT
-E4NTcxNzM2NTYsNTYyODIxODExLDE2ODMzMzU0NzIsMzI4NjQ3
-NjYwXX0=
+eyJoaXN0b3J5IjpbMTM2Nzg3Mzg4OCwxMzMzMDgxMzQ4LDE5Mj
+M3MzQwNjcsLTE0NzUwMDUxNDMsMzc4OTIyOCwxOTM3OTkwNTgy
+LC03NzE1NDI0NjQsLTUyODY2NTAyNCwtMTM4MjgxOTc3NywtMz
+U0MTAzMTYwLDM4NDg4OTA4MywxMTY2MjEwNDE1LDE0OTQ2NDc5
+MSwtMTc0NjgwNjk0NywtOTQwMzU5NjgwLDE0MjE1ODcxODksMT
+U2NTcxMzM4MiwtMTg1NzE3MzY1Niw1NjI4MjE4MTEsMTY4MzMz
+NTQ3Ml19
 -->
