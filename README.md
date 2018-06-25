@@ -231,7 +231,7 @@ GSM80477 	series of 4 normals		GSM80477 OSCE-9N Series of 4 Normals
 
 ```
 .cond file is a text file, containing 3 columns, separate by tabs, summarizing the conditions of the experiment. 
-* 1st column is the ID of the sample, and must match the sample ID of the .CE
+* 1st column is the ID of the sample, and must match the sample ID of the .CEL fil
 * 2nd column is the condition of the sample
 * 3rd column is a description of the sample
 
@@ -527,7 +527,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMzY4MjI0NywxNTQ0MjYzMzU2LDEzMz
+eyJoaXN0b3J5IjpbMTYyMjkxMDE5MCwxNjIzNjgyMjQ3LDEzMz
 MwODEzNDgsMTkyMzczNDA2NywtMTQ3NTAwNTE0MywzNzg5MjI4
 LDE5Mzc5OTA1ODIsLTc3MTU0MjQ2NCwtNTI4NjY1MDI0LC0xMz
 gyODE5Nzc3LC0zNTQxMDMxNjAsMzg0ODg5MDgzLDExNjYyMTA0
