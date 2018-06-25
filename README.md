@@ -468,7 +468,7 @@ It will generates a pdf report and a tabular text results
 
 
 ### Second Analysis  <a name="second-analysis2" /> [[toc]](#toc)
-We perform the same kind of analysis on an the other the second recount dataset
+We perform the same kind of analysis on an the other the second recount dataset (SRP028180
 
 #### Run the recount tool  <a name="run-recount2" /> [[toc]](#toc)
 ![Recount tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_recount_form2.png)
@@ -488,7 +488,7 @@ In this example we keep the 10 tumor samples to compare with the 6 normal sample
 ### Meta Analysis with metaRNASeq  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
 
 MetaRNASeq tool takes several results from DESeq2 tool and perform a meta-analysis.
-It requires text results file from DESeq2 and the number of replicates of each analysis. In this example we have 11 replicates for the first analysis and 16 for the second analysis.
+It requires text results files from DESeq2 and the number of replicates of each analysis. In this example we have 11 replicates for the first analysis and 16 for the second analysis.
 It also requires a FDR threshold for genes to be declared differentially expressed (default is 0.05)
 
 ![MetaRNAseq tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_metarnaseq_form.png)
@@ -508,7 +508,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MjE1NjYwNSwxOTIzNzM0MDY3LC0xND
+eyJoaXN0b3J5IjpbMTMzMzA4MTM0OCwxOTIzNzM0MDY3LC0xND
 c1MDA1MTQzLDM3ODkyMjgsMTkzNzk5MDU4MiwtNzcxNTQyNDY0
 LC01Mjg2NjUwMjQsLTEzODI4MTk3NzcsLTM1NDEwMzE2MCwzOD
 Q4ODkwODMsMTE2NjIxMDQxNSwxNDk0NjQ3OTEsLTE3NDY4MDY5
