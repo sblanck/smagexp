@@ -415,10 +415,10 @@ It generates a html report with boxplots, p-value histogram, a volcano plot, and
 
 
 ### Run the meta-analysis with metaMA  <a name="run-meta-analysis" /> [[toc]](#toc)
-The meta-analysis tool only needs the rdata files produced by the limma tool. 
+The meta-analysis tool only needs the .rdata files produced by the limma analysis tool. 
 ![MetaMA tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_metaMA_form.png)
 
-*MetaMA tool form*
+*metaMA tool form*
 
 The outputs are  :		
 - Venn Diagram summarizing the results of the meta-analysis
@@ -523,11 +523,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzE4NjA3Myw0NjUzODkzNTUsLTE1OD
-k1ODExMDYsMTk1MjU2NzgyMCwtMTE0NjUwNzQ4LC0xOTcxOTE1
-NSwtNDQ5MTcwNTc3LDY0OTMwMDc4MSwtMjAwMjEwNDgwMiwxNj
-IyOTEwMTkwLDEzMzMwODEzNDgsMTkyMzczNDA2NywtMTQ3NTAw
-NTE0MywzNzg5MjI4LDE5Mzc5OTA1ODIsLTc3MTU0MjQ2NCwtNT
-I4NjY1MDI0LC0xMzgyODE5Nzc3LC0zNTQxMDMxNjAsMzg0ODg5
-MDgzXX0=
+eyJoaXN0b3J5IjpbMjg3MDc4NzQ3LDQ2NTM4OTM1NSwtMTU4OT
+U4MTEwNiwxOTUyNTY3ODIwLC0xMTQ2NTA3NDgsLTE5NzE5MTU1
+LC00NDkxNzA1NzcsNjQ5MzAwNzgxLC0yMDAyMTA0ODAyLDE2Mj
+I5MTAxOTAsMTMzMzA4MTM0OCwxOTIzNzM0MDY3LC0xNDc1MDA1
+MTQzLDM3ODkyMjgsMTkzNzk5MDU4MiwtNzcxNTQyNDY0LC01Mj
+g2NjUwMjQsLTEzODI4MTk3NzcsLTM1NDEwMzE2MCwzODQ4ODkw
+ODNdfQ==
 -->
