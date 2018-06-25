@@ -392,7 +392,7 @@ The QC normalisation tool only needs a list of .CEL files and a normalization me
 
 *QCnormalization tool form*
 
-It generates an html report showing chip pseudo images, boxplots and MA plot for raw and normalized data. It also generates a .rdata file containing normalized data in a eset object for further analysis with limma.
+It generates an html report showing micro pseudo images, boxplots and MA plot for raw and normalized data. It also generates a .rdata file containing normalized data in a eset object for further analysis with limma.
 
 ![QCnormalization tool (partial) results](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_QC_report.png)
 
@@ -523,11 +523,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1OTIxMTgyMSwxMzA2MzczODc0LC0xNT
-g5NTgxMTA2LDE5NTI1Njc4MjAsLTExNDY1MDc0OCwtMTk3MTkx
-NTUsLTQ0OTE3MDU3Nyw2NDkzMDA3ODEsLTIwMDIxMDQ4MDIsMT
-YyMjkxMDE5MCwxMzMzMDgxMzQ4LDE5MjM3MzQwNjcsLTE0NzUw
-MDUxNDMsMzc4OTIyOCwxOTM3OTkwNTgyLC03NzE1NDI0NjQsLT
-UyODY2NTAyNCwtMTM4MjgxOTc3NywtMzU0MTAzMTYwLDM4NDg4
-OTA4M119
+eyJoaXN0b3J5IjpbNDY1Mzg5MzU1LDE3NTkyMTE4MjEsLTE1OD
+k1ODExMDYsMTk1MjU2NzgyMCwtMTE0NjUwNzQ4LC0xOTcxOTE1
+NSwtNDQ5MTcwNTc3LDY0OTMwMDc4MSwtMjAwMjEwNDgwMiwxNj
+IyOTEwMTkwLDEzMzMwODEzNDgsMTkyMzczNDA2NywtMTQ3NTAw
+NTE0MywzNzg5MjI4LDE5Mzc5OTA1ODIsLTc3MTU0MjQ2NCwtNT
+I4NjY1MDI0LC0xMzgyODE5Nzc3LC0zNTQxMDMxNjAsMzg0ODg5
+MDgzXX0=
 -->
