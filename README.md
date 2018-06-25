@@ -123,7 +123,7 @@ The inputs for each individual dataset are :
 
 The outputs are :
 
-* A tabular file containing the values of probes in rows and samples in columns. of the experime
+* A tabular file containing the values of probes in rows and samples in columns.
 * A .rdata file containing a Bioconductor ExpressionSet object. This file is required for further differential analysis.
 * A tabular text file (.cond extension) summarizing the conditions of the experiment.
 
@@ -161,14 +161,14 @@ The outputs are
 - Text file containing normalized data
 
 #### Custom matrix data  <a name="custom-matrix-data" /> [[toc]](#toc)
-Import custom data tool imports data stored in a tabular text file. A few  normalization methods are proposed, but it is possible to skip the normalization step, by choosing "none" in the normalization methods options. Therefore this tool is of special interest when the input dataset has been previously normalized.
+Import custom data tool imports data stored in a tabular text file. A few  normalization methods are proposed, but it is possible to skip the normalization step, by choosing "none" in the normalization methods options. Therefore, this tool is of special interest when the input dataset has been previously normalized.
 
 The inputs are :
-* A text file, with probes in row and samples in columns. Column titles (sample IDs) must match the IDs (first column) of the .cond file.
+* A text file, with probes in rows and samples in columns. Column titles (sample IDs) must match the IDs (first column) of the .cond file.
 * Normalization method (choose none if the data is already normalized)
 * A GPL annotation code to fetch annotations from GEO.
 
-The text file have to be uploaded first by galaxy's Get Data -> upload file 
+The text file has to be uploaded first by galaxy's Get Data -> upload file 
 
 Example of a header of input tabular text file
 ```
@@ -523,11 +523,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MjU2NzgyMCwtMjEyNzgzNjQxMCwtMT
-E0NjUwNzQ4LC0xOTcxOTE1NSwtNDQ5MTcwNTc3LDY0OTMwMDc4
-MSwtMjAwMjEwNDgwMiwxNjIyOTEwMTkwLDEzMzMwODEzNDgsMT
-kyMzczNDA2NywtMTQ3NTAwNTE0MywzNzg5MjI4LDE5Mzc5OTA1
-ODIsLTc3MTU0MjQ2NCwtNTI4NjY1MDI0LC0xMzgyODE5Nzc3LC
-0zNTQxMDMxNjAsMzg0ODg5MDgzLDExNjYyMTA0MTUsMTQ5NDY0
-NzkxXX0=
+eyJoaXN0b3J5IjpbMTI1NjI1NjU4OCwxOTUyNTY3ODIwLC0xMT
+Q2NTA3NDgsLTE5NzE5MTU1LC00NDkxNzA1NzcsNjQ5MzAwNzgx
+LC0yMDAyMTA0ODAyLDE2MjI5MTAxOTAsMTMzMzA4MTM0OCwxOT
+IzNzM0MDY3LC0xNDc1MDA1MTQzLDM3ODkyMjgsMTkzNzk5MDU4
+MiwtNzcxNTQyNDY0LC01Mjg2NjUwMjQsLTEzODI4MTk3NzcsLT
+M1NDEwMzE2MCwzODQ4ODkwODMsMTE2NjIxMDQxNSwxNDk0NjQ3
+OTFdfQ==
 -->
