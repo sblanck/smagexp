@@ -157,7 +157,7 @@ The inputs are
 
 The outputs are 
 - Several quality figures : microarray images, boxplots and MA plots
-- Rdata object containing the normalized data for further analysis
+- A Rdata object containing the normalized data for further analysis
 - Text file containing normalized data
 
 #### Custom matrix data  <a name="custom-matrix-data" /> [[toc]](#toc)
@@ -523,7 +523,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxOTkwMTUzOSwtMTk3MTkxNTUsLTQ0OT
+eyJoaXN0b3J5IjpbLTExNDY1MDc0OCwtMTk3MTkxNTUsLTQ0OT
 E3MDU3Nyw2NDkzMDA3ODEsLTIwMDIxMDQ4MDIsMTYyMjkxMDE5
 MCwxMzMzMDgxMzQ4LDE5MjM3MzQwNjcsLTE0NzUwMDUxNDMsMz
 c4OTIyOCwxOTM3OTkwNTgyLC03NzE1NDI0NjQsLTUyODY2NTAy
