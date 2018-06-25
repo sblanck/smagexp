@@ -170,7 +170,7 @@ The outputs are
 Import custom data tool imports data stored in a tabular text file. A few  normalization methods are proposed, but it is possible to skip the normalization step, by choosing "none" in the normalization methods options. Therefore this tool is of special interest when the input dataset has been previously normalized.
 
 The inputs are :
-* A text file, with probes in row and samples in columns. Column titles (chip IDs) must match the IDs (first column) of the .cond file.
+* A text file, with probes in row and samples in columns. Column titles (sample IDs) must match the IDs (first column) of the .cond file.
 * Normalization method (choose none if the data is already normalized)
 * A GPL annotation code to fetch annotations from GEO.
 
@@ -510,11 +510,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2Nzg3Mzg4OCwxMzMzMDgxMzQ4LDE5Mj
-M3MzQwNjcsLTE0NzUwMDUxNDMsMzc4OTIyOCwxOTM3OTkwNTgy
-LC03NzE1NDI0NjQsLTUyODY2NTAyNCwtMTM4MjgxOTc3NywtMz
-U0MTAzMTYwLDM4NDg4OTA4MywxMTY2MjEwNDE1LDE0OTQ2NDc5
-MSwtMTc0NjgwNjk0NywtOTQwMzU5NjgwLDE0MjE1ODcxODksMT
-U2NTcxMzM4MiwtMTg1NzE3MzY1Niw1NjI4MjE4MTEsMTY4MzMz
-NTQ3Ml19
+eyJoaXN0b3J5IjpbLTE2NzM1OTkxMDYsMTMzMzA4MTM0OCwxOT
+IzNzM0MDY3LC0xNDc1MDA1MTQzLDM3ODkyMjgsMTkzNzk5MDU4
+MiwtNzcxNTQyNDY0LC01Mjg2NjUwMjQsLTEzODI4MTk3NzcsLT
+M1NDEwMzE2MCwzODQ4ODkwODMsMTE2NjIxMDQxNSwxNDk0NjQ3
+OTEsLTE3NDY4MDY5NDcsLTk0MDM1OTY4MCwxNDIxNTg3MTg5LD
+E1NjU3MTMzODIsLTE4NTcxNzM2NTYsNTYyODIxODExLDE2ODMz
+MzU0NzJdfQ==
 -->
