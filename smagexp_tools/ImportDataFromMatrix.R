@@ -66,13 +66,10 @@ htmlfile=readChar(result.template, file.info(result.template)$size)
 colnames(conditions)=c("source_name_ch1","description")
 phenodata<-new("AnnotatedDataFrame",data=conditions)
 
-head(data)
-conditions
-
 eset=ExpressionSet(assayData=data,phenoData=phenodata,annotation=annotation)
 
 if (normalization == "quantile") {
-	eset <- normalize.ExpressionSet.quantiles(eset, transfn="log2")
+	eset <- normalize.ExpressionSet.quantiles(eset, transfn="log")
 } else if (normalization == "log2") {
 	exprs(eset) = log2(exprs(eset)) 
 } 
