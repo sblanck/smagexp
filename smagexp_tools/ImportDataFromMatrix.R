@@ -60,13 +60,13 @@ result.template=opt$htmltemplate
 dir.create(result.path, showWarnings = TRUE, recursive = FALSE)
 
 data=as.matrix(read.table(file = dataFile,row.names=1,header=TRUE))
-conditions=read.table(file=conditionsFile,sep = "\t",row.names=1)
+#conditions=read.table(file=conditionsFile,sep = "\t",row.names=1)
 htmlfile=readChar(result.template, file.info(result.template)$size)
 
 colnames(conditions)=c("source_name_ch1","description")
-phenodata<-new("AnnotatedDataFrame",data=conditions)
+#phenodata<-new("AnnotatedDataFrame",data=conditions)
 
-eset=ExpressionSet(assayData=data,phenoData=phenodata,annotation=annotation)
+eset=ExpressionSet(assayData=data,annotation=annotation)
 
 if (normalization == "quantile") {
 	eset <- normalize.ExpressionSet.quantiles(eset, transfn="log")
