@@ -164,11 +164,11 @@ The outputs are
 Import custom data tool imports data stored in a tabular text file. A few  normalization methods are proposed, but it is possible to skip the normalization step, by choosing "none" in the normalization methods options. Therefore, this tool is of special interest when the input dataset has been previously normalized.
 
 The inputs are :
-* A text file, with probes in rows and samples in columns. Column titles (sample IDs) must match the IDs (first column) of the .cond file.
+* A text file, with probes in rows and samples in columns. Column titles (sample IDs) must match the IDs (first column) of the .cond file (see the example given below).
 * Normalization method (choose none if the data is already normalized)
 * A GPL annotation code to fetch annotations from GEO.
 
-The text file has to be uploaded first by galaxy's Get Data -> upload file 
+The text file has to be first uploaded by Galaxy's Get Data -> upload file 
 
 Example of a header of input tabular text file
 ```
@@ -182,7 +182,7 @@ Example of a header of input tabular text file
 "1405_i_at"	2.23450132056221	0.369606070031838	-1.06190243892591	-0.190997225060914	0.595503660502742
 
 ```
-The according .cond file should look like this.
+The according .cond file should look like this :
 ```
 
 GSM80460	series of 16 tumors		GSM80460 OSCE-2T SERIES OF 16 TUMORS
@@ -523,7 +523,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NjI1NjU4OCwxOTUyNTY3ODIwLC0xMT
+eyJoaXN0b3J5IjpbLTM3NjgwMzA4OSwxOTUyNTY3ODIwLC0xMT
 Q2NTA3NDgsLTE5NzE5MTU1LC00NDkxNzA1NzcsNjQ5MzAwNzgx
 LC0yMDAyMTA0ODAyLDE2MjI5MTAxOTAsMTMzMzA4MTM0OCwxOT
 IzNzM0MDY3LC0xNDc1MDA1MTQzLDM3ODkyMjgsMTkzNzk5MDU4
