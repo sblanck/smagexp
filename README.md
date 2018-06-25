@@ -124,7 +124,7 @@ The inputs for each individual dataset are :
 The outputs are :
 
 * A tabular file containing the values of each probe (in line) for each sample (in column) of the experiment
-* A .rdata file containing a bioconductor ExpressionSet object. This file is required for further differential analysis.
+* A .rdata file containing a Bioconductor ExpressionSet object. This file is required for further differential analysis.
 * A tabular text file (.cond extension) summarizing the conditions of the experiment.
 
 Exemple of a .cond file
@@ -137,7 +137,7 @@ GSM80476	series of 4 normals		GSM80476 OSCE-2N Series of 4 Normals
 GSM80477 	series of 4 normals		GSM80477 OSCE-9N Series of 4 Normals
 
 ```
-.cond file is a text file, containing 3 columns, separate by tabs, summarizing the conditions of the experiment. 
+.cond file is a text file, containing 3 columns, separated by tabs, summarizing the conditions of the experiment. 
 * 1st column is the ID of the sample
 * 2nd column is the condition of the sample
 * 3rd column is a description of the sample
@@ -523,7 +523,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMTMzODk4NywtMTk3MTkxNTUsLTQ0OT
+eyJoaXN0b3J5IjpbMTAxOTkwMTUzOSwtMTk3MTkxNTUsLTQ0OT
 E3MDU3Nyw2NDkzMDA3ODEsLTIwMDIxMDQ4MDIsMTYyMjkxMDE5
 MCwxMzMzMDgxMzQ4LDE5MjM3MzQwNjcsLTE0NzUwMDUxNDMsMz
 c4OTIyOCwxOTM3OTkwNTgyLC03NzE1NDI0NjQsLTUyODY2NTAy
