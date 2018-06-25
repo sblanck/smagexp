@@ -502,7 +502,7 @@ In this example we keep the 10 tumor samples to compare with the 6 normal sample
 
 ### Meta Analysis with metaRNASeq  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
 
-MetaRNASeq tool takes several results from DESeq2 tool and perform a meta-analysis.
+MetaRNASeq tool takes several results from DESeq2 tool and performs a meta-analysis.
 It requires text results files from DESeq2 and the number of replicates of each analysis. In this example we have 11 replicates for the first analysis and 16 for the second analysis.
 It also requires a FDR threshold for genes to be declared differentially expressed (default is 0.05)
 
@@ -523,7 +523,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyOTM0MjIwMywtMTU0NDQwOTIyMCw0Nj
+eyJoaXN0b3J5IjpbMTY5NTY3MDY0NiwtMTU0NDQwOTIyMCw0Nj
 UzODkzNTUsLTE1ODk1ODExMDYsMTk1MjU2NzgyMCwtMTE0NjUw
 NzQ4LC0xOTcxOTE1NSwtNDQ5MTcwNTc3LDY0OTMwMDc4MSwtMj
 AwMjEwNDgwMiwxNjIyOTEwMTkwLDEzMzMwODEzNDgsMTkyMzcz
