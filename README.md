@@ -475,7 +475,7 @@ In this example we keep the 6 invasive lung cancer samples to compare with the 5
 
 *DESeq2 form*
 
-It will generates a pdf report and a tabular text results 
+It generates a pdf report and a tabular text results file.
 
 ![DESeq2 results header](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_deseq2_results.png)
 
@@ -483,7 +483,7 @@ It will generates a pdf report and a tabular text results
 
 
 ### Second Analysis  <a name="second-analysis2" /> [[toc]](#toc)
-We perform the same kind of analysis on an the other the second recount dataset (SRP028180
+We perform the same kind of analysis on the second recount dataset (SRP028180)
 
 #### Run the recount tool  <a name="run-recount2" /> [[toc]](#toc)
 ![Recount tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_recount_form2.png)
@@ -523,11 +523,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDQ0MDkyMjAsNDY1Mzg5MzU1LC0xNT
-g5NTgxMTA2LDE5NTI1Njc4MjAsLTExNDY1MDc0OCwtMTk3MTkx
-NTUsLTQ0OTE3MDU3Nyw2NDkzMDA3ODEsLTIwMDIxMDQ4MDIsMT
-YyMjkxMDE5MCwxMzMzMDgxMzQ4LDE5MjM3MzQwNjcsLTE0NzUw
-MDUxNDMsMzc4OTIyOCwxOTM3OTkwNTgyLC03NzE1NDI0NjQsLT
-UyODY2NTAyNCwtMTM4MjgxOTc3NywtMzU0MTAzMTYwLDM4NDg4
-OTA4M119
+eyJoaXN0b3J5IjpbLTYyOTM0MjIwMywtMTU0NDQwOTIyMCw0Nj
+UzODkzNTUsLTE1ODk1ODExMDYsMTk1MjU2NzgyMCwtMTE0NjUw
+NzQ4LC0xOTcxOTE1NSwtNDQ5MTcwNTc3LDY0OTMwMDc4MSwtMj
+AwMjEwNDgwMiwxNjIyOTEwMTkwLDEzMzMwODEzNDgsMTkyMzcz
+NDA2NywtMTQ3NTAwNTE0MywzNzg5MjI4LDE5Mzc5OTA1ODIsLT
+c3MTU0MjQ2NCwtNTI4NjY1MDI0LC0xMzgyODE5Nzc3LC0zNTQx
+MDMxNjBdfQ==
 -->
