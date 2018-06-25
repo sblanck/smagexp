@@ -321,6 +321,8 @@ Step by step example of a micro-array meta-analysis  <a name="from-the-galaxy-to
 ------------------------
 ### Data used in this example  <a name="data-used-in-this-example" /> [[toc]](#toc)
 
+In order to import histories into galaxy, you have to be logged in your galaxy instance. If
+
 The full history of this example is available at  : 
 ```
 https://github.com/sblanck/smagexp/blob/master/examples/Galaxy-History-Micro-array-meta-analysis-history.tar.gz
@@ -525,11 +527,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ5MzAwNzgxLC0yMDAyMTA0ODAyLDE2Mj
-I5MTAxOTAsMTMzMzA4MTM0OCwxOTIzNzM0MDY3LC0xNDc1MDA1
-MTQzLDM3ODkyMjgsMTkzNzk5MDU4MiwtNzcxNTQyNDY0LC01Mj
-g2NjUwMjQsLTEzODI4MTk3NzcsLTM1NDEwMzE2MCwzODQ4ODkw
-ODMsMTE2NjIxMDQxNSwxNDk0NjQ3OTEsLTE3NDY4MDY5NDcsLT
-k0MDM1OTY4MCwxNDIxNTg3MTg5LDE1NjU3MTMzODIsLTE4NTcx
-NzM2NTZdfQ==
+eyJoaXN0b3J5IjpbLTIwNDA3OTM3NjMsNjQ5MzAwNzgxLC0yMD
+AyMTA0ODAyLDE2MjI5MTAxOTAsMTMzMzA4MTM0OCwxOTIzNzM0
+MDY3LC0xNDc1MDA1MTQzLDM3ODkyMjgsMTkzNzk5MDU4MiwtNz
+cxNTQyNDY0LC01Mjg2NjUwMjQsLTEzODI4MTk3NzcsLTM1NDEw
+MzE2MCwzODQ4ODkwODMsMTE2NjIxMDQxNSwxNDk0NjQ3OTEsLT
+E3NDY4MDY5NDcsLTk0MDM1OTY4MCwxNDIxNTg3MTg5LDE1NjU3
+MTMzODJdfQ==
 -->
