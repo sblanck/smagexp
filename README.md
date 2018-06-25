@@ -285,7 +285,7 @@ For more information of how this tool works, see the help section on the tool or
 
 The RNA-seq data meta-analysis tool relies on DESeq2 results. It uses the metaRNAseq R package from CRAN.
 
-It outputs a Venn diagram or an upsetR diagram (when the number of studies is greater than 2) and the same indicators as in the microarray meta-analysis tool for both Fisher and inverse normal p-values combinations.
+It outputs a Venn diagram or an UpSetR diagram (when the number of studies is greater than 2) and the same indicators as in the microarray meta-analysis tool for both Fisher and inverse normal p-value combinations.
 
 The inputs are :
 - At least 2 studies, and for each study
@@ -523,11 +523,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU3NjE4MTk2LC0xNTg5NTgxMTA2LDE5NT
-I1Njc4MjAsLTExNDY1MDc0OCwtMTk3MTkxNTUsLTQ0OTE3MDU3
-Nyw2NDkzMDA3ODEsLTIwMDIxMDQ4MDIsMTYyMjkxMDE5MCwxMz
-MzMDgxMzQ4LDE5MjM3MzQwNjcsLTE0NzUwMDUxNDMsMzc4OTIy
-OCwxOTM3OTkwNTgyLC03NzE1NDI0NjQsLTUyODY2NTAyNCwtMT
-M4MjgxOTc3NywtMzU0MTAzMTYwLDM4NDg4OTA4MywxMTY2MjEw
-NDE1XX0=
+eyJoaXN0b3J5IjpbLTExODUxODgyMzUsLTE1ODk1ODExMDYsMT
+k1MjU2NzgyMCwtMTE0NjUwNzQ4LC0xOTcxOTE1NSwtNDQ5MTcw
+NTc3LDY0OTMwMDc4MSwtMjAwMjEwNDgwMiwxNjIyOTEwMTkwLD
+EzMzMwODEzNDgsMTkyMzczNDA2NywtMTQ3NTAwNTE0MywzNzg5
+MjI4LDE5Mzc5OTA1ODIsLTc3MTU0MjQ2NCwtNTI4NjY1MDI0LC
+0xMzgyODE5Nzc3LC0zNTQxMDMxNjAsMzg0ODg5MDgzLDExNjYy
+MTA0MTVdfQ==
 -->
