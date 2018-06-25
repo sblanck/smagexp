@@ -421,11 +421,11 @@ The meta-analysis tool only needs the .rdata files produced by the limma analysi
 *metaMA tool form*
 
 The outputs are  :		
-- Venn Diagram summarizing the results of the meta-analysis
+- A Venn diagram summarizing the results of the meta-analysis
 - A list of indicators to evaluate the quality of the performance of the meta-analysis
 		
 	- DE : Number of differentially expressed genes 
-	- IDD (Integration Driven discoveries) : number of genes that are declared differentially expressed in the meta-analysis that were not identified in any of the single studies alone
+	- IDD (Integration Driven Discoveries) : number of genes that are declared differentially expressed in the meta-analysis that were not identified in any of the single studies alone
 	- Loss : Number of genes that are identified differentially expressed in single studies but not in meta-analysis 
 	- DR (Integration-driven Discovery Rate) : corresponding proportion of IDD
 	- IRR (Integration-driven Revision) : corresponding proportion of Loss
@@ -523,11 +523,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg3MDc4NzQ3LDQ2NTM4OTM1NSwtMTU4OT
-U4MTEwNiwxOTUyNTY3ODIwLC0xMTQ2NTA3NDgsLTE5NzE5MTU1
-LC00NDkxNzA1NzcsNjQ5MzAwNzgxLC0yMDAyMTA0ODAyLDE2Mj
-I5MTAxOTAsMTMzMzA4MTM0OCwxOTIzNzM0MDY3LC0xNDc1MDA1
-MTQzLDM3ODkyMjgsMTkzNzk5MDU4MiwtNzcxNTQyNDY0LC01Mj
-g2NjUwMjQsLTEzODI4MTk3NzcsLTM1NDEwMzE2MCwzODQ4ODkw
-ODNdfQ==
+eyJoaXN0b3J5IjpbLTE1NDQ0MDkyMjAsNDY1Mzg5MzU1LC0xNT
+g5NTgxMTA2LDE5NTI1Njc4MjAsLTExNDY1MDc0OCwtMTk3MTkx
+NTUsLTQ0OTE3MDU3Nyw2NDkzMDA3ODEsLTIwMDIxMDQ4MDIsMT
+YyMjkxMDE5MCwxMzMzMDgxMzQ4LDE5MjM3MzQwNjcsLTE0NzUw
+MDUxNDMsMzc4OTIyOCwxOTM3OTkwNTgyLC03NzE1NDI0NjQsLT
+UyODY2NTAyNCwtMTM4MjgxOTc3NywtMzU0MTAzMTYwLDM4NDg4
+OTA4M119
 -->
