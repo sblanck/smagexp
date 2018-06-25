@@ -10,7 +10,6 @@ library("optparse")
 ##### Read options
 option_list=list(
 		make_option("--input",type="character",default="NULL",help="rdata object containing eset object"),
-		make_option("--conditions",type="character",default=NULL,help="Text file summarizing conditions of the experiment (required)"),
 		make_option("--normalization",type="character",default=NULL,help="log2 transformation"),
 		make_option("--annotations",type="character",default="NULL",help="rdata object containing eset object"),
 		make_option("--rdataoutput",type="character",default="NULL",help="output rdata object containing eset object"),
@@ -30,18 +29,10 @@ if(is.null(opt$input)){
 	stop("input required.", call.=FALSE)
 }
 
-if(is.null(opt$conditions)){
-	print_help(opt_parser)
-	stop("conditions input required.", call.=FALSE)
-}
 
 
 #loading libraries
-suppressPackageStartupMessages(require(GEOquery))
-
 suppressPackageStartupMessages(require(Biobase))
-suppressPackageStartupMessages(require(GEOquery))
-suppressPackageStartupMessages(require(GEOmetadb))
 suppressPackageStartupMessages(require(limma))
 suppressPackageStartupMessages(require(jsonlite))
 suppressPackageStartupMessages(require(affy))
@@ -63,7 +54,7 @@ data=as.matrix(read.table(file = dataFile,row.names=1,header=TRUE))
 #conditions=read.table(file=conditionsFile,sep = "\t",row.names=1)
 htmlfile=readChar(result.template, file.info(result.template)$size)
 
-colnames(conditions)=c("source_name_ch1","description")
+#colnames(conditions)=c("source_name_ch1","description")
 #phenodata<-new("AnnotatedDataFrame",data=conditions)
 
 eset=ExpressionSet(assayData=data,annotation=annotation)

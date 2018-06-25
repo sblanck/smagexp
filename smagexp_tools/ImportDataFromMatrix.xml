@@ -4,10 +4,7 @@
 
     <requirements>
         <requirement type="package">bioconductor-biobase</requirement>
-        <requirement type="package">bioconductor-geoquery</requirement>
-        <requirement type="package">bioconductor-geometadb</requirement>
         <requirement type="package">bioconductor-limma</requirement>
-        <requirement type="package">bioconductor-biobase</requirement>
         <requirement type="package">bioconductor-affy</requirement>
         <requirement type="package">bioconductor-affyplm</requirement>
         <requirement type="package">r-jsonlite</requirement>
@@ -72,6 +69,15 @@ Header of input tabular text file
 "1316_at"	0.0454429707611671	0.43616183931445	-0.766111939825723	-0.182786075741673	0.599317793698226
 "1405_i_at"	2.23450132056221	0.369606070031838	-1.06190243892591	-0.190997225060914	0.595503660502742
 
+
+The .cond file should look like this 
+::
+
+ GSM80460	series of 16 tumors	GSM80460 OSCE-2T SERIES OF 16 TUMORS
+ GSM80461	series of 16 tumors	GSM80461 OSCE-4T Series of 16 Tumors
+ GSM80462	series of 16 tumors	GSM80462 OSCE-6T Series of 16 Tumors
+ GSM80476	series of 4 normals	GSM80476 OSCE-2N Series of 4 Normals
+ GSM80477	series of 4 normals	GSM80477 OSCE-9N Series of 4 Normals
 
 				
 **Results**
