@@ -182,7 +182,7 @@ Example of a header of input tabular text file
 "1405_i_at"	2.23450132056221	0.369606070031838	-1.06190243892591	-0.190997225060914	0.595503660502742
 
 ```
-The according .cond file should look like this :
+The corresponding .cond file should look like this :
 ```
 
 GSM80460	series of 16 tumors		GSM80460 OSCE-2T SERIES OF 16 TUMORS
@@ -192,7 +192,7 @@ GSM80476	series of 4 normals		GSM80476 OSCE-2N Series of 4 Normals
 GSM80477 	series of 4 normals		GSM80477 OSCE-9N Series of 4 Normals
 
 ```
-.cond file is a text file, containing 3 columns, separate by tabs, summarizing the conditions of the experiment. 
+The .cond file is a text file, containing 3 columns, separated by tabs, summarizing the conditions of the experiment. 
 * 1st column is the ID of the sample
 * 2nd column is the condition of the sample
 * 3rd column is a description of the sample
@@ -523,11 +523,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NjgwMzA4OSwxOTUyNTY3ODIwLC0xMT
-Q2NTA3NDgsLTE5NzE5MTU1LC00NDkxNzA1NzcsNjQ5MzAwNzgx
-LC0yMDAyMTA0ODAyLDE2MjI5MTAxOTAsMTMzMzA4MTM0OCwxOT
-IzNzM0MDY3LC0xNDc1MDA1MTQzLDM3ODkyMjgsMTkzNzk5MDU4
-MiwtNzcxNTQyNDY0LC01Mjg2NjUwMjQsLTEzODI4MTk3NzcsLT
-M1NDEwMzE2MCwzODQ4ODkwODMsMTE2NjIxMDQxNSwxNDk0NjQ3
-OTFdfQ==
+eyJoaXN0b3J5IjpbLTExNTE1NDk4MTcsMTk1MjU2NzgyMCwtMT
+E0NjUwNzQ4LC0xOTcxOTE1NSwtNDQ5MTcwNTc3LDY0OTMwMDc4
+MSwtMjAwMjEwNDgwMiwxNjIyOTEwMTkwLDEzMzMwODEzNDgsMT
+kyMzczNDA2NywtMTQ3NTAwNTE0MywzNzg5MjI4LDE5Mzc5OTA1
+ODIsLTc3MTU0MjQ2NCwtNTI4NjY1MDI0LC0xMzgyODE5Nzc3LC
+0zNTQxMDMxNjAsMzg0ODg5MDgzLDExNjYyMTA0MTUsMTQ5NDY0
+NzkxXX0=
 -->
