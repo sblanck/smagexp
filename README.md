@@ -321,7 +321,7 @@ Step by step example of a micro-array meta-analysis  <a name="from-the-galaxy-to
 ------------------------
 ### Data used in this example  <a name="data-used-in-this-example" /> [[toc]](#toc)
 
-In order to import histories into galaxy, you have to be logged in your galaxy instance. If you use 
+In order to import histories into galaxy, you have to be logged in your galaxy instance. If you use the dockerized version of galaxy, The Galaxy Admin User has the username `admin@galaxy.org` and the password `admin`. 
 
 The full history of this example is available at  : 
 ```
@@ -447,6 +447,8 @@ Step by step example of a RNA-seq meta-analysis  <a name="step-by-step-example-o
 
 ### Data used in this example  <a name="data-used-in-this-example2" /> [[toc]](#toc)
 
+In order to import histories into galaxy, you have to be logged in your galaxy instance. If you use the dockerized version of galaxy, The Galaxy Admin User has the username `admin@galaxy.org` and the password `admin`. 
+
 The full history of this example is available at  : 
 ```
 https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-of-RNA-seq-meta-analysis.tar.gz
@@ -527,11 +529,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0OTE3MDU3NywtMjA0MDc5Mzc2Myw2ND
-kzMDA3ODEsLTIwMDIxMDQ4MDIsMTYyMjkxMDE5MCwxMzMzMDgx
-MzQ4LDE5MjM3MzQwNjcsLTE0NzUwMDUxNDMsMzc4OTIyOCwxOT
-M3OTkwNTgyLC03NzE1NDI0NjQsLTUyODY2NTAyNCwtMTM4Mjgx
-OTc3NywtMzU0MTAzMTYwLDM4NDg4OTA4MywxMTY2MjEwNDE1LD
-E0OTQ2NDc5MSwtMTc0NjgwNjk0NywtOTQwMzU5NjgwLDE0MjE1
-ODcxODldfQ==
+eyJoaXN0b3J5IjpbLTE5NzE5MTU1LC00NDkxNzA1NzcsNjQ5Mz
+AwNzgxLC0yMDAyMTA0ODAyLDE2MjI5MTAxOTAsMTMzMzA4MTM0
+OCwxOTIzNzM0MDY3LC0xNDc1MDA1MTQzLDM3ODkyMjgsMTkzNz
+k5MDU4MiwtNzcxNTQyNDY0LC01Mjg2NjUwMjQsLTEzODI4MTk3
+NzcsLTM1NDEwMzE2MCwzODQ4ODkwODMsMTE2NjIxMDQxNSwxND
+k0NjQ3OTEsLTE3NDY4MDY5NDcsLTk0MDM1OTY4MCwxNDIxNTg3
+MTg5XX0=
 -->
