@@ -201,7 +201,7 @@ Even if the .cond file is not needed to import data from custom matrix, it will 
 				
 The outputs are
  - Boxplots and MA plots 
- - A rdata object containing the data for further analysis.
+ - A .rdata object containing the data for further analysis.
 
 #### Limma Analysis  <a name="limma-analysis" /> [[toc]](#toc)
 The Limma analysis tool performs single analysis either of data previously retrieved from GEO database or normalized affymetrix .CEL files data. 
@@ -523,11 +523,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc1MDIzMTcsMTY5NTY3MDY0NiwtMTU0ND
-QwOTIyMCw0NjUzODkzNTUsLTE1ODk1ODExMDYsMTk1MjU2Nzgy
-MCwtMTE0NjUwNzQ4LC0xOTcxOTE1NSwtNDQ5MTcwNTc3LDY0OT
-MwMDc4MSwtMjAwMjEwNDgwMiwxNjIyOTEwMTkwLDEzMzMwODEz
-NDgsMTkyMzczNDA2NywtMTQ3NTAwNTE0MywzNzg5MjI4LDE5Mz
-c5OTA1ODIsLTc3MTU0MjQ2NCwtNTI4NjY1MDI0LC0xMzgyODE5
-Nzc3XX0=
+eyJoaXN0b3J5IjpbLTE2NTI0MTgwODMsMzc1MDIzMTcsMTY5NT
+Y3MDY0NiwtMTU0NDQwOTIyMCw0NjUzODkzNTUsLTE1ODk1ODEx
+MDYsMTk1MjU2NzgyMCwtMTE0NjUwNzQ4LC0xOTcxOTE1NSwtND
+Q5MTcwNTc3LDY0OTMwMDc4MSwtMjAwMjEwNDgwMiwxNjIyOTEw
+MTkwLDEzMzMwODEzNDgsMTkyMzczNDA2NywtMTQ3NTAwNTE0My
+wzNzg5MjI4LDE5Mzc5OTA1ODIsLTc3MTU0MjQ2NCwtNTI4NjY1
+MDI0XX0=
 -->
