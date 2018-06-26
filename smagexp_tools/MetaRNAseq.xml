@@ -70,9 +70,12 @@
 Given several DESeq2 results this tool runs a meta-analysis using the metaRNAseq R package.
 		
 **Inputs**
+
 - At least 2 studies, and for each study
+
 	- Results of DESeq2 study
 	- Number of replicates of the study	
+	
 - A FDR Threshold for a gene to be declared differentially expressed		
 	
 
