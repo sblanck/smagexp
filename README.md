@@ -87,7 +87,11 @@ localhost:8080
 ```
 into the adress bar to access Galaxy running SMAGEXP.
 
-To get the last docker image of SMAE
+ITo fetch the last docker image of SMAGEXP, run 
+
+```
+sudo docker pull sblanck/galaxy-smagexp
+```
 
 The Galaxy Admin User has the username `admin@galaxy.org` and the password `admin`. In order to use some features of Galaxy, like import history, one has to be logged in with this username and password.
 
@@ -525,11 +529,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyNjA1ODcsLTEzOTMxODEzMjgsLTE4Nj
-IxMDcxMTEsLTE2NTI0MTgwODMsMTY5NTY3MDY0NiwtMTU0NDQw
-OTIyMCw0NjUzODkzNTUsLTE1ODk1ODExMDYsMTk1MjU2NzgyMC
-wtMTE0NjUwNzQ4LC0xOTcxOTE1NSwtNDQ5MTcwNTc3LDY0OTMw
-MDc4MSwtMjAwMjEwNDgwMiwxNjIyOTEwMTkwLDEzMzMwODEzND
-gsMTkyMzczNDA2NywtMTQ3NTAwNTE0MywzNzg5MjI4LDE5Mzc5
-OTA1ODJdfQ==
+eyJoaXN0b3J5IjpbLTU3Mzk5MDQ5NSw5NjI2MDU4NywtMTg2Mj
+EwNzExMSwtMTY1MjQxODA4MywxNjk1NjcwNjQ2LC0xNTQ0NDA5
+MjIwLDQ2NTM4OTM1NSwtMTU4OTU4MTEwNiwxOTUyNTY3ODIwLC
+0xMTQ2NTA3NDgsLTE5NzE5MTU1LC00NDkxNzA1NzcsNjQ5MzAw
+NzgxLC0yMDAyMTA0ODAyLDE2MjI5MTAxOTAsMTMzMzA4MTM0OC
+wxOTIzNzM0MDY3LC0xNDc1MDA1MTQzLDM3ODkyMjgsMTkzNzk5
+MDU4Ml19
 -->
