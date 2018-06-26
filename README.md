@@ -82,7 +82,7 @@ After the successful installation, all you need to do is:
 docker run -d -p 8080:80 -p 8021:21 -p 8022:22 sblanck/galaxy-smagexp
 ```
 
-If you already have ran SMAGEXP with docker and want to fetch the last docker image of SMAGEXP, type 
+If you already have run SMAGEXP with docker and want to fetch the last docker image of SMAGEXP, type 
 
 ```
 sudo docker pull sblanck/galaxy-smagexp
@@ -531,11 +531,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NjM4NDU5Niw4NjY3MjQxMzAsLTQ1MD
-gzNzU3MiwtMTg2MjEwNzExMSwtMTY1MjQxODA4MywxNjk1Njcw
-NjQ2LC0xNTQ0NDA5MjIwLDQ2NTM4OTM1NSwtMTU4OTU4MTEwNi
-wxOTUyNTY3ODIwLC0xMTQ2NTA3NDgsLTE5NzE5MTU1LC00NDkx
-NzA1NzcsNjQ5MzAwNzgxLC0yMDAyMTA0ODAyLDE2MjI5MTAxOT
-AsMTMzMzA4MTM0OCwxOTIzNzM0MDY3LC0xNDc1MDA1MTQzLDM3
-ODkyMjhdfQ==
+eyJoaXN0b3J5IjpbNjkxODQ0NzYwLC00ODYzODQ1OTYsODY2Nz
+I0MTMwLC00NTA4Mzc1NzIsLTE4NjIxMDcxMTEsLTE2NTI0MTgw
+ODMsMTY5NTY3MDY0NiwtMTU0NDQwOTIyMCw0NjUzODkzNTUsLT
+E1ODk1ODExMDYsMTk1MjU2NzgyMCwtMTE0NjUwNzQ4LC0xOTcx
+OTE1NSwtNDQ5MTcwNTc3LDY0OTMwMDc4MSwtMjAwMjEwNDgwMi
+wxNjIyOTEwMTkwLDEzMzMwODEzNDgsMTkyMzczNDA2NywtMTQ3
+NTAwNTE0M119
 -->
