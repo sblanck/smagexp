@@ -132,7 +132,7 @@ The inputs for each individual dataset are :
 The outputs are :
 
 * A tabular file containing the values of probes in rows and samples in columns.
-* A .rdata file containing a Bioconductor ExpressionSet object. This file is required for further differential analysis.
+* A .rdata file containing a Bioconductor [ExpressionSet](https://www.rdocumentation.org/packages/Biobase/versions/2.32.0/topics/ExpressionSet) object. This file is required for further differential analysis.
 * A tabular text file (.cond extension) summarizing the conditions of the experiment.
 
 Exemple of a .cond file
@@ -400,7 +400,7 @@ The QC normalisation tool only needs a list of .CEL files and a normalization me
 
 *QCnormalization tool form*
 
-It generates an html report showing microarray pseudo-images, boxplots and MA plots for raw and normalized data. It also generates a .rdata file containing normalized data in a ExpressionSet object for further analysis with limma.
+It generates an html report showing microarray pseudo-images, boxplots and MA plots for raw and normalized data. It also generates a .rdata file containing normalized data in a [ExpressionSet](https://www.rdocumentation.org/packages/Biobase/versions/2.32.0/topics/ExpressionSet) object for further analysis with limma.
 
 ![QCnormalization tool (partial) results](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_QC_report.png)
 
@@ -531,7 +531,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMzA0NDkxLC00ODYzODQ1OTYsODY2Nz
+eyJoaXN0b3J5IjpbODc3NTM1MTU3LC00ODYzODQ1OTYsODY2Nz
 I0MTMwLC00NTA4Mzc1NzIsLTE4NjIxMDcxMTEsLTE2NTI0MTgw
 ODMsMTY5NTY3MDY0NiwtMTU0NDQwOTIyMCw0NjUzODkzNTUsLT
 E1ODk1ODExMDYsMTk1MjU2NzgyMCwtMTE0NjUwNzQ4LC0xOTcx
