@@ -87,7 +87,7 @@ localhost:8080
 ```
 into the adress bar to access Galaxy running SMAGEXP.
 
-ITo fetch the last docker image of SMAGEXP, run 
+If youTo fetch the last docker image of SMAGEXP, run 
 
 ```
 sudo docker pull sblanck/galaxy-smagexp
@@ -529,7 +529,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3Mzk5MDQ5NSw5NjI2MDU4NywtMTg2Mj
+eyJoaXN0b3J5IjpbOTY2MjUxMTIsLTU3Mzk5MDQ5NSwtMTg2Mj
 EwNzExMSwtMTY1MjQxODA4MywxNjk1NjcwNjQ2LC0xNTQ0NDA5
 MjIwLDQ2NTM4OTM1NSwtMTU4OTU4MTEwNiwxOTUyNTY3ODIwLC
 0xMTQ2NTA3NDgsLTE5NzE5MTU1LC00NDkxNzA1NzcsNjQ5MzAw
