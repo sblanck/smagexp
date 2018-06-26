@@ -38,12 +38,6 @@ listfiles <- trimws( unlist( strsplit(trimws(opt$input), ";") ) )
 listfilenames <- trimws( unlist( strsplit(trimws(opt$inputName), ";") ) )
 nbreplicates <- as.numeric(trimws( unlist( strsplit(trimws(opt$nbreplicates), ";") ) ))
 
-listfiles
-listfilenames
-nbreplicates
-
-
-
 #for (i in 1:length(listInput))
 #{
 #	inputFileInfo <- unlist( strsplit( listInput[i], ';' ) )
@@ -57,9 +51,6 @@ outputfile <- opt$result
 result.html = opt$htmloutput
 html.files.path=opt$htmloutputpath
 result.template=opt$htmltemplate
-
-
-html.files.path
 
 alpha=as.numeric(opt$fdr)
 
