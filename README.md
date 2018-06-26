@@ -216,7 +216,7 @@ The Limma analysis tool performs single analysis either of data previously retri
 Given a .cond file, it runs a standard limma differential expression analysis. 
 
 The inputs are 
-*An .rdata file containing a Bioconductor [ExpressionSet](https://www.rdocumentation.org/packages/Biobase/versions/2.32.0/topics/ExpressionSet) object from GEOQuery tool, QCnormalization tool or Import custom data tool
+* An .rdata file containing a Bioconductor [ExpressionSet](https://www.rdocumentation.org/packages/Biobase/versions/2.32.0/topics/ExpressionSet) object from GEOQuery tool, QCnormalization tool or Import custom data tool
 * A .cond file,
 * 2 conditions to compare
 	
@@ -531,11 +531,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3Mzk0MTMwMCwxMzE2MTMzNjU3LDg3Nz
-UzNTE1NywtNDg2Mzg0NTk2LDg2NjcyNDEzMCwtNDUwODM3NTcy
-LC0xODYyMTA3MTExLC0xNjUyNDE4MDgzLDE2OTU2NzA2NDYsLT
-E1NDQ0MDkyMjAsNDY1Mzg5MzU1LC0xNTg5NTgxMTA2LDE5NTI1
-Njc4MjAsLTExNDY1MDc0OCwtMTk3MTkxNTUsLTQ0OTE3MDU3Ny
-w2NDkzMDA3ODEsLTIwMDIxMDQ4MDIsMTYyMjkxMDE5MCwxMzMz
-MDgxMzQ4XX0=
+eyJoaXN0b3J5IjpbLTk4MTkxNDM4LDEzMTYxMzM2NTcsODc3NT
+M1MTU3LC00ODYzODQ1OTYsODY2NzI0MTMwLC00NTA4Mzc1NzIs
+LTE4NjIxMDcxMTEsLTE2NTI0MTgwODMsMTY5NTY3MDY0NiwtMT
+U0NDQwOTIyMCw0NjUzODkzNTUsLTE1ODk1ODExMDYsMTk1MjU2
+NzgyMCwtMTE0NjUwNzQ4LC0xOTcxOTE1NSwtNDQ5MTcwNTc3LD
+Y0OTMwMDc4MSwtMjAwMjEwNDgwMiwxNjIyOTEwMTkwLDEzMzMw
+ODEzNDhdfQ==
 -->
