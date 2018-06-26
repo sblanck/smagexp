@@ -87,6 +87,7 @@ If you already have ran SMAGEXP with docker and want to fetch the last docker im
 ```
 sudo docker pull sblanck/galaxy-smagexp
 ```
+
 Then, you just need to open a web browser (chrome or firefox are recommanded) and type 
 ```
 localhost:8080
@@ -532,11 +533,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc4MDc0NjY2LDk2NjI1MTEyLC0xODYyMT
-A3MTExLC0xNjUyNDE4MDgzLDE2OTU2NzA2NDYsLTE1NDQ0MDky
-MjAsNDY1Mzg5MzU1LC0xNTg5NTgxMTA2LDE5NTI1Njc4MjAsLT
-ExNDY1MDc0OCwtMTk3MTkxNTUsLTQ0OTE3MDU3Nyw2NDkzMDA3
-ODEsLTIwMDIxMDQ4MDIsMTYyMjkxMDE5MCwxMzMzMDgxMzQ4LD
-E5MjM3MzQwNjcsLTE0NzUwMDUxNDMsMzc4OTIyOCwxOTM3OTkw
-NTgyXX0=
+eyJoaXN0b3J5IjpbLTQ1MDgzNzU3Miw4NzgwNzQ2NjYsLTE4Nj
+IxMDcxMTEsLTE2NTI0MTgwODMsMTY5NTY3MDY0NiwtMTU0NDQw
+OTIyMCw0NjUzODkzNTUsLTE1ODk1ODExMDYsMTk1MjU2NzgyMC
+wtMTE0NjUwNzQ4LC0xOTcxOTE1NSwtNDQ5MTcwNTc3LDY0OTMw
+MDc4MSwtMjAwMjEwNDgwMiwxNjIyOTEwMTkwLDEzMzMwODEzND
+gsMTkyMzczNDA2NywtMTQ3NTAwNTE0MywzNzg5MjI4LDE5Mzc5
+OTA1ODJdfQ==
 -->
