@@ -95,9 +95,6 @@ localhost:8080
 ```
 into the adress bar to access Galaxy running SMAGEXP.
 
-
-
-
 The Galaxy Admin User has the username `admin@galaxy.org` and the password `admin`. In order to use some features of Galaxy, like import history, one has to be logged in with this username and password.
 
 Docker images are "read-only", all your changes inside one session will be lost after restart. This mode is useful to present Galaxy to your colleagues or to run workshops with it. To install Tool Shed repositories or to save your data you need to export the calculated data to the host computer.
@@ -534,11 +531,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY2NzI0MTMwLC00NTA4Mzc1NzIsLTE4Nj
-IxMDcxMTEsLTE2NTI0MTgwODMsMTY5NTY3MDY0NiwtMTU0NDQw
-OTIyMCw0NjUzODkzNTUsLTE1ODk1ODExMDYsMTk1MjU2NzgyMC
-wtMTE0NjUwNzQ4LC0xOTcxOTE1NSwtNDQ5MTcwNTc3LDY0OTMw
-MDc4MSwtMjAwMjEwNDgwMiwxNjIyOTEwMTkwLDEzMzMwODEzND
-gsMTkyMzczNDA2NywtMTQ3NTAwNTE0MywzNzg5MjI4LDE5Mzc5
-OTA1ODJdfQ==
+eyJoaXN0b3J5IjpbLTQ4NjM4NDU5Niw4NjY3MjQxMzAsLTQ1MD
+gzNzU3MiwtMTg2MjEwNzExMSwtMTY1MjQxODA4MywxNjk1Njcw
+NjQ2LC0xNTQ0NDA5MjIwLDQ2NTM4OTM1NSwtMTU4OTU4MTEwNi
+wxOTUyNTY3ODIwLC0xMTQ2NTA3NDgsLTE5NzE5MTU1LC00NDkx
+NzA1NzcsNjQ5MzAwNzgxLC0yMDAyMTA0ODAyLDE2MjI5MTAxOT
+AsMTMzMzA4MTM0OCwxOTIzNzM0MDY3LC0xNDc1MDA1MTQzLDM3
+ODkyMjhdfQ==
 -->
