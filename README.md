@@ -254,7 +254,7 @@ The Inputs are :
 * .rdata files from limma analysis tool.
 		
 The outputs are  :		
-- Venn Diagram or UpSetR diagram (when the number of studies is greater than 3) summarizing the results of the meta-analysis
+- Venn Diagram or UpSet diagram (when the number of studies is greater than 3) summarizing the results of the meta-analysis
 - A list of indicators to evaluate the quality of the performance of the meta-analysis
 		
 	- DE : Number of differentially expressed genes 
@@ -293,7 +293,7 @@ For more information of how this tool works, see the help section on the tool or
 
 The RNA-seq data meta-analysis tool relies on DESeq2 results. It uses the metaRNAseq R package from CRAN.
 
-It outputs a Venn diagram or an UpSetR diagram (when the number of studies is greater than 2) and the same indicators as in the microarray meta-analysis tool for both Fisher and inverse normal p-value combinations.
+It outputs a Venn diagram or an UpSet diagram (when the number of studies is greater than 2) and the same indicators as in the microarray meta-analysis tool for both Fisher and inverse normal p-value combinations.
 
 The inputs are :
 - At least 2 studies, and for each study
@@ -531,11 +531,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc3NTM1MTU3LC00ODYzODQ1OTYsODY2Nz
-I0MTMwLC00NTA4Mzc1NzIsLTE4NjIxMDcxMTEsLTE2NTI0MTgw
-ODMsMTY5NTY3MDY0NiwtMTU0NDQwOTIyMCw0NjUzODkzNTUsLT
-E1ODk1ODExMDYsMTk1MjU2NzgyMCwtMTE0NjUwNzQ4LC0xOTcx
-OTE1NSwtNDQ5MTcwNTc3LDY0OTMwMDc4MSwtMjAwMjEwNDgwMi
-wxNjIyOTEwMTkwLDEzMzMwODEzNDgsMTkyMzczNDA2NywtMTQ3
-NTAwNTE0M119
+eyJoaXN0b3J5IjpbMTMxNjEzMzY1Nyw4Nzc1MzUxNTcsLTQ4Nj
+M4NDU5Niw4NjY3MjQxMzAsLTQ1MDgzNzU3MiwtMTg2MjEwNzEx
+MSwtMTY1MjQxODA4MywxNjk1NjcwNjQ2LC0xNTQ0NDA5MjIwLD
+Q2NTM4OTM1NSwtMTU4OTU4MTEwNiwxOTUyNTY3ODIwLC0xMTQ2
+NTA3NDgsLTE5NzE5MTU1LC00NDkxNzA1NzcsNjQ5MzAwNzgxLC
+0yMDAyMTA0ODAyLDE2MjI5MTAxOTAsMTMzMzA4MTM0OCwxOTIz
+NzM0MDY3XX0=
 -->
