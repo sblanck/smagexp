@@ -81,17 +81,20 @@ After the successful installation, all you need to do is:
 ```
 docker run -d -p 8080:80 -p 8021:21 -p 8022:22 sblanck/galaxy-smagexp
 ```
+
+If you already have ran SMAGEXP with docker and want to fetch the last docker image of SMAGEXP, type 
+
+```
+sudo docker pull sblanck/galaxy-smagexp
+```
 Then, you just need to open a web browser (chrome or firefox are recommanded) and type 
 ```
 localhost:8080
 ```
 into the adress bar to access Galaxy running SMAGEXP.
 
-If youTo fetch the last docker image of SMAGEXP, run 
 
-```
-sudo docker pull sblanck/galaxy-smagexp
-```
+
 
 The Galaxy Admin User has the username `admin@galaxy.org` and the password `admin`. In order to use some features of Galaxy, like import history, one has to be logged in with this username and password.
 
@@ -529,11 +532,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY2MjUxMTIsLTU3Mzk5MDQ5NSwtMTg2Mj
-EwNzExMSwtMTY1MjQxODA4MywxNjk1NjcwNjQ2LC0xNTQ0NDA5
-MjIwLDQ2NTM4OTM1NSwtMTU4OTU4MTEwNiwxOTUyNTY3ODIwLC
-0xMTQ2NTA3NDgsLTE5NzE5MTU1LC00NDkxNzA1NzcsNjQ5MzAw
-NzgxLC0yMDAyMTA0ODAyLDE2MjI5MTAxOTAsMTMzMzA4MTM0OC
-wxOTIzNzM0MDY3LC0xNDc1MDA1MTQzLDM3ODkyMjgsMTkzNzk5
-MDU4Ml19
+eyJoaXN0b3J5IjpbODc4MDc0NjY2LDk2NjI1MTEyLC0xODYyMT
+A3MTExLC0xNjUyNDE4MDgzLDE2OTU2NzA2NDYsLTE1NDQ0MDky
+MjAsNDY1Mzg5MzU1LC0xNTg5NTgxMTA2LDE5NTI1Njc4MjAsLT
+ExNDY1MDc0OCwtMTk3MTkxNTUsLTQ0OTE3MDU3Nyw2NDkzMDA3
+ODEsLTIwMDIxMDQ4MDIsMTYyMjkxMDE5MCwxMzMzMDgxMzQ4LD
+E5MjM3MzQwNjcsLTE0NzUwMDUxNDMsMzc4OTIyOCwxOTM3OTkw
+NTgyXX0=
 -->
