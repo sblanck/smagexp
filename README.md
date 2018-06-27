@@ -444,7 +444,7 @@ The outputs are  :
 
 *MetaMA tool results*
 
-Step by step example of a RNA-seq meta-analysis  <a name="step-by-step-example-of-a-rna-seq-meta-analysis" /> [[toc]](#toc)
+Step by step example of a RNA-seq meta-analysis  <a name="step-by-step-example-of-a-micro-array-meta-analysis" /> [[toc]](#toc)
 ------------------------
 
 ### Data used in this example  <a name="data-used-in-this-example2" /> [[toc]](#toc)
@@ -531,11 +531,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MTkxNDM4LDEzMTYxMzM2NTcsODc3NT
-M1MTU3LC00ODYzODQ1OTYsODY2NzI0MTMwLC00NTA4Mzc1NzIs
-LTE4NjIxMDcxMTEsLTE2NTI0MTgwODMsMTY5NTY3MDY0NiwtMT
-U0NDQwOTIyMCw0NjUzODkzNTUsLTE1ODk1ODExMDYsMTk1MjU2
-NzgyMCwtMTE0NjUwNzQ4LC0xOTcxOTE1NSwtNDQ5MTcwNTc3LD
-Y0OTMwMDc4MSwtMjAwMjEwNDgwMiwxNjIyOTEwMTkwLDEzMzMw
-ODEzNDhdfQ==
+eyJoaXN0b3J5IjpbLTcwMDAwMzA2MSwtOTgxOTE0MzgsMTMxNj
+EzMzY1Nyw4Nzc1MzUxNTcsLTQ4NjM4NDU5Niw4NjY3MjQxMzAs
+LTQ1MDgzNzU3MiwtMTg2MjEwNzExMSwtMTY1MjQxODA4MywxNj
+k1NjcwNjQ2LC0xNTQ0NDA5MjIwLDQ2NTM4OTM1NSwtMTU4OTU4
+MTEwNiwxOTUyNTY3ODIwLC0xMTQ2NTA3NDgsLTE5NzE5MTU1LC
+00NDkxNzA1NzcsNjQ5MzAwNzgxLC0yMDAyMTA0ODAyLDE2MjI5
+MTAxOTBdfQ==
 -->
