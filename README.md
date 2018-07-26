@@ -319,7 +319,7 @@ It also generates a text file containing summarization of the results of each si
 
 *Header of RNA-seq data meta-analysis text results*
 
-Step by step example of a micro-array meta-analysis  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
+Step by step example of a micro-array meta-analysis  <a name="step-by-step-example-of-a-micro-array-meta-analysis" /> [[toc]](#toc)
 ------------------------
 ### Data used in this example  <a name="data-used-in-this-example" /> [[toc]](#toc)
 
