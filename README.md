@@ -444,7 +444,7 @@ The outputs are  :
 
 *MetaMA tool results*
 
-Step by step example of a RNA-seq meta-analysis  <a name="step-by-step-example-of-a-micro-array-meta-analysis" /> [[toc]](#toc)
+Step by step example of a RNA-seq meta-analysis  <a name="step-by-step-example-of-a-rna-seq-meta-analysis" /> [[toc]](#toc)
 ------------------------
 
 ### Data used in this example  <a name="data-used-in-this-example2" /> [[toc]](#toc)
