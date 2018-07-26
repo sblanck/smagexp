@@ -2,11 +2,11 @@
     "a_galaxy_workflow": "true", 
     "annotation": "", 
     "format-version": "0.1", 
-    "name": "Workflow : 'Example of micro array meta analysis'", 
+    "name": "Workflow constructed from history 'Workflow : 'Example of micro array meta analysis' (imported from uploaded file)'", 
     "steps": {
         "0": {
             "annotation": "", 
-            "content_id": "testtoolshed.g2.bx.psu.edu/repos/sblanck/smagexp/GEOQuery/1.0.0", 
+            "content_id": "toolshed.g2.bx.psu.edu/repos/sblanck/smagexp/GEOQuery/1.0.0", 
             "errors": null, 
             "id": 0, 
             "input_connections": {}, 
@@ -28,35 +28,45 @@
                 }
             ], 
             "position": {
-                "left": 166, 
-                "top": 323
+                "left": 10, 
+                "top": 10
             }, 
             "post_job_actions": {}, 
-            "tool_id": "testtoolshed.g2.bx.psu.edu/repos/sblanck/smagexp/GEOQuery/1.0.0", 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/sblanck/smagexp/GEOQuery/1.0.0", 
             "tool_shed_repository": {
-                "changeset_revision": "c08b824e40cc", 
+                "changeset_revision": "aedbf50acb4a", 
                 "name": "smagexp", 
                 "owner": "sblanck", 
-                "tool_shed": "testtoolshed.g2.bx.psu.edu"
+                "tool_shed": "toolshed.g2.bx.psu.edu"
             }, 
-            "tool_state": "{\"GEOQueryID\": \"\\\"GSE3524\\\"\", \"__page__\": null, \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/galaxy-central/tool-data/shared/ucsc/chrom/?.len\\\"\", \"transformation\": \"\\\"auto\\\"\"}", 
+            "tool_state": "{\"__page__\": null, \"__rerun_remap_job_id__\": null, \"__workflow_invocation_uuid__\": \"\\\"a1c66b4690b111e8b6e30242ac110002\\\"\", \"GEOQueryID\": \"\\\"GSE3524\\\"\", \"chromInfo\": \"\\\"/galaxy-central/tool-data/shared/ucsc/chrom/?.len\\\"\", \"transformation\": \"\\\"auto\\\"\"}", 
             "tool_version": "1.0.0", 
             "type": "tool", 
-            "uuid": "48c6d1ae-9916-473c-9365-d489d0a04789", 
+            "uuid": "32c98529-4551-418e-a0de-71e54a4936e6", 
             "workflow_outputs": []
         }, 
         "1": {
             "annotation": "", 
-            "content_id": "testtoolshed.g2.bx.psu.edu/repos/sblanck/smagexp/QCnormalization/1.0.0", 
+            "content_id": "toolshed.g2.bx.psu.edu/repos/sblanck/smagexp/QCnormalization/1.0.0", 
             "errors": null, 
             "id": 1, 
-            "input_connections": {}, 
-            "inputs": [
-                {
-                    "description": "runtime parameter for tool QCnormalization", 
-                    "name": "inputs"
-                }
-            ], 
+            "input_connections": {
+                "inputs": [
+                    {
+                        "id": 0, 
+                        "output_name": "GEOQueryRData"
+                    }, 
+                    {
+                        "id": 0, 
+                        "output_name": "GEOQueryData"
+                    }, 
+                    {
+                        "id": 0, 
+                        "output_name": "conditions"
+                    }
+                ]
+            }, 
+            "inputs": [], 
             "label": null, 
             "name": "QCnormalization", 
             "outputs": [
@@ -70,26 +80,26 @@
                 }
             ], 
             "position": {
-                "left": 420, 
-                "top": 200
+                "left": 230, 
+                "top": 10
             }, 
             "post_job_actions": {}, 
-            "tool_id": "testtoolshed.g2.bx.psu.edu/repos/sblanck/smagexp/QCnormalization/1.0.0", 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/sblanck/smagexp/QCnormalization/1.0.0", 
             "tool_shed_repository": {
-                "changeset_revision": "c08b824e40cc", 
+                "changeset_revision": "aedbf50acb4a", 
                 "name": "smagexp", 
                 "owner": "sblanck", 
-                "tool_shed": "testtoolshed.g2.bx.psu.edu"
+                "tool_shed": "toolshed.g2.bx.psu.edu"
             }, 
-            "tool_state": "{\"inputs\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/galaxy-central/tool-data/shared/ucsc/chrom/?.len\\\"\", \"normalization\": \"\\\"rma\\\"\", \"__page__\": null}", 
+            "tool_state": "{\"inputs\": \"null\", \"__page__\": null, \"__rerun_remap_job_id__\": null, \"__workflow_invocation_uuid__\": \"\\\"a1c66b4690b111e8b6e30242ac110002\\\"\", \"chromInfo\": \"\\\"/galaxy-central/tool-data/shared/ucsc/chrom/?.len\\\"\", \"normalization\": \"\\\"rma\\\"\"}", 
             "tool_version": "1.0.0", 
             "type": "tool", 
-            "uuid": "e56d4787-4cb2-46e9-a74f-26bf2cfc292f", 
+            "uuid": "cdc80862-32e8-49c2-a94c-d62acd10790a", 
             "workflow_outputs": []
         }, 
         "2": {
             "annotation": "", 
-            "content_id": "testtoolshed.g2.bx.psu.edu/repos/sblanck/smagexp/LimmaAnalyse/1.0.0", 
+            "content_id": "toolshed.g2.bx.psu.edu/repos/sblanck/smagexp/LimmaAnalyse/1.0.0", 
             "errors": null, 
             "id": 2, 
             "input_connections": {
@@ -102,16 +112,7 @@
                     "output_name": "GEOQueryRData"
                 }
             }, 
-            "inputs": [
-                {
-                    "description": "runtime parameter for tool Limma analysis", 
-                    "name": "rdataset"
-                }, 
-                {
-                    "description": "runtime parameter for tool Limma analysis", 
-                    "name": "conditions"
-                }
-            ], 
+            "inputs": [], 
             "label": null, 
             "name": "Limma analysis", 
             "outputs": [
@@ -129,44 +130,39 @@
                 }
             ], 
             "position": {
-                "left": 420, 
-                "top": 320
+                "left": 230, 
+                "top": 130
             }, 
             "post_job_actions": {}, 
-            "tool_id": "testtoolshed.g2.bx.psu.edu/repos/sblanck/smagexp/LimmaAnalyse/1.0.0", 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/sblanck/smagexp/LimmaAnalyse/1.0.0", 
             "tool_shed_repository": {
-                "changeset_revision": "c08b824e40cc", 
+                "changeset_revision": "aedbf50acb4a", 
                 "name": "smagexp", 
                 "owner": "sblanck", 
-                "tool_shed": "testtoolshed.g2.bx.psu.edu"
+                "tool_shed": "toolshed.g2.bx.psu.edu"
             }, 
-            "tool_state": "{\"__page__\": null, \"rdataset\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"nbresult\": \"\\\"1000\\\"\", \"conditions\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/galaxy-central/tool-data/shared/ucsc/chrom/?.len\\\"\", \"selectCondition1\": \"\\\"series of 16 tumors\\\"\", \"selectCondition2\": \"\\\"series of 4 normals\\\"\"}", 
+            "tool_state": "{\"__page__\": null, \"rdataset\": \"null\", \"nbresult\": \"\\\"1000\\\"\", \"conditions\": \"null\", \"__rerun_remap_job_id__\": null, \"__workflow_invocation_uuid__\": \"\\\"a1c66b4690b111e8b6e30242ac110002\\\"\", \"chromInfo\": \"\\\"/galaxy-central/tool-data/shared/ucsc/chrom/?.len\\\"\", \"selectCondition1\": \"\\\"series of 16 tumors\\\"\", \"selectCondition2\": \"\\\"series of 4 normals\\\"\"}", 
             "tool_version": "1.0.0", 
             "type": "tool", 
-            "uuid": "e839b949-aff3-4469-be83-95210445c4ea", 
+            "uuid": "053d860c-7c07-410e-bfc7-614aa71eb021", 
             "workflow_outputs": []
         }, 
         "3": {
             "annotation": "", 
-            "content_id": "testtoolshed.g2.bx.psu.edu/repos/sblanck/smagexp/LimmaAnalyse/1.0.0", 
+            "content_id": "toolshed.g2.bx.psu.edu/repos/sblanck/smagexp/LimmaAnalyse/1.0.0", 
             "errors": null, 
             "id": 3, 
             "input_connections": {
+                "conditions": {
+                    "id": 2, 
+                    "output_name": "result_export_eset"
+                }, 
                 "rdataset": {
                     "id": 1, 
                     "output_name": "result_export_eset"
                 }
             }, 
-            "inputs": [
-                {
-                    "description": "runtime parameter for tool Limma analysis", 
-                    "name": "rdataset"
-                }, 
-                {
-                    "description": "runtime parameter for tool Limma analysis", 
-                    "name": "conditions"
-                }
-            ], 
+            "inputs": [], 
             "label": null, 
             "name": "Limma analysis", 
             "outputs": [
@@ -184,46 +180,41 @@
                 }
             ], 
             "position": {
-                "left": 640, 
-                "top": 200
+                "left": 450, 
+                "top": 10
             }, 
             "post_job_actions": {}, 
-            "tool_id": "testtoolshed.g2.bx.psu.edu/repos/sblanck/smagexp/LimmaAnalyse/1.0.0", 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/sblanck/smagexp/LimmaAnalyse/1.0.0", 
             "tool_shed_repository": {
-                "changeset_revision": "c08b824e40cc", 
+                "changeset_revision": "aedbf50acb4a", 
                 "name": "smagexp", 
                 "owner": "sblanck", 
-                "tool_shed": "testtoolshed.g2.bx.psu.edu"
+                "tool_shed": "toolshed.g2.bx.psu.edu"
             }, 
-            "tool_state": "{\"__page__\": null, \"rdataset\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"nbresult\": \"\\\"1000\\\"\", \"conditions\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/galaxy-central/tool-data/shared/ucsc/chrom/?.len\\\"\", \"selectCondition1\": \"\\\"tumor\\\"\", \"selectCondition2\": \"\\\"normal\\\"\"}", 
+            "tool_state": "{\"__page__\": null, \"rdataset\": \"null\", \"nbresult\": \"\\\"1000\\\"\", \"conditions\": \"null\", \"__rerun_remap_job_id__\": null, \"__workflow_invocation_uuid__\": \"\\\"a1c66b4690b111e8b6e30242ac110002\\\"\", \"chromInfo\": \"\\\"/galaxy-central/tool-data/shared/ucsc/chrom/?.len\\\"\", \"selectCondition1\": \"\\\"tumor\\\"\", \"selectCondition2\": \"\\\"normal\\\"\"}", 
             "tool_version": "1.0.0", 
             "type": "tool", 
-            "uuid": "02dd5217-2b56-49aa-9a55-3bb5d94e790c", 
+            "uuid": "9274656a-33a1-44a9-bff5-9656b79edc01", 
             "workflow_outputs": []
         }, 
         "4": {
             "annotation": "", 
-            "content_id": "testtoolshed.g2.bx.psu.edu/repos/sblanck/smagexp/metaMA/1.0.0", 
+            "content_id": "toolshed.g2.bx.psu.edu/repos/sblanck/smagexp/metaMA/1.0.0", 
             "errors": null, 
             "id": 4, 
             "input_connections": {
                 "input": [
                     {
-                        "id": 3, 
+                        "id": 2, 
                         "output_name": "result_export_eset"
                     }, 
                     {
-                        "id": 2, 
+                        "id": 3, 
                         "output_name": "result_export_eset"
                     }
                 ]
             }, 
-            "inputs": [
-                {
-                    "description": "runtime parameter for tool Microarray data meta-analysis", 
-                    "name": "input"
-                }
-            ], 
+            "inputs": [], 
             "label": null, 
             "name": "Microarray data meta-analysis", 
             "outputs": [
@@ -233,24 +224,24 @@
                 }
             ], 
             "position": {
-                "left": 860, 
-                "top": 200
+                "left": 670, 
+                "top": 10
             }, 
             "post_job_actions": {}, 
-            "tool_id": "testtoolshed.g2.bx.psu.edu/repos/sblanck/smagexp/metaMA/1.0.0", 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/sblanck/smagexp/metaMA/1.0.0", 
             "tool_shed_repository": {
-                "changeset_revision": "c08b824e40cc", 
+                "changeset_revision": "aedbf50acb4a", 
                 "name": "smagexp", 
                 "owner": "sblanck", 
-                "tool_shed": "testtoolshed.g2.bx.psu.edu"
+                "tool_shed": "toolshed.g2.bx.psu.edu"
             }, 
-            "tool_state": "{\"input\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\", \"__rerun_remap_job_id__\": null, \"chromInfo\": \"\\\"/galaxy-central/tool-data/shared/ucsc/chrom/?.len\\\"\", \"species\": \"\\\"org.Hs.eg.db\\\"\", \"__page__\": null}", 
+            "tool_state": "{\"__page__\": null, \"__rerun_remap_job_id__\": null, \"__workflow_invocation_uuid__\": \"\\\"a1c66b4690b111e8b6e30242ac110002\\\"\", \"input\": \"null\", \"chromInfo\": \"\\\"/galaxy-central/tool-data/shared/ucsc/chrom/?.len\\\"\", \"species\": \"\\\"org.Hs.eg.db\\\"\"}", 
             "tool_version": "1.0.0", 
             "type": "tool", 
-            "uuid": "92e68e7e-39e2-44cd-b854-8ad5337f8d06", 
+            "uuid": "d2a936a6-dc5c-4e75-b534-3f354c083891", 
             "workflow_outputs": []
         }
     }, 
     "tags": [], 
-    "uuid": "b762b1af-f960-40fa-b3f5-fe91147ac778"
+    "uuid": "1a2de7f2-78ba-4848-9cb7-f7d94bd54154"
 }
