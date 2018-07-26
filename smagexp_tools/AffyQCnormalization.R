@@ -39,6 +39,12 @@ suppressPackageStartupMessages(require(dplyr))
 
 listInput <- trimws( unlist( strsplit(trimws(opt$input), ",") ) )
 
+listInput <- trimws( unlist( strsplit(trimws(opt$input), ",") ) )
+if(length(listInput)<2){
+	stop("To few .CEL files selected : At least 2 .CEL files are required", call.=FALSE)
+}
+
+
 celList=vector()
 celFileNameList=vector()
 

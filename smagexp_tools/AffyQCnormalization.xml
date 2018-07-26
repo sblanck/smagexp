@@ -1,4 +1,4 @@
-<tool id="QCnormalization" name="QCnormalization" version="1.0.0">
+<tool id="QCnormalization" name="QCnormalization" version="1.0.1">
 
     <description>Quality control and normalization of affymetrix expression data</description>
 
