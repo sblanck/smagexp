@@ -316,9 +316,9 @@ The outputs are  :
 
 It also generates a text file containing summarization of the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
-![Example of RNA-seq data meta-analysis plots](https://raw.githubusercontent.com/sblanck/smagexp/master/images/metaRNAseq_results.png)
+![Example of RNA-seq data meta-analysis plots](https://raw.githubusercontent.com/sblanck/smagexp/master/images/metarnaseq_diagram.png)
 
-![Header of RNA-seq data meta-analysis text results](https://raw.githubusercontent.com/sblanck/smagexp/master/images/fig9.png)
+![Header of RNA-seq data meta-analysis text results](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_metaranseq_summary.png)
 
 *Header of RNA-seq data meta-analysis text results*
 
@@ -550,11 +550,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MTc1MDE1NiwtODU1NTQ0MDQ5LDM2MD
-kwNzM3NCwtNzMyNDYwNDc5LC0zNTMzMjk2MSwxMzIyNjkxNjYy
-LC0xMjMyMDg0OTU4LC0xODczODIyMzMsLTcwMDAwMzA2MSwtOT
-gxOTE0MzgsMTMxNjEzMzY1Nyw4Nzc1MzUxNTcsLTQ4NjM4NDU5
-Niw4NjY3MjQxMzAsLTQ1MDgzNzU3MiwtMTg2MjEwNzExMSwtMT
-Y1MjQxODA4MywxNjk1NjcwNjQ2LC0xNTQ0NDA5MjIwLDQ2NTM4
-OTM1NV19
+eyJoaXN0b3J5IjpbOTc5NzIxNTM0LC04NTU1NDQwNDksMzYwOT
+A3Mzc0LC03MzI0NjA0NzksLTM1MzMyOTYxLDEzMjI2OTE2NjIs
+LTEyMzIwODQ5NTgsLTE4NzM4MjIzMywtNzAwMDAzMDYxLC05OD
+E5MTQzOCwxMzE2MTMzNjU3LDg3NzUzNTE1NywtNDg2Mzg0NTk2
+LDg2NjcyNDEzMCwtNDUwODM3NTcyLC0xODYyMTA3MTExLC0xNj
+UyNDE4MDgzLDE2OTU2NzA2NDYsLTE1NDQ0MDkyMjAsNDY1Mzg5
+MzU1XX0=
 -->
