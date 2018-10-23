@@ -37,6 +37,9 @@ Table of Contents <a name="toc" />
 	- [Second Analysis](#second-analysis2")
 		- [Run the recount tool ](#run-recount2)
 		- [Run a DESeq2 analysis](#run-deseq2)
+	- [Third Analysis](#third-analysis3")
+		- [Run the recount tool ](#run-recount3)
+		- [Run a DESeq2 analysis](#run-deseq3)
 	- 	[Run the Meta-analysis with metaRNASeq](#meta-analysis-with-metaRNASeq)
 
 
@@ -501,12 +504,27 @@ We perform the same kind of analysis on the second recount dataset (SRP028180)
 In this example 24 count files are generated
 #### Run a DESeq2 analysis  <a name="run-deseq2" /> [[toc]](#toc)
 
-In this example we keep the 10 tumor samples to compare with the 6 normal samples.
+In this example we keep the 10 tumor samples to compare with the 7 normal samples.
 
 ![DESeq2 tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_deseq2_form2.png)
 
 *DESeq2 tool form*
+### Third Analysis  <a name="third-analysis3" /> [[toc]](#toc)
+At last, we perform the 3rd analysis on the third recount dataset (SRP058237)
 
+#### Run the recount tool  <a name="run-recount3" /> [[toc]](#toc)
+![Recount tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_recount_form3.png)
+
+*Recount tool form*
+
+In this example 1 count files are generated
+#### Run a DESeq2 analysis  <a name="run-deseq3" /> [[toc]](#toc)
+
+In this example we keep the 10 tumor samples to compare with the 8 adjacent samples.
+
+![DESeq2 tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_deseq2_form3.png)
+
+*DESeq2 tool form*
 
 ### Meta Analysis with metaRNASeq  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
 
@@ -531,11 +549,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDAwMzA2MSwtOTgxOTE0MzgsMTMxNj
-EzMzY1Nyw4Nzc1MzUxNTcsLTQ4NjM4NDU5Niw4NjY3MjQxMzAs
-LTQ1MDgzNzU3MiwtMTg2MjEwNzExMSwtMTY1MjQxODA4MywxNj
-k1NjcwNjQ2LC0xNTQ0NDA5MjIwLDQ2NTM4OTM1NSwtMTU4OTU4
-MTEwNiwxOTUyNTY3ODIwLC0xMTQ2NTA3NDgsLTE5NzE5MTU1LC
-00NDkxNzA1NzcsNjQ5MzAwNzgxLC0yMDAyMTA0ODAyLDE2MjI5
-MTAxOTBdfQ==
+eyJoaXN0b3J5IjpbMTU0NTIyNTI4MiwtMTIzMjA4NDk1OCwtMT
+g3MzgyMjMzLC03MDAwMDMwNjEsLTk4MTkxNDM4LDEzMTYxMzM2
+NTcsODc3NTM1MTU3LC00ODYzODQ1OTYsODY2NzI0MTMwLC00NT
+A4Mzc1NzIsLTE4NjIxMDcxMTEsLTE2NTI0MTgwODMsMTY5NTY3
+MDY0NiwtMTU0NDQwOTIyMCw0NjUzODkzNTUsLTE1ODk1ODExMD
+YsMTk1MjU2NzgyMCwtMTE0NjUwNzQ4LC0xOTcxOTE1NSwtNDQ5
+MTcwNTc3XX0=
 -->
