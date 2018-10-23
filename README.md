@@ -510,7 +510,7 @@ In this example we keep the 10 tumor samples to compare with the  normal samples
 
 *DESeq2 tool form*
 ### Third Analysis  <a name="third-analysis3" /> [[toc]](#toc)
-At last, we perform the 3rd analysis the third recount dataset (SRP058237)
+At last, we perform the 3rd analysis on the third recount dataset (SRP058237)
 
 #### Run the recount tool  <a name="run-recount3" /> [[toc]](#toc)
 ![Recount tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_recount_form3.png)
@@ -549,11 +549,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDMzODY5MjAsLTcwMDAwMzA2MSwtOT
-gxOTE0MzgsMTMxNjEzMzY1Nyw4Nzc1MzUxNTcsLTQ4NjM4NDU5
-Niw4NjY3MjQxMzAsLTQ1MDgzNzU3MiwtMTg2MjEwNzExMSwtMT
-Y1MjQxODA4MywxNjk1NjcwNjQ2LC0xNTQ0NDA5MjIwLDQ2NTM4
-OTM1NSwtMTU4OTU4MTEwNiwxOTUyNTY3ODIwLC0xMTQ2NTA3ND
-gsLTE5NzE5MTU1LC00NDkxNzA1NzcsNjQ5MzAwNzgxLC0yMDAy
-MTA0ODAyXX0=
+eyJoaXN0b3J5IjpbLTE4NzM4MjIzMywtNzAwMDAzMDYxLC05OD
+E5MTQzOCwxMzE2MTMzNjU3LDg3NzUzNTE1NywtNDg2Mzg0NTk2
+LDg2NjcyNDEzMCwtNDUwODM3NTcyLC0xODYyMTA3MTExLC0xNj
+UyNDE4MDgzLDE2OTU2NzA2NDYsLTE1NDQ0MDkyMjAsNDY1Mzg5
+MzU1LC0xNTg5NTgxMTA2LDE5NTI1Njc4MjAsLTExNDY1MDc0OC
+wtMTk3MTkxNTUsLTQ0OTE3MDU3Nyw2NDkzMDA3ODEsLTIwMDIx
+MDQ4MDJdfQ==
 -->
