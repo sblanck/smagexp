@@ -530,7 +530,7 @@ In this example we keep the 7 tumor samples to compare with the 10 adjacent samp
 ### Meta Analysis with metaRNASeq  <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
 
 MetaRNASeq tool takes several results from DESeq2 tool and performs a meta-analysis.
-It requires text results files from DESeq2 and the number of replicates of each analysis. In this example we have 11 replicates for the first analysis and 16 for the second analysis.
+It requires text results files from DESeq2 and the number of replicates of each analysis. In this example we have 17, 17, and 11 replicates for eache of the 3 analysis.
 It also requires a FDR threshold for genes to be declared differentially expressed (default is 0.05)
 
 ![MetaRNAseq tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_metarnaseq_form.png)
@@ -550,11 +550,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMjQ2MDQ3OSwtMzUzMzI5NjEsMTMyMj
-Y5MTY2MiwtMTIzMjA4NDk1OCwtMTg3MzgyMjMzLC03MDAwMDMw
-NjEsLTk4MTkxNDM4LDEzMTYxMzM2NTcsODc3NTM1MTU3LC00OD
-YzODQ1OTYsODY2NzI0MTMwLC00NTA4Mzc1NzIsLTE4NjIxMDcx
-MTEsLTE2NTI0MTgwODMsMTY5NTY3MDY0NiwtMTU0NDQwOTIyMC
-w0NjUzODkzNTUsLTE1ODk1ODExMDYsMTk1MjU2NzgyMCwtMTE0
-NjUwNzQ4XX0=
+eyJoaXN0b3J5IjpbMzYwOTA3Mzc0LC03MzI0NjA0NzksLTM1Mz
+MyOTYxLDEzMjI2OTE2NjIsLTEyMzIwODQ5NTgsLTE4NzM4MjIz
+MywtNzAwMDAzMDYxLC05ODE5MTQzOCwxMzE2MTMzNjU3LDg3Nz
+UzNTE1NywtNDg2Mzg0NTk2LDg2NjcyNDEzMCwtNDUwODM3NTcy
+LC0xODYyMTA3MTExLC0xNjUyNDE4MDgzLDE2OTU2NzA2NDYsLT
+E1NDQ0MDkyMjAsNDY1Mzg5MzU1LC0xNTg5NTgxMTA2LDE5NTI1
+Njc4MjBdfQ==
 -->
