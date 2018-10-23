@@ -458,9 +458,10 @@ The full history of this example is available at  :
 ```
 https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-of-RNA-seq-meta-analysis.tar.gz
 ```
-Two dataset from the recount database are used in this example :
+Three dataset from the recount database are used in this example :
 * [SRP032833](https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP032833)
 * [SRP028180](https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP028180)
+* [SRP058237](https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP058237)
 
 ### First Analysis  <a name="first-analysis2" /> [[toc]](#toc)
 
@@ -549,11 +550,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjY5MTY2MiwtMTIzMjA4NDk1OCwtMT
-g3MzgyMjMzLC03MDAwMDMwNjEsLTk4MTkxNDM4LDEzMTYxMzM2
-NTcsODc3NTM1MTU3LC00ODYzODQ1OTYsODY2NzI0MTMwLC00NT
-A4Mzc1NzIsLTE4NjIxMDcxMTEsLTE2NTI0MTgwODMsMTY5NTY3
-MDY0NiwtMTU0NDQwOTIyMCw0NjUzODkzNTUsLTE1ODk1ODExMD
-YsMTk1MjU2NzgyMCwtMTE0NjUwNzQ4LC0xOTcxOTE1NSwtNDQ5
-MTcwNTc3XX0=
+eyJoaXN0b3J5IjpbNzgxMTY3MTk5LDEzMjI2OTE2NjIsLTEyMz
+IwODQ5NTgsLTE4NzM4MjIzMywtNzAwMDAzMDYxLC05ODE5MTQz
+OCwxMzE2MTMzNjU3LDg3NzUzNTE1NywtNDg2Mzg0NTk2LDg2Nj
+cyNDEzMCwtNDUwODM3NTcyLC0xODYyMTA3MTExLC0xNjUyNDE4
+MDgzLDE2OTU2NzA2NDYsLTE1NDQ0MDkyMjAsNDY1Mzg5MzU1LC
+0xNTg5NTgxMTA2LDE5NTI1Njc4MjAsLTExNDY1MDc0OCwtMTk3
+MTkxNTVdfQ==
 -->
