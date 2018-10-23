@@ -330,7 +330,7 @@ In order to import histories into galaxy, you have to be logged in your galaxy i
 
 The full history of this example is available at  : 
 ```
-https://github.com/sblanck/smagexp/blob/master/examples/Galaxy-History-Micro-array-meta-analysis-history.tar.gz
+https://github.com/sblanck/smagexp/raw/master/examples/Galaxy-History-Example-of-micro-array-meta-analysis.tar.gz
 ```
 .CEL files used in this example are extracted from the GEO dataset GSE13601. We picked up 6 .CEL files (to simplify the example) which can be found here :
 ```
@@ -550,11 +550,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NTU0NDA0OSwzNjA5MDczNzQsLTczMj
-Q2MDQ3OSwtMzUzMzI5NjEsMTMyMjY5MTY2MiwtMTIzMjA4NDk1
-OCwtMTg3MzgyMjMzLC03MDAwMDMwNjEsLTk4MTkxNDM4LDEzMT
-YxMzM2NTcsODc3NTM1MTU3LC00ODYzODQ1OTYsODY2NzI0MTMw
-LC00NTA4Mzc1NzIsLTE4NjIxMDcxMTEsLTE2NTI0MTgwODMsMT
-Y5NTY3MDY0NiwtMTU0NDQwOTIyMCw0NjUzODkzNTUsLTE1ODk1
-ODExMDZdfQ==
+eyJoaXN0b3J5IjpbMTEyOTk1MTYzOCwtODU1NTQ0MDQ5LDM2MD
+kwNzM3NCwtNzMyNDYwNDc5LC0zNTMzMjk2MSwxMzIyNjkxNjYy
+LC0xMjMyMDg0OTU4LC0xODczODIyMzMsLTcwMDAwMzA2MSwtOT
+gxOTE0MzgsMTMxNjEzMzY1Nyw4Nzc1MzUxNTcsLTQ4NjM4NDU5
+Niw4NjY3MjQxMzAsLTQ1MDgzNzU3MiwtMTg2MjEwNzExMSwtMT
+Y1MjQxODA4MywxNjk1NjcwNjQ2LC0xNTQ0NDA5MjIwLDQ2NTM4
+OTM1NV19
 -->
