@@ -517,7 +517,7 @@ At last, we perform the 3rd analysis on the third recount dataset (SRP058237)
 
 *Recount tool form*
 
-In this example 18 count files are generated
+In this example 1 count files are generated
 #### Run a DESeq2 analysis  <a name="run-deseq3" /> [[toc]](#toc)
 
 In this example we keep the 10 tumor samples to compare with the 8 adjacent samples.
@@ -549,11 +549,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzIwODQ5NTgsLTE4NzM4MjIzMywtNz
-AwMDAzMDYxLC05ODE5MTQzOCwxMzE2MTMzNjU3LDg3NzUzNTE1
-NywtNDg2Mzg0NTk2LDg2NjcyNDEzMCwtNDUwODM3NTcyLC0xOD
-YyMTA3MTExLC0xNjUyNDE4MDgzLDE2OTU2NzA2NDYsLTE1NDQ0
-MDkyMjAsNDY1Mzg5MzU1LC0xNTg5NTgxMTA2LDE5NTI1Njc4Mj
-AsLTExNDY1MDc0OCwtMTk3MTkxNTUsLTQ0OTE3MDU3Nyw2NDkz
-MDA3ODFdfQ==
+eyJoaXN0b3J5IjpbMTU0NTIyNTI4MiwtMTIzMjA4NDk1OCwtMT
+g3MzgyMjMzLC03MDAwMDMwNjEsLTk4MTkxNDM4LDEzMTYxMzM2
+NTcsODc3NTM1MTU3LC00ODYzODQ1OTYsODY2NzI0MTMwLC00NT
+A4Mzc1NzIsLTE4NjIxMDcxMTEsLTE2NTI0MTgwODMsMTY5NTY3
+MDY0NiwtMTU0NDQwOTIyMCw0NjUzODkzNTUsLTE1ODk1ODExMD
+YsMTk1MjU2NzgyMCwtMTE0NjUwNzQ4LC0xOTcxOTE1NSwtNDQ5
+MTcwNTc3XX0=
 -->
