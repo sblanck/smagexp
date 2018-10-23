@@ -539,7 +539,7 @@ It also requires a FDR threshold for genes to be declared differentially express
 
 The tool outputs 2 datasets :
 
-![Venn diagram and statistical indicators of the meta-analysis](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_metarnaseq_diagram.png)
+![Venn diagram and statistical indicators of the meta-analysis](https://raw.githubusercontent.com/sblanck/smagexp/master/images/metarnaseq_diagram.png)
 
 *Venn diagram and statistical indicators of the meta-analysis*
 
@@ -550,11 +550,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MzMyOTYxLDEzMjI2OTE2NjIsLTEyMz
-IwODQ5NTgsLTE4NzM4MjIzMywtNzAwMDAzMDYxLC05ODE5MTQz
-OCwxMzE2MTMzNjU3LDg3NzUzNTE1NywtNDg2Mzg0NTk2LDg2Nj
-cyNDEzMCwtNDUwODM3NTcyLC0xODYyMTA3MTExLC0xNjUyNDE4
-MDgzLDE2OTU2NzA2NDYsLTE1NDQ0MDkyMjAsNDY1Mzg5MzU1LC
-0xNTg5NTgxMTA2LDE5NTI1Njc4MjAsLTExNDY1MDc0OCwtMTk3
-MTkxNTVdfQ==
+eyJoaXN0b3J5IjpbLTczMjQ2MDQ3OSwtMzUzMzI5NjEsMTMyMj
+Y5MTY2MiwtMTIzMjA4NDk1OCwtMTg3MzgyMjMzLC03MDAwMDMw
+NjEsLTk4MTkxNDM4LDEzMTYxMzM2NTcsODc3NTM1MTU3LC00OD
+YzODQ1OTYsODY2NzI0MTMwLC00NTA4Mzc1NzIsLTE4NjIxMDcx
+MTEsLTE2NTI0MTgwODMsMTY5NTY3MDY0NiwtMTU0NDQwOTIyMC
+w0NjUzODkzNTUsLTE1ODk1ODExMDYsMTk1MjU2NzgyMCwtMTE0
+NjUwNzQ4XX0=
 -->
