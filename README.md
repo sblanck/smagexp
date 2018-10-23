@@ -30,14 +30,14 @@ Table of Contents <a name="toc" />
 		-	[Run a limma analysis](#run-limma-analysis2)
 	-	[Run the meta-analysis with metaMA](#run-meta-analysis)			
 -  [Step by step example of a RNA-seq meta-analysis](#step-by-step-example-of-a-rna-seq-meta-analysis)
-	- [Data used in this example](#data-used-in-this-example2")
-	- [First Analysis](#first-analysis2")
+	- [Data used in this example](#data-used-in-this-example2)
+	- [First Analysis](#first-analysis2)
 		- [Run the recount tool ](#run-recount)
 		- [Run a DESeq2 analysis ](#run-deseq)
-	- [Second Analysis](#second-analysis2")
+	- [Second Analysis](#second-analysis2)
 		- [Run the recount tool ](#run-recount2)
 		- [Run a DESeq2 analysis](#run-deseq2)
-	- [Third Analysis](#third-analysis3")
+	- [Third Analysis](#third-analysis3)
 		- [Run the recount tool ](#run-recount3)
 		- [Run a DESeq2 analysis](#run-deseq3)
 	- 	[Run the Meta-analysis with metaRNASeq](#meta-analysis-with-metaRNASeq)
@@ -550,7 +550,7 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgxMTY3MTk5LDEzMjI2OTE2NjIsLTEyMz
+eyJoaXN0b3J5IjpbLTM1MzMyOTYxLDEzMjI2OTE2NjIsLTEyMz
 IwODQ5NTgsLTE4NzM4MjIzMywtNzAwMDAzMDYxLC05ODE5MTQz
 OCwxMzE2MTMzNjU3LDg3NzUzNTE1NywtNDg2Mzg0NTk2LDg2Nj
 cyNDEzMCwtNDUwODM3NTcyLC0xODYyMTA3MTExLC0xNjUyNDE4
