@@ -504,7 +504,7 @@ We perform the same kind of analysis on the second recount dataset (SRP028180)
 In this example 24 count files are generated
 #### Run a DESeq2 analysis  <a name="run-deseq2" /> [[toc]](#toc)
 
-In this example we keep the 10 tumor samples to compare with the  normal samples.
+In this example we keep the 10 tumor samples to compare with the 7 normal samples.
 
 ![DESeq2 tool form](https://raw.githubusercontent.com/sblanck/smagexp/master/images/smagexp_deseq2_form2.png)
 
@@ -549,11 +549,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzM4MjIzMywtNzAwMDAzMDYxLC05OD
-E5MTQzOCwxMzE2MTMzNjU3LDg3NzUzNTE1NywtNDg2Mzg0NTk2
-LDg2NjcyNDEzMCwtNDUwODM3NTcyLC0xODYyMTA3MTExLC0xNj
-UyNDE4MDgzLDE2OTU2NzA2NDYsLTE1NDQ0MDkyMjAsNDY1Mzg5
-MzU1LC0xNTg5NTgxMTA2LDE5NTI1Njc4MjAsLTExNDY1MDc0OC
-wtMTk3MTkxNTUsLTQ0OTE3MDU3Nyw2NDkzMDA3ODEsLTIwMDIx
-MDQ4MDJdfQ==
+eyJoaXN0b3J5IjpbLTEyMzIwODQ5NTgsLTE4NzM4MjIzMywtNz
+AwMDAzMDYxLC05ODE5MTQzOCwxMzE2MTMzNjU3LDg3NzUzNTE1
+NywtNDg2Mzg0NTk2LDg2NjcyNDEzMCwtNDUwODM3NTcyLC0xOD
+YyMTA3MTExLC0xNjUyNDE4MDgzLDE2OTU2NzA2NDYsLTE1NDQ0
+MDkyMjAsNDY1Mzg5MzU1LC0xNTg5NTgxMTA2LDE5NTI1Njc4Mj
+AsLTExNDY1MDc0OCwtMTk3MTkxNTUsLTQ0OTE3MDU3Nyw2NDkz
+MDA3ODFdfQ==
 -->
