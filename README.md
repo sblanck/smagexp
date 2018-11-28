@@ -1,4 +1,4 @@
-![enter image description here](https://raw.githubusercontent.com/sblanck/smagexp/master/images/logo.png)SMAGEXP (Statistical Meta Analysis for Gene EXPression) for Galaxy
+SMAGEXP (Statistical Meta Analysis for Gene EXPression) for Galaxy
 ========
 
 SMAGEXP (Statistical Meta-Analysis for Gene EXPression) for Galaxy is a Galaxy tool suite providing a unified way to carry out meta-analysis of gene expression data, while taking care of their specificities. It handles microarray data from Gene Expression Omnibus (GEO) database or custom data from affymetrix microarrays. These data are then combined to carry out meta-analysis using metaMA package. SMAGEXP also offers to combine Next Generation Sequencing (NGS) RNA-seq analysis from DESeq2 results thanks to metaRNASeq package. In both cases, key values, independent from the technology type, are reported to judge the quality of the meta-analysis. 
@@ -550,11 +550,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNDU2NTM0NCw5Nzk3MjE1MzQsLTg1NT
-U0NDA0OSwzNjA5MDczNzQsLTczMjQ2MDQ3OSwtMzUzMzI5NjEs
-MTMyMjY5MTY2MiwtMTIzMjA4NDk1OCwtMTg3MzgyMjMzLC03MD
-AwMDMwNjEsLTk4MTkxNDM4LDEzMTYxMzM2NTcsODc3NTM1MTU3
-LC00ODYzODQ1OTYsODY2NzI0MTMwLC00NTA4Mzc1NzIsLTE4Nj
-IxMDcxMTEsLTE2NTI0MTgwODMsMTY5NTY3MDY0NiwtMTU0NDQw
-OTIyMF19
+eyJoaXN0b3J5IjpbOTc5NzIxNTM0LC04MzQ1NjUzNDQsOTc5Nz
+IxNTM0LC04NTU1NDQwNDksMzYwOTA3Mzc0LC03MzI0NjA0Nzks
+LTM1MzMyOTYxLDEzMjI2OTE2NjIsLTEyMzIwODQ5NTgsLTE4Nz
+M4MjIzMywtNzAwMDAzMDYxLC05ODE5MTQzOCwxMzE2MTMzNjU3
+LDg3NzUzNTE1NywtNDg2Mzg0NTk2LDg2NjcyNDEzMCwtNDUwOD
+M3NTcyLC0xODYyMTA3MTExLC0xNjUyNDE4MDgzLDE2OTU2NzA2
+NDZdfQ==
 -->
