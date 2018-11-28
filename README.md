@@ -50,7 +50,7 @@ How to install SMAGEXP  <a name="how-to-install-smagexp" /> [[toc]](#toc)
 
 ### From the galaxy toolshed <a name="from-the-galaxy-toolshed" /> [[toc]](#toc)
 
-[SMAGEXP is available on the galaxy main toolshed ](https://toolshed.g2.bx.psu.edu/view/sblanck/smagexp/58052f8bc987)
+[SMAGEXP is available on the galaxy main toolshed ](https://toolshed.g2.bx.psu.edu/repository?repository_id=304684eb661f4125&changeset_revision=ca46ad51fe5a)
 
 SMAGEXP dependencies are available through conda either on bioconda or r conda channels.
 
@@ -552,11 +552,11 @@ The tool outputs 2 datasets :
 It summarizes the results of each single analysis and meta-analysis. Potential conflicts between single analyses are indicated by zero values in the "signFC" column. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODg0MDI3MjEsLTgzNDU2NTM0NCw5Nz
-k3MjE1MzQsLTgzNDU2NTM0NCw5Nzk3MjE1MzQsLTg1NTU0NDA0
-OSwzNjA5MDczNzQsLTczMjQ2MDQ3OSwtMzUzMzI5NjEsMTMyMj
-Y5MTY2MiwtMTIzMjA4NDk1OCwtMTg3MzgyMjMzLC03MDAwMDMw
-NjEsLTk4MTkxNDM4LDEzMTYxMzM2NTcsODc3NTM1MTU3LC00OD
-YzODQ1OTYsODY2NzI0MTMwLC00NTA4Mzc1NzIsLTE4NjIxMDcx
-MTFdfQ==
+eyJoaXN0b3J5IjpbLTE2MDI4OTkyNzcsLTIwODg0MDI3MjEsLT
+gzNDU2NTM0NCw5Nzk3MjE1MzQsLTgzNDU2NTM0NCw5Nzk3MjE1
+MzQsLTg1NTU0NDA0OSwzNjA5MDczNzQsLTczMjQ2MDQ3OSwtMz
+UzMzI5NjEsMTMyMjY5MTY2MiwtMTIzMjA4NDk1OCwtMTg3Mzgy
+MjMzLC03MDAwMDMwNjEsLTk4MTkxNDM4LDEzMTYxMzM2NTcsOD
+c3NTM1MTU3LC00ODYzODQ1OTYsODY2NzI0MTMwLC00NTA4Mzc1
+NzJdfQ==
 -->
